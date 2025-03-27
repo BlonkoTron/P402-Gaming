@@ -33,7 +33,7 @@ public class InkDialogue : MonoBehaviour
 	{
 		dialogueObj.SetActive(false);
 		nameText.text = npcName;
-		StartStory();
+		//StartStory();
 	}
 
 	// Creates a new Story object with the compiled story which we can then play
