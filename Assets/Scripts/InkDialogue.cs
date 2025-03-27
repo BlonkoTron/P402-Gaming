@@ -10,9 +10,15 @@ public class InkDialogue : MonoBehaviour
 	public static event Action<Story> OnCreateStory;
 
 	[SerializeField]
+	private string npcName;
+	[SerializeField]
+	private TMP_Text nameText;
+
+	[SerializeField]
 	private TextAsset inkJSONAsset = null;
 	public Story story;
-
+	[SerializeField]
+	private GameObject dialogueObj;
 	[SerializeField]
 	private TMP_Text dialogueTextField;
 	[SerializeField]
@@ -22,14 +28,16 @@ public class InkDialogue : MonoBehaviour
 
 	void Awake()
 	{
-		StartStory();
+		dialogueObj.SetActive(false);
+		nameText.text = npcName;
 	}
 
 	// Creates a new Story object with the compiled story which we can then play
-	void StartStory()
+	public void StartStory()
 	{
 		story = new Story(inkJSONAsset.text);
 		if (OnCreateStory != null) OnCreateStory(story);
+		dialogueObj.SetActive(true);
 		RefreshView();
 	}
 
@@ -67,10 +75,7 @@ public class InkDialogue : MonoBehaviour
 		// If we've read all the content and there's no choices, the story is finished!
 		else
 		{
-			GameObject choice = CreateChoiceView("End of story.\nRestart?");
-			choice.GetComponent<Button>().onClick.AddListener(delegate {
-				StartStory();
-			}); 
+			EndStory();
 		}
 	}
 	GameObject CreateChoiceView(string text)
@@ -84,6 +89,10 @@ public class InkDialogue : MonoBehaviour
 		choiceText.text = text;
 
 		return choice;
+	} private void EndStory()
+    {
+		dialogueObj.SetActive(false);
+		RemovePreviousChoices();
 	}
 
 	// When we click the choice button, tell the story to choose that choice!
