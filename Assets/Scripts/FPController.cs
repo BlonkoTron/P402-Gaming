@@ -8,7 +8,7 @@ public class FPController : MonoBehaviour
     [SerializeField] private Transform cameraTransform;
 
     private CharacterController cc;
-    private Vector3 movement;
+    public Vector3 movement;
     private Vector3 velocity;
     private float ySpeed;
 
