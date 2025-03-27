@@ -8,7 +8,7 @@ public class FPController : MonoBehaviour
     [SerializeField] private Transform cameraTransform;
 
     private CharacterController cc;
-    private Vector3 movement;
+    public Vector3 movement;
     private Vector3 velocity;
     private float ySpeed;
 
@@ -20,7 +20,6 @@ public class FPController : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
-        Look();
     }
 
     private void Move()
@@ -39,11 +38,6 @@ public class FPController : MonoBehaviour
 
         //Moving
         cc.Move(velocity * Time.fixedDeltaTime);
-    }
-
-    private void Look()
-    {
-
     }
 
     #region input
