@@ -20,7 +20,6 @@ public class FPController : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
-        Look();
     }
 
     private void Move()
@@ -39,11 +38,6 @@ public class FPController : MonoBehaviour
 
         //Moving
         cc.Move(velocity * Time.fixedDeltaTime);
-    }
-
-    private void Look()
-    {
-
     }
 
     #region input
