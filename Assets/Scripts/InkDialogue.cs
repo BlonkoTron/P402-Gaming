@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Ink.Runtime;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,11 +9,6 @@ using TMPro;
 public class InkDialogue : MonoBehaviour
 {
 	public static event Action<Story> OnCreateStory;
-
-	[SerializeField]
-	private string npcName;
-	[SerializeField]
-	private TMP_Text nameText;
 
 	[SerializeField]
 	private TextAsset inkJSONAsset = null;
@@ -25,11 +21,19 @@ public class InkDialogue : MonoBehaviour
 	private GameObject buttonPrefab = null;
 	[SerializeField]
 	private GameObject buttonParent = null;
+	[SerializeField]
+	[Range(0.001f, 0.5f)] private float textSpeed=0.05f;
+
+	[SerializeField]
+	private string npcName;
+	[SerializeField]
+	private TMP_Text nameText;
 
 	void Awake()
 	{
 		dialogueObj.SetActive(false);
 		nameText.text = npcName;
+		StartStory();
 	}
 
 	// Creates a new Story object with the compiled story which we can then play
@@ -46,6 +50,7 @@ public class InkDialogue : MonoBehaviour
 	{
 		// Remove previous choice buttons
 		RemovePreviousChoices();
+		StopAllCoroutines();
 
 		// Read all the content until we can't continue any more
 		while (story.canContinue)
@@ -55,7 +60,7 @@ public class InkDialogue : MonoBehaviour
 			// This removes any white space from the text.
 			text = text.Trim();
 			// Display the text on screen
-			dialogueTextField.text = text;
+			StartCoroutine(WriteText(dialogueTextField, text));
 
 		}
 
@@ -108,5 +113,20 @@ public class InkDialogue : MonoBehaviour
 		{
 			Destroy(buttonParent.transform.GetChild(i).gameObject);
 		}
+	}
+	private IEnumerator WriteText(TMP_Text textField, string textToWrite)
+	{
+		int textLength = textToWrite.Length; // get length of chosen text
+		string myText = textToWrite.Insert(0, "<alpha=#00>"); // set text invisible by inserting <alpha> attribute into start of the text
+		int i = 0;
+		// insert the <alpha> attribute to a new place each time, revealing a new character of the text, until everything is visible.
+		while (i <= textLength)
+		{
+			myText = textToWrite.Insert(i, "<alpha=#00>");
+			textField.text = myText;
+			yield return new WaitForSeconds(textSpeed); // delay
+			i++;
+		}
+		//writeTextDone = true;
 	}
 }
