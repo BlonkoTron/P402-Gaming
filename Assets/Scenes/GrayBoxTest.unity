@@ -950,7 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0be4f31090cead040b246cc3e785f69a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 2
   cameraTransform: {fileID: 570902247}
   movement: {x: 0, y: 0, z: 0}
 --- !u!1 &1419056731

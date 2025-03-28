@@ -11,46 +11,30 @@ public class InkDialogue : MonoBehaviour
 {
 	public static event Action<Story> OnCreateStory;
 
-	[SerializeField] private CinemachineCamera dialogueCam;
 
 	[SerializeField]
-	private TextAsset inkJSONAsset = null;
+	protected TextAsset inkJSONAsset = null;
 	public Story story;
 	[SerializeField]
-	private GameObject dialogueCanvas;
+	protected TMP_Text dialogueTextField;
 	[SerializeField]
-	private TMP_Text dialogueTextField;
+	protected GameObject buttonPrefab = null;
 	[SerializeField]
-	private GameObject buttonPrefab = null;
-	[SerializeField]
-	private GameObject buttonParent = null;
+	protected GameObject buttonParent = null;
 	[SerializeField]
 	[Range(0.001f, 0.5f)] private float textSpeed=0.05f;
 
-	[SerializeField]
-	private string npcName;
-	[SerializeField]
-	private TMP_Text nameText;
-	void Awake()
-	{
-		dialogueCanvas.SetActive(false);
-		nameText.text = npcName;
-		//StartStory();
-	}
 
 	// Creates a new Story object with the compiled story which we can then play
-	public void StartStory()
+	public virtual void StartStory()
 	{
 		story = new Story(inkJSONAsset.text);
 		if (OnCreateStory != null) OnCreateStory(story);
-		dialogueCanvas.SetActive(true);
 		RefreshView();
-		Cursor.lockState = CursorLockMode.Confined;
-		CameraController.Instance.SetToCam(dialogueCam);
 	}
 
 	// This is the main function called every time the story changes. 
-	void RefreshView()
+	protected void RefreshView()
 	{
 		// Remove previous choice buttons
 		RemovePreviousChoices();
@@ -98,13 +82,9 @@ public class InkDialogue : MonoBehaviour
 		choiceText.text = text;
 
 		return choice;
-	} private void EndStory()
+	} protected virtual void EndStory()
     {
-		dialogueCanvas.SetActive(false);
-		Cursor.lockState = CursorLockMode.Locked;
-		PlayerInteract.isInteracting = false;
-		RemovePreviousChoices();
-		CameraController.Instance.SetToMainCam();
+
 	}
 
 	// When we click the choice button, tell the story to choose that choice!
@@ -113,7 +93,7 @@ public class InkDialogue : MonoBehaviour
 		story.ChooseChoiceIndex(choice.index);
 		RefreshView();
 	}
-	private void RemovePreviousChoices()
+	protected void RemovePreviousChoices()
     {
 		int childCount = buttonParent.transform.childCount;
 		for (int i = childCount - 1; i >= 0; --i)
@@ -121,7 +101,7 @@ public class InkDialogue : MonoBehaviour
 			Destroy(buttonParent.transform.GetChild(i).gameObject);
 		}
 	}
-	private IEnumerator WriteText(TMP_Text textField, string textToWrite)
+	protected IEnumerator WriteText(TMP_Text textField, string textToWrite)
 	{
 		int textLength = textToWrite.Length; // get length of chosen text
 		string myText = textToWrite.Insert(0, "<alpha=#00>"); // set text invisible by inserting <alpha> attribute into start of the text

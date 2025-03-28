@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1972702005290236654}
-  - component: {fileID: 6454551681869054537}
+  - component: {fileID: 5489211347493688750}
   - component: {fileID: 5553463096660098974}
   - component: {fileID: 6143715235799829816}
   - component: {fileID: 304322132994814664}
@@ -39,7 +39,7 @@ Transform:
   - {fileID: 5656793391552806948}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6454551681869054537
+--- !u!114 &5489211347493688750
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48,18 +48,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 575722729885952111}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2757f9d5e9addf54e821b3dc6bcc785c, type: 3}
+  m_Script: {fileID: 11500000, guid: bbfe18fe91851854fa79d3a09a7b89c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueCam: {fileID: 4210695890415697818}
   inkJSONAsset: {fileID: 4900000, guid: b618bb5c277d2894994d47e42db91424, type: 3}
-  dialogueCanvas: {fileID: 5880507744979619524}
   dialogueTextField: {fileID: 6381548075651511173}
   buttonPrefab: {fileID: 2979358257735474850, guid: a5d5af81f70af14409f9c42a87ca08d5, type: 3}
   buttonParent: {fileID: 8778735470491850806}
   textSpeed: 0.05
-  npcName: 
-  nameText: {fileID: 9015536360896355597}
+  dialogueCam: {fileID: 4210695890415697818}
+  dialogueCanvas: {fileID: 5880507744979619524}
 --- !u!33 &5553463096660098974
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -148,7 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182701d5419b25546b2f00d6bf5c6a85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isInteracting: 0
 --- !u!1 &974039862760894957
 GameObject:
   m_ObjectHideFlags: 0

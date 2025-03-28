@@ -17,8 +17,9 @@ public class Interactable : MonoBehaviour
         {
             inkDia.StartStory();
             PlayerInteract.isInteracting = true;
+            Cursor.lockState = CursorLockMode.Confined;
         }
-        
+
 
     }
 }

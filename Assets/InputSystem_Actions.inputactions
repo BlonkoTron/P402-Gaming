@@ -112,6 +112,17 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "",
+                    "id": "2096e4b1-0de8-4e88-806b-d61e3374792c",
+                    "path": "<Keyboard>/#(E)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "WASD",
                     "id": "d49ff833-8627-446b-a4c2-7515dbd6c618",
                     "path": "3DVector",
