@@ -4,17 +4,20 @@ using Ink.Runtime;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.Cinemachine;
 
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class InkDialogue : MonoBehaviour
 {
 	public static event Action<Story> OnCreateStory;
 
+	[SerializeField] private CinemachineCamera dialogueCam;
+
 	[SerializeField]
 	private TextAsset inkJSONAsset = null;
 	public Story story;
 	[SerializeField]
-	private GameObject dialogueObj;
+	private GameObject dialogueCanvas;
 	[SerializeField]
 	private TMP_Text dialogueTextField;
 	[SerializeField]
@@ -28,10 +31,9 @@ public class InkDialogue : MonoBehaviour
 	private string npcName;
 	[SerializeField]
 	private TMP_Text nameText;
-
 	void Awake()
 	{
-		dialogueObj.SetActive(false);
+		dialogueCanvas.SetActive(false);
 		nameText.text = npcName;
 		//StartStory();
 	}
@@ -41,8 +43,10 @@ public class InkDialogue : MonoBehaviour
 	{
 		story = new Story(inkJSONAsset.text);
 		if (OnCreateStory != null) OnCreateStory(story);
-		dialogueObj.SetActive(true);
+		dialogueCanvas.SetActive(true);
 		RefreshView();
+		Cursor.lockState = CursorLockMode.Confined;
+		CameraController.Instance.SetToCam(dialogueCam);
 	}
 
 	// This is the main function called every time the story changes. 
@@ -96,8 +100,11 @@ public class InkDialogue : MonoBehaviour
 		return choice;
 	} private void EndStory()
     {
-		dialogueObj.SetActive(false);
+		dialogueCanvas.SetActive(false);
+		Cursor.lockState = CursorLockMode.Locked;
+		PlayerInteract.isInteracting = false;
 		RemovePreviousChoices();
+		CameraController.Instance.SetToMainCam();
 	}
 
 	// When we click the choice button, tell the story to choose that choice!

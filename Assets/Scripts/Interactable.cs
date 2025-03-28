@@ -16,6 +16,7 @@ public class Interactable : MonoBehaviour
         if (inkDia != null)
         {
             inkDia.StartStory();
+            PlayerInteract.isInteracting = true;
         }
         
 
