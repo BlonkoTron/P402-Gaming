@@ -1,5 +1,10 @@
+using UnityEngine.SceneManagement;
+using System;
+using System.Collections;
+using UnityEngine;
 public class InkIntroDialogue: InkDialogue
 {
+    [SerializeField] private float transitionTimer=2;
     private void Awake()
     {
         StartStory();
@@ -7,7 +12,13 @@ public class InkIntroDialogue: InkDialogue
     protected override void EndStory()
     {
         RemovePreviousChoices();
+        // transition to new scene
+        StartCoroutine(SceneTransition(transitionTimer));
+    }
 
-        // transsition to new scene
+    private IEnumerator SceneTransition(float transitionTime)
+    {
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene("OscarTest",LoadSceneMode.Single);
     }
 }
