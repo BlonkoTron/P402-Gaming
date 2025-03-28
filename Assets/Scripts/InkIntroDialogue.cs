@@ -2,9 +2,12 @@ using UnityEngine.SceneManagement;
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 public class InkIntroDialogue: InkDialogue
 {
     [SerializeField] private float transitionTimer=2;
+    [SerializeField] private Image transitionPanel;
+    [SerializeField] private AnimationCurve fadeCurve;
     private void Awake()
     {
         StartStory();
@@ -16,9 +19,21 @@ public class InkIntroDialogue: InkDialogue
         StartCoroutine(SceneTransition(transitionTimer));
     }
 
-    private IEnumerator SceneTransition(float transitionTime)
+    private IEnumerator SceneTransition(float timer)
     {
-        yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene("OscarTest",LoadSceneMode.Single);
+        float journey = 0f;
+        while (journey <= timer)
+        {
+            journey = journey + Time.deltaTime;
+            float percent = Mathf.Clamp01(journey / timer);
+            // fade in panel over time
+            var fade = fadeCurve.Evaluate(percent);
+            transitionPanel.color =new Color(transitionPanel.color.r, transitionPanel.color.g, transitionPanel.color.b, fade);
+            yield return null;
+        }
+        if (journey > timer)
+        {
+            SceneManager.LoadScene("OscarTest", LoadSceneMode.Single);
+        }
     }
 }
