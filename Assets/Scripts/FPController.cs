@@ -19,7 +19,10 @@ public class FPController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Move();
+        if (!PlayerInteract.isInteracting)
+        {
+            Move();
+        }
     }
 
     private void Move()

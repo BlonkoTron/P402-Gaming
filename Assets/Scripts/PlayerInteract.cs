@@ -9,9 +9,13 @@ public class PlayerInteract : MonoBehaviour
 
     private int layerMask;
 
+    public static bool isInteracting = false;
+
+
     private void Awake()
     {
         layerMask = 1 << 3;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void OnInteract()
@@ -23,7 +27,10 @@ public class PlayerInteract : MonoBehaviour
 
             if (interactable != null)
             {
-                interactable.Interacted();
+                if (!isInteracting)
+                {
+                    interactable.Interacted();
+                }
             }
 
         }
