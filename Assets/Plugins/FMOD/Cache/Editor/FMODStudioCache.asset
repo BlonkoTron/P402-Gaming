@@ -15,12 +15,12 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Newsa/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638787660393285585
+  lastModified: 638790977589000288
   FileSizes:
   - Name: Desktop
-    Value: 802
+    Value: 1320
   Exists: 1
---- !u!114 &-7535375251672996789
+--- !u!114 &-5762423872722573489
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,23 +30,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PBLSONG
+  m_Name: event:/Ouch_SFX
   m_EditorClassIdentifier: 
-  Path: event:/PBLSONG
+  Path: event:/Ouch_SFX
   Guid:
-    Data1: 1853753177
-    Data2: 1336993691
-    Data3: 2081589693
-    Data4: 759084256
+    Data1: -913031525
+    Data2: 1167485466
+    Data3: -1472755304
+    Data4: 54123803
   Banks:
   - {fileID: 3919443243520760997}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4098334694842945388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PIKSVINgryner
+  m_EditorClassIdentifier: 
+  Path: event:/PIKSVINgryner
+  Guid:
+    Data1: 1323994413
+    Data2: 1203159637
+    Data3: 630313093
+    Data4: -788946279
+  Banks:
+  - {fileID: -1440781974217748674}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24000
 --- !u!114 &-3525454902718152205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,10 +89,30 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Newsa/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638787660393245923
+  lastModified: 638790977588970323
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 135296
+  Exists: 1
+--- !u!114 &-1440781974217748674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Studio/Newsa/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638790970882233982
+  FileSizes:
+  - Name: Desktop
+    Value: 2658720
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -83,15 +130,78 @@ MonoBehaviour:
   - {fileID: -7735199564332844487}
   - {fileID: -3525454902718152205}
   - {fileID: 3919443243520760997}
+  - {fileID: -1440781974217748674}
   EditorEvents:
-  - {fileID: -7535375251672996789}
+  - {fileID: 9098235299048316461}
+  - {fileID: 1046370158185533424}
+  - {fileID: -4098334694842945388}
+  - {fileID: 6395468566946466794}
+  - {fileID: 374776969069647247}
+  - {fileID: 7470094849468997623}
+  - {fileID: 8086873850140601576}
+  - {fileID: -5762423872722573489}
+  - {fileID: 8157497036440411910}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3525454902718152205}
   StringsBanks:
   - {fileID: -7735199564332844487}
-  cacheTime: 638787663394471390
+  cacheTime: 638790977589000288
   cacheVersion: 131623
+--- !u!114 &374776969069647247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MRBalls_Music
+  m_EditorClassIdentifier: 
+  Path: event:/MRBalls_Music
+  Guid:
+    Data1: 1374452146
+    Data2: 1181074233
+    Data3: 778652068
+    Data4: -819609161
+  Banks:
+  - {fileID: -1440781974217748674}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2.6000001
+  Length: 0
+--- !u!114 &1046370158185533424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/storefedebulgur
+  m_EditorClassIdentifier: 
+  Path: event:/storefedebulgur
+  Guid:
+    Data1: 2070611629
+    Data2: 1081693425
+    Data3: 248925619
+    Data4: -1782461895
+  Banks:
+  - {fileID: -3525454902718152205}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3317
 --- !u!114 &3919443243520760997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,8 +217,143 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/Newsa/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638787663394471390
+  lastModified: 638790970882753970
   FileSizes:
   - Name: Desktop
-    Value: 1191136
+    Value: 71392
   Exists: 1
+--- !u!114 &6395468566946466794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PBL_Music
+  m_EditorClassIdentifier: 
+  Path: event:/PBL_Music
+  Guid:
+    Data1: 1853753177
+    Data2: 1336993691
+    Data3: 2081589693
+    Data4: 759084256
+  Banks:
+  - {fileID: -1440781974217748674}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7470094849468997623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PBLDrop_Music
+  m_EditorClassIdentifier: 
+  Path: event:/PBLDrop_Music
+  Guid:
+    Data1: -2048869686
+    Data2: 1272852541
+    Data3: -1771601786
+    Data4: -2137094578
+  Banks:
+  - {fileID: -1440781974217748674}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8086873850140601576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Thin_SFX
+  m_EditorClassIdentifier: 
+  Path: event:/Thin_SFX
+  Guid:
+    Data1: 900677737
+    Data2: 1160680165
+    Data3: 1968829599
+    Data4: -992497338
+  Banks:
+  - {fileID: 3919443243520760997}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8157497036440411910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Roar_SFX
+  m_EditorClassIdentifier: 
+  Path: event:/Roar_SFX
+  Guid:
+    Data1: -1714996226
+    Data2: 1157311965
+    Data3: 1681503645
+    Data4: -156694922
+  Banks:
+  - {fileID: 3919443243520760997}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9098235299048316461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PIKSVINLORT
+  m_EditorClassIdentifier: 
+  Path: event:/PIKSVINLORT
+  Guid:
+    Data1: 320337188
+    Data2: 1096404273
+    Data3: -510829897
+    Data4: 612799562
+  Banks:
+  - {fileID: -3525454902718152205}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7524
