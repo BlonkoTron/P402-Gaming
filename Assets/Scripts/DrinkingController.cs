@@ -11,6 +11,7 @@ public class DrinkingController : MonoBehaviour
     [HideInInspector] public CinemachineCamera drinkingCam;
     private Animator drinkingCamAnimator;
     public float bloodAlcoholContent=0;
+    [SerializeField] private ParticleSystem pukeParticle;
 
     private void Awake()
     {
@@ -25,6 +26,14 @@ public class DrinkingController : MonoBehaviour
         drinkingCam = GetComponent<CinemachineCamera>();
         drinkingCamAnimator = GetComponent<Animator>();
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //Puke();
+        }
+
+    }
 
     public void Drink(float amount)
     {
@@ -37,5 +46,14 @@ public class DrinkingController : MonoBehaviour
     public void EndDrinkAnim()
     {
         CameraController.Instance.SetToMainCam();
+    }
+    public void Puke()
+    {
+        CameraController.Instance.SetToCam(drinkingCam);
+        drinkingCamAnimator.SetTrigger("puke");
+    }
+    public void PukeParticlePlay()
+    {
+        pukeParticle.Play();
     }
 }
