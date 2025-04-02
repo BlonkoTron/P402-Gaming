@@ -6,8 +6,6 @@ using Unity.Cinemachine;
 
 public class InkNPCDialogue: InkDialogue
 {
-    public static event Action<Story> OnCreateStory;
-
     [SerializeField] private CinemachineCamera dialogueCam;
     [SerializeField] private GameObject dialogueCanvas;
 
@@ -17,10 +15,8 @@ public class InkNPCDialogue: InkDialogue
     }
     public override void StartStory()
     {
-        story = new Story(inkJSONAsset.text);
-        if (OnCreateStory != null) OnCreateStory(story);
+        base.StartStory();
         dialogueCanvas.SetActive(true);
-        RefreshView();
         CameraController.Instance.SetToCam(dialogueCam);
     }
     protected override void EndStory()

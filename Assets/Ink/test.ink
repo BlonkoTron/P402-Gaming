@@ -1,10 +1,10 @@
-Once upon a time...
+ EXTERNAL Drink(amount)
 
 
- * There were two choices. 
- * There were four lines of content.
+Hello there, you want a drink?
 
-- They lived happily ever after. 
-
+ * Yes please.
+     ~Drink(0.1) 
+ * No thank you
 
     -> END

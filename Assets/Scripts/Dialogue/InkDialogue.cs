@@ -30,6 +30,9 @@ public class InkDialogue : MonoBehaviour
 	{
 		story = new Story(inkJSONAsset.text);
 		if (OnCreateStory != null) OnCreateStory(story);
+		story.BindExternalFunction("Drink", (float amount) => {
+			DrinkingController.Instance.Drink(amount);
+		});
 		RefreshView();
 	}
 
