@@ -777,7 +777,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74f7d184e1c84a9488d2fd7987042a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSONAsset: {fileID: 4900000, guid: b618bb5c277d2894994d47e42db91424, type: 3}
+  OnStartStory:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEndStory:
+    m_PersistentCalls:
+      m_Calls: []
+  inkJSONAsset: {fileID: 4900000, guid: 6cf48bb6d89824cc69e35b43f9a1aca6, type: 3}
   dialogueTextField: {fileID: 14952406}
   buttonPrefab: {fileID: 2979358257735474850, guid: a5d5af81f70af14409f9c42a87ca08d5, type: 3}
   buttonParent: {fileID: 802151138}

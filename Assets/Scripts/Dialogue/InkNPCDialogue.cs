@@ -26,5 +26,6 @@ public class InkNPCDialogue: InkDialogue
         PlayerInteract.isInteracting = false;
         RemovePreviousChoices();
         CameraController.Instance.SetToMainCam();
+        base.EndStory();
     }
 }
