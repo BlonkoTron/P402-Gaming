@@ -5,14 +5,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Unity.Cinemachine;
+using UnityEngine.Audio;
 
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class InkDialogue : MonoBehaviour
 {
 	public static event Action<Story> OnCreateStory;
+	Sound_test Sounders; 
 
-
-	[SerializeField]
+    [SerializeField]
 	protected TextAsset inkJSONAsset = null;
 	public Story story;
 	[SerializeField]
@@ -24,16 +25,22 @@ public class InkDialogue : MonoBehaviour
 	[SerializeField]
 	[Range(0.001f, 0.5f)] private float textSpeed=0.05f;
 
-
-	// Creates a new Story object with the compiled story which we can then play
-	public virtual void StartStory()
+    // Creates a new Story object with the compiled story which we can then play
+    public virtual void StartStory()
 	{
-		story = new Story(inkJSONAsset.text);
+		Sounders = GetComponent<Sound_test>();
+        story = new Story(inkJSONAsset.text);
 		if (OnCreateStory != null) OnCreateStory(story);
 		story.BindExternalFunction("Drink", (float amount) => {
 			DrinkingController.Instance.Drink(amount);
 		});
-		RefreshView();
+        story.BindExternalFunction("Voice1", (string amount) => {
+			Sounders.Audio1();
+        });
+        story.BindExternalFunction("Voice2", (string amount) => {
+            Sounders.Audio2();
+        });
+        RefreshView();
 	}
 
 	// This is the main function called every time the story changes. 
@@ -88,7 +95,7 @@ public class InkDialogue : MonoBehaviour
 	} protected virtual void EndStory()
     {
 
-	}
+    }
 
 	// When we click the choice button, tell the story to choose that choice!
 	void OnClickChoiceButton(Choice choice)
