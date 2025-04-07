@@ -1194,7 +1194,7 @@ GameObject:
   - component: {fileID: 372659300}
   - component: {fileID: 372659299}
   m_Layer: 0
-  m_Name: CinemachineCamera
+  m_Name: PlayerCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   Target:
     TrackingTarget: {fileID: 1100746399}
     LookAtTarget: {fileID: 0}
-    CustomLookAtTarget: 0
+    CustomLookAtTarget: 1
   Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -1968,7 +1968,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570902244}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.6653165, y: 6.596102e-10, z: -5.8782784e-10, w: 0.7465614}
   m_LocalPosition: {x: -0.17, y: 2.8, z: -3.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1998,11 +1998,29 @@ MonoBehaviour:
     Enabled: 0
     DefaultMode: 2
   DefaultBlend:
-    Style: 1
-    Time: 1
+    Style: 7
+    Time: 1.29
     CustomCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2087,6 +2105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainCam: {fileID: 372659297}
+  npcCam: {fileID: 1500028255}
   activeCam: {fileID: 0}
 --- !u!114 &570902252
 MonoBehaviour:
@@ -4132,12 +4151,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500028251}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08441977, y: 9.506298e-10, z: -9.0381036e-10, w: 0.9964303}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.6653165, y: 0, z: 0, w: 0.7465614}
+  m_LocalPosition: {x: -0.17, y: 2.8, z: -3.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1100746399}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1500028253
 MonoBehaviour:
@@ -4162,7 +4181,7 @@ MonoBehaviour:
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 0.5, y: 0.5}
+  Damping: {x: 0, y: 0.5}
   Lookahead:
     Enabled: 0
     Time: 0
@@ -4186,7 +4205,7 @@ MonoBehaviour:
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: 0, y: 0, z: 0}
+  FollowOffset: {x: 0, y: 0.5, z: 0}
 --- !u!114 &1500028255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4201,7 +4220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Priority:
     Enabled: 1
-    m_Value: 1
+    m_Value: 10
   OutputChannel: 1
   StandbyUpdate: 2
   m_StreamingVersion: 20241001
@@ -15621,9 +15640,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5036532323398888027, guid: 0628993e94c4a074c950602712a8190f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1500028252}
     - targetCorrespondingSourceObject: {fileID: 4238008010648189146, guid: 0628993e94c4a074c950602712a8190f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1630467102}
@@ -15665,6 +15681,7 @@ SceneRoots:
   - {fileID: 1294796550}
   - {fileID: 1539561637}
   - {fileID: 570902247}
+  - {fileID: 1500028252}
   - {fileID: 8824968361308189709}
   - {fileID: 372659298}
   - {fileID: 242951610}
