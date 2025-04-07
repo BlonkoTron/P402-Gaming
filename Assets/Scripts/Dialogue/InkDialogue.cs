@@ -10,9 +10,8 @@ using UnityEngine.Audio;
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class InkDialogue : MonoBehaviour
 {
+	Soundawsom awsom;
 	public static event Action<Story> OnCreateStory;
-	Sound_test Sounders; 
-
     [SerializeField]
 	protected TextAsset inkJSONAsset = null;
 	public Story story;
@@ -26,20 +25,15 @@ public class InkDialogue : MonoBehaviour
 	[Range(0.001f, 0.5f)] private float textSpeed=0.05f;
 
     // Creates a new Story object with the compiled story which we can then play
-    public virtual void StartStory()
+    public virtual async void StartStory()
 	{
-		Sounders = GetComponent<Sound_test>();
+		awsom = GetComponent<Soundawsom>();
         story = new Story(inkJSONAsset.text);
+		awsom.storys();
 		if (OnCreateStory != null) OnCreateStory(story);
 		story.BindExternalFunction("Drink", (float amount) => {
 			DrinkingController.Instance.Drink(amount);
 		});
-        story.BindExternalFunction("Voice1", (string amount) => {
-			Sounders.Audio1();
-        });
-        story.BindExternalFunction("Voice2", (string amount) => {
-            Sounders.Audio2();
-        });
         RefreshView();
 	}
 

@@ -1,33 +1,36 @@
+using FMODUnity;
 using UnityEngine;
 
 public class Soundawsom : MonoBehaviour
 {
+    [SerializeField] private EventReference SFXBALL;
+    [SerializeField] private EventReference SFXBALL2;
+
     public static Soundawsom Instance_sound;
+    InkDialogue inkDialogues;
+    public string NPC_Dialog1;
+    public string NPC_Dialog2;
+    public string NPC_Dialog3;
 
-    private void Awake()
+    //FindObjectOfType<Audionew>().Play("GobKing");
+    public void storys()
     {
-
-        //makes sure there is only one instance of the new gameobject
-        if (Instance_sound != null)
+        inkDialogues = GetComponent<InkDialogue>();
+        inkDialogues.story.BindExternalFunction(NPC_Dialog1, (string soundName) =>
         {
-            Destroy(gameObject); //Den der
-        }
-        else
-        {
-            Instance_sound = this;
-        }
-    }
+            Audiomanager.instance.PlayOneShot(SFXBALL, transform.position);
+        });
 
-    public void playAudio(string soundName)
-    {
-        if (soundName != null)
+        inkDialogues.story.BindExternalFunction(NPC_Dialog2, (string soundName2) =>
         {
+            Debug.Log(soundName2);
+            Audiomanager.instance.PlayOneShot(SFXBALL2, transform.position);
+        });
 
-        }
-
-        else
+        inkDialogues.story.BindExternalFunction(NPC_Dialog3, (string soundName3) =>
         {
-            Debug.Log("No Soundname found");
-        }
+            Debug.Log(soundName3);
+            Audiomanager.instance.PlayOneShot(SFXBALL2, transform.position);
+        });
     }
 }

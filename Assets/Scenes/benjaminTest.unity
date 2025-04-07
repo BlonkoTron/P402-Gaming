@@ -2499,8 +2499,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
-      insertIndex: 5
-      addedObject: {fileID: 889024934}
+      insertIndex: 2
+      addedObject: {fileID: 889024941}
   m_SourcePrefab: {fileID: 100100000, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
 --- !u!1 &698706769
 GameObject:
@@ -3114,7 +3114,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
   m_PrefabInstance: {fileID: 614326507}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &889024934
+--- !u!114 &889024941
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3123,7 +3123,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 889024927}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70046e27d427fdc48874e92561bebe6c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SFXBALL:
@@ -3140,6 +3140,9 @@ MonoBehaviour:
       Data3: 103165620
       Data4: 1856334240
     Path: event:/Explain_2
+  NPC_Dialog1: Voice1
+  NPC_Dialog2: Voice2
+  NPC_Dialog3: Voice3
 --- !u!1001 &889648520
 PrefabInstance:
   m_ObjectHideFlags: 0
