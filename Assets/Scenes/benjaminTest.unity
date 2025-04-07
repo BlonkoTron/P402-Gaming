@@ -2333,8 +2333,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570902244}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17, y: 2.8, z: -3.82}
+  m_LocalRotation: {x: 0.08441977, y: 8.8037616e-10, z: -7.458741e-11, w: 0.9964303}
+  m_LocalPosition: {x: -3.63, y: 2.62, z: 0.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2452,6 +2452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainCam: {fileID: 372659297}
+  activeCam: {fileID: 0}
 --- !u!114 &570902252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3668,6 +3669,14 @@ PrefabInstance:
     - target: {fileID: 5377737567856432173, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489211347493688750, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: OnStartStory.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489211347493688750, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: OnStartStory.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5821218853891652807, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_Camera
@@ -5018,6 +5027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1676926114}
   - component: {fileID: 1676926113}
+  - component: {fileID: 1676926115}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -5105,6 +5115,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1676926115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676926112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1760421330
 GameObject:
   m_ObjectHideFlags: 0
