@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2bba2b32-04fc-407a-bfed-e6bb68a12a6f}">
+		<property name="assetPath">
+			<value>MY POWER RING!!!!.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>48.399041666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ed2bbdc0-cc12-4f89-b6f6-ec37d3156773}</destination>
+		</relationship>
+	</object>
+</objects>

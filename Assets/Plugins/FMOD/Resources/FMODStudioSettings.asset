@@ -463,8 +463,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../FMOD Studio/test_bounce/test_bounce.fspro
-  sourceBankPath: ../../../FMOD Studio/test_bounce/Build
+  sourceProjectPath: Assets/BenjaminLydSjov/test_bounce/test_bounce.fspro
+  sourceBankPath: Assets/BenjaminLydSjov/test_bounce/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

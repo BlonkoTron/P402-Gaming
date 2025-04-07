@@ -5,6 +5,7 @@ public class Soundawsom : MonoBehaviour
 {
     [SerializeField] private EventReference SFXBALL;
     [SerializeField] private EventReference SFXBALL2;
+    [SerializeField] private EventReference SFXBALL3;
 
     public static Soundawsom Instance_sound;
     InkDialogue inkDialogues;
@@ -30,7 +31,7 @@ public class Soundawsom : MonoBehaviour
         inkDialogues.story.BindExternalFunction(NPC_Dialog3, (string soundName3) =>
         {
             Debug.Log(soundName3);
-            Audiomanager.instance.PlayOneShot(SFXBALL2, transform.position);
+            Audiomanager.instance.PlayOneShot(SFXBALL3, transform.position);
         });
     }
 }
