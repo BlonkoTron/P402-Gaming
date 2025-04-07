@@ -138,21 +138,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFXBALL:
     Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
+      Data1: -450309914
+      Data2: 1270663400
+      Data3: 610065078
+      Data4: 142208281
+    Path: event:/Explain_3
   SFXBALL2:
     Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  NPC_Dialog1: Voice1
-  NPC_Dialog2: Voice2
-  NPC_Dialog3: Voice3
+      Data1: 1096384172
+      Data2: 1202030347
+      Data3: 137649565
+      Data4: -2091151129
+    Path: event:/Explain_4
+  SFXBALL3:
+    Guid:
+      Data1: -2011542442
+      Data2: 1237928804
+      Data3: 1341767557
+      Data4: -1316621460
+    Path: event:/Explain_5
+  NPC_Dialog1: Voice11
+  NPC_Dialog2: Voice12
+  NPC_Dialog3: Voice13
 --- !u!1001 &119811978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1680,6 +1687,13 @@ MonoBehaviour:
       Data3: 103165620
       Data4: 1856334240
     Path: event:/Explain_2
+  SFXBALL3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
   NPC_Dialog3: Voice3
@@ -1898,7 +1912,7 @@ PrefabInstance:
     - target: {fileID: 5489211347493688750, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: inkJSONAsset
       value: 
-      objectReference: {fileID: 4900000, guid: ca1abda73c123d94e9bcce1888d0a192, type: 3}
+      objectReference: {fileID: 4900000, guid: 6b91538465b82744989c32ba88462980, type: 3}
     - target: {fileID: 5821218853891652807, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_Camera
       value: 
@@ -2079,6 +2093,13 @@ MonoBehaviour:
       Data3: 103165620
       Data4: 1856334240
     Path: event:/Explain_2
+  SFXBALL3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
   NPC_Dialog3: Voice3
@@ -2113,6 +2134,13 @@ MonoBehaviour:
       Data3: 103165620
       Data4: 1856334240
     Path: event:/Explain_2
+  SFXBALL3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
   NPC_Dialog3: Voice3
@@ -2530,6 +2558,13 @@ MonoBehaviour:
       Data3: 103165620
       Data4: 1856334240
     Path: event:/Explain_2
+  SFXBALL3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
   NPC_Dialog3: Voice3
@@ -3319,9 +3354,16 @@ MonoBehaviour:
       Data3: 103165620
       Data4: 1856334240
     Path: event:/Explain_2
+  SFXBALL3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
-  NPC_Dialog3: Voice3
+  NPC_Dialog3: 
 --- !u!1001 &889648520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5202,6 +5244,13 @@ MonoBehaviour:
       Data3: 103165620
       Data4: 1856334240
     Path: event:/Explain_2
+  SFXBALL3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
   NPC_Dialog3: Voice3
@@ -6128,7 +6177,7 @@ PrefabInstance:
     - target: {fileID: 5489211347493688750, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: inkJSONAsset
       value: 
-      objectReference: {fileID: 4900000, guid: ca1abda73c123d94e9bcce1888d0a192, type: 3}
+      objectReference: {fileID: 4900000, guid: 6b91538465b82744989c32ba88462980, type: 3}
     - target: {fileID: 5821218853891652807, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_Camera
       value: 
