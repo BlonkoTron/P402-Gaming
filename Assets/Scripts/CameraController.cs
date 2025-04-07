@@ -35,4 +35,9 @@ public class CameraController : MonoBehaviour
         activeCam = cam;
     }
 
+    public void LookAtMe(Vector3 pos)
+    {
+        
+    }
+
 }
