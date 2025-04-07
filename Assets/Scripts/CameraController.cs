@@ -7,6 +7,8 @@ public class CameraController : MonoBehaviour
 
     public CinemachineCamera MainCam;
 
+    [SerializeField] private CinemachineCamera npcCam;
+
     public CinemachineCamera activeCam;
     private void Awake()
     {
@@ -26,6 +28,8 @@ public class CameraController : MonoBehaviour
     }
     public void SetToMainCam()
     {
+
+        npcCam.Priority = MainCam.Priority - 1;
         MainCam.Prioritize();
         activeCam = MainCam;
     }
@@ -33,6 +37,15 @@ public class CameraController : MonoBehaviour
     {
         cam.Prioritize();
         activeCam = cam;
+    }
+
+    public void SetToNpcCam(Transform target)
+    {
+        npcCam.LookAt = target;
+        npcCam.Priority = MainCam.Priority + 1;
+        npcCam.Prioritize();
+        activeCam = npcCam;
+
     }
 
 }
