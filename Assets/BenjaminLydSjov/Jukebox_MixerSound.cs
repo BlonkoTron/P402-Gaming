@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mixer_FMOD : MonoBehaviour
+public class Jukebox_MixerSound : MonoBehaviour
 {
     FMOD.Studio.Bus Jukebox1;
     FMOD.Studio.Bus Jukebox2;

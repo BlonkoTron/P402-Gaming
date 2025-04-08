@@ -9,7 +9,7 @@ public class JukeBox : Interactable
     [SerializeField] private EventReference Jukebox2;
     [SerializeField] private EventReference Jukebox3;
 
-    public Mixer_FMOD MixerMod;
+    public Jukebox_MixerSound MixerMod;
     public static float VOLOFF = 0.0f;
     public static float VOLON = 0.5f;
     public int SwitchCount = 2;
@@ -18,7 +18,7 @@ public class JukeBox : Interactable
     private bool StartJuke3 = false;
     public void Awake()
     {
-        MixerMod = GetComponent<Mixer_FMOD>();   
+        MixerMod = GetComponent<Jukebox_MixerSound>();   
     }
 
     public void Start()
