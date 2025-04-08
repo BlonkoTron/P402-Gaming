@@ -842,7 +842,7 @@ GameObject:
   - component: {fileID: 293016950}
   m_Layer: 0
   m_Name: SoundMan_FMOD
-  m_TagString: Untagged
+  m_TagString: Soundman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5487,6 +5487,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0b79f382f34f2c4c8071c6c2c531175, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1893522695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893522682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c9526fd28407842870b79d804b8d1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JukeboxVol1: 0.5
+  JukeboxVol2: 0.5
+  JukeboxVol3: 1
+  MasterVol: 1
 --- !u!1 &1893728791
 GameObject:
   m_ObjectHideFlags: 0
@@ -6369,6 +6385,14 @@ PrefabInstance:
       value: event:/Explain_3
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox1.Path
+      value: event:/Explain_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox2.Path
+      value: event:/Explain_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: SFXBALL2.Path
       value: event:/Explain_4
       objectReference: {fileID: 0}
@@ -6443,6 +6467,38 @@ PrefabInstance:
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: SFXBALL.Guid.Data4
       value: 142208281
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox1.Guid.Data1
+      value: -450309914
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox1.Guid.Data2
+      value: 1270663400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox1.Guid.Data3
+      value: 610065078
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox1.Guid.Data4
+      value: 142208281
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox2.Guid.Data1
+      value: 1096384172
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox2.Guid.Data2
+      value: 1202030347
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox2.Guid.Data3
+      value: 137649565
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox2.Guid.Data4
+      value: -2091151129
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: SFXBALL2.Guid.Data1
@@ -6544,6 +6600,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5799709405714612181, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       insertIndex: 4
       addedObject: {fileID: 1893522689}
+    - targetCorrespondingSourceObject: {fileID: 5799709405714612181, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 1893522695}
   m_SourcePrefab: {fileID: 100100000, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
 --- !u!1001 &8824968361308189709
 PrefabInstance:

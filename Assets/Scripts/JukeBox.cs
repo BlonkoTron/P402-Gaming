@@ -8,8 +8,8 @@ public class JukeBox : Interactable
     [SerializeField] private EventReference Jukebox1;
     [SerializeField] private EventReference Jukebox2;
 
-    Mixer_FMOD MixerMod;
-    public float VOLON = 0.0f;
+    public Mixer_FMOD MixerMod;
+    public static float VOLON = 0.0f;
 
     public void Awake()
     {
@@ -19,6 +19,6 @@ public class JukeBox : Interactable
     public override void Interacted()
     {
         Audiomanager.instance.PlayOneShot(Jukebox1, transform.position);
-        MixerMod.test = 1.0f;
+        MixerMod.JukeboxVol1 = VOLON;
     }
 }

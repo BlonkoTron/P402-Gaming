@@ -12,7 +12,6 @@ public class Mixer_FMOD : MonoBehaviour
     public float JukeboxVol2 = 0.5f;
     public float JukeboxVol3 = 1f;
     public float MasterVol = 1f;
-    public float test = 0.0f;
 
     private void Awake()
     {
