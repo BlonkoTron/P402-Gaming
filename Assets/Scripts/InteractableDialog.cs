@@ -16,7 +16,7 @@ public class InteractableDialog : Interactable
         if (inkDia != null)
         {
             var player = GameObject.FindGameObjectWithTag("Player");
-            transform.LookAt(player.transform, Vector3.up);
+            //transform.LookAt(player.transform, Vector3.up);
             inkDia.StartStory();
             PlayerInteract.isInteracting = true;
             Cursor.lockState = CursorLockMode.Confined;
