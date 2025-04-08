@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "P402-Gaming.sln"
+    "dotnet.defaultSolution": "P402-Gaming.sln",
+    "dotnet.preferCSharpExtension": true
 }
