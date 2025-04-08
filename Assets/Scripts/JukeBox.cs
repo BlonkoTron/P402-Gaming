@@ -14,6 +14,8 @@ public class JukeBox : Interactable
     public static float VOLON = 0.5f;
     public int SwitchCount = 1;
 
+    private bool StartJuke2 = false;
+    private bool StartJuke3 = false;
     public void Awake()
     {
         MixerMod = GetComponent<Mixer_FMOD>();   
@@ -31,23 +33,30 @@ public class JukeBox : Interactable
         if (SwitchCount == 1)
         {
             MixerMod.JukeboxVol1 = VOLON;
-            Audiomanager.instance.PlayOneShot(Jukebox1, transform.position);
             MixerMod.JukeboxVol2 = VOLOFF;
             MixerMod.JukeboxVol3 = VOLOFF;
         }
         else if (SwitchCount == 2)
         {
-            MixerMod.JukeboxVol2 = VOLON;
-            Audiomanager.instance.PlayOneShot(Jukebox2, transform.position);
+            if (StartJuke2 == false)
+            {
+                Audiomanager.instance.PlayOneShot(Jukebox2, transform.position);
+                StartJuke2 = true; 
+            }
             MixerMod.JukeboxVol1 = VOLOFF;
+            MixerMod.JukeboxVol2 = VOLON;
             MixerMod.JukeboxVol3 = VOLOFF;
         }
         else if (SwitchCount == 3)
         {
-            MixerMod.JukeboxVol3 = VOLON;
-            Audiomanager.instance.PlayOneShot(Jukebox3, transform.position);
+            if (StartJuke3 == false)
+            {
+                Audiomanager.instance.PlayOneShot(Jukebox3, transform.position);
+                StartJuke3 = true;
+            }
             MixerMod.JukeboxVol1 = VOLOFF;
             MixerMod.JukeboxVol2 = VOLOFF;
+            MixerMod.JukeboxVol3 = VOLON;
             SwitchCount = 0;
         }
 
