@@ -42,6 +42,12 @@ public class InkDialogue : MonoBehaviour
 				DrinkingController.Instance.Drink(amount);
 			});
 		}
+		if (AchievementController.Instance != null)
+		{
+			story.BindExternalFunction("Achievement", (string text) => {
+				AchievementController.Instance.UnlockAchievement(text);
+			});
+		}
 		RefreshView();
 		OnStartStory.Invoke();
 	}
