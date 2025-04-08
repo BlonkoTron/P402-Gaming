@@ -12,7 +12,7 @@ public class JukeBox : Interactable
     public Mixer_FMOD MixerMod;
     public static float VOLOFF = 0.0f;
     public static float VOLON = 0.5f;
-    public int SwitchCount = 1;
+    public int SwitchCount = 2;
 
     private bool StartJuke2 = false;
     private bool StartJuke3 = false;
