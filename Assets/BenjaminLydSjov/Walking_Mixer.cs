@@ -2,15 +2,21 @@ using UnityEngine;
 
 public class Walking_Mixer : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    FMOD.Studio.Bus Walking;
+    public float WalkingVol = 1.0f;
+
+    private void Awake()
     {
-        
+        Walking = FMODUnity.RuntimeManager.GetBus("bus:/Master/WalkWood");
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        Walking.setVolume(WalkingVol);
+    }
+
+    public void WoodVol(float NewWoodVOL)
+    {
+        WalkingVol = NewWoodVOL;
     }
 }

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8735ba9c-d3bf-4974-8539-b584c23c089a}">
 		<property name="name">
-			<value>New Event</value>
+			<value>WalkOnWood</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{5f94ab3f-383f-4c46-ba67-c5a1928b62c7}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{bf243483-1bd8-4a0e-bbf5-5cecf2652dfa}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{315371b8-1286-45ba-be6c-a1dbf7a06cea}">
 		<relationship name="masterBus">
@@ -50,7 +53,7 @@
 			<destination>{38ac3c90-c1a5-474a-ba8f-f27a0e556887}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{3030c676-a071-4702-8cdf-e8c98d039516}</destination>
+			<destination>{0ac0e837-8c1e-4ae7-a702-bc8ccc3cb0d4}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ea897701-21b7-4108-8106-76c0ab8e1d55}" />

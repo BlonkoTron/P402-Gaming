@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2096
+--- !u!114 &-4020390564435447723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WalkOnWood
+  m_EditorClassIdentifier: 
+  Path: event:/WalkOnWood
+  Guid:
+    Data1: -2026521956
+    Data2: 1232393151
+    Data3: -2068498043
+    Data4: -1710736190
+  Banks:
+  - {fileID: 7096257006631777263}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9500
 --- !u!114 &-3314485536342289794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,12 +130,13 @@ MonoBehaviour:
   - {fileID: 3714402554188259137}
   - {fileID: -445035952468059877}
   - {fileID: -3314485536342289794}
+  - {fileID: -4020390564435447723}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6780100710060848927}
   StringsBanks:
   - {fileID: 1503097353472127792}
-  cacheTime: 638797152747159674
+  cacheTime: 638797185227785068
   cacheVersion: 131623
 --- !u!114 &1503097353472127792
 MonoBehaviour:
@@ -125,10 +153,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638797152747159674
+  lastModified: 638797184068886783
   FileSizes:
   - Name: Desktop
-    Value: 1112
+    Value: 1216
   Exists: 1
 --- !u!114 &3249765124857778617
 MonoBehaviour:
@@ -199,10 +227,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638797152747159674
+  lastModified: 638797184068856991
   FileSizes:
   - Name: Desktop
-    Value: 1632
+    Value: 1778
   Exists: 1
 --- !u!114 &7096257006631777263
 MonoBehaviour:
@@ -219,8 +247,8 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Explain.bank
   Name: Explain
   StudioPath: bank:/Explain
-  lastModified: 638797152747159674
+  lastModified: 638797185227785068
   FileSizes:
   - Name: Desktop
-    Value: 898240
+    Value: 1142208
   Exists: 1

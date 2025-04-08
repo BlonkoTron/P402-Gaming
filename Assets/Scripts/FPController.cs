@@ -1,3 +1,6 @@
+using System.Drawing;
+using FMOD.Studio;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,14 +10,27 @@ public class FPController : MonoBehaviour
 
     [SerializeField] private Transform cameraTransform;
 
+    EventInstance musicInstance;
+    [SerializeField] private EventReference Walking;
+
     private CharacterController cc;
     public Vector3 movement;
     private Vector3 velocity;
     private float ySpeed;
 
+    public Walking_Mixer MixerWalk;
+    public float WalkingVolON = 1.0f;
+    public float WalkingVolOFF = 0.0f;
+
     private void Awake()
     {
         cc = GetComponent<CharacterController>();
+        MixerWalk = GetComponent<Walking_Mixer>();
+    }
+
+    private void Start()
+    {
+        Audiomanager.instance.PlayOneShot(Walking, transform.position);
     }
 
     private void FixedUpdate()
@@ -27,6 +43,16 @@ public class FPController : MonoBehaviour
 
     private void Move()
     {
+        //Volume for walking turns on/off
+        if (movement.x != 0 || movement.y != 0 || movement.z != 0)
+        {
+            MixerWalk.WalkingVol = WalkingVolON;
+        }
+        else
+        {
+            MixerWalk.WalkingVol = WalkingVolOFF;
+        }
+        
 
         // here we calculate the direction our character should be moving based on the camera position
         Vector3 direction = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movement.normalized;
