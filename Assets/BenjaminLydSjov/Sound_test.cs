@@ -8,16 +8,13 @@ public class Sound_test : MonoBehaviour
     [SerializeField] private EventReference SFXBALL;
     [SerializeField] private EventReference SFXBALL2;
 
-    void Update()
+    public void Audio1()
     {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            Audiomanager.instance.PlayOneShot(SFXBALL, transform.position);
-        }
+        Audiomanager.instance.PlayOneShot(SFXBALL, transform.position);
+    }
 
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            Audiomanager.instance.PlayOneShot(SFXBALL2, transform.position);
-        }
+    public void Audio2()
+    {
+        Audiomanager.instance.PlayOneShot(SFXBALL2, transform.position);
     }
 }

@@ -9,6 +9,7 @@ using UnityEngine.Events;
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class InkDialogue : MonoBehaviour
 {
+	Soundawsom Soundmanager;
 	public static event Action<Story> OnCreateStory;
 
 	public UnityEvent OnStartStory;
@@ -31,12 +32,20 @@ public class InkDialogue : MonoBehaviour
 	// Creates a new Story object with the compiled story which we can then play
 	public virtual void StartStory()
 	{
+		//Soundmanager = GetComponent<Soundawsom>();
 		story = new Story(inkJSONAsset.text);
+		//Soundmanager.storys();
 		if (OnCreateStory != null) OnCreateStory(story);
 		if (DrinkingController.Instance!=null)
         {
 			story.BindExternalFunction("Drink", (float amount) => {
 				DrinkingController.Instance.Drink(amount);
+			});
+		}
+		if (AchievementController.Instance != null)
+		{
+			story.BindExternalFunction("Achievement", (string text) => {
+				AchievementController.Instance.UnlockAchievement(text);
 			});
 		}
 		RefreshView();
