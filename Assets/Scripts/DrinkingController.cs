@@ -41,6 +41,8 @@ public class DrinkingController : MonoBehaviour
         drinkingCamAnimator.SetTrigger("drink");
         bloodAlcoholContent += amount;
         OnDrink.Invoke();
+        DrunkVisionController.Instance.UpdateDrunkVision(bloodAlcoholContent);
+
     }
 
     public void EndDrinkAnim()
