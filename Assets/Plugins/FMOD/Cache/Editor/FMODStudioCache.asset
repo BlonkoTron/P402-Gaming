@@ -1,5 +1,72 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6217531306990375997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explain_2
+  m_EditorClassIdentifier: 
+  Path: event:/Explain_2
+  Guid:
+    Data1: -2134912495
+    Data2: 1105386745
+    Data3: 103165620
+    Data4: 1856334240
+  Banks:
+  - {fileID: 7186943320666780587}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2096
+--- !u!114 &-4905025324408553439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/test_bounce 1/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638796166419119164
+  FileSizes:
+  - Name: Desktop
+    Value: 852
+  Exists: 1
+--- !u!114 &-239876976628014524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/test_bounce 1/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638796166419099206
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +79,146 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: -4905025324408553439}
+  - {fileID: 7186943320666780587}
+  - {fileID: -239876976628014524}
+  EditorEvents:
+  - {fileID: 3249765124857778617}
+  - {fileID: -6217531306990375997}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: -239876976628014524}
+  StringsBanks:
+  - {fileID: -4905025324408553439}
+  cacheTime: 638796166419119164
   cacheVersion: 131623
+--- !u!114 &3249765124857778617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explain_1
+  m_EditorClassIdentifier: 
+  Path: event:/Explain_1
+  Guid:
+    Data1: 943228160
+    Data2: 1165347304
+    Data3: -1699987833
+    Data4: 812330641
+  Banks:
+  - {fileID: 7186943320666780587}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2307
+--- !u!114 &3714402554188259137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explain_5
+  m_EditorClassIdentifier: 
+  Path: event:/Explain_5
+  Guid:
+    Data1: -2011542442
+    Data2: 1237928804
+    Data3: 1341767557
+    Data4: -1316621460
+  Banks:
+  - {fileID: 7096257006631777263}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11964
+--- !u!114 &6780100710060848927
+  EditorBanks:
+  - {fileID: 510104974277204601}
+  - {fileID: 6321754471911846749}
+  - {fileID: 3202991370639433103}
+  EditorEvents:
+  - {fileID: -263772752741419543}
+  - {fileID: -1407371428225985680}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 3202991370639433103}
+  StringsBanks:
+  - {fileID: 510104974277204601}
+  cacheTime: 638796179576113027
+  cacheVersion: 131623
+--- !u!114 &510104974277204601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/test_bounce 1/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638796179576113027
+  FileSizes:
+  - Name: Desktop
+    Value: 852
+  Exists: 1
+--- !u!114 &3202991370639433103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638796179576092212
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &7096257006631777263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Explain.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/test_bounce 1/Build/Desktop/Explain.bank
+  Name: Explain
+  StudioPath: bank:/Explain
+  lastModified: 638796166419089234
+  FileSizes:
+  - Name: Desktop
+    Value: 47712
+  Exists: 1
