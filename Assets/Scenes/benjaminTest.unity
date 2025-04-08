@@ -6394,6 +6394,10 @@ PrefabInstance:
       value: event:/Explain_5
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: SwitchCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: SFXBALL.Path
       value: event:/Explain_3
       objectReference: {fileID: 0}
