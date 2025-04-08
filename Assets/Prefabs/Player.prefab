@@ -1,5 +1,119 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4405792313463750044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4238008010648189146}
+  - component: {fileID: 8388590942197537736}
+  - component: {fileID: 5924808180489793555}
+  - component: {fileID: 1601073070586551917}
+  m_Layer: 0
+  m_Name: DrinkingCam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4238008010648189146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405792313463750044}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000011920929, y: 0.000000042146844, z: -5.0242954e-15, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8452683615343435339}
+  m_Father: {fileID: 5036532323398888027}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8388590942197537736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405792313463750044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Priority:
+    Enabled: 1
+    m_Value: 10
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 5036532323398888027}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 60
+    OrthographicSize: 5
+    NearClipPlane: 0.3
+    FarClipPlane: 1000
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
+--- !u!95 &5924808180489793555
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405792313463750044}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: df980cc0a5c7f0a46bf923bd68d15c61, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1601073070586551917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405792313463750044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38746455cdc9b8145abdb73dbb786391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drinkingCam: {fileID: 0}
+  bloodAlcoholContent: 0
 --- !u!1 &4979994839959256781
 GameObject:
   m_ObjectHideFlags: 0
@@ -14,7 +128,6 @@ GameObject:
   - component: {fileID: 4379427958285272997}
   - component: {fileID: 6755898820618741773}
   - component: {fileID: 6335733234912924088}
-  - component: {fileID: 5313214516442167497}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -35,7 +148,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3469648025600895207}
+  - {fileID: 4238008010648189146}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &377022434544406356
@@ -154,38 +267,25 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5313214516442167497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4979994839959256781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38746455cdc9b8145abdb73dbb786391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bloodAlcoholLevel: 0
---- !u!1001 &4011602269323579148
+--- !u!1001 &8270666702295021984
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 5036532323398888027}
+    m_TransformParent: {fileID: 4238008010648189146}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 573254939b679134987e6f29c224ffe5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.133
+      value: -0.13300005
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 573254939b679134987e6f29c224ffe5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.031000137
+      value: -0.4689997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 573254939b679134987e6f29c224ffe5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.59358406
+      value: 0.5935842
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 573254939b679134987e6f29c224ffe5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -193,15 +293,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 573254939b679134987e6f29c224ffe5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.00000011920929
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 573254939b679134987e6f29c224ffe5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.000000042146844
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 573254939b679134987e6f29c224ffe5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 5.0242954e-15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 573254939b679134987e6f29c224ffe5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -221,15 +321,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3897968775c8b4b49bfba9a52a244f77, type: 2}
     - target: {fileID: 919132149155446097, guid: 573254939b679134987e6f29c224ffe5, type: 3}
       propertyPath: m_Name
-      value: CanOf
+      value: CanOf (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573254939b679134987e6f29c224ffe5, type: 3}
---- !u!4 &3469648025600895207 stripped
+--- !u!4 &8452683615343435339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 573254939b679134987e6f29c224ffe5, type: 3}
-  m_PrefabInstance: {fileID: 4011602269323579148}
+  m_PrefabInstance: {fileID: 8270666702295021984}
   m_PrefabAsset: {fileID: 0}

@@ -4,12 +4,16 @@ using Ink.Runtime;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Unity.Cinemachine;
+using UnityEngine.Events;
 
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class InkDialogue : MonoBehaviour
 {
+	Soundawsom Soundmanager;
 	public static event Action<Story> OnCreateStory;
+
+	public UnityEvent OnStartStory;
+	public UnityEvent OnEndStory;
 
 
 	[SerializeField]
@@ -28,12 +32,18 @@ public class InkDialogue : MonoBehaviour
 	// Creates a new Story object with the compiled story which we can then play
 	public virtual void StartStory()
 	{
+		//Soundmanager = GetComponent<Soundawsom>();
 		story = new Story(inkJSONAsset.text);
+		//Soundmanager.storys();
 		if (OnCreateStory != null) OnCreateStory(story);
-		story.BindExternalFunction("Drink", (float amount) => {
-			DrinkingController.Instance.Drink(amount);
-		});
+		if (DrinkingController.Instance!=null)
+        {
+			story.BindExternalFunction("Drink", (float amount) => {
+				DrinkingController.Instance.Drink(amount);
+			});
+		}
 		RefreshView();
+		OnStartStory.Invoke();
 	}
 
 	// This is the main function called every time the story changes. 
@@ -87,7 +97,7 @@ public class InkDialogue : MonoBehaviour
 		return choice;
 	} protected virtual void EndStory()
     {
-
+		OnEndStory.Invoke();
 	}
 
 	// When we click the choice button, tell the story to choose that choice!

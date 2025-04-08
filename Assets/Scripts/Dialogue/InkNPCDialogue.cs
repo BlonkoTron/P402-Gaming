@@ -17,7 +17,7 @@ public class InkNPCDialogue: InkDialogue
     {
         base.StartStory();
         dialogueCanvas.SetActive(true);
-        CameraController.Instance.SetToCam(dialogueCam);
+        CameraController.Instance.SetToNpcCam(transform);
     }
     protected override void EndStory()
     {
@@ -26,5 +26,6 @@ public class InkNPCDialogue: InkDialogue
         PlayerInteract.isInteracting = false;
         RemovePreviousChoices();
         CameraController.Instance.SetToMainCam();
+        base.EndStory();
     }
 }

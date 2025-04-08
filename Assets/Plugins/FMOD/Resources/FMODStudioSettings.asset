@@ -463,8 +463,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../FMOD Studio/P402_Sound/P402_Sound.fspro
-  sourceBankPath: ../../../FMOD Studio/P402_Sound/Build
+  sourceProjectPath: Assets/BenjaminLydSjov/test_bounce/test_bounce.fspro
+  sourceBankPath: Assets/BenjaminLydSjov/test_bounce/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -488,9 +488,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Music
-  - SFX
-  - TestBank
+  - Explain
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
