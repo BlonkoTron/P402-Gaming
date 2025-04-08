@@ -4,39 +4,45 @@ using UnityEngine;
 
 public class Mixer_FMOD : MonoBehaviour
 {
-    FMOD.Studio.Bus Music;
-    FMOD.Studio.Bus SFX;
+    FMOD.Studio.Bus Jukebox1;
+    FMOD.Studio.Bus Jukebox2;
+    FMOD.Studio.Bus Jukebox3;
     FMOD.Studio.Bus Master;
-    public float MusicVolume = 0.5f;
-    public float SFXVolume = 0.5f;
-    public float MasterVolume = 1f;
+    public float JukeboxVol1 = 0.5f;
+    public float JukeboxVol2 = 0.5f;
+    public float JukeboxVol3 = 1f;
+    public float MasterVol = 1f;
+    public float test = 0.0f;
 
     private void Awake()
     {
-        Music = FMODUnity.RuntimeManager.GetBus("bus:/Master/Music");
-        SFX = FMODUnity.RuntimeManager.GetBus("bus:/Master/SFX");
+        Jukebox1 = FMODUnity.RuntimeManager.GetBus("bus:/Master/Jukebox1");
+        Jukebox2 = FMODUnity.RuntimeManager.GetBus("bus:/Master/Jukebox2");
+        Jukebox3 = FMODUnity.RuntimeManager.GetBus("bus:/Master/Jukebox3");
         Master = FMODUnity.RuntimeManager.GetBus("bus:/Master");
     }
+
     void Update()
     {
-        Music.setVolume(MusicVolume);
-        SFX.setVolume(SFXVolume);
-        Master.setVolume(MasterVolume);
+        Jukebox1.setVolume(JukeboxVol1);
+        Jukebox2.setVolume(JukeboxVol2);
+        Jukebox3.setVolume(JukeboxVol3);
+        Master.setVolume(MasterVol);
     }
 
     public void MasterVOL(float NewMasterVOL)
     {
-        MasterVolume = NewMasterVOL;
+        JukeboxVol1 = NewMasterVOL;
     }
 
     public void MusicVOL(float NewMusicVOL)
     {
-        MusicVolume = NewMusicVOL;
+        JukeboxVol2 = NewMusicVOL;
     }
 
     public void SFXVOL(float NewSFXVOL)
     {
-        SFXVolume = NewSFXVOL;
+        JukeboxVol3 = NewSFXVOL;
     }
 }
 

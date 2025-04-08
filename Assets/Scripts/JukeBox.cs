@@ -5,15 +5,20 @@ using UnityEngine;
 public class JukeBox : Interactable
 {
     EventInstance musicInstance;
-    [SerializeField] private EventReference SFXBALL;
-    [SerializeField] private EventReference SFXBALL2;
+    [SerializeField] private EventReference Jukebox1;
+    [SerializeField] private EventReference Jukebox2;
 
-    private void Awake()
+    Mixer_FMOD MixerMod;
+    public float VOLON = 0.0f;
+
+    public void Awake()
     {
-        Audiomanager.instance.PlayOneShot(SFXBALL, transform.position);
+        MixerMod = GetComponent<Mixer_FMOD>();
     }
+
     public override void Interacted()
     {
-        //Audiomanager.instance.PlayOneShot(SFXBALL2, transform.position);
+        Audiomanager.instance.PlayOneShot(Jukebox1, transform.position);
+        MixerMod.test = 1.0f;
     }
 }

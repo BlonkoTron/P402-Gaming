@@ -108,7 +108,7 @@ MonoBehaviour:
   - {fileID: 6780100710060848927}
   StringsBanks:
   - {fileID: 1503097353472127792}
-  cacheTime: 638796317511457429
+  cacheTime: 638797085156654451
   cacheVersion: 131623
 --- !u!114 &1503097353472127792
 MonoBehaviour:
@@ -125,10 +125,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638796317511457429
+  lastModified: 638797085156654451
   FileSizes:
   - Name: Desktop
-    Value: 948
+    Value: 1112
   Exists: 1
 --- !u!114 &3249765124857778617
 MonoBehaviour:
@@ -199,10 +199,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638796317511437225
+  lastModified: 638797085156604536
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 1632
   Exists: 1
 --- !u!114 &7096257006631777263
 MonoBehaviour:
@@ -219,7 +219,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Explain.bank
   Name: Explain
   StudioPath: bank:/Explain
-  lastModified: 638796317511417236
+  lastModified: 638797078538861951
   FileSizes:
   - Name: Desktop
     Value: 898240
