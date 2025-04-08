@@ -10,7 +10,7 @@ public class Mixer_FMOD : MonoBehaviour
     FMOD.Studio.Bus Master;
     public float JukeboxVol1 = 0.5f;
     public float JukeboxVol2 = 0.5f;
-    public float JukeboxVol3 = 1f;
+    public float JukeboxVol3 = 0.5f;
     public float MasterVol = 1f;
 
     private void Awake()

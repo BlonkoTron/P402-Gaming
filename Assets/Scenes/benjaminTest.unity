@@ -5501,7 +5501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JukeboxVol1: 0.5
   JukeboxVol2: 0.5
-  JukeboxVol3: 1
+  JukeboxVol3: 0.5
   MasterVol: 1
 --- !u!1 &1893728791
 GameObject:
@@ -6393,6 +6393,10 @@ PrefabInstance:
       value: event:/Explain_4
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox3.Path
+      value: event:/Explain_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: SFXBALL2.Path
       value: event:/Explain_4
       objectReference: {fileID: 0}
@@ -6499,6 +6503,22 @@ PrefabInstance:
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox2.Guid.Data4
       value: -2091151129
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox3.Guid.Data1
+      value: -2011542442
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox3.Guid.Data2
+      value: 1237928804
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox3.Guid.Data3
+      value: 1341767557
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
+      propertyPath: Jukebox3.Guid.Data4
+      value: -1316621460
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: SFXBALL2.Guid.Data1
