@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public class DrunkVisionController : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class DrunkVisionController : MonoBehaviour
 
 
     private Volume ppVolume;
+    private MotionBlur mBlur;
+
 
     private void Awake()
     {
@@ -23,7 +26,9 @@ public class DrunkVisionController : MonoBehaviour
         }
 
         ppVolume = GetComponent<Volume>();
+        ppVolume.profile.TryGet(out mBlur);
 
+        Debug.Log(mBlur.ToString());
     }
 
     public void UpdateDrunkVision(float bac)
