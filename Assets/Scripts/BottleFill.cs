@@ -21,7 +21,7 @@ public class BottleFill : MonoBehaviour
         var range = maxValue - minValue;
         var newFill=minValue+range* DrinkingController.Instance.bloodAlcoholContent;
         // bottleFillMat - something 
-        bottleFillMat.SetFloat("Fill",newFill);
+        bottleFillMat.SetFloat("_Fill",newFill);
     }
 
 
