@@ -54,7 +54,6 @@ public class DrunkVisionController : MonoBehaviour
                 mBlur.intensity.value = 0.10f;
                 bloom.intensity.value = 0.2f;
                 lensD.intensity.value = -0.05f;
-                chromA.intensity.value = 3;
                 break;
 
             case float n when (n > 0.5f && n <= 1):
@@ -62,7 +61,7 @@ public class DrunkVisionController : MonoBehaviour
                 mBlur.intensity.value = 0.3f;
                 bloom.intensity.value = 0.5f;
                 lensD.intensity.value = -0.4f;
-                chromA.intensity.value = 10;
+                chromA.intensity.value = 2;
                 break;
 
             case float n when (n > 1 && n <= 1.5f):
