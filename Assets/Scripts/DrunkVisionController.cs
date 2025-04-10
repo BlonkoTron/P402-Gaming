@@ -11,7 +11,9 @@ public class DrunkVisionController : MonoBehaviour
 
     private Volume ppVolume;
     private MotionBlur mBlur;
-
+    private Bloom bloom;
+    private LensDistortion lensD;
+    private ChromaticAberration chromA;
 
     private void Awake()
     {
@@ -27,8 +29,15 @@ public class DrunkVisionController : MonoBehaviour
 
         ppVolume = GetComponent<Volume>();
         ppVolume.profile.TryGet(out mBlur);
+        ppVolume.profile.TryGet(out bloom);
+        ppVolume.profile.TryGet(out lensD);
+        ppVolume.profile.TryGet(out chromA);
 
-        Debug.Log(mBlur.ToString());
+        mBlur.intensity.value = 0;
+        bloom.intensity.value = 0;
+        lensD.intensity.value = 0;
+        chromA.intensity.value = 0;
+        
     }
 
     public void UpdateDrunkVision(float bac)
@@ -38,24 +47,38 @@ public class DrunkVisionController : MonoBehaviour
             case 0:
                 Debug.Log("no alcohol - Bac = " + bac);
 
-                
-
                 break;
 
             case float n when (n > 0 && n <= 0.5f):
                 Debug.Log("a little drunk - Bac = " + bac);
+                mBlur.intensity.value = 0.10f;
+                bloom.intensity.value = 0.2f;
+                lensD.intensity.value = -0.05f;
+                chromA.intensity.value = 3;
                 break;
 
             case float n when (n > 0.5f && n <= 1):
                 Debug.Log("you are drunk - Bac = " + bac);
+                mBlur.intensity.value = 0.3f;
+                bloom.intensity.value = 0.5f;
+                lensD.intensity.value = -0.4f;
+                chromA.intensity.value = 10;
                 break;
 
             case float n when (n > 1 && n <= 1.5f):
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
+                mBlur.intensity.value = 0.45f;
+                bloom.intensity.value = 0.75f;
+                lensD.intensity.value = -0.6f;
+                chromA.intensity.value = 15;
                 break;
 
             case float n when (n > 1.5f):
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
+                mBlur.intensity.value = 0.6f;
+                bloom.intensity.value = 1;
+                lensD.intensity.value = -0.8f;
+                chromA.intensity.value = 20;
                 break;
         }
     }
