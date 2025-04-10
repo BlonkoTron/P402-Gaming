@@ -20,10 +20,8 @@ public class BottleFill : MonoBehaviour
     }
     private void UpdateBottleFill()
     {
-        // DrinkingController.Instance.bloodAlcoholContent;
         var range = maxValue - minValue;
         var newFill=minValue+range* DrinkingController.Instance.bloodAlcoholContent;
-        // bottleFillMat - something 
         bottleFillMat.SetFloat("_Fill",newFill);
     }
     private void OnApplicationQuit()
