@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7152244386082960611
+--- !u!114 &-8742204703404571261
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Explain.bank
   m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638797068356795718
+  Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Explain.bank
+  Name: Explain
+  StudioPath: bank:/Explain
+  lastModified: 638797130872223791
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 898240
   Exists: 1
 --- !u!114 &-6217531306990375997
 MonoBehaviour:
@@ -39,7 +39,7 @@ MonoBehaviour:
     Data3: 103165620
     Data4: 1856334240
   Banks:
-  - {fileID: 4854301878421259973}
+  - {fileID: -8742204703404571261}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -47,53 +47,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2096
---- !u!114 &-5979753961778302221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Explain_5
-  m_EditorClassIdentifier: 
-  Path: event:/Explain_5
-  Guid:
-    Data1: -2011542442
-    Data2: 1237928804
-    Data3: 1341767557
-    Data4: -1316621460
-  Banks:
-  - {fileID: 4854301878421259973}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 11964
---- !u!114 &-4365642381705537015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638797068356795718
-  FileSizes:
-  - Name: Desktop
-    Value: 948
-  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,49 +60,22 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -4365642381705537015}
-  - {fileID: 4854301878421259973}
-  - {fileID: -7152244386082960611}
+  - {fileID: 2790054446413491241}
+  - {fileID: -8742204703404571261}
+  - {fileID: 6384414895633236618}
   EditorEvents:
   - {fileID: 3249765124857778617}
   - {fileID: -6217531306990375997}
-  - {fileID: -5979753961778302221}
-  - {fileID: 370481675948743945}
-  - {fileID: 1644229701916856265}
+  - {fileID: 5007359263721856096}
+  - {fileID: 9070772504184021741}
+  - {fileID: 4042182649724850024}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -7152244386082960611}
+  - {fileID: 6384414895633236618}
   StringsBanks:
-  - {fileID: -4365642381705537015}
-  cacheTime: 638797068356795718
+  - {fileID: 2790054446413491241}
+  cacheTime: 638797130872333484
   cacheVersion: 131623
---- !u!114 &370481675948743945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Explain_4
-  m_EditorClassIdentifier: 
-  Path: event:/Explain_4
-  Guid:
-    Data1: 1096384172
-    Data2: 1202030347
-    Data3: 137649565
-    Data4: -2091151129
-  Banks:
-  - {fileID: 4854301878421259973}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 7524
 --- !u!114 &510104974277204601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +96,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 852
   Exists: 1
---- !u!114 &1644229701916856265
+--- !u!114 &2790054446413491241
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,24 +105,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Explain_3
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: event:/Explain_3
-  Guid:
-    Data1: -450309914
-    Data2: 1270663400
-    Data3: 610065078
-    Data4: 142208281
-  Banks:
-  - {fileID: 4854301878421259973}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 48399
+  Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638797130872333484
+  FileSizes:
+  - Name: Desktop
+    Value: 948
+  Exists: 1
 --- !u!114 &3202991370639433103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,7 +155,7 @@ MonoBehaviour:
     Data3: -1699987833
     Data4: 812330641
   Banks:
-  - {fileID: 4854301878421259973}
+  - {fileID: -8742204703404571261}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -271,7 +190,61 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 11964
---- !u!114 &4854301878421259973
+--- !u!114 &4042182649724850024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explain_3
+  m_EditorClassIdentifier: 
+  Path: event:/Explain_3
+  Guid:
+    Data1: -450309914
+    Data2: 1270663400
+    Data3: 610065078
+    Data4: 142208281
+  Banks:
+  - {fileID: -8742204703404571261}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48399
+--- !u!114 &5007359263721856096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explain_5
+  m_EditorClassIdentifier: 
+  Path: event:/Explain_5
+  Guid:
+    Data1: -2011542442
+    Data2: 1237928804
+    Data3: 1341767557
+    Data4: -1316621460
+  Banks:
+  - {fileID: -8742204703404571261}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11964
+--- !u!114 &6384414895633236618
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -281,15 +254,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Explain.bank
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Explain.bank
-  Name: Explain
-  StudioPath: bank:/Explain
-  lastModified: 638797068356795718
+  Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638797130872233766
   FileSizes:
   - Name: Desktop
-    Value: 898240
+    Value: 1036
   Exists: 1
 --- !u!114 &6780100710060848927
 MonoBehaviour:
@@ -323,3 +296,30 @@ MonoBehaviour:
   - Name: Desktop
     Value: 47712
   Exists: 1
+--- !u!114 &9070772504184021741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explain_4
+  m_EditorClassIdentifier: 
+  Path: event:/Explain_4
+  Guid:
+    Data1: 1096384172
+    Data2: 1202030347
+    Data3: 137649565
+    Data4: -2091151129
+  Banks:
+  - {fileID: -8742204703404571261}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7524
