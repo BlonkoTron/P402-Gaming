@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
-  text: "Skifter personlighed n\xE5r man drikker."
+  text: "\xC6ndrer personlighed under indflydelse af alkohol"
