@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{0ac0e837-8c1e-4ae7-a702-bc8ccc3cb0d4}">
+		<property name="name">
+			<value>WalkWood</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2be2dc1b-2382-4b00-9eb5-65af2fc863ab}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{aab26d97-7131-47c0-a299-65ec639dd748}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{c146587d-3a8d-4bcd-a442-34494c884562}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2be2dc1b-2382-4b00-9eb5-65af2fc863ab}">
+		<relationship name="effects">
+			<destination>{08fd3222-7d14-4f7f-a5c6-9f9b4d2626f3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{aab26d97-7131-47c0-a299-65ec639dd748}" />
+	<object class="MixerBusFader" id="{08fd3222-7d14-4f7f-a5c6-9f9b4d2626f3}" />
+</objects>
