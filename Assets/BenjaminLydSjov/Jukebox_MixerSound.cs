@@ -15,10 +15,10 @@ public class Jukebox_MixerSound : MonoBehaviour
 
     private void Awake()
     {
-        Jukebox1 = FMODUnity.RuntimeManager.GetBus("bus:/Master/Jukebox1");
-        Jukebox2 = FMODUnity.RuntimeManager.GetBus("bus:/Master/Jukebox2");
-        Jukebox3 = FMODUnity.RuntimeManager.GetBus("bus:/Master/Jukebox3");
-        Master = FMODUnity.RuntimeManager.GetBus("bus:/Master");
+        //Jukebox1 = FMODUnity.RuntimeManager.GetBus("bus:/Master/Jukebox1");
+        //Jukebox2 = FMODUnity.RuntimeManager.GetBus("bus:/Master/Jukebox2");
+        //Jukebox3 = FMODUnity.RuntimeManager.GetBus("bus:/Master/Jukebox3");
+        //Master = FMODUnity.RuntimeManager.GetBus("bus:/Master");
     }
 
     void Update()

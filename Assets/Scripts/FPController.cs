@@ -30,7 +30,7 @@ public class FPController : MonoBehaviour
 
     private void Start()
     {
-        Audiomanager.instance.PlayOneShot(Walking, transform.position);
+        //Audiomanager.instance.PlayOneShot(Walking, transform.position);
     }
 
     private void FixedUpdate()

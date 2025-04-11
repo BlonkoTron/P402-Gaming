@@ -2679,7 +2679,7 @@ PrefabInstance:
     - target: {fileID: 5489211347493688750, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: inkJSONAsset
       value: 
-      objectReference: {fileID: 4900000, guid: 11644e31393104c4798863db704db357, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 5821218853891652807, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_Camera
       value: 
@@ -3342,18 +3342,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFXBALL:
     Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   SFXBALL2:
     Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   SFXBALL3:
     Guid:
       Data1: 0
@@ -3361,8 +3361,8 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  NPC_Dialog1: Voice1
-  NPC_Dialog2: Voice2
+  NPC_Dialog1: 
+  NPC_Dialog2: 
   NPC_Dialog3: 
 --- !u!1001 &889648520
 PrefabInstance:
@@ -6403,15 +6403,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox1.Path
-      value: event:/Explain_3
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox2.Path
-      value: event:/Explain_5
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox3.Path
-      value: event:/Explain_4
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: SFXBALL2.Path
@@ -6491,51 +6491,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox1.Guid.Data1
-      value: -450309914
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox1.Guid.Data2
-      value: 1270663400
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox1.Guid.Data3
-      value: 610065078
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox1.Guid.Data4
-      value: 142208281
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox2.Guid.Data1
-      value: -2011542442
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox2.Guid.Data2
-      value: 1237928804
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox2.Guid.Data3
-      value: 1341767557
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox2.Guid.Data4
-      value: -1316621460
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox3.Guid.Data1
-      value: 1096384172
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox3.Guid.Data2
-      value: 1202030347
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox3.Guid.Data3
-      value: 137649565
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: Jukebox3.Guid.Data4
-      value: -2091151129
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3059426336984727605, guid: 64f03c54bcf569149b9d8a65a96065ce, type: 3}
       propertyPath: SFXBALL2.Guid.Data1
@@ -6699,7 +6699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6755898820618741773, guid: 0628993e94c4a074c950602712a8190f, type: 3}
       propertyPath: Walking.Path
-      value: event:/WalkOnWood
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6755898820618741773, guid: 0628993e94c4a074c950602712a8190f, type: 3}
       propertyPath: cameraTransform
@@ -6707,19 +6707,19 @@ PrefabInstance:
       objectReference: {fileID: 570902247}
     - target: {fileID: 6755898820618741773, guid: 0628993e94c4a074c950602712a8190f, type: 3}
       propertyPath: Walking.Guid.Data1
-      value: -2026521956
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6755898820618741773, guid: 0628993e94c4a074c950602712a8190f, type: 3}
       propertyPath: Walking.Guid.Data2
-      value: 1232393151
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6755898820618741773, guid: 0628993e94c4a074c950602712a8190f, type: 3}
       propertyPath: Walking.Guid.Data3
-      value: -2068498043
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6755898820618741773, guid: 0628993e94c4a074c950602712a8190f, type: 3}
       propertyPath: Walking.Guid.Data4
-      value: -1710736190
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8398819279951909146, guid: 0628993e94c4a074c950602712a8190f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
