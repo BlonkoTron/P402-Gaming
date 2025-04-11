@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972702005290236654}
   - component: {fileID: 5489211347493688750}
+  - component: {fileID: 2726935601905848801}
   - component: {fileID: 5553463096660098974}
   - component: {fileID: 6143715235799829816}
   - component: {fileID: 304322132994814664}
@@ -58,6 +59,58 @@ MonoBehaviour:
   textSpeed: 0.05
   dialogueCam: {fileID: 4210695890415697818}
   dialogueCanvas: {fileID: 5880507744979619524}
+--- !u!114 &2726935601905848801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575722729885952111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VoiceLine_1:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_2:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_4:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_5:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  NPC_Dialog1: 
+  NPC_Dialog2: 
+  NPC_Dialog3: 
+  NPC_Dialog4: 
+  NPC_Dialog5: 
 --- !u!33 &5553463096660098974
 MeshFilter:
   m_ObjectHideFlags: 0

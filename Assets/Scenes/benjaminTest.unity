@@ -124,7 +124,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
   m_PrefabInstance: {fileID: 2104909671}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &108559753
+--- !u!114 &108559760
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,30 +136,124 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  VoiceLine_1:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_2:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_4:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_5:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  NPC_Dialog1: 
+  NPC_Dialog2: 
+  NPC_Dialog3: 
+  NPC_Dialog4: 
+  NPC_Dialog5: 
+--- !u!114 &108559761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108559746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VoiceLine_1:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_2:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_4:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_5:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  NPC_Dialog1: 
+  NPC_Dialog2: 
+  NPC_Dialog3: 
+  NPC_Dialog4: 
+  NPC_Dialog5: 
+--- !u!114 &108559762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108559746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70046e27d427fdc48874e92561bebe6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   SFXBALL:
     Guid:
-      Data1: -450309914
-      Data2: 1270663400
-      Data3: 610065078
-      Data4: 142208281
-    Path: event:/Explain_3
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   SFXBALL2:
     Guid:
-      Data1: 1096384172
-      Data2: 1202030347
-      Data3: 137649565
-      Data4: -2091151129
-    Path: event:/Explain_4
-  SFXBALL3:
-    Guid:
-      Data1: -2011542442
-      Data2: 1237928804
-      Data3: 1341767557
-      Data4: -1316621460
-    Path: event:/Explain_5
-  NPC_Dialog1: Voice11
-  NPC_Dialog2: Voice12
-  NPC_Dialog3: Voice13
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1001 &119811978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1673,21 +1767,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
+  VoiceLine_1:
     Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_2:
     Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_4:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_5:
     Guid:
       Data1: 0
       Data2: 0
@@ -1697,6 +1805,8 @@ MonoBehaviour:
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
   NPC_Dialog3: Voice3
+  NPC_Dialog4: 
+  NPC_Dialog5: 
 --- !u!1 &445422749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1912,7 +2022,7 @@ PrefabInstance:
     - target: {fileID: 5489211347493688750, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: inkJSONAsset
       value: 
-      objectReference: {fileID: 4900000, guid: 6b91538465b82744989c32ba88462980, type: 3}
+      objectReference: {fileID: 4900000, guid: ca1abda73c123d94e9bcce1888d0a192, type: 3}
     - target: {fileID: 5821218853891652807, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_Camera
       value: 
@@ -2079,21 +2189,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
+  VoiceLine_1:
     Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_2:
     Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_4:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_5:
     Guid:
       Data1: 0
       Data2: 0
@@ -2103,6 +2227,8 @@ MonoBehaviour:
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
   NPC_Dialog3: Voice3
+  NPC_Dialog4: 
+  NPC_Dialog5: 
 --- !u!1 &553993965 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
@@ -2120,21 +2246,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
+  VoiceLine_1:
     Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_2:
     Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_4:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_5:
     Guid:
       Data1: 0
       Data2: 0
@@ -2144,6 +2284,8 @@ MonoBehaviour:
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
   NPC_Dialog3: Voice3
+  NPC_Dialog4: 
+  NPC_Dialog5: 
 --- !u!1 &556574248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2544,30 +2686,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
+  VoiceLine_1:
     Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
+      Data1: -1890132797
+      Data2: 1140769501
+      Data3: 2082174395
+      Data4: 1693972983
+    Path: event:/Nerds/Intro
+  VoiceLine_2:
     Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
+      Data1: 55984160
+      Data2: 1073926834
+      Data3: 1812674450
+      Data4: 1103086672
+    Path: event:/Nerds/Nerd_Pt1_L1
+  VoiceLine_3:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  NPC_Dialog1: Voice1
-  NPC_Dialog2: Voice2
-  NPC_Dialog3: Voice3
+      Data1: -1315186218
+      Data2: 1278470360
+      Data3: -1217895008
+      Data4: 1213054420
+    Path: event:/Nerds/Nerd_Pt1_L2
+  VoiceLine_4:
+    Guid:
+      Data1: 1272015619
+      Data2: 1268812723
+      Data3: -1184259693
+      Data4: 1896019303
+    Path: event:/Nerds/Nerd_Pt1_L3
+  VoiceLine_5:
+    Guid:
+      Data1: -992819096
+      Data2: 1160135298
+      Data3: -2116556914
+      Data4: 2136961391
+    Path: event:/Nerds/Nerd_Pt1_L4
+  NPC_Dialog1: Voice11
+  NPC_Dialog2: Voice12
+  NPC_Dialog3: Voice13
+  NPC_Dialog4: Voice14
+  NPC_Dialog5: Voice15
 --- !u!1001 &614326507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2606,11 +2764,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972702005290236654, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.08
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 1972702005290236654, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.74
+      value: 3.65
       objectReference: {fileID: 0}
     - target: {fileID: 1972702005290236654, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3340,21 +3498,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
+  VoiceLine_1:
     Guid:
       Data1: 308488888
       Data2: 1256430023
       Data3: -182456905
       Data4: -1227483444
     Path: event:/Bouncer/BouncerPt1_L1
-  SFXBALL2:
+  VoiceLine_2:
     Guid:
       Data1: 328421361
       Data2: 1177366455
       Data3: -894798456
       Data4: 2074524849
     Path: event:/Bouncer/BouncerPt1_L2
-  SFXBALL3:
+  VoiceLine_3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_4:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_5:
     Guid:
       Data1: 0
       Data2: 0
@@ -3364,6 +3536,8 @@ MonoBehaviour:
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
   NPC_Dialog3: 
+  NPC_Dialog4: 
+  NPC_Dialog5: 
 --- !u!1001 &889648520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5243,21 +5417,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
+  VoiceLine_1:
     Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_2:
     Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_3:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_4:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  VoiceLine_5:
     Guid:
       Data1: 0
       Data2: 0
@@ -5267,6 +5455,8 @@ MonoBehaviour:
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
   NPC_Dialog3: Voice3
+  NPC_Dialog4: 
+  NPC_Dialog5: 
 --- !u!1 &1848198806
 GameObject:
   m_ObjectHideFlags: 0
@@ -6223,7 +6413,7 @@ PrefabInstance:
     - target: {fileID: 5489211347493688750, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: inkJSONAsset
       value: 
-      objectReference: {fileID: 4900000, guid: 6b91538465b82744989c32ba88462980, type: 3}
+      objectReference: {fileID: 4900000, guid: ca1abda73c123d94e9bcce1888d0a192, type: 3}
     - target: {fileID: 5821218853891652807, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_Camera
       value: 
@@ -6258,7 +6448,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       insertIndex: 2
-      addedObject: {fileID: 108559753}
+      addedObject: {fileID: 108559762}
+    - targetCorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 108559761}
+    - targetCorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 108559760}
   m_SourcePrefab: {fileID: 100100000, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
 --- !u!1 &2137709074
 GameObject:
