@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b4ea5171-fd00-4bf7-943f-9363080511e0}">
+		<property name="assetPath">
+			<value>Vennen/Friend_Pt2_L2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>15.278854166666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bd95a59a-e54e-46d9-9450-3072c46aec22}</destination>
+		</relationship>
+	</object>
+</objects>

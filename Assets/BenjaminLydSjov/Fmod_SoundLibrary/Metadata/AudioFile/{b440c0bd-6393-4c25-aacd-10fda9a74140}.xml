@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b440c0bd-6393-4c25-aacd-10fda9a74140}">
+		<property name="assetPath">
+			<value>SadGuy/SadGuy_Pt1_L1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.7548124999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bd95a59a-e54e-46d9-9450-3072c46aec22}</destination>
+		</relationship>
+	</object>
+</objects>

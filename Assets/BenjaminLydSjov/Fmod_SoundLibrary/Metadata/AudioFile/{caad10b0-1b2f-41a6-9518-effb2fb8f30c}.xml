@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{caad10b0-1b2f-41a6-9518-effb2fb8f30c}">
+		<property name="assetPath">
+			<value>Nerds/Nerd_Intro.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.7115416666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bd95a59a-e54e-46d9-9450-3072c46aec22}</destination>
+		</relationship>
+	</object>
+</objects>
