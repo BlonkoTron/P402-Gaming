@@ -183,7 +183,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108559746}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
@@ -228,32 +228,6 @@ MonoBehaviour:
   NPC_Dialog3: 
   NPC_Dialog4: 
   NPC_Dialog5: 
---- !u!114 &108559762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108559746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70046e27d427fdc48874e92561bebe6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SFXBALL:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  SFXBALL2:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
 --- !u!1001 &119811978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2681,7 +2655,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592834608}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
@@ -2764,7 +2738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972702005290236654, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.95
+      value: 2.21
       objectReference: {fileID: 0}
     - target: {fileID: 1972702005290236654, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2797,6 +2771,54 @@ PrefabInstance:
     - target: {fileID: 1972702005290236654, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: NPC_Dialog1
+      value: Voice1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: NPC_Dialog2
+      value: Voice2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: VoiceLine_1.Path
+      value: event:/Bouncer/BouncerPt1_L1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: VoiceLine_2.Path
+      value: event:/Bouncer/BouncerPt1_L2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: VoiceLine_1.Guid.Data1
+      value: 308488888
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: VoiceLine_1.Guid.Data2
+      value: 1256430023
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: VoiceLine_1.Guid.Data3
+      value: -182456905
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: VoiceLine_1.Guid.Data4
+      value: -1227483444
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: VoiceLine_2.Guid.Data1
+      value: 328421361
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: VoiceLine_2.Guid.Data2
+      value: 1177366455
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: VoiceLine_2.Guid.Data3
+      value: -894798456
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: VoiceLine_2.Guid.Data4
+      value: 2074524849
       objectReference: {fileID: 0}
     - target: {fileID: 3934893452399913985, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_Camera
@@ -2869,10 +2891,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
-      insertIndex: 2
-      addedObject: {fileID: 889024948}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
 --- !u!1 &698706769
 GameObject:
@@ -3481,63 +3500,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &889024927 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
-  m_PrefabInstance: {fileID: 614326507}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &889024948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889024927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  VoiceLine_1:
-    Guid:
-      Data1: 308488888
-      Data2: 1256430023
-      Data3: -182456905
-      Data4: -1227483444
-    Path: event:/Bouncer/BouncerPt1_L1
-  VoiceLine_2:
-    Guid:
-      Data1: 328421361
-      Data2: 1177366455
-      Data3: -894798456
-      Data4: 2074524849
-    Path: event:/Bouncer/BouncerPt1_L2
-  VoiceLine_3:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  VoiceLine_4:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  VoiceLine_5:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  NPC_Dialog1: Voice1
-  NPC_Dialog2: Voice2
-  NPC_Dialog3: 
-  NPC_Dialog4: 
-  NPC_Dialog5: 
 --- !u!1001 &889648520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6448,9 +6410,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       insertIndex: 2
-      addedObject: {fileID: 108559762}
-    - targetCorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
-      insertIndex: 3
       addedObject: {fileID: 108559761}
     - targetCorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       insertIndex: -1
