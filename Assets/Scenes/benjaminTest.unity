@@ -4169,15 +4169,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: NPC_Dialog3
-      value: Voice3
+      value: Filler1
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: NPC_Dialog4
-      value: Voice4
+      value: Filler2
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: NPC_Dialog5
-      value: Voice5
+      value: Filler3
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_1.Path
@@ -4189,15 +4189,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_3.Path
-      value: event:/SFX/Barf_1
+      value: event:/Silence/Silence
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_4.Path
-      value: event:/SFX/Barf_1
+      value: event:/Silence/Silence
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Path
-      value: event:/SFX/Barf_1
+      value: event:/Silence/Silence
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_1.Guid.Data1
@@ -4233,51 +4233,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_3.Guid.Data1
-      value: 1652818858
+      value: -21981516
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_3.Guid.Data2
-      value: 1228236015
+      value: 1339048043
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_3.Guid.Data3
-      value: 1663387522
+      value: 1364795578
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_3.Guid.Data4
-      value: 1712658570
+      value: 1173012356
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_4.Guid.Data1
-      value: 1652818858
+      value: -21981516
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_4.Guid.Data2
-      value: 1228236015
+      value: 1339048043
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_4.Guid.Data3
-      value: 1663387522
+      value: 1364795578
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_4.Guid.Data4
-      value: 1712658570
+      value: 1173012356
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Guid.Data1
-      value: 1652818858
+      value: -21981516
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Guid.Data2
-      value: 1228236015
+      value: 1339048043
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Guid.Data3
-      value: 1663387522
+      value: 1364795578
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Guid.Data4
-      value: 1712658570
+      value: 1173012356
       objectReference: {fileID: 0}
     - target: {fileID: 4842623708932115352, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -5697,6 +5697,7 @@ SceneRoots:
   - {fileID: 293016951}
   - {fileID: 242951610}
   - {fileID: 1742098618}
+  - {fileID: 154786535}
   - {fileID: 1246104233}
   - {fileID: 1419056734}
   - {fileID: 589657890}
@@ -5716,4 +5717,3 @@ SceneRoots:
   - {fileID: 263613503}
   - {fileID: 1346884207}
   - {fileID: 1893728793}
-  - {fileID: 154786535}

@@ -424,6 +424,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 15278
+--- !u!114 &-3210789979131681974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Silence/Silence
+  m_EditorClassIdentifier: 
+  Path: event:/Silence/Silence
+  Guid:
+    Data1: -21981516
+    Data2: 1339048043
+    Data3: 1364795578
+    Data4: 1173012356
+  Banks:
+  - {fileID: 7618853792335108793}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1850
 --- !u!114 &-3122524713186173796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -718,6 +745,7 @@ MonoBehaviour:
   - {fileID: -3122524713186173796}
   - {fileID: -5960714084790736457}
   - {fileID: -799479461923960173}
+  - {fileID: 7618853792335108793}
   EditorEvents:
   - {fileID: 9795492088328789}
   - {fileID: 5354496031834825039}
@@ -762,12 +790,13 @@ MonoBehaviour:
   - {fileID: 7560815290420230613}
   - {fileID: -5921874663592696344}
   - {fileID: 1983620931867795249}
+  - {fileID: -3210789979131681974}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638799634571097573
+  cacheTime: 638799667743976040
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -1027,7 +1056,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638799634521127759
+  lastModified: 638799667743496071
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1148,10 +1177,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638799634521844650
+  lastModified: 638799667743526440
   FileSizes:
   - Name: Desktop
-    Value: 3096
+    Value: 3178
   Exists: 1
 --- !u!114 &4319273926485492422
 MonoBehaviour:
@@ -1396,6 +1425,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6139
+--- !u!114 &7618853792335108793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Silence.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Silence.bank
+  Name: Silence
+  StudioPath: bank:/Silence
+  lastModified: 638799667743976040
+  FileSizes:
+  - Name: Desktop
+    Value: 2240
+  Exists: 1
 --- !u!114 &7634000486019854759
 MonoBehaviour:
   m_ObjectHideFlags: 0
