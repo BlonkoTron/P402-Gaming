@@ -1,6 +1,26 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6217531306990375997
+--- !u!114 &-6783072224367445632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/TestBank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Studio/P402_Sound/Build/Desktop/TestBank.bank
+  Name: TestBank
+  StudioPath: bank:/TestBank
+  lastModified: 638790991505467018
+  FileSizes:
+  - Name: Desktop
+    Value: 238624
+  Exists: 1
+--- !u!114 &-6665749765919204950
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,78 +30,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Explain_2
+  m_Name: event:/Test_1
   m_EditorClassIdentifier: 
-  Path: event:/Explain_2
+  Path: event:/Test_1
   Guid:
-    Data1: -2134912495
-    Data2: 1105386745
-    Data3: 103165620
-    Data4: 1856334240
+    Data1: -2145036231
+    Data2: 1239249881
+    Data3: 1018920863
+    Data4: 2064292587
   Banks:
-  - {fileID: 7096257006631777263}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2096
---- !u!114 &-4020390564435447723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/WalkOnWood
-  m_EditorClassIdentifier: 
-  Path: event:/WalkOnWood
-  Guid:
-    Data1: -2026521956
-    Data2: 1232393151
-    Data3: -2068498043
-    Data4: -1710736190
-  Banks:
-  - {fileID: 7096257006631777263}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 9500
---- !u!114 &-3314485536342289794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Explain_3
-  m_EditorClassIdentifier: 
-  Path: event:/Explain_3
-  Guid:
-    Data1: -450309914
-    Data2: 1270663400
-    Data3: 610065078
-    Data4: 142208281
-  Banks:
-  - {fileID: 7096257006631777263}
+  - {fileID: -6783072224367445632}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 48399
---- !u!114 &-445035952468059877
+  Length: 24000
+--- !u!114 &-4439448254595092094
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,24 +56,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Explain_4
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: event:/Explain_4
-  Guid:
-    Data1: 1096384172
-    Data2: 1202030347
-    Data3: 137649565
-    Data4: -2091151129
-  Banks:
-  - {fileID: 7096257006631777263}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 7524
+  Path: ../../../FMOD Studio/P402_Sound/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638790991497812641
+  FileSizes:
+  - Name: Desktop
+    Value: 1060
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,24 +80,22 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 1503097353472127792}
-  - {fileID: 7096257006631777263}
-  - {fileID: 6780100710060848927}
+  - {fileID: -4439448254595092094}
+  - {fileID: 5703297792400035770}
+  - {fileID: 9132249239732836215}
+  - {fileID: 610521916762503832}
+  - {fileID: -6783072224367445632}
   EditorEvents:
-  - {fileID: 3249765124857778617}
-  - {fileID: -6217531306990375997}
-  - {fileID: 3714402554188259137}
-  - {fileID: -445035952468059877}
-  - {fileID: -3314485536342289794}
-  - {fileID: -4020390564435447723}
+  - {fileID: -6665749765919204950}
+  - {fileID: 790291702031368092}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 6780100710060848927}
+  - {fileID: 5703297792400035770}
   StringsBanks:
-  - {fileID: 1503097353472127792}
-  cacheTime: 638797185227785068
+  - {fileID: -4439448254595092094}
+  cacheTime: 638790991505467018
   cacheVersion: 131623
---- !u!114 &1503097353472127792
+--- !u!114 &610521916762503832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,17 +105,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/SFX.bank
   m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638797184068886783
+  Path: ../../../FMOD Studio/P402_Sound/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638790991497977982
   FileSizes:
   - Name: Desktop
-    Value: 1216
+    Value: 494
   Exists: 1
---- !u!114 &3249765124857778617
+--- !u!114 &790291702031368092
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,51 +125,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Explain_1
+  m_Name: event:/Test_2
   m_EditorClassIdentifier: 
-  Path: event:/Explain_1
+  Path: event:/Test_2
   Guid:
-    Data1: 943228160
-    Data2: 1165347304
-    Data3: -1699987833
-    Data4: 812330641
+    Data1: 343109476
+    Data2: 1113742609
+    Data3: -1956031828
+    Data4: -555608454
   Banks:
-  - {fileID: 7096257006631777263}
+  - {fileID: -6783072224367445632}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2307
---- !u!114 &3714402554188259137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Explain_5
-  m_EditorClassIdentifier: 
-  Path: event:/Explain_5
-  Guid:
-    Data1: -2011542442
-    Data2: 1237928804
-    Data3: 1341767557
-    Data4: -1316621460
-  Banks:
-  - {fileID: 7096257006631777263}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 11964
---- !u!114 &6780100710060848927
+  Length: 0
+--- !u!114 &5703297792400035770
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -224,15 +154,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Master.bank
+  Path: ../../../FMOD Studio/P402_Sound/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638797184068856991
+  lastModified: 638790991497782825
   FileSizes:
   - Name: Desktop
-    Value: 1778
+    Value: 1266
   Exists: 1
---- !u!114 &7096257006631777263
+--- !u!114 &9132249239732836215
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,13 +172,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Explain.bank
+  m_Name: bank:/Music.bank
   m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/test_bounce/Build/Desktop/Explain.bank
-  Name: Explain
-  StudioPath: bank:/Explain
-  lastModified: 638797185227785068
+  Path: ../../../FMOD Studio/P402_Sound/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638790991497912543
   FileSizes:
   - Name: Desktop
-    Value: 1142208
+    Value: 494
   Exists: 1

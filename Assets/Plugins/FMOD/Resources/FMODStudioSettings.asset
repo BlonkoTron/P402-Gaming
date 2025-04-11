@@ -463,8 +463,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Fmod_SoundLibrary.fspro
-  sourceBankPath: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build
+  sourceProjectPath: ../../../FMOD Studio/P402_Sound/P402_Sound.fspro
+  sourceBankPath: ../../../FMOD Studio/P402_Sound/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
