@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: 3
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
-  text: Drikker alene.
+  text: Drikker alkohol alene.

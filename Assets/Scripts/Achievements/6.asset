@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: 6
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
-  text: Binge-drikker/overdrikker.
+  text: "F\xE5r blackouts."
