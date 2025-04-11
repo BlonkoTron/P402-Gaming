@@ -488,9 +488,16 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Music
-  - SFX
-  - TestBank
+  - ArmyGuy
+  - Bartender
+  - Bouncer
+  - HotPerson
+  - Jock
+  - Nerds
+  - Sadguy
+  - SFX_Extra
+  - TheFriend
+  - TooMuchMan
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

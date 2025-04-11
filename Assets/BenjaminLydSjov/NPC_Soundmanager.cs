@@ -1,19 +1,17 @@
 using FMODUnity;
 using UnityEngine;
 
-public class Soundawsom : MonoBehaviour
+public class NPC_Soundmanager : MonoBehaviour
 {
     [SerializeField] private EventReference SFXBALL;
     [SerializeField] private EventReference SFXBALL2;
     [SerializeField] private EventReference SFXBALL3;
 
-    public static Soundawsom Instance_sound;
+    public static NPC_Soundmanager Instance_sound;
     InkDialogue inkDialogues;
     public string NPC_Dialog1;
     public string NPC_Dialog2;
     public string NPC_Dialog3;
-
-    //FindObjectOfType<Audionew>().Play("GobKing");
     public void storys()
     {
         inkDialogues = GetComponent<InkDialogue>();
