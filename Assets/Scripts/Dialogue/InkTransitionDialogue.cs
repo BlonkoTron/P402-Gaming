@@ -3,11 +3,12 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-public class InkIntroDialogue: InkDialogue
+public class InkTransitionDialogue: InkDialogue
 {
     [SerializeField] private float transitionTimer=2;
     [SerializeField] private Image transitionPanel;
     [SerializeField] private AnimationCurve fadeCurve;
+    [SerializeField] private int _goToSceneIndex = 2;
     private void Awake()
     {
         StartStory();
@@ -33,7 +34,7 @@ public class InkIntroDialogue: InkDialogue
         }
         if (journey > timer)
         {
-            SceneManager.LoadScene("OscarTest", LoadSceneMode.Single);
+            SceneManager.LoadScene(_goToSceneIndex, LoadSceneMode.Single);
         }
     }
 }
