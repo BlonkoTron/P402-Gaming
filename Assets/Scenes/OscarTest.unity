@@ -180,33 +180,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573254939b679134987e6f29c224ffe5, type: 3}
---- !u!1 &132807627 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6160059572853331635, guid: ef017b15e424c1a438306aee647044d2, type: 3}
-  m_PrefabInstance: {fileID: 4973538116095327087}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &132807631
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132807627}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a4f4ac83da5e59b4780a273f0a4b16de, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &140794573
 GameObject:
   m_ObjectHideFlags: 0
@@ -15756,10 +15729,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1962971342857303294, guid: ef017b15e424c1a438306aee647044d2, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4829592386184680163, guid: ef017b15e424c1a438306aee647044d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.224011
@@ -15800,33 +15769,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6160059572853331635, guid: ef017b15e424c1a438306aee647044d2, type: 3}
-      propertyPath: m_Name
-      value: AchievementBox
-      objectReference: {fileID: 0}
     - target: {fileID: 6205732656103965298, guid: ef017b15e424c1a438306aee647044d2, type: 3}
       propertyPath: m_Name
       value: AchievementController
       objectReference: {fileID: 0}
-    - target: {fileID: 6461440823087618285, guid: ef017b15e424c1a438306aee647044d2, type: 3}
-      propertyPath: _achievementBox
-      value: 
-      objectReference: {fileID: 132807627}
-    - target: {fileID: 6891462721948118062, guid: ef017b15e424c1a438306aee647044d2, type: 3}
-      propertyPath: m_VertexColorAlwaysGammaSpace
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8514731699291721990, guid: ef017b15e424c1a438306aee647044d2, type: 3}
-      propertyPath: m_text
-      value: Achievement text here
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6160059572853331635, guid: ef017b15e424c1a438306aee647044d2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 132807631}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef017b15e424c1a438306aee647044d2, type: 3}
 --- !u!1001 &7214250560032864153
 PrefabInstance:
