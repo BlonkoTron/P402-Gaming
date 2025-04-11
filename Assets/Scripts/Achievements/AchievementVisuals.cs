@@ -2,12 +2,11 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections;
-using UnityEngine.UIElements;
-using DG.Tweening;
 
 public class AchievementVisuals : MonoBehaviour
 {
     [SerializeField] private TMP_Text _achievementText;
+    [SerializeField] private Image _achievementImage;
     [SerializeField] private GameObject _achievementBox;
     private Animator _achievementAnimator;
 
@@ -23,9 +22,10 @@ public class AchievementVisuals : MonoBehaviour
     {
         AchievementController.Instance.OnAchievementUnlocked.RemoveListener(ShowAchievementUnlocked);
     }
-    private void ShowAchievementUnlocked(string text)
+    private void ShowAchievementUnlocked(Achievement achievement)
     {
-        _achievementText.text = text;
+        _achievementText.text = achievement.text;
+        _achievementImage.sprite = achievement.sprite;
         StartCoroutine(AchievementAnimation());
     }
     private IEnumerator AchievementAnimation()

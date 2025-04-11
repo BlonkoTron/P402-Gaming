@@ -7,11 +7,11 @@ public class AchievementController: MonoBehaviour
 {
     public static AchievementController Instance;
 
-    public UnityEvent<string> OnAchievementUnlocked;
+    public UnityEvent<Achievement> OnAchievementUnlocked;
 
     public List<Achievement> Achievements;
 
-    public readonly List<Achievement> unlockedAchievements = new List<Achievement>();
+    public List<Achievement> unlockedAchievements = new List<Achievement>();
 
     private void Awake()
     {
@@ -32,6 +32,7 @@ public class AchievementController: MonoBehaviour
         if (!unlockedAchievements.Contains(newAchievement))
         {
             unlockedAchievements.Add(newAchievement);
+            OnAchievementUnlocked.Invoke(newAchievement);
         }
     }
     private Achievement GetAchievement(string achievementName)
