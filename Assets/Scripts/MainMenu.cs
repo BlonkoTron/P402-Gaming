@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private AnimationCurve fadeCurve;
     public void StartGame()
     {
-        //SceneManager.LoadScene(1, LoadSceneMode.Single);
+        AchievementController.Instance.ResetAchievements();
         StartCoroutine(SceneTransition(transitionTimer));
     }
     public void QuitGame()
