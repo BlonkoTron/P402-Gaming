@@ -122,10 +122,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eb08b718fd56994d9e0ca5b6f1d0c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music:
-  - {fileID: 8300000, guid: ce4c6371179388748a85f6f143129bf2, type: 3}
-  - {fileID: 8300000, guid: b410e8f75ef93de4c9731ab8cfa35a06, type: 3}
-  - {fileID: 8300000, guid: c71719a778e1a5d45814beeb65d38361, type: 3}
+  SFXBALL:
+    Guid:
+      Data1: -450309914
+      Data2: 1270663400
+      Data3: 610065078
+      Data4: 142208281
+    Path: event:/Explain_3
+  SFXBALL2:
+    Guid:
+      Data1: 1096384172
+      Data2: 1202030347
+      Data3: 137649565
+      Data4: -2091151129
+    Path: event:/Explain_4
 --- !u!82 &8445486675422544032
 AudioSource:
   m_ObjectHideFlags: 0

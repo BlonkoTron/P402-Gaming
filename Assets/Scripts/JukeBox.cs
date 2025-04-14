@@ -1,28 +1,64 @@
+using FMOD.Studio;
+using FMODUnity;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
 public class JukeBox : Interactable
 {
-    [SerializeField] private AudioClip[] music;
-    private int musicIndex = 0;
-    private AudioSource audioSrc;
+    EventInstance musicInstance;
+    [SerializeField] private EventReference Jukebox1;
+    [SerializeField] private EventReference Jukebox2;
+    [SerializeField] private EventReference Jukebox3;
 
-    private void Awake()
+    public Jukebox_MixerSound MixerMod;
+    public static float VOLOFF = 0.0f;
+    public static float VOLON = 0.5f;
+    public int SwitchCount = 2;
+
+    private bool StartJuke2 = false;
+    private bool StartJuke3 = false;
+    public void Awake()
     {
-        audioSrc = GetComponent<AudioSource>();
-        audioSrc.clip = music[0];
-        audioSrc.Play(0);
+        MixerMod = GetComponent<Jukebox_MixerSound>();   
     }
+
+    public void Start()
+    {
+        Audiomanager.instance.PlayOneShot(Jukebox1, transform.position);
+    }
+
     public override void Interacted()
     {
-        if (musicIndex+1>=music.Length)
+        SwitchCount = SwitchCount + 1;
+
+        if (SwitchCount == 1)
         {
-            musicIndex=0;
-        } else
-        {
-            musicIndex++;
+            MixerMod.JukeboxVol1 = VOLON;
+            MixerMod.JukeboxVol2 = VOLOFF;
+            MixerMod.JukeboxVol3 = VOLOFF;
         }
-        audioSrc.clip = music[musicIndex];
-        audioSrc.Play(0);
+        else if (SwitchCount == 2)
+        {
+            if (StartJuke2 == false)
+            {
+                Audiomanager.instance.PlayOneShot(Jukebox2, transform.position);
+                StartJuke2 = true; 
+            }
+            MixerMod.JukeboxVol1 = VOLOFF;
+            MixerMod.JukeboxVol2 = VOLON;
+            MixerMod.JukeboxVol3 = VOLOFF;
+        }
+        else if (SwitchCount == 3)
+        {
+            if (StartJuke3 == false)
+            {
+                Audiomanager.instance.PlayOneShot(Jukebox3, transform.position);
+                StartJuke3 = true;
+            }
+            MixerMod.JukeboxVol1 = VOLOFF;
+            MixerMod.JukeboxVol2 = VOLOFF;
+            MixerMod.JukeboxVol3 = VOLON;
+            SwitchCount = 0;
+        }
+
     }
 }
