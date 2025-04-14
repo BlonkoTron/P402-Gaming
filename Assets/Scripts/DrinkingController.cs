@@ -10,7 +10,7 @@ public class DrinkingController : MonoBehaviour
 
     [HideInInspector] public CinemachineCamera drinkingCam;
     private Animator drinkingCamAnimator;
-    public float bloodAlcoholContent=0;
+    public static float bloodAlcoholContent=0;
     [SerializeField] private ParticleSystem pukeParticle;
 
     private void Awake()

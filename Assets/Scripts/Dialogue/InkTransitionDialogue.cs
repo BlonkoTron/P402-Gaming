@@ -34,7 +34,11 @@ public class InkTransitionDialogue: InkDialogue
         }
         if (journey > timer)
         {
-            SceneManager.LoadScene(_goToSceneIndex, LoadSceneMode.Single);
+            var nextScene = SceneManager.GetSceneByBuildIndex( SceneManager.GetActiveScene().buildIndex + 1);
+            if (nextScene!=null)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
+            }
         }
     }
 }
