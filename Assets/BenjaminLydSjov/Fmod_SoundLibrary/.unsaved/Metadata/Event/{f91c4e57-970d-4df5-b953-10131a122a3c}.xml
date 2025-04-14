@@ -132,6 +132,7 @@
 			<destination>{39b4115d-6d3b-4722-b606-5c5a5caaf62b}</destination>
 			<destination>{df51fb0b-34cf-4690-9f6b-3e57cdb88316}</destination>
 			<destination>{c53a9aba-0cd0-439d-a0c3-bce01fabab1e}</destination>
+			<destination>{dd430ae5-6a04-4da6-965d-83935a9060ff}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cab16bc6-4e31-405a-810f-c1b21658010b}" />
@@ -152,5 +153,6 @@
 			<value>1.19999993</value>
 		</property>
 	</object>
+	<object class="HighpassEffect" id="{dd430ae5-6a04-4da6-965d-83935a9060ff}" />
 	<object class="MixerBusFader" id="{059e66c7-0d71-4ebf-a7e0-6c3c1099ef9c}" />
 </objects>

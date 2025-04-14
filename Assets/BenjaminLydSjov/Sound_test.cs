@@ -57,7 +57,11 @@ public class Sound_test : MonoBehaviour
                 {
                     //when the command SetEffectActive(true/false) is called. it activates/deactivates the filter. Breaks in the end for another call. 
                     dsp.setBypass(!active);
-                    break;
+                }
+
+                if (name.Contains("Highpass"))
+                {
+                    dsp.setBypass(!active);
                 }
             }
         }
