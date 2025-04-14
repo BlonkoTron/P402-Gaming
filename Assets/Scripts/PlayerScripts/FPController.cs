@@ -7,10 +7,15 @@ public class FPController : MonoBehaviour
 
     [SerializeField] private Transform cameraTransform;
 
+    [SerializeField] private float drunkThreshold;
+
     private CharacterController cc;
     public Vector3 movement;
     private Vector3 velocity;
     private float ySpeed;
+
+    
+
 
     private void Awake()
     {
@@ -31,6 +36,16 @@ public class FPController : MonoBehaviour
         // here we calculate the direction our character should be moving based on the camera position
         Vector3 direction = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movement.normalized;
 
+        if (DrinkingController.Instance.bloodAlcoholContent > drunkThreshold)
+        {
+            float drunkMovementFactor = Random.Range(-1, 2);
+
+            Vector3 drunkDirection = transform.right.normalized * drunkMovementFactor;
+
+            direction += drunkDirection;
+        }
+
+
         //mash it together with the speed to get the disired movement :)
         velocity = direction * moveSpeed;
 
@@ -38,6 +53,8 @@ public class FPController : MonoBehaviour
         ySpeed = Physics.gravity.y * Time.fixedDeltaTime;
 
         velocity.y = ySpeed;
+
+
 
         //Moving
         cc.Move(velocity * Time.fixedDeltaTime);
