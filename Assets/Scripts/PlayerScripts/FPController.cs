@@ -36,7 +36,7 @@ public class FPController : MonoBehaviour
 
     private void Move()
     {
-        if (DrinkingController.Instance.bloodAlcoholContent >= drunkThreshold)
+        if (DrinkingController.bloodAlcoholContent >= drunkThreshold)
         {
             if (movement != Vector3.zero)
             {
