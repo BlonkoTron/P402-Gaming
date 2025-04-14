@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bartender.bank
   Name: Bartender
   StudioPath: bank:/Bartender
-  lastModified: 638802316220385584
+  lastModified: 638802339041415857
   FileSizes:
   - Name: Desktop
     Value: 129600
@@ -170,7 +170,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Sadguy.bank
   Name: Sadguy
   StudioPath: bank:/Sadguy
-  lastModified: 638802316222115726
+  lastModified: 638802339055949725
   FileSizes:
   - Name: Desktop
     Value: 332928
@@ -271,7 +271,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/HotPerson.bank
   Name: HotPerson
   StudioPath: bank:/HotPerson
-  lastModified: 638802316220855952
+  lastModified: 638802339044999996
   FileSizes:
   - Name: Desktop
     Value: 59552
@@ -291,7 +291,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TheFriend.bank
   Name: TheFriend
   StudioPath: bank:/TheFriend
-  lastModified: 638802316222665409
+  lastModified: 638802339067948099
   FileSizes:
   - Name: Desktop
     Value: 871840
@@ -338,7 +338,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638802316220125669
+  lastModified: 638802339038652548
   FileSizes:
   - Name: Desktop
     Value: 1223936
@@ -466,7 +466,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/SFX_Extra.bank
   Name: SFX_Extra
   StudioPath: bank:/SFX_Extra
-  lastModified: 638802316221885416
+  lastModified: 638802339058694372
   FileSizes:
   - Name: Desktop
     Value: 90592
@@ -513,7 +513,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Jock.bank
   Name: Jock
   StudioPath: bank:/Jock
-  lastModified: 638802316221065554
+  lastModified: 638802339047529588
   FileSizes:
   - Name: Desktop
     Value: 126560
@@ -545,6 +545,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3754
+--- !u!114 &-1927314939868234557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ClubMusic.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ClubMusic.bank
+  Name: ClubMusic
+  StudioPath: bank:/ClubMusic
+  lastModified: 638802339104654178
+  FileSizes:
+  - Name: Desktop
+    Value: 1379680
+  Exists: 1
 --- !u!114 &-1640696983994690241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -587,7 +607,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bouncer.bank
   Name: Bouncer
   StudioPath: bank:/Bouncer
-  lastModified: 638802316220615493
+  lastModified: 638802339043268005
   FileSizes:
   - Name: Desktop
     Value: 56192
@@ -619,6 +639,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4995
+--- !u!114 &-1347239156332089654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Club_music/CLubMusic1
+  m_EditorClassIdentifier: 
+  Path: event:/Club_music/CLubMusic1
+  Guid:
+    Data1: -115585449
+    Data2: 1307940621
+    Data3: 319837113
+    Data4: 1009390106
+  Banks:
+  - {fileID: -1927314939868234557}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 114000
 --- !u!114 &-1053378758327552707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -688,7 +735,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TooMuchMan.bank
   Name: TooMuchMan
   StudioPath: bank:/TooMuchMan
-  lastModified: 638802316224365519
+  lastModified: 638802339069801571
   FileSizes:
   - Name: Desktop
     Value: 45504
@@ -746,6 +793,7 @@ MonoBehaviour:
   - {fileID: -5960714084790736457}
   - {fileID: -799479461923960173}
   - {fileID: 7618853792335108793}
+  - {fileID: -1927314939868234557}
   EditorEvents:
   - {fileID: 9795492088328789}
   - {fileID: 5354496031834825039}
@@ -791,12 +839,13 @@ MonoBehaviour:
   - {fileID: -5921874663592696344}
   - {fileID: 1983620931867795249}
   - {fileID: -3210789979131681974}
+  - {fileID: -1347239156332089654}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638802316224365519
+  cacheTime: 638802339104654178
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -1056,7 +1105,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638802316221245746
+  lastModified: 638802339047656183
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1157,7 +1206,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Nerds.bank
   Name: Nerds
   StudioPath: bank:/Nerds
-  lastModified: 638802316221675427
+  lastModified: 638802339051319534
   FileSizes:
   - Name: Desktop
     Value: 232448
@@ -1177,10 +1226,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638802316221445409
+  lastModified: 638802339047716229
   FileSizes:
   - Name: Desktop
-    Value: 3178
+    Value: 3270
   Exists: 1
 --- !u!114 &4319273926485492422
 MonoBehaviour:
@@ -1440,7 +1489,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Silence.bank
   Name: Silence
   StudioPath: bank:/Silence
-  lastModified: 638802316222285680
+  lastModified: 638802339059728432
   FileSizes:
   - Name: Desktop
     Value: 2240

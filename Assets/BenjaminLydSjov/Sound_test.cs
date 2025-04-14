@@ -8,6 +8,10 @@ public class Sound_test : MonoBehaviour
     [SerializeField] private EventReference SFXBALL;
     [SerializeField] private EventReference SFXBALL2;
 
+    private void Start()
+    {
+        Audiomanager.instance.PlayOneShot(SFXBALL, transform.position);
+    }
     public void Audio1()
     {
         Audiomanager.instance.PlayOneShot(SFXBALL, transform.position);
