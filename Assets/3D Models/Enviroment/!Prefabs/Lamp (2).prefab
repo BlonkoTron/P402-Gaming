@@ -43,14 +43,14 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 0
-  m_Color: {r: 0.99739367, g: 1, b: 0.8396226, a: 1}
-  m_Intensity: 4
+  m_Color: {r: 1, g: 0.9640921, b: 0.7264151, a: 1}
+  m_Intensity: 10
   m_Range: 2.4930427
-  m_SpotAngle: 81.32161
-  m_InnerSpotAngle: 65.05207
+  m_SpotAngle: 116.716995
+  m_InnerSpotAngle: 87.19283
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -169,6 +169,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a0b92d2278b4d6d4b9bec369d99ada48, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 09938e3065f7ad7469ffb647346ebbd5, type: 2}
     - target: {fileID: 919132149155446097, guid: a0b92d2278b4d6d4b9bec369d99ada48, type: 3}
       propertyPath: m_Name
       value: Lamp (2)
