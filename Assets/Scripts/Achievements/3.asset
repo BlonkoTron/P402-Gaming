@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d23aca01f53e645bed04e3b56afcfb, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: da39e59d41a79c3409d28cdd92431a7a, type: 3}
   text: Drikker alkohol alene.

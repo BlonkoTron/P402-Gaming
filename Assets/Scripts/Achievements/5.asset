@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d23aca01f53e645bed04e3b56afcfb, type: 3}
   m_Name: 5
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: d097c8739f951e84e9a8aa3cad52cfe4, type: 3}
   text: "Drikker for at at dulme f\xF8lelser."
