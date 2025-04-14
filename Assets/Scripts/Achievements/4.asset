@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d23aca01f53e645bed04e3b56afcfb, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: e1d2dd14992850c4ca764652e6c5c341, type: 3}
   text: "\xC6ndrer personlighed under indflydelse af alkohol"

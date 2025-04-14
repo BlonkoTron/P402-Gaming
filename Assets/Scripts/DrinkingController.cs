@@ -10,8 +10,10 @@ public class DrinkingController : MonoBehaviour
 
     [HideInInspector] public CinemachineCamera drinkingCam;
     private Animator drinkingCamAnimator;
-    public float bloodAlcoholContent=0;
+    public static float bloodAlcoholContent=0;
     [SerializeField] private ParticleSystem pukeParticle;
+    [SerializeField] private float[] BACThresholdLevels = new float[3];
+    private static int currentThresholdIndex=0;
 
     private void Awake()
     {
@@ -42,7 +44,12 @@ public class DrinkingController : MonoBehaviour
         bloodAlcoholContent += amount;
         OnDrink.Invoke();
         DrunkVisionController.Instance.UpdateDrunkVision(bloodAlcoholContent);
-
+        // check if transition to next scene
+        if (bloodAlcoholContent>=BACThresholdLevels[currentThresholdIndex])
+        {
+            currentThresholdIndex++;
+            SceneTransititoner.Instance.NextSceneTransition();
+        }
     }
 
     public void EndDrinkAnim()

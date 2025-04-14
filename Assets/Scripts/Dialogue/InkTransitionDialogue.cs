@@ -5,10 +5,6 @@ using UnityEngine;
 using UnityEngine.UI;
 public class InkTransitionDialogue: InkDialogue
 {
-    [SerializeField] private float transitionTimer=2;
-    [SerializeField] private Image transitionPanel;
-    [SerializeField] private AnimationCurve fadeCurve;
-    [SerializeField] private int _goToSceneIndex = 2;
     private void Awake()
     {
         StartStory();
@@ -17,24 +13,6 @@ public class InkTransitionDialogue: InkDialogue
     {
         RemovePreviousChoices();
         // transition to new scene
-        StartCoroutine(SceneTransition(transitionTimer));
-    }
-
-    private IEnumerator SceneTransition(float timer)
-    {
-        float journey = 0f;
-        while (journey <= timer)
-        {
-            journey = journey + Time.deltaTime;
-            float percent = Mathf.Clamp01(journey / timer);
-            // fade in panel over time
-            var fade = fadeCurve.Evaluate(percent);
-            transitionPanel.color =new Color(transitionPanel.color.r, transitionPanel.color.g, transitionPanel.color.b, fade);
-            yield return null;
-        }
-        if (journey > timer)
-        {
-            SceneManager.LoadScene(_goToSceneIndex, LoadSceneMode.Single);
-        }
+        SceneTransititoner.Instance.NextSceneTransition();
     }
 }

@@ -17,6 +17,6 @@ public class DrinkingUI : MonoBehaviour
     }
     private void UpdateDrinkUI()
     {
-        drinkingFillImage.fillAmount = DrinkingController.Instance.bloodAlcoholContent;
+        drinkingFillImage.fillAmount = DrinkingController.bloodAlcoholContent;
     }
 }
