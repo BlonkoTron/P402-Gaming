@@ -361,6 +361,14 @@ PrefabInstance:
       value: Voice5
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: AchievementName
+      value: Achievement
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: Achievement.Path
+      value: event:/Silence/Silence
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_1.Path
       value: event:/Nerds/Intro
       objectReference: {fileID: 0}
@@ -379,6 +387,22 @@ PrefabInstance:
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Path
       value: event:/Nerds/Nerd_Pt1_L3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: Achievement.Guid.Data1
+      value: -21981516
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: Achievement.Guid.Data2
+      value: 1339048043
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: Achievement.Guid.Data3
+      value: 1364795578
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      propertyPath: Achievement.Guid.Data4
+      value: 1173012356
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_1.Guid.Data1
