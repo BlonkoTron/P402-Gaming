@@ -560,7 +560,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ClubMusic.bank
   Name: ClubMusic
   StudioPath: bank:/ClubMusic
-  lastModified: 638802339104654178
+  lastModified: 638802351990119646
   FileSizes:
   - Name: Desktop
     Value: 1379680
@@ -845,7 +845,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638802339104654178
+  cacheTime: 638802351990119646
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
