@@ -4169,115 +4169,115 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: NPC_Dialog3
-      value: Filler1
+      value: Voice3
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: NPC_Dialog4
-      value: Filler2
+      value: Voice4
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: NPC_Dialog5
-      value: Filler3
+      value: Voice5
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_1.Path
-      value: event:/Bouncer/BouncerPt1_L1
+      value: event:/Jock/JockPt1_L1
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_2.Path
-      value: event:/Bouncer/BouncerPt1_L2
+      value: event:/Jock/JockPt2_L1
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_3.Path
-      value: event:/Silence/Silence
+      value: event:/Jock/JockPt2_L2
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_4.Path
-      value: event:/Silence/Silence
+      value: event:/Jock/JockPt3_L1
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Path
-      value: event:/Silence/Silence
+      value: event:/Jock/JockPt3_L2
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_1.Guid.Data1
-      value: 308488888
+      value: -853106466
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_1.Guid.Data2
-      value: 1256430023
+      value: 1269216948
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_1.Guid.Data3
-      value: -182456905
+      value: 854858638
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_1.Guid.Data4
-      value: -1227483444
+      value: -1437475756
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_2.Guid.Data1
-      value: 328421361
+      value: 842067284
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_2.Guid.Data2
-      value: 1177366455
+      value: 1293524182
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_2.Guid.Data3
-      value: -894798456
+      value: 202976399
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_2.Guid.Data4
-      value: 2074524849
+      value: 2022049064
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_3.Guid.Data1
-      value: -21981516
+      value: -31698513
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_3.Guid.Data2
-      value: 1339048043
+      value: 1155801996
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_3.Guid.Data3
-      value: 1364795578
+      value: 1492989356
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_3.Guid.Data4
-      value: 1173012356
+      value: -774841477
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_4.Guid.Data1
-      value: -21981516
+      value: 1451589628
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_4.Guid.Data2
-      value: 1339048043
+      value: 1274413550
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_4.Guid.Data3
-      value: 1364795578
+      value: -1693786692
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_4.Guid.Data4
-      value: 1173012356
+      value: -519321718
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Guid.Data1
-      value: -21981516
+      value: -343253091
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Guid.Data2
-      value: 1339048043
+      value: 1166162651
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Guid.Data3
-      value: 1364795578
+      value: -661199741
       objectReference: {fileID: 0}
     - target: {fileID: 2726935601905848801, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: VoiceLine_5.Guid.Data4
-      value: 1173012356
+      value: 1561890957
       objectReference: {fileID: 0}
     - target: {fileID: 4842623708932115352, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       propertyPath: m_AnchorMax.y
