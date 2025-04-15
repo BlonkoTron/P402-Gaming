@@ -66,16 +66,7 @@ public class FPController : MonoBehaviour
 
 
         // here we calculate the direction our character should be moving based on the camera position
-        Vector3 direction = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movement.normalized;
-
-        if (DrinkingController.bloodAlcoholContent > drunkThreshold)
-        {
-            float drunkMovementFactor = Random.Range(-1, 2);
-
-            Vector3 drunkDirection = transform.right.normalized * drunkMovementFactor;
-
-            direction += drunkDirection;
-        }
+        Vector3 direction = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movement.normalized+DrunkDirection.normalized;
 
 
         //mash it together with the speed to get the disired movement :)
