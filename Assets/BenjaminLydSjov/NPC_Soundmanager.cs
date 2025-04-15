@@ -19,6 +19,7 @@ public class NPC_Soundmanager : MonoBehaviour
     [SerializeField] private EventReference AudioLine_5;
 
     public static NPC_Soundmanager Instance_sound;
+
     InkDialogue inkDialogues;
     public string NPC_Dialog1;
     public string NPC_Dialog2;
