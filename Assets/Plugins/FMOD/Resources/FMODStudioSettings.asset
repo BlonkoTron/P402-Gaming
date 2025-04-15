@@ -453,8 +453,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/BenjaminLydSjov/test_bounce/test_bounce.fspro
-  sourceBankPath: Assets/BenjaminLydSjov/test_bounce/Build
+  sourceProjectPath: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Fmod_SoundLibrary.fspro
+  sourceBankPath: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
