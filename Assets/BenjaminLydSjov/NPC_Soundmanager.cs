@@ -26,6 +26,7 @@ public class NPC_Soundmanager : MonoBehaviour
     public string NPC_Dialog3;
     public string NPC_Dialog4;
     public string NPC_Dialog5;
+
     public void storys()
     {
         inkDialogues = GetComponent<InkDialogue>();
