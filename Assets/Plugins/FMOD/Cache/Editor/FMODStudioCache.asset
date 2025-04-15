@@ -439,7 +439,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638803080730869038
+  lastModified: 638803187511385994
   FileSizes:
   - Name: Desktop
     Value: 3178
@@ -789,7 +789,7 @@ MonoBehaviour:
   - {fileID: -6639285213370105727}
   StringsBanks:
   - {fileID: -4548236906929784810}
-  cacheTime: 638803080730869038
+  cacheTime: 638803187511385994
   cacheVersion: 131623
 --- !u!114 &61100971843844734
 MonoBehaviour:
