@@ -46,4 +46,8 @@ public class AchievementController: MonoBehaviour
         }
         return null;
     }
+    public void ResetAchievements()
+    {
+        unlockedAchievements.Clear();
+    }
 }

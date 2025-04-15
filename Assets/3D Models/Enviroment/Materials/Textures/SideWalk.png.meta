@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 053aa629f18505f44b233d318b7edc64
+<<<<<<<< HEAD:Assets/3D Models/Enviroment/Materials/World materials/SideWalk.png.meta
+guid: 8bd47238a2bab0d44b41558aa0e462dc
+========
+guid: 7ef35940b21e35f4e88c62324da47a12
+>>>>>>>> main:Assets/3D Models/Enviroment/Materials/Textures/SideWalk.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

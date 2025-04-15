@@ -7,7 +7,7 @@ public class Walking_Mixer : MonoBehaviour
 
     private void Awake()
     {
-        Walking = FMODUnity.RuntimeManager.GetBus("bus:/Master/WalkWood");
+        //Walking = FMODUnity.RuntimeManager.GetBus("bus:/Master/WalkWood");
     }
 
     void Update()

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 9cd6824bd7bf7bd459d4686b407f4920
+<<<<<<<< HEAD:Assets/3D Models/Enviroment/Materials/World materials/Wall with window.png.meta
+guid: 2d7da54c9e711b6489498c0032d3c026
+========
+guid: 8e4ae6321aee0dd44bf26917c42a604c
+>>>>>>>> main:Assets/3D Models/Enviroment/Materials/Textures/Wall with window.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

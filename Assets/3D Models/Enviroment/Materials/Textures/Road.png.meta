@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: a2fc05f2b00deba41a1014ddc7333600
+<<<<<<<< HEAD:Assets/3D Models/Enviroment/Materials/World materials/Road.png.meta
+guid: 0387bff38be56ad4a99163d13c1072e5
+========
+guid: 954b7dee39356514e95d6bdb5d28f392
+>>>>>>>> main:Assets/3D Models/Enviroment/Materials/Textures/Road.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

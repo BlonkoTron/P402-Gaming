@@ -1,6 +1,5 @@
-using System.Drawing;
-using FMOD.Studio;
-using FMODUnity;
+using System.Collections;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,27 +9,21 @@ public class FPController : MonoBehaviour
 
     [SerializeField] private Transform cameraTransform;
 
-    EventInstance musicInstance;
-    [SerializeField] private EventReference Walking;
+    [SerializeField] private float drunkThreshold = 1.2f;
 
     private CharacterController cc;
     public Vector3 movement;
     private Vector3 velocity;
+    private Vector3 DrunkDirection;
     private float ySpeed;
 
-    public Walking_Mixer MixerWalk;
-    public float WalkingVolON = 1.0f;
-    public float WalkingVolOFF = 0.0f;
+    private float lerpT = 0;
+    private float lerpMinimum = -1f;
+    private float lerpMaximum = 1f;
 
     private void Awake()
     {
         cc = GetComponent<CharacterController>();
-        MixerWalk = GetComponent<Walking_Mixer>();
-    }
-
-    private void Start()
-    {
-        Audiomanager.instance.PlayOneShot(Walking, transform.position);
     }
 
     private void FixedUpdate()
@@ -43,19 +36,47 @@ public class FPController : MonoBehaviour
 
     private void Move()
     {
-        //Volume for walking turns on/off
-        if (movement.x != 0 || movement.y != 0 || movement.z != 0)
+        if (DrinkingController.bloodAlcoholContent >= drunkThreshold)
         {
-            MixerWalk.WalkingVol = WalkingVolON;
+            if (movement != Vector3.zero)
+            {
+                Vector3 DrunkMovement = new Vector3(Mathf.Lerp(lerpMinimum, lerpMaximum, lerpT), 0, 0);
+
+                lerpT += 0.5f * Time.fixedDeltaTime;
+
+                if (lerpT > 1.0f)
+                {
+                    float temp = lerpMaximum;
+                    lerpMaximum = lerpMinimum;
+                    lerpMinimum = temp;
+                    lerpT = 0.0f;
+                }
+
+                DrunkDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * DrunkMovement.normalized;
+
+            }
+            else
+            {
+                DrunkDirection = Vector3.zero;
+            }
+
+           
         }
-        else
-        {
-            MixerWalk.WalkingVol = WalkingVolOFF;
-        }
-        
+
+
 
         // here we calculate the direction our character should be moving based on the camera position
         Vector3 direction = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movement.normalized;
+
+        if (DrinkingController.bloodAlcoholContent > drunkThreshold)
+        {
+            float drunkMovementFactor = Random.Range(-1, 2);
+
+            Vector3 drunkDirection = transform.right.normalized * drunkMovementFactor;
+
+            direction += drunkDirection;
+        }
+
 
         //mash it together with the speed to get the disired movement :)
         velocity = direction * moveSpeed;
@@ -80,4 +101,5 @@ public class FPController : MonoBehaviour
         movement = input.Get<Vector3>();
     }
     #endregion
+
 }

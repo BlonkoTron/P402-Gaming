@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d23aca01f53e645bed04e3b56afcfb, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 26dfa81ee192eea4a814e7aab77e1c75, type: 3}
   text: Kommer kun for at drikke.
