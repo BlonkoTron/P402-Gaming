@@ -23,7 +23,7 @@ public class JukeBox : Interactable
 
     public void Start()
     {
-        Audiomanager.instance.PlayOneShot(Jukebox1, transform.position);
+        //Audiomanager.instance.PlayOneShot(Jukebox1, transform.position);
     }
 
     public override void Interacted()
@@ -40,7 +40,7 @@ public class JukeBox : Interactable
         {
             if (StartJuke2 == false)
             {
-                Audiomanager.instance.PlayOneShot(Jukebox2, transform.position);
+                //Audiomanager.instance.PlayOneShot(Jukebox2, transform.position);
                 StartJuke2 = true; 
             }
             MixerMod.JukeboxVol1 = VOLOFF;
@@ -51,7 +51,7 @@ public class JukeBox : Interactable
         {
             if (StartJuke3 == false)
             {
-                Audiomanager.instance.PlayOneShot(Jukebox3, transform.position);
+                //Audiomanager.instance.PlayOneShot(Jukebox3, transform.position);
                 StartJuke3 = true;
             }
             MixerMod.JukeboxVol1 = VOLOFF;
