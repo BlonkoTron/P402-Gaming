@@ -136,30 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
-    Guid:
-      Data1: -450309914
-      Data2: 1270663400
-      Data3: 610065078
-      Data4: 142208281
-    Path: event:/Explain_3
-  SFXBALL2:
-    Guid:
-      Data1: 1096384172
-      Data2: 1202030347
-      Data3: 137649565
-      Data4: -2091151129
-    Path: event:/Explain_4
-  SFXBALL3:
-    Guid:
-      Data1: -2011542442
-      Data2: 1237928804
-      Data3: 1341767557
-      Data4: -1316621460
-    Path: event:/Explain_5
-  NPC_Dialog1: Voice11
-  NPC_Dialog2: Voice12
-  NPC_Dialog3: Voice13
 --- !u!1001 &119811978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1673,30 +1649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
-    Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
-    Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  NPC_Dialog1: Voice1
-  NPC_Dialog2: Voice2
-  NPC_Dialog3: Voice3
 --- !u!1 &445422749
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,30 +2031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
-    Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
-    Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  NPC_Dialog1: Voice1
-  NPC_Dialog2: Voice2
-  NPC_Dialog3: Voice3
 --- !u!1 &553993965 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
@@ -2120,30 +2048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
-    Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
-    Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  NPC_Dialog1: Voice1
-  NPC_Dialog2: Voice2
-  NPC_Dialog3: Voice3
 --- !u!1 &556574248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2455,7 +2359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainCam: {fileID: 372659297}
-  npcCam: {fileID: 0}
+  npcCam: {fileID: 816611102}
   activeCam: {fileID: 0}
 --- !u!114 &570902252
 MonoBehaviour:
@@ -2593,30 +2497,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
-    Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
-    Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  NPC_Dialog1: Voice1
-  NPC_Dialog2: Voice2
-  NPC_Dialog3: Voice3
 --- !u!1001 &614326507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2764,6 +2644,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
       insertIndex: 2
       addedObject: {fileID: 889024941}
+    - targetCorrespondingSourceObject: {fileID: 575722729885952111, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 889024948}
   m_SourcePrefab: {fileID: 100100000, guid: e48d63ce3ba4e764393b9a2f6b8d528f, type: 3}
 --- !u!1 &698706769
 GameObject:
@@ -3099,6 +2982,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &816611102 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8388590942197537736, guid: 0628993e94c4a074c950602712a8190f, type: 3}
+  m_PrefabInstance: {fileID: 8824968361308189709}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &826186538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3389,30 +3283,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
+--- !u!114 &889024948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889024927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f1ca98bac01904f872b323cd3bc541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioLine_1:
     Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
+      Data1: 308488888
+      Data2: 1256430023
+      Data3: -182456905
+      Data4: -1227483444
+    Path: event:/Bouncer/BouncerPt1_L1
+  AudioLine_2:
     Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
+      Data1: 328421361
+      Data2: 1177366455
+      Data3: -894798456
+      Data4: 2074524849
+    Path: event:/Bouncer/BouncerPt1_L2
+  AudioLine_3:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -21981516
+      Data2: 1339048043
+      Data3: 1364795578
+      Data4: 1173012356
+    Path: event:/Silence/Silence
+  AudioLine_4:
+    Guid:
+      Data1: -21981516
+      Data2: 1339048043
+      Data3: 1364795578
+      Data4: 1173012356
+    Path: event:/Silence/Silence
+  AudioLine_5:
+    Guid:
+      Data1: -21981516
+      Data2: 1339048043
+      Data3: 1364795578
+      Data4: 1173012356
+    Path: event:/Silence/Silence
   NPC_Dialog1: Voice1
   NPC_Dialog2: Voice2
-  NPC_Dialog3: 
+  NPC_Dialog3: Fill1
+  NPC_Dialog4: Fill2
+  NPC_Dialog5: Fill3
 --- !u!1001 &889648520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5324,30 +5246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d56d190f5b8f4c409f9022382650c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
-    Guid:
-      Data1: 943228160
-      Data2: 1165347304
-      Data3: -1699987833
-      Data4: 812330641
-    Path: event:/Explain_1
-  SFXBALL2:
-    Guid:
-      Data1: -2134912495
-      Data2: 1105386745
-      Data3: 103165620
-      Data4: 1856334240
-    Path: event:/Explain_2
-  SFXBALL3:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  NPC_Dialog1: Voice1
-  NPC_Dialog2: Voice2
-  NPC_Dialog3: Voice3
 --- !u!1 &1848198806
 GameObject:
   m_ObjectHideFlags: 0
@@ -6776,7 +6674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6755898820618741773, guid: 0628993e94c4a074c950602712a8190f, type: 3}
       propertyPath: moveSpeed
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6755898820618741773, guid: 0628993e94c4a074c950602712a8190f, type: 3}
       propertyPath: Walking.Path
