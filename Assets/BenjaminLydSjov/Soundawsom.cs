@@ -19,19 +19,19 @@ public class Soundawsom : MonoBehaviour
         inkDialogues = GetComponent<InkDialogue>();
         inkDialogues.story.BindExternalFunction(NPC_Dialog1, (string soundName) =>
         {
-            Audiomanager.instance.PlayOneShot(SFXBALL, transform.position);
+            //Audiomanager.instance.PlayOneShot(SFXBALL, transform.position);
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog2, (string soundName2) =>
         {
             Debug.Log(soundName2);
-            Audiomanager.instance.PlayOneShot(SFXBALL2, transform.position);
+            //Audiomanager.instance.PlayOneShot(SFXBALL2, transform.position);
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog3, (string soundName3) =>
         {
             Debug.Log(soundName3);
-            Audiomanager.instance.PlayOneShot(SFXBALL3, transform.position);
+            //Audiomanager.instance.PlayOneShot(SFXBALL3, transform.position);
         });
     }
 }

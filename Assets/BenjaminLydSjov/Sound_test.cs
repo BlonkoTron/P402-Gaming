@@ -6,6 +6,7 @@ using FMOD;
 public class Sound_test : MonoBehaviour
 {
     private EventInstance soundInstance;
+    private EventInstance soundInstance2;
     [SerializeField] private EventReference Sound1;
     [SerializeField] private EventReference Sound2;
 
@@ -13,24 +14,38 @@ public class Sound_test : MonoBehaviour
     {
         // Start and hold the event instance so it can be controlled
         soundInstance = RuntimeManager.CreateInstance(Sound1);
-        //Audiomanager.instance.PlayOneShot(Sound1, transform.position);
         soundInstance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
-        soundInstance.start();
     }
 
-    public void Update()
+    void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            SetEffectActive(false);
+            soundInstance = Audiomanager.instance.PlaySound(Sound1, transform.position);
+            soundInstance2 = Audiomanager.instance.PlaySound(Sound2, transform.position);
         }
 
-        if (Input.GetKeyDown("c"))
+        if (Input.GetKeyDown(KeyCode.P)) // For pause
         {
-            SetEffectActive(true);
+            Audiomanager.instance.PauseSound(soundInstance, true);
+            Audiomanager.instance.PauseSound(soundInstance2, true);
         }
 
+        if (Input.GetKeyDown(KeyCode.R)) // For resume
+        {
+            Audiomanager.instance.PauseSound(soundInstance, false);
+            Audiomanager.instance.PauseSound(soundInstance2, false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.S)) // For stop
+        {
+            Audiomanager.instance.StopSound(soundInstance);
+            Audiomanager.instance.StopSound(soundInstance2);
+        }
+        //SetEffectActive(false);
+        //SetEffectActive(true);
     }
+
     //Sets a global bool which turns the effect ON/off
     public void SetEffectActive(bool active)
     {

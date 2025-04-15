@@ -552,14 +552,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70046e27d427fdc48874e92561bebe6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
+  Sound1:
     Guid:
       Data1: 1652818858
       Data2: 1228236015
       Data3: 1663387522
       Data4: 1712658570
     Path: event:/SFX/Barf_1
-  SFXBALL2:
+  Sound2:
     Guid:
       Data1: -380774153
       Data2: 1153516301

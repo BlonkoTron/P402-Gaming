@@ -21,31 +21,31 @@ public class NPC_Soundmanager : MonoBehaviour
         inkDialogues = GetComponent<InkDialogue>();
         inkDialogues.story.BindExternalFunction(NPC_Dialog1, (string soundName) =>
         {
-            Audiomanager.instance.PlayOneShot(VoiceLine_1, transform.position);
+            //Audiomanager.instance.PlayOneShot(VoiceLine_1, transform.position);
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog2, (string soundName2) =>
         {
             Debug.Log(soundName2);
-            Audiomanager.instance.PlayOneShot(VoiceLine_2, transform.position);
+            //Audiomanager.instance.PlayOneShot(VoiceLine_2, transform.position);
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog3, (string soundName3) =>
         {
             Debug.Log(soundName3);
-            Audiomanager.instance.PlayOneShot(VoiceLine_3, transform.position);
+            //Audiomanager.instance.PlayOneShot(VoiceLine_3, transform.position);
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog4, (string soundName4) =>
         {
             Debug.Log(soundName4);
-            Audiomanager.instance.PlayOneShot(VoiceLine_4, transform.position);
+            //Audiomanager.instance.PlayOneShot(VoiceLine_4, transform.position);
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog5, (string soundName5) =>
         {
             Debug.Log(soundName5);
-            Audiomanager.instance.PlayOneShot(VoiceLine_5, transform.position);
+            //Audiomanager.instance.PlayOneShot(VoiceLine_5, transform.position);
         });
     }
 }
