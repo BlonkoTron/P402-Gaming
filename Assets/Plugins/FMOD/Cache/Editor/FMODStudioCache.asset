@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9050874249188784758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Jukebox_2
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Jukebox_2
+  Guid:
+    Data1: 593378472
+    Data2: 1309385893
+    Data3: -1588856695
+    Data4: 1189816463
+  Banks:
+  - {fileID: 3462737054142401594}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48860
 --- !u!114 &-8926831063787324932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,7 +284,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638803991399736926
+  lastModified: 638804080062502179
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -567,10 +594,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638803991399756948
+  lastModified: 638804080062542045
   FileSizes:
   - Name: Desktop
-    Value: 3698
+    Value: 3866
   Exists: 1
 --- !u!114 &-4459933666598788116
 MonoBehaviour:
@@ -970,6 +997,7 @@ MonoBehaviour:
   - {fileID: -8212723262227036489}
   - {fileID: -6507516901880867278}
   - {fileID: -1832863321922865338}
+  - {fileID: 3462737054142401594}
   EditorEvents:
   - {fileID: 340928232822821172}
   - {fileID: -5486346748250448730}
@@ -1023,12 +1051,15 @@ MonoBehaviour:
   - {fileID: -5698381337158665651}
   - {fileID: -8167876357728895716}
   - {fileID: -3497730408664594639}
+  - {fileID: 2744897780591950014}
+  - {fileID: -9050874249188784758}
+  - {fileID: 470093017947087354}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6639285213370105727}
   StringsBanks:
   - {fileID: -4548236906929784810}
-  cacheTime: 638803991513076612
+  cacheTime: 638804080097654412
   cacheVersion: 131623
 --- !u!114 &61100971843844734
 MonoBehaviour:
@@ -1084,6 +1115,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 28826
+--- !u!114 &470093017947087354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Jukebox_3
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Jukebox_3
+  Guid:
+    Data1: -1142225214
+    Data2: 1109581244
+    Data3: 911183256
+    Data4: 886223380
+  Banks:
+  - {fileID: 3462737054142401594}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7524
 --- !u!114 &504947882351560013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1374,6 +1432,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9283
+--- !u!114 &2744897780591950014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Jukebox_1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Jukebox_1
+  Guid:
+    Data1: -1893082015
+    Data2: 1248844890
+    Data3: -1019497068
+    Data4: -704507386
+  Banks:
+  - {fileID: 3462737054142401594}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 114000
 --- !u!114 &2884394720114463997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1448,6 +1533,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1759
+--- !u!114 &3462737054142401594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638804080097654412
+  FileSizes:
+  - Name: Desktop
+    Value: 2083264
+  Exists: 1
 --- !u!114 &3500977361762822514
 MonoBehaviour:
   m_ObjectHideFlags: 0
