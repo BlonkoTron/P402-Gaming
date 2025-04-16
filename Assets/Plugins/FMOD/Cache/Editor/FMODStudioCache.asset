@@ -67,6 +67,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 45504
   Exists: 1
+--- !u!114 &-8167876357728895716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/GlassDink
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/GlassDink
+  Guid:
+    Data1: -1552010077
+    Data2: 1224474100
+    Data3: 322049467
+    Data4: 1544039700
+  Banks:
+  - {fileID: -1832863321922865338}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1004
 --- !u!114 &-8149267887458470995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,6 +121,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1576
+--- !u!114 &-7897709235790802097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/Carpassing
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/Carpassing
+  Guid:
+    Data1: 443970862
+    Data2: 1113422106
+    Data3: 862987694
+    Data4: -1994513804
+  Banks:
+  - {fileID: -1832863321922865338}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20462
 --- !u!114 &-7749595594822488252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,7 +257,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638803962286629423
+  lastModified: 638803991399736926
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -336,6 +390,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1711
+--- !u!114 &-5804188989422661180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/Cough
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/Cough
+  Guid:
+    Data1: -2028339331
+    Data2: 1330266285
+    Data3: -1674808932
+    Data4: 918760267
+  Banks:
+  - {fileID: -1832863321922865338}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1385
+--- !u!114 &-5698381337158665651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/Paopleoutside
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/Paopleoutside
+  Guid:
+    Data1: 404096898
+    Data2: 1113780266
+    Data3: -190723698
+    Data4: -433730785
+  Banks:
+  - {fileID: -1832863321922865338}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28176
 --- !u!114 &-5688294905193188407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459,10 +567,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638803962286669261
+  lastModified: 638803991399756948
   FileSizes:
   - Name: Desktop
-    Value: 3348
+    Value: 3698
   Exists: 1
 --- !u!114 &-4459933666598788116
 MonoBehaviour:
@@ -511,6 +619,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2076
+--- !u!114 &-3497730408664594639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/PeopleTalking
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/PeopleTalking
+  Guid:
+    Data1: -676012628
+    Data2: 1206490918
+    Data3: -1291951213
+    Data4: -117988748
+  Banks:
+  - {fileID: -1832863321922865338}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 370552
 --- !u!114 &-3179315396868118742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -632,6 +767,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 31269
+--- !u!114 &-1832863321922865338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/BarAmbience.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/BarAmbience.bank
+  Name: BarAmbience
+  StudioPath: bank:/BarAmbience
+  lastModified: 638803991513076612
+  FileSizes:
+  - Name: Desktop
+    Value: 4849984
+  Exists: 1
 --- !u!114 &-1688521372904934160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -814,6 +969,7 @@ MonoBehaviour:
   - {fileID: -7749595594822488252}
   - {fileID: -8212723262227036489}
   - {fileID: -6507516901880867278}
+  - {fileID: -1832863321922865338}
   EditorEvents:
   - {fileID: 340928232822821172}
   - {fileID: -5486346748250448730}
@@ -861,12 +1017,18 @@ MonoBehaviour:
   - {fileID: 4039528788930129222}
   - {fileID: -3055339057516333412}
   - {fileID: -74612198410330834}
+  - {fileID: -7897709235790802097}
+  - {fileID: 661329334457361799}
+  - {fileID: -5804188989422661180}
+  - {fileID: -5698381337158665651}
+  - {fileID: -8167876357728895716}
+  - {fileID: -3497730408664594639}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6639285213370105727}
   StringsBanks:
   - {fileID: -4548236906929784810}
-  cacheTime: 638803962287401397
+  cacheTime: 638803991513076612
   cacheVersion: 131623
 --- !u!114 &61100971843844734
 MonoBehaviour:
@@ -996,6 +1158,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4663
+--- !u!114 &661329334457361799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/BeerPour
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/BeerPour
+  Guid:
+    Data1: 1706065759
+    Data2: 1217965674
+    Data3: -230959226
+    Data4: 1101613137
+  Banks:
+  - {fileID: -1832863321922865338}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9000
 --- !u!114 &775841746254954306
 MonoBehaviour:
   m_ObjectHideFlags: 0
