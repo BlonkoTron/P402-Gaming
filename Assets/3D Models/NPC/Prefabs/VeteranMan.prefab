@@ -630,7 +630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8151543301611232490}
   m_Layer: 0
-  m_Name: Spine0
+  m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -922,7 +922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5281839104537931425}
   m_Layer: 0
-  m_Name: Spine1
+  m_Name: Bone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1673,7 +1673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4805543572665672634}
   m_Layer: 0
-  m_Name: Spine3
+  m_Name: Bone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2196,7 +2196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5102648315739822436}
-  - component: {fileID: 1999851867463135363}
+  - component: {fileID: 9059603680355419365}
   m_Layer: 0
   m_Name: VeteranMan
   m_TagString: Untagged
@@ -2221,7 +2221,7 @@ Transform:
   - {fileID: 8741674866300776610}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1999851867463135363
+--- !u!95 &9059603680355419365
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -2232,9 +2232,9 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 5c44bf4a1b0615f48b3a1a3c1f16c060, type: 3}
   m_Controller: {fileID: 9100000, guid: 843ae4d6e010fc249bb32a858969fbe1, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -2317,7 +2317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7029835071358335416}
   m_Layer: 0
-  m_Name: Neck
+  m_Name: Bone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
