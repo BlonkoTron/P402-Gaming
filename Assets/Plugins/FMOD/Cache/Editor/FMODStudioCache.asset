@@ -143,7 +143,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ToiletSounds.bank
   Name: ToiletSounds
   StudioPath: bank:/ToiletSounds
-  lastModified: 638804093019516143
+  lastModified: 638804101370121076
   FileSizes:
   - Name: Desktop
     Value: 948160
@@ -432,10 +432,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638804093019395417
+  lastModified: 638804105594101461
   FileSizes:
   - Name: Desktop
-    Value: 2083264
+    Value: 2083360
   Exists: 1
 --- !u!114 &-7445222385714122950
 MonoBehaviour:
@@ -1065,7 +1065,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/BarAmbience.bank
   Name: BarAmbience
   StudioPath: bank:/BarAmbience
-  lastModified: 638804093019164880
+  lastModified: 638804101482983101
   FileSizes:
   - Name: Desktop
     Value: 4849984
@@ -2055,7 +2055,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638804093019516143
+  cacheTime: 638804105594101461
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -2713,7 +2713,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638804080062502179
+  lastModified: 638804101348835064
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -3009,7 +3009,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638804093019194421
+  lastModified: 638804101348875028
   FileSizes:
   - Name: Desktop
     Value: 3866

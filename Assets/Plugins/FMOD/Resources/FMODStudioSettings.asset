@@ -479,16 +479,18 @@ MonoBehaviour:
   - Master
   Banks:
   - ArmyGuy
+  - BarAmbience
   - Bartender
   - Bouncer
-  - ClubMusic
   - HotPerson
   - Jock
+  - Music
   - Nerds
   - Sadguy
   - SFX_Extra
   - Silence
   - TheFriend
+  - ToiletSounds
   - TooMuchMan
   BanksToLoad: []
   LiveUpdatePort: 9264

@@ -18,7 +18,7 @@ public class RandomAmbience : MonoBehaviour
     // Update is called once per frame NO SHIT SHERLOCK
     void Update()
     {
-        RandomINT1= Random.Range(0, 1000);
+        RandomINT1= Random.Range(0, 500);
         //print(RandomINT1);
         if (RandomINT1 == 69)
         {

@@ -525,9 +525,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 0.5
-  OverrideMaxDistance: 2
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &75768382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,11 +542,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sound1:
     Guid:
-      Data1: 1775636849
-      Data2: 1287891947
-      Data3: -213503868
-      Data4: -780323641
-    Path: event:/ToiletSoundscape/Sink
+      Data1: -21981516
+      Data2: 1339048043
+      Data3: 1364795578
+      Data4: 1173012356
+    Path: event:/Silence/Silence
   Sound2:
     Guid:
       Data1: -69583043
@@ -2588,6 +2588,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9a29a08f810bca54fb1719ef1071189c, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 1046092562}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9a29a08f810bca54fb1719ef1071189c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1046092558}
   m_SourcePrefab: {fileID: 100100000, guid: 9a29a08f810bca54fb1719ef1071189c, type: 3}
@@ -2608,7 +2611,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046092557}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5eb08b718fd56994d9e0ca5b6f1d0c18, type: 3}
   m_Name: 
@@ -2635,6 +2638,27 @@ MonoBehaviour:
       Data4: 886223380
     Path: event:/Music/Jukebox_3
   SwitchCount: 1
+--- !u!65 &1046092562
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046092557}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6535761, y: 0.30831578, z: 0.30146962}
+  m_Center: {x: -0.067607224, y: 0.033140674, z: -0.14073473}
 --- !u!1001 &1052330384
 PrefabInstance:
   m_ObjectHideFlags: 0
