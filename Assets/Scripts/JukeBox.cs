@@ -23,6 +23,7 @@ public class JukeBox : Interactable
 
     public override void Interacted()
     {
+        Debug.Log("YAH");
         SwitchCount = SwitchCount + 1;
 
         if (SwitchCount == 1)

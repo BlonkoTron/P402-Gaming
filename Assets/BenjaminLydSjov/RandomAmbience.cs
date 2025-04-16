@@ -19,7 +19,7 @@ public class RandomAmbience : MonoBehaviour
     void Update()
     {
         RandomINT1= Random.Range(0, 1000);
-        print(RandomINT1);
+        //print(RandomINT1);
         if (RandomINT1 == 69)
         {
             soundInstance = Audiomanager.instance.PlaySound(Sound1, transform.position);
