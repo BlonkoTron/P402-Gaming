@@ -453,8 +453,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/BenjaminLydSjov/test_bounce/test_bounce.fspro
-  sourceBankPath: Assets/BenjaminLydSjov/test_bounce/Build
+  sourceProjectPath: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Fmod_SoundLibrary.fspro
+  sourceBankPath: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -478,7 +478,17 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Explain
+  - ArmyGuy
+  - Bartender
+  - Bouncer
+  - HotPerson
+  - Jock
+  - Nerds
+  - Sadguy
+  - SFX_Extra
+  - Silence
+  - TheFriend
+  - TooMuchMan
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
@@ -491,7 +501,7 @@ MonoBehaviour:
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131623
-  HideSetupWizard: 0
+  HideSetupWizard: 1
   LastEventReferenceScanVersion: 131623
   Platforms:
   - {fileID: -8165764801162399044}

@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14739737}
   - component: {fileID: 14739736}
+  - component: {fileID: 14739738}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -216,6 +217,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &14739738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14739735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &192229847
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,6 +251,7 @@ GameObject:
   - component: {fileID: 192229850}
   - component: {fileID: 192229849}
   - component: {fileID: 192229851}
+  - component: {fileID: 192229852}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -314,6 +339,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 1160398186}
+--- !u!114 &192229852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192229847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &383941615
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,9 +427,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c9526fd28407842870b79d804b8d1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MusicVolume: 0.5
-  SFXVolume: 0.5
-  MasterVolume: 1
+  JukeboxVol1: 0.5
+  JukeboxVol2: 0.5
+  JukeboxVol3: 0.5
+  MasterVol: 1
 --- !u!1 &1160398186
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +495,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6fc1bd2526b523542a679c91b505cbe9, type: 2}
+  - {fileID: 2100000, guid: a8cba008de4ee0743ae928ef678becda, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -482,20 +552,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70046e27d427fdc48874e92561bebe6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFXBALL:
+  Sound1:
     Guid:
-      Data1: -2145036231
-      Data2: 1239249881
-      Data3: 1018920863
-      Data4: 2064292587
-    Path: event:/Test_1
-  SFXBALL2:
+      Data1: 1652818858
+      Data2: 1228236015
+      Data3: 1663387522
+      Data4: 1712658570
+    Path: event:/SFX/Barf_1
+  Sound2:
     Guid:
-      Data1: 343109476
-      Data2: 1113742609
-      Data3: -1956031828
-      Data4: -555608454
-    Path: event:/Test_2
+      Data1: -380774153
+      Data2: 1153516301
+      Data3: -1124248669
+      Data4: -1370186477
+    Path: event:/SFX/Barf_2
 --- !u!1 &1399332538
 GameObject:
   m_ObjectHideFlags: 0
