@@ -33,6 +33,7 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{0c3c433e-c27f-4ed0-808e-36f8ac46bc84}</destination>
+			<destination>{76e073a1-e994-48ae-83ce-a8aac3566087}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{7c0bd61d-f9bc-4aac-bb19-8c6d3343a284}</destination>
@@ -46,6 +47,7 @@
 	<object class="MasterTrack" id="{d1da2446-7ced-488d-9f19-2d96ef71fca8}">
 		<relationship name="automationTracks">
 			<destination>{229c58dc-eef6-469e-b9aa-f0f7a0111dbb}</destination>
+			<destination>{62d6065f-6c79-468f-a63e-4f0f37f23e97}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e11ac99b-be9c-4d9d-aaf5-de7fcd9a1c0e}</destination>
@@ -86,7 +88,15 @@
 			<destination>{21083128-88b0-4731-9967-658f1f961a35}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{76e073a1-e994-48ae-83ce-a8aac3566087}">
+		<relationship name="preset">
+			<destination>{95e97793-c0d4-4346-82d1-0d5c97a3fae6}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{e11ac99b-be9c-4d9d-aaf5-de7fcd9a1c0e}">
+		<relationship name="automators">
+			<destination>{9c8659e3-84d8-4a76-b4bc-9d8548e72263}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{ebd829d9-f7d0-48d7-a60f-5a95fcb429bc}</destination>
 		</relationship>
@@ -100,6 +110,11 @@
 	<object class="AutomationTrack" id="{229c58dc-eef6-469e-b9aa-f0f7a0111dbb}">
 		<relationship name="automator">
 			<destination>{45d87222-4def-40ac-87cc-3ecb33cb208e}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{62d6065f-6c79-468f-a63e-4f0f37f23e97}">
+		<relationship name="automator">
+			<destination>{9c8659e3-84d8-4a76-b4bc-9d8548e72263}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{11cbd1b2-0bab-423e-9d80-9b63cb8384ba}">
@@ -130,6 +145,14 @@
 			<destination>{e11ac99b-be9c-4d9d-aaf5-de7fcd9a1c0e}</destination>
 		</relationship>
 	</object>
+	<object class="Automator" id="{9c8659e3-84d8-4a76-b4bc-9d8548e72263}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{09ef53f0-d22a-48b7-b9b1-7c31c467275f}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{ebd829d9-f7d0-48d7-a60f-5a95fcb429bc}">
 		<relationship name="effects">
 			<destination>{b9445993-354f-481e-9d07-a485d8000cd6}</destination>
@@ -145,6 +168,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{eb20d707-6ada-4705-8d89-4f23efaaa073}" />
+	<object class="AutomationCurve" id="{09ef53f0-d22a-48b7-b9b1-7c31c467275f}">
+		<relationship name="parameter">
+			<destination>{95e97793-c0d4-4346-82d1-0d5c97a3fae6}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{982f54e0-183f-4e61-9061-c2f2cbc9801a}</destination>
+			<destination>{6d26eaa5-593d-4526-8d72-0309f68d0a09}</destination>
+		</relationship>
+	</object>
 	<object class="LowpassEffect" id="{b9445993-354f-481e-9d07-a485d8000cd6}">
 		<relationship name="automators">
 			<destination>{45d87222-4def-40ac-87cc-3ecb33cb208e}</destination>
@@ -153,6 +185,22 @@
 	<object class="MixerBusFader" id="{386e457f-5a1f-4a41-be60-6c6025511445}" />
 	<object class="SpatialiserEffect" id="{0aae60de-e0bf-49d9-bbad-3ce9eeafa017}" />
 	<object class="MixerBusFader" id="{7fc04f5f-5058-4f6b-b092-f56b922ca97f}" />
+	<object class="AutomationPoint" id="{982f54e0-183f-4e61-9061-c2f2cbc9801a}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{6d26eaa5-593d-4526-8d72-0309f68d0a09}">
+		<property name="position">
+			<value>50</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="Automator" id="{45d87222-4def-40ac-87cc-3ecb33cb208e}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>cutoff</value>
