@@ -20,8 +20,8 @@ public class Occlusion : MonoBehaviour
     [SerializeField]
     private LayerMask OcclusionLayerMask;
     [SerializeField]
-    [Range(0f, 15f)]
-    private float MaxDistance = 15f;
+    [Range(0f, 30f)]
+    private float MaxDistance = 30f;
     private bool AudioIsVirtual;
     private float DistanceToListener = 0f;
     private float linecastHitCount;

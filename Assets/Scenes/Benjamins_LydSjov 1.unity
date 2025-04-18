@@ -581,13 +581,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -676012628
-      Data2: 1206490918
-      Data3: -1291951213
-      Data4: -117988748
-    Path: event:/Barambience/PeopleTalking
+      Data1: -2028339331
+      Data2: 1330266285
+      Data3: -1674808932
+      Data4: 918760267
+    Path: event:/Barambience/Cough
   SoundOcclusionWidth: 1
-  PlayerOcclusionWidth: 1
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 16
