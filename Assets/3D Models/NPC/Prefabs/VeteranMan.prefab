@@ -2196,7 +2196,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5102648315739822436}
+  - component: {fileID: 7944750290012182018}
   - component: {fileID: 9059603680355419365}
+  - component: {fileID: 8102513225510106534}
   m_Layer: 0
   m_Name: VeteranMan
   m_TagString: Untagged
@@ -2221,6 +2223,30 @@ Transform:
   - {fileID: 8741674866300776610}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7944750290012182018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8974197745433190209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfe18fe91851854fa79d3a09a7b89c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnStartStory:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEndStory:
+    m_PersistentCalls:
+      m_Calls: []
+  inkJSONAsset: {fileID: 0}
+  dialogueTextField: {fileID: 0}
+  buttonPrefab: {fileID: 0}
+  buttonParent: {fileID: 0}
+  textSpeed: 0.05
+  dialogueCanvas: {fileID: 0}
 --- !u!95 &9059603680355419365
 Animator:
   serializedVersion: 7
@@ -2243,6 +2269,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8102513225510106534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8974197745433190209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182701d5419b25546b2f00d6bf5c6a85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9113323588126459201
 GameObject:
   m_ObjectHideFlags: 0
