@@ -456,7 +456,7 @@ MonoBehaviour:
   sourceProjectPath: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Fmod_SoundLibrary.fspro
   sourceBankPath: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build
   sourceBankPathUnformatted: 
-  BankRefreshCooldown: 5
+  BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -479,15 +479,18 @@ MonoBehaviour:
   - Master
   Banks:
   - ArmyGuy
+  - BarAmbience
   - Bartender
   - Bouncer
   - HotPerson
   - Jock
+  - Music
   - Nerds
   - Sadguy
   - SFX_Extra
   - Silence
   - TheFriend
+  - ToiletSounds
   - TooMuchMan
   BanksToLoad: []
   LiveUpdatePort: 9264

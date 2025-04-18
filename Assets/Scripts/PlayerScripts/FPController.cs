@@ -52,7 +52,7 @@ public class FPController : MonoBehaviour
                     lerpT = 0.0f;
                 }
 
-                DrunkDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * DrunkMovement.normalized;
+                //DrunkDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * DrunkMovement.normalized;
 
             }
             else
