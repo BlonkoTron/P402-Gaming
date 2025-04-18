@@ -18,8 +18,14 @@ EditorBuildSettings:
     path: Assets/Scenes/In build/Cutscene 20-22.unity
     guid: 33b8cedf67288594cbe865aad200ba6c
   - enabled: 1
+    path: Assets/Scenes/In build/Scene2.unity
+    guid: eeb957b63d2d60e4ab6e0d2ab116e1f0
+  - enabled: 1
     path: Assets/Scenes/In build/Cutscene 22-00.unity
     guid: 97570784593cd644bb5516928c60feec
+  - enabled: 1
+    path: Assets/Scenes/In build/Scene3.unity
+    guid: 151036880b30da348abd5ead80228c35
   - enabled: 1
     path: Assets/Scenes/In build/EndScene.unity
     guid: 898b264709a8cca42a5de1d5a0fbe26a
