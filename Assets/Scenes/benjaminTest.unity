@@ -816,6 +816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 293016951}
   - component: {fileID: 293016950}
+  - component: {fileID: 293016952}
   m_Layer: 0
   m_Name: SoundMan_FMOD
   m_TagString: Soundman
@@ -850,6 +851,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &293016952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293016949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac436ec97f96ef64bac30fb306c4d415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sound1:
+    Guid:
+      Data1: 1652818858
+      Data2: 1228236015
+      Data3: 1663387522
+      Data4: 1712658570
+    Path: event:/SFX/Barf_1
+  Sound2:
+    Guid:
+      Data1: -380774153
+      Data2: 1153516301
+      Data3: -1124248669
+      Data4: -1370186477
+    Path: event:/SFX/Barf_2
 --- !u!1001 &316569482
 PrefabInstance:
   m_ObjectHideFlags: 0

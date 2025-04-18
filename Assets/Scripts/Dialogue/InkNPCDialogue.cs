@@ -6,7 +6,6 @@ using Unity.Cinemachine;
 
 public class InkNPCDialogue: InkDialogue
 {
-    [SerializeField] private CinemachineCamera dialogueCam;
     [SerializeField] private GameObject dialogueCanvas;
 
     void Awake()
