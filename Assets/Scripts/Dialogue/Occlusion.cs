@@ -111,23 +111,21 @@ public class Occlusion : MonoBehaviour
     
     private Vector3 CalculatePoint(Vector3 a, Vector3 b, float m, bool PositiveOrNegative)
     {
-        float x;
-        float z;
-        float n = Vector3.Distance(new Vector3(a.x, 0f, a.z), new Vector3(b.x, 0f, b.z));
-        float mn = m / n;
-        if(PositiveOrNegative)
-        {
-            x = a.x + (mn*(a.x - b.x));
-            z = a.z - (mn*(a.z - b.z));
+        // Direction vector from point a to point b
+        Vector3 direction = (b - a).normalized;
 
+        // Perpendicular vector to the direction (on the XZ plane)
+        Vector3 perpendicular = new Vector3(-direction.z, 0f, direction.x);
+
+        // Offset the point based on the perpendicular vector
+        if (PositiveOrNegative)
+        {
+            return a + perpendicular * m; // Offset to the "left"
         }
         else
         {
-            x = a.x - (mn*(a.x - b.x));
-            z = a.z + (mn*(a.z - b.z));
+            return a - perpendicular * m; // Offset to the "right"
         }
-        return new Vector3(x, a.y, z);
-
     }
     
     private void CastLine(Vector3 Start, Vector3 End)
