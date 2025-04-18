@@ -4165,10 +4165,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadLamp (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2884851250116106862, guid: 9b1a843ff1d6c294397074c565dd9005, type: 3}
-      propertyPath: m_AdditionalLightsShadowResolutionTier
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4258,14 +4254,6 @@ PrefabInstance:
       value: Lamp (7)
       objectReference: {fileID: 0}
     - target: {fileID: 4499758376699052279, guid: e15b170d8721c024d965ae84956013ce, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 4.197157
-      objectReference: {fileID: 0}
-    - target: {fileID: 4499758376699052279, guid: e15b170d8721c024d965ae84956013ce, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4.197157
-      objectReference: {fileID: 0}
-    - target: {fileID: 4499758376699052279, guid: e15b170d8721c024d965ae84956013ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2800002
       objectReference: {fileID: 0}
@@ -4303,10 +4291,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4499758376699052279, guid: e15b170d8721c024d965ae84956013ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5304043181055633091, guid: e15b170d8721c024d965ae84956013ce, type: 3}
-      propertyPath: m_AdditionalLightsShadowResolutionTier
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
