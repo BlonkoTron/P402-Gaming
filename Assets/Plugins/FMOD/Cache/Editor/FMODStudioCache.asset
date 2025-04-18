@@ -15,10 +15,34 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bartender.bank
   Name: Bartender
   StudioPath: bank:/Bartender
-  lastModified: 638805789677979016
+  lastModified: 638802341846646744
   FileSizes:
   - Name: Desktop
     Value: 129600
+  Exists: 1
+--- !u!114 &-9115896004864665006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sink/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-9050874249188784758
 MonoBehaviour:
@@ -143,7 +167,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ToiletSounds.bank
   Name: ToiletSounds
   StudioPath: bank:/ToiletSounds
-  lastModified: 638805789685101230
+  lastModified: 638805809353076620
   FileSizes:
   - Name: Desktop
     Value: 949248
@@ -365,7 +389,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Sadguy.bank
   Name: Sadguy
   StudioPath: bank:/Sadguy
-  lastModified: 638805789682580266
+  lastModified: 638802341847222052
   FileSizes:
   - Name: Desktop
     Value: 332928
@@ -414,7 +438,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 1650737437517952188}
+  - {fileID: -683883722606289767}
   MinDistance: 1
   MaxDistance: 20
   Length: 1385
@@ -433,7 +457,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638805789681046132
+  lastModified: 638805773583969993
   FileSizes:
   - Name: Desktop
     Value: 2083360
@@ -590,6 +614,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3855
+--- !u!114 &-6791142989677027341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Barf_1/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6697319154095062736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -679,7 +727,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/HotPerson.bank
   Name: HotPerson
   StudioPath: bank:/HotPerson
-  lastModified: 638805789679276740
+  lastModified: 638802341846720552
   FileSizes:
   - Name: Desktop
     Value: 59552
@@ -800,7 +848,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TheFriend.bank
   Name: TheFriend
   StudioPath: bank:/TheFriend
-  lastModified: 638805789684750896
+  lastModified: 638802341847825801
   FileSizes:
   - Name: Desktop
     Value: 871840
@@ -1114,10 +1162,34 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/BarAmbience.bank
   Name: BarAmbience
   StudioPath: bank:/BarAmbience
-  lastModified: 638805789676908017
+  lastModified: 638805809352898053
   FileSizes:
   - Name: Desktop
     Value: 4851616
+  Exists: 1
+--- !u!114 &-4888501306877332465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BeerPour/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-4856362278820411282
 MonoBehaviour:
@@ -1161,7 +1233,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638805789675157391
+  lastModified: 638802341846591566
   FileSizes:
   - Name: Desktop
     Value: 1223936
@@ -1232,6 +1304,30 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 126560
+  Exists: 1
+--- !u!114 &-4368596322501954119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PeopleTalking/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-4115386130038179380
 MonoBehaviour:
@@ -1437,7 +1533,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/SFX_Extra.bank
   Name: SFX_Extra
   StudioPath: bank:/SFX_Extra
-  lastModified: 638805789683212159
+  lastModified: 638805809352944838
   FileSizes:
   - Name: Desktop
     Value: 91712
@@ -1531,7 +1627,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Jock.bank
   Name: Jock
   StudioPath: bank:/Jock
-  lastModified: 638805789680122102
+  lastModified: 638802341846751332
   FileSizes:
   - Name: Desktop
     Value: 126560
@@ -1699,7 +1795,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bouncer.bank
   Name: Bouncer
   StudioPath: bank:/Bouncer
-  lastModified: 638805789678581608
+  lastModified: 638802341846688165
   FileSizes:
   - Name: Desktop
     Value: 56192
@@ -1728,7 +1824,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 1301521866135552086}
+  - {fileID: -6791142989677027341}
   MinDistance: 1
   MaxDistance: 20
   Length: 4995
@@ -1756,7 +1852,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 3391292315726681544}
+  - {fileID: -887820032725271511}
   MinDistance: 1
   MaxDistance: 20
   Length: 3720
@@ -1841,6 +1937,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1711
+--- !u!114 &-887820032725271511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ToiletFlush/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-853475196818490320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1883,7 +2003,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TooMuchMan.bank
   Name: TooMuchMan
   StudioPath: bank:/TooMuchMan
-  lastModified: 638805789686321432
+  lastModified: 638802341847862075
   FileSizes:
   - Name: Desktop
     Value: 45504
@@ -1935,6 +2055,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1485
+--- !u!114 &-683883722606289767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cough/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-531196328115607949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1986,7 +2130,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -5233381360069336077}
+  - {fileID: -9115896004864665006}
   MinDistance: 1
   MaxDistance: 20
   Length: 10000
@@ -2107,7 +2251,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638805789686321432
+  cacheTime: 638805809353076620
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -2214,7 +2358,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -7231431840089595906}
+  - {fileID: -4368596322501954119}
   MinDistance: 1
   MaxDistance: 20
   Length: 370552
@@ -2814,7 +2958,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638805789680253309
+  lastModified: 638802341846781684
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -2924,7 +3068,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 5974612717025493508}
+  - {fileID: 7097541130725165472}
   MinDistance: 1
   MaxDistance: 20
   Length: 3379
@@ -2990,7 +3134,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Nerds.bank
   Name: Nerds
   StudioPath: bank:/Nerds
-  lastModified: 638805789681796189
+  lastModified: 638802341847067701
   FileSizes:
   - Name: Desktop
     Value: 232448
@@ -3135,7 +3279,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638805789680282981
+  lastModified: 638805809352908233
   FileSizes:
   - Name: Desktop
     Value: 3918
@@ -3692,6 +3836,30 @@ MonoBehaviour:
   - Name: Desktop
     Value: 47712
   Exists: 1
+--- !u!114 &7097541130725165472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Barf_2/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &7466109633654924792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3754,7 +3922,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Silence.bank
   Name: Silence
   StudioPath: bank:/Silence
-  lastModified: 638805789683695675
+  lastModified: 638802341847440397
   FileSizes:
   - Name: Desktop
     Value: 2240
@@ -3810,7 +3978,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 6663888290585769809}
+  - {fileID: -4888501306877332465}
   MinDistance: 1
   MaxDistance: 20
   Length: 6200
