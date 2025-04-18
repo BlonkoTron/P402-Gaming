@@ -9,7 +9,6 @@ public class FPController : MonoBehaviour
     [SerializeField] private float rotationSpeed = 3f;
 
     [SerializeField] private Transform cameraTransform;
-    [SerializeField] private Transform armatureTransform;
 
     [SerializeField] private float drunkThreshold = 1.2f;
 
