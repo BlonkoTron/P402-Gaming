@@ -581,16 +581,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -1191545173
-      Data2: 1157066059
-      Data3: 902954148
-      Data4: 1507649496
-    Path: event:/TalkingBackground
+      Data1: -676012628
+      Data2: 1206490918
+      Data3: -1291951213
+      Data4: -117988748
+    Path: event:/Barambience/PeopleTalking
   SoundOcclusionWidth: 1
   PlayerOcclusionWidth: 1
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 16
+  MaxDistance: 15
 --- !u!1 &1399332538
 GameObject:
   m_ObjectHideFlags: 0

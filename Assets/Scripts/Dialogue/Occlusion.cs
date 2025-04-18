@@ -18,14 +18,12 @@ public class Occlusion : MonoBehaviour
     [Range(0f, 5f)]
     private float SoundOcclusionWidth = 1f;
     [SerializeField]
-    [Range(0f, 5f)]
-    private float PlayerOcclusionWidth = 1f;
-    [SerializeField]
     private LayerMask OcclusionLayerMask;
-
-    private float MaxDistance;
+    [SerializeField]
+    [Range(0f, 15f)]
+    private float MaxDistance = 15f;
     private bool AudioIsVirtual;
-    private float DistanceToListener;
+    private float DistanceToListener = 0f;
     private float linecastHitCount;
     private Color rayColor; 
 
@@ -50,7 +48,27 @@ public class Occlusion : MonoBehaviour
         Sound.getPlaybackState(out PBS);
         DistanceToListener = Vector3.Distance(Listener.transform.position, transform.position);
 
-        if(!AudioIsVirtual && PBS == PLAYBACK_STATE.PLAYING) OcclusionCalcaulation(transform.position, Listener.transform.position);
+        if (DistanceToListener > MaxDistance)
+        {
+            if (PBS == PLAYBACK_STATE.PLAYING)
+            {
+                Sound.setPaused(true); // Pause the sound when out of range
+            }
+            return; // Exit the method to avoid further calculations
+        }
+
+        if (DistanceToListener <= MaxDistance)
+        {
+            if (PBS == PLAYBACK_STATE.PLAYING || PBS == PLAYBACK_STATE.STOPPED)
+            {
+                Sound.setPaused(false); // Resume the sound when back in range
+            }
+        }
+
+        if (!AudioIsVirtual && PBS == PLAYBACK_STATE.PLAYING)
+        {
+            OcclusionCalcaulation(transform.position, Listener.transform.position);
+        }
 
         linecastHitCount = 0f;
     }
@@ -63,12 +81,7 @@ public class Occlusion : MonoBehaviour
        Vector3 ListenLeft = CalculatePoint (sound, listener, SoundOcclusionWidth, true);
        Vector3 ListenRight = CalculatePoint (sound, listener, SoundOcclusionWidth, true);
 
-       Vector3 SoundAbove = new Vector3 (sound.x, sound.y + SoundOcclusionWidth, sound.z);
-       Vector3 SoundUnder = new Vector3 (sound.x, sound.y + SoundOcclusionWidth, sound.z);
-
-       Vector3 ListenAbove = new Vector3 (sound.x, sound.y, sound.z + SoundOcclusionWidth);
-       Vector3 ListenUnder = new Vector3 (sound.x, sound.y, sound.z + SoundOcclusionWidth);
-
+      
        CastLine(SoundLeft, ListenLeft);
        CastLine(SoundLeft, listener);
        CastLine(SoundLeft, ListenRight);
@@ -81,10 +94,9 @@ public class Occlusion : MonoBehaviour
        CastLine(sound, listener);
        CastLine(sound, ListenRight); 
 
-       CastLine(SoundAbove, ListenAbove);
-       CastLine(SoundUnder, ListenUnder);
+       
 
-        if(PlayerOcclusionWidth == 0 || SoundOcclusionWidth == 0)
+        if(SoundOcclusionWidth == 0)
         {
             Color rayColor = Color.blue;
         }
@@ -105,14 +117,14 @@ public class Occlusion : MonoBehaviour
         float mn = m / n;
         if(PositiveOrNegative)
         {
-            x = a.x + (mn*(b.x - a.x));
-            z = a.z - (mn*(b.z - a.z));
+            x = a.x + (mn*(a.x - b.x));
+            z = a.z - (mn*(a.z - b.z));
 
         }
         else
         {
-            x = a.x - (mn*(b.x - a.x));
-            z = a.z + (mn*(b.z - a.z));
+            x = a.x - (mn*(a.x - b.x));
+            z = a.z + (mn*(a.z - b.z));
         }
         return new Vector3(x, a.y, z);
 
@@ -135,10 +147,10 @@ public class Occlusion : MonoBehaviour
 
     private void SetParameter()
     {
-       Sound.setParameterByName("Occlusion", linecastHitCount/11, true);
+       Sound.setParameterByName("Occlusion", linecastHitCount/9, true);
     }
 
 }
 
-    
+
 
