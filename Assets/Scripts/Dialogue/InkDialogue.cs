@@ -34,6 +34,7 @@ public class InkDialogue : MonoBehaviour
 		Soundmanager = GetComponent<NPC_Soundmanager>();
 		story = new Story(inkJSONAsset.text);
 		Soundmanager.storys();
+
 		if (OnCreateStory != null) OnCreateStory(story);
 		if (DrinkingController.Instance!=null)
         {

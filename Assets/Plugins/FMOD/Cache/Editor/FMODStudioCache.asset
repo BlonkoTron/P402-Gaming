@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9031773358202383629
+--- !u!114 &-8858434501475384670
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TheFriend/Friend_Pt1_L1
+  m_Name: event:/Nerds/Nerd_Pt1_L1
   m_EditorClassIdentifier: 
-  Path: event:/TheFriend/Friend_Pt1_L1
+  Path: event:/Nerds/Nerd_Pt1_L1
   Guid:
-    Data1: -1416536640
-    Data2: 1332152113
-    Data3: -1735466869
-    Data4: 1171501618
+    Data1: 55984160
+    Data2: 1073926834
+    Data3: 1812674450
+    Data4: 1103086672
   Banks:
-  - {fileID: -2208334670114207535}
+  - {fileID: 6752599038516570579}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 3475
---- !u!114 &-8972079073810294451
+  Length: 6475
+--- !u!114 &-8588780996206545731
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,24 +37,64 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Barf_1
+  m_Name: event:/TheFriend/Friend_Pt1_L2
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Barf_1
+  Path: event:/TheFriend/Friend_Pt1_L2
   Guid:
-    Data1: 1652818858
-    Data2: 1228236015
-    Data3: 1663387522
-    Data4: 1712658570
+    Data1: 1737155625
+    Data2: 1217977324
+    Data3: 1564304017
+    Data4: -96748016
   Banks:
-  - {fileID: 1308211390193404285}
+  - {fileID: -7765304419128336331}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 4995
---- !u!114 &-8421354705201152752
+  Length: 3745
+--- !u!114 &-8026897441545403253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Silence.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Silence.bank
+  Name: Silence
+  StudioPath: bank:/Silence
+  lastModified: 638803210774167630
+  FileSizes:
+  - Name: Desktop
+    Value: 2240
+  Exists: 1
+--- !u!114 &-7765304419128336331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/TheFriend.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TheFriend.bank
+  Name: TheFriend
+  StudioPath: bank:/TheFriend
+  lastModified: 638803210774187785
+  FileSizes:
+  - Name: Desktop
+    Value: 871840
+  Exists: 1
+--- !u!114 &-7624190791845548747
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,132 +104,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Sadguy/SadGuy_Pt1_L2
+  m_Name: event:/ArmyGuy/ArmyGuyPt3_L2
   m_EditorClassIdentifier: 
-  Path: event:/Sadguy/SadGuy_Pt1_L2
+  Path: event:/ArmyGuy/ArmyGuyPt3_L2
   Guid:
-    Data1: 208125777
-    Data2: 1141377051
-    Data3: -1166617665
-    Data4: -904628401
+    Data1: -1761685286
+    Data2: 1087889890
+    Data3: -640499044
+    Data4: -677605097
   Banks:
-  - {fileID: -3429496324498733384}
-  IsStream: 0
+  - {fileID: -755857554315962823}
+  IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 5879
---- !u!114 &-7455120416806196969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Jock/JockPt3_L2
-  m_EditorClassIdentifier: 
-  Path: event:/Jock/JockPt3_L2
-  Guid:
-    Data1: -343253091
-    Data2: 1166162651
-    Data3: -661199741
-    Data4: 1561890957
-  Banks:
-  - {fileID: 988703178972405623}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1759
---- !u!114 &-6552085007596341684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Bouncer/BouncerPt1_L2
-  m_EditorClassIdentifier: 
-  Path: event:/Bouncer/BouncerPt1_L2
-  Guid:
-    Data1: 328421361
-    Data2: 1177366455
-    Data3: -894798456
-    Data4: 2074524849
-  Banks:
-  - {fileID: 7612238201045527603}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2581
---- !u!114 &-5873289726653427396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Bartender/Bartender_Pt3_L1
-  m_EditorClassIdentifier: 
-  Path: event:/Bartender/Bartender_Pt3_L1
-  Guid:
-    Data1: 818676464
-    Data2: 1124063209
-    Data3: 1860710033
-    Data4: 1154407293
-  Banks:
-  - {fileID: 2568958638229134029}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4783
---- !u!114 &-5378330002281715984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TooMuchMan/TooMuch_Pt1_L1
-  m_EditorClassIdentifier: 
-  Path: event:/TooMuchMan/TooMuch_Pt1_L1
-  Guid:
-    Data1: -1164759002
-    Data2: 1108335731
-    Data3: 1863734718
-    Data4: -463083765
-  Banks:
-  - {fileID: 1533342751071212199}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4057
---- !u!114 &-4102765560765991388
+  Length: 31269
+--- !u!114 &-7379642191049746802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,7 +140,7 @@ MonoBehaviour:
     Data3: -1184259693
     Data4: 1896019303
   Banks:
-  - {fileID: 3234802517750366495}
+  - {fileID: 6752599038516570579}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -216,7 +148,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4009
---- !u!114 &-3429496324498733384
+--- !u!114 &-6843496423080314184
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -226,125 +158,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Sadguy.bank
+  m_Name: bank:/Bouncer.bank
   m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Sadguy.bank
-  Name: Sadguy
-  StudioPath: bank:/Sadguy
-  lastModified: 638803102468026024
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bouncer.bank
+  Name: Bouncer
+  StudioPath: bank:/Bouncer
+  lastModified: 638803210774067772
   FileSizes:
   - Name: Desktop
-    Value: 332928
+    Value: 56192
   Exists: 1
---- !u!114 &-3146716192522827770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TheFriend/Friend_Pt1_L4
-  m_EditorClassIdentifier: 
-  Path: event:/TheFriend/Friend_Pt1_L4
-  Guid:
-    Data1: 2038873939
-    Data2: 1294416280
-    Data3: 1435569332
-    Data4: 1120201786
-  Banks:
-  - {fileID: -2208334670114207535}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10740
---- !u!114 &-3091115846843992226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Bartender/Bartender_Pt1_L1
-  m_EditorClassIdentifier: 
-  Path: event:/Bartender/Bartender_Pt1_L1
-  Guid:
-    Data1: -486830339
-    Data2: 1261283238
-    Data3: -32674420
-    Data4: -2071913922
-  Banks:
-  - {fileID: 2568958638229134029}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1879
---- !u!114 &-3012819622802421470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Bouncer/BouncerPt1_L1
-  m_EditorClassIdentifier: 
-  Path: event:/Bouncer/BouncerPt1_L1
-  Guid:
-    Data1: 308488888
-    Data2: 1256430023
-    Data3: -182456905
-    Data4: -1227483444
-  Banks:
-  - {fileID: 7612238201045527603}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2336
---- !u!114 &-2846658290373849760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TheFriend/Friend_End
-  m_EditorClassIdentifier: 
-  Path: event:/TheFriend/Friend_End
-  Guid:
-    Data1: 1173760313
-    Data2: 1150164274
-    Data3: 1784827044
-    Data4: -2041420952
-  Banks:
-  - {fileID: -2208334670114207535}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2427
---- !u!114 &-2622546525101244970
+--- !u!114 &-6683561982978009766
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -363,7 +187,7 @@ MonoBehaviour:
     Data3: -1283455086
     Data4: 1872710748
   Banks:
-  - {fileID: -1035053109039301513}
+  - {fileID: -755857554315962823}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -371,7 +195,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 28826
---- !u!114 &-2599291866926220128
+--- !u!114 &-6329626417137245432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -381,24 +205,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Silence/Silence
+  m_Name: event:/TheFriend/Friend_Pt2_L2
   m_EditorClassIdentifier: 
-  Path: event:/Silence/Silence
+  Path: event:/TheFriend/Friend_Pt2_L2
   Guid:
-    Data1: -21981516
-    Data2: 1339048043
-    Data3: 1364795578
-    Data4: 1173012356
+    Data1: -1721564881
+    Data2: 1281432782
+    Data3: 1616598952
+    Data4: -2092235666
   Banks:
-  - {fileID: -350165082726099843}
-  IsStream: 0
+  - {fileID: -7765304419128336331}
+  IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1850
---- !u!114 &-2208334670114207535
+  Length: 15278
+--- !u!114 &-6191308138889621325
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -408,44 +232,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/TheFriend.bank
+  m_Name: bank:/Sadguy.bank
   m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TheFriend.bank
-  Name: TheFriend
-  StudioPath: bank:/TheFriend
-  lastModified: 638803102468066815
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Sadguy.bank
+  Name: Sadguy
+  StudioPath: bank:/Sadguy
+  lastModified: 638803210774152597
   FileSizes:
   - Name: Desktop
-    Value: 871840
+    Value: 332928
   Exists: 1
---- !u!114 &-2142719179941146682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ArmyGuy/ArmyGuyPt3_L1
-  m_EditorClassIdentifier: 
-  Path: event:/ArmyGuy/ArmyGuyPt3_L1
-  Guid:
-    Data1: -2146302688
-    Data2: 1185760839
-    Data3: 584850862
-    Data4: 1579813613
-  Banks:
-  - {fileID: -1035053109039301513}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 11774
---- !u!114 &-1430680050933880140
+--- !u!114 &-5536930450959171556
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -460,32 +257,12 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638803102467961900
+  lastModified: 638803210774102627
   FileSizes:
   - Name: Desktop
     Value: 3178
   Exists: 1
---- !u!114 &-1035053109039301513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/ArmyGuy.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
-  Name: ArmyGuy
-  StudioPath: bank:/ArmyGuy
-  lastModified: 638803102467891553
-  FileSizes:
-  - Name: Desktop
-    Value: 1223936
-  Exists: 1
---- !u!114 &-782224629115859335
+--- !u!114 &-5421001807288629669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -495,44 +272,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Hotperson/HotPerson_Pt1_L1
+  m_Name: event:/Jock/JockPt2_L2
   m_EditorClassIdentifier: 
-  Path: event:/Hotperson/HotPerson_Pt1_L1
+  Path: event:/Jock/JockPt2_L2
   Guid:
-    Data1: 824562476
-    Data2: 1095494242
-    Data3: -1760229237
-    Data4: 2101474836
+    Data1: -31698513
+    Data2: 1155801996
+    Data3: 1492989356
+    Data4: -774841477
   Banks:
-  - {fileID: 3717059640818858399}
+  - {fileID: 55231785402852096}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2076
---- !u!114 &-350165082726099843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Silence.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Silence.bank
-  Name: Silence
-  StudioPath: bank:/Silence
-  lastModified: 638803102468041111
-  FileSizes:
-  - Name: Desktop
-    Value: 2240
-  Exists: 1
---- !u!114 &-120238171585414817
+  Length: 3855
+--- !u!114 &-5121747430080601746
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -551,7 +308,7 @@ MonoBehaviour:
     Data3: 1360435115
     Data4: 944279335
   Banks:
-  - {fileID: -3429496324498733384}
+  - {fileID: -6191308138889621325}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -559,7 +316,263 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4663
---- !u!114 &-26620760045386604
+--- !u!114 &-5053344482542941828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArmyGuy/ArmyGuyPt2_L1
+  m_EditorClassIdentifier: 
+  Path: event:/ArmyGuy/ArmyGuyPt2_L1
+  Guid:
+    Data1: -1160004536
+    Data2: 1268401918
+    Data3: 1706688921
+    Data4: -102044121
+  Banks:
+  - {fileID: -755857554315962823}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15774
+--- !u!114 &-4619320454037380192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/HotPerson.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/HotPerson.bank
+  Name: HotPerson
+  StudioPath: bank:/HotPerson
+  lastModified: 638803210774077816
+  FileSizes:
+  - Name: Desktop
+    Value: 59552
+  Exists: 1
+--- !u!114 &-4587628109371958416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheFriend/Friend_Pt1_L1
+  m_EditorClassIdentifier: 
+  Path: event:/TheFriend/Friend_Pt1_L1
+  Guid:
+    Data1: -1416536640
+    Data2: 1332152113
+    Data3: -1735466869
+    Data4: 1171501618
+  Banks:
+  - {fileID: -7765304419128336331}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3475
+--- !u!114 &-3231268736303322851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Nerds/Nerd_Pt1_L2
+  m_EditorClassIdentifier: 
+  Path: event:/Nerds/Nerd_Pt1_L2
+  Guid:
+    Data1: -1315186218
+    Data2: 1278470360
+    Data3: -1217895008
+    Data4: 1213054420
+  Banks:
+  - {fileID: 6752599038516570579}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5480
+--- !u!114 &-3196280047912226220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sadguy/SadGuy_Pt2_L2
+  m_EditorClassIdentifier: 
+  Path: event:/Sadguy/SadGuy_Pt2_L2
+  Guid:
+    Data1: 1601183724
+    Data2: 1155045057
+    Data3: -975367495
+    Data4: -493026696
+  Banks:
+  - {fileID: -6191308138889621325}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7870
+--- !u!114 &-3184094867049706743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bartender/Bartender_Pt1_L1
+  m_EditorClassIdentifier: 
+  Path: event:/Bartender/Bartender_Pt1_L1
+  Guid:
+    Data1: -486830339
+    Data2: 1261283238
+    Data3: -32674420
+    Data4: -2071913922
+  Banks:
+  - {fileID: 7813742911453735810}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1879
+--- !u!114 &-2852880106401465669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheFriend/Friend_Pt1_L3
+  m_EditorClassIdentifier: 
+  Path: event:/TheFriend/Friend_Pt1_L3
+  Guid:
+    Data1: 1126744504
+    Data2: 1338873023
+    Data3: 385231276
+    Data4: 1224219994
+  Banks:
+  - {fileID: -7765304419128336331}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6360
+--- !u!114 &-2696020411097361574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sadguy/SadGuy_Pt1_L1
+  m_EditorClassIdentifier: 
+  Path: event:/Sadguy/SadGuy_Pt1_L1
+  Guid:
+    Data1: 1371412488
+    Data2: 1142548277
+    Data3: 1179737228
+    Data4: 2111558927
+  Banks:
+  - {fileID: -6191308138889621325}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3754
+--- !u!114 &-2671829091559131869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638803210774092534
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &-2493879505986585539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Nerds/Intro
+  m_EditorClassIdentifier: 
+  Path: event:/Nerds/Intro
+  Guid:
+    Data1: -1890132797
+    Data2: 1140769501
+    Data3: 2082174395
+    Data4: 1693972983
+  Banks:
+  - {fileID: 6752599038516570579}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1711
+--- !u!114 &-2400691312118316142
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -578,7 +591,7 @@ MonoBehaviour:
     Data3: 1962992063
     Data4: 1115059574
   Banks:
-  - {fileID: -2208334670114207535}
+  - {fileID: -7765304419128336331}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -586,6 +599,188 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6139
+--- !u!114 &-2251936893776864116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Barf_1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Barf_1
+  Guid:
+    Data1: 1652818858
+    Data2: 1228236015
+    Data3: 1663387522
+    Data4: 1712658570
+  Banks:
+  - {fileID: 5041709745371296097}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4995
+--- !u!114 &-1696567458190483050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArmyGuy/ArmyGuyPt3_L1
+  m_EditorClassIdentifier: 
+  Path: event:/ArmyGuy/ArmyGuyPt3_L1
+  Guid:
+    Data1: -2146302688
+    Data2: 1185760839
+    Data3: 584850862
+    Data4: 1579813613
+  Banks:
+  - {fileID: -755857554315962823}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11774
+--- !u!114 &-1435307065346205987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bartender/Bartender_Pt2_L2
+  m_EditorClassIdentifier: 
+  Path: event:/Bartender/Bartender_Pt2_L2
+  Guid:
+    Data1: 934287626
+    Data2: 1177995120
+    Data3: -239708536
+    Data4: -109750540
+  Banks:
+  - {fileID: 7813742911453735810}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3110
+--- !u!114 &-1373087981096133994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheFriend/Friend_Pt3_L2
+  m_EditorClassIdentifier: 
+  Path: event:/TheFriend/Friend_Pt3_L2
+  Guid:
+    Data1: -210678564
+    Data2: 1274215033
+    Data3: 1363311269
+    Data4: -785151617
+  Banks:
+  - {fileID: -7765304419128336331}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17105
+--- !u!114 &-1179634140696777023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jock/JockPt1_L1
+  m_EditorClassIdentifier: 
+  Path: event:/Jock/JockPt1_L1
+  Guid:
+    Data1: -853106466
+    Data2: 1269216948
+    Data3: 854858638
+    Data4: -1437475756
+  Banks:
+  - {fileID: 55231785402852096}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1817
+--- !u!114 &-755857554315962823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ArmyGuy.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
+  Name: ArmyGuy
+  StudioPath: bank:/ArmyGuy
+  lastModified: 638803210774042707
+  FileSizes:
+  - Name: Desktop
+    Value: 1223936
+  Exists: 1
+--- !u!114 &-558982498706112759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheFriend/Friend_Pt1_L4
+  m_EditorClassIdentifier: 
+  Path: event:/TheFriend/Friend_Pt1_L4
+  Guid:
+    Data1: 2038873939
+    Data2: 1294416280
+    Data3: 1435569332
+    Data4: 1120201786
+  Banks:
+  - {fileID: -7765304419128336331}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10740
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,71 +794,145 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -1430680050933880140}
-  - {fileID: -1035053109039301513}
-  - {fileID: 2568958638229134029}
-  - {fileID: 7612238201045527603}
-  - {fileID: 3717059640818858399}
-  - {fileID: 988703178972405623}
-  - {fileID: 1429879539782514588}
-  - {fileID: 3234802517750366495}
-  - {fileID: -3429496324498733384}
-  - {fileID: 1308211390193404285}
-  - {fileID: -350165082726099843}
-  - {fileID: -2208334670114207535}
-  - {fileID: 1533342751071212199}
+  - {fileID: -5536930450959171556}
+  - {fileID: -755857554315962823}
+  - {fileID: 7813742911453735810}
+  - {fileID: -6843496423080314184}
+  - {fileID: -4619320454037380192}
+  - {fileID: 55231785402852096}
+  - {fileID: -2671829091559131869}
+  - {fileID: 6752599038516570579}
+  - {fileID: -6191308138889621325}
+  - {fileID: 5041709745371296097}
+  - {fileID: -8026897441545403253}
+  - {fileID: -7765304419128336331}
+  - {fileID: 7469851583041060947}
   EditorEvents:
-  - {fileID: -2622546525101244970}
-  - {fileID: -2142719179941146682}
-  - {fileID: 985066437293647127}
-  - {fileID: 5074636433768069779}
-  - {fileID: 1706147093140493027}
-  - {fileID: 879991679879864479}
-  - {fileID: 3495714008582410491}
-  - {fileID: 6939580170706949806}
-  - {fileID: 6023423024962427848}
-  - {fileID: -5873289726653427396}
-  - {fileID: -3091115846843992226}
-  - {fileID: -3012819622802421470}
-  - {fileID: -6552085007596341684}
-  - {fileID: -782224629115859335}
-  - {fileID: 2081699834712284810}
-  - {fileID: 2983900466714851509}
-  - {fileID: 3825900184638491908}
-  - {fileID: -7455120416806196969}
-  - {fileID: 8282190863711041038}
-  - {fileID: 3887347190371520138}
-  - {fileID: 2226409311460656724}
-  - {fileID: -4102765560765991388}
-  - {fileID: 7640869201509982424}
-  - {fileID: 6872853732411993007}
-  - {fileID: 6184618896045303833}
-  - {fileID: 2826731677337576156}
-  - {fileID: 8070277872598278678}
-  - {fileID: -120238171585414817}
-  - {fileID: -8421354705201152752}
-  - {fileID: 7455043414630939902}
-  - {fileID: 8488200907737165754}
-  - {fileID: -8972079073810294451}
-  - {fileID: 3598011195126145091}
-  - {fileID: -2599291866926220128}
-  - {fileID: 6820602765336412051}
-  - {fileID: 4402948068885052945}
-  - {fileID: -2846658290373849760}
-  - {fileID: -3146716192522827770}
-  - {fileID: 1764740571389203070}
-  - {fileID: 5837797280350012228}
-  - {fileID: -9031773358202383629}
-  - {fileID: -26620760045386604}
-  - {fileID: 643632822786313042}
-  - {fileID: -5378330002281715984}
+  - {fileID: -6683561982978009766}
+  - {fileID: -1696567458190483050}
+  - {fileID: -5053344482542941828}
+  - {fileID: 3160393874421092773}
+  - {fileID: 4499999877812439045}
+  - {fileID: -7624190791845548747}
+  - {fileID: 2452776611088112094}
+  - {fileID: -1435307065346205987}
+  - {fileID: 1513744134270509744}
+  - {fileID: 4822559434553250887}
+  - {fileID: -3184094867049706743}
+  - {fileID: 3908050165583485246}
+  - {fileID: 5178365699632111669}
+  - {fileID: 2135942455831514440}
+  - {fileID: 1165371428450758004}
+  - {fileID: 8171978893815144265}
+  - {fileID: 2546346466504425177}
+  - {fileID: 750134037084771109}
+  - {fileID: -5421001807288629669}
+  - {fileID: -1179634140696777023}
+  - {fileID: 8904837713018905710}
+  - {fileID: -7379642191049746802}
+  - {fileID: -8858434501475384670}
+  - {fileID: 1984685813285406733}
+  - {fileID: -2493879505986585539}
+  - {fileID: -3231268736303322851}
+  - {fileID: -2696020411097361574}
+  - {fileID: -5121747430080601746}
+  - {fileID: 8990901334085773792}
+  - {fileID: 250481298393689563}
+  - {fileID: -3196280047912226220}
+  - {fileID: -2251936893776864116}
+  - {fileID: 988822041249225294}
+  - {fileID: 419310505085762499}
+  - {fileID: -8588780996206545731}
+  - {fileID: -6329626417137245432}
+  - {fileID: 7448589838436550651}
+  - {fileID: -558982498706112759}
+  - {fileID: 6863826834229787940}
+  - {fileID: -2852880106401465669}
+  - {fileID: -4587628109371958416}
+  - {fileID: -2400691312118316142}
+  - {fileID: -1373087981096133994}
+  - {fileID: 4729670060068873292}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 1429879539782514588}
+  - {fileID: -2671829091559131869}
   StringsBanks:
-  - {fileID: -1430680050933880140}
-  cacheTime: 638803102468076534
+  - {fileID: -5536930450959171556}
+  cacheTime: 638803210774197822
   cacheVersion: 131623
+--- !u!114 &55231785402852096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Jock.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Jock.bank
+  Name: Jock
+  StudioPath: bank:/Jock
+  lastModified: 638803210774092534
+  FileSizes:
+  - Name: Desktop
+    Value: 126560
+  Exists: 1
+--- !u!114 &250481298393689563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sadguy/SadGuy_Pt3_L1
+  m_EditorClassIdentifier: 
+  Path: event:/Sadguy/SadGuy_Pt3_L1
+  Guid:
+    Data1: -1549275216
+    Data2: 1119982634
+    Data3: -969094524
+    Data4: 1588772509
+  Banks:
+  - {fileID: -6191308138889621325}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9283
+--- !u!114 &419310505085762499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Silence/Silence
+  m_EditorClassIdentifier: 
+  Path: event:/Silence/Silence
+  Guid:
+    Data1: -21981516
+    Data2: 1339048043
+    Data3: 1364795578
+    Data4: 1173012356
+  Banks:
+  - {fileID: -8026897441545403253}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1850
 --- !u!114 &510104974277204601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,7 +953,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 852
   Exists: 1
---- !u!114 &643632822786313042
+--- !u!114 &750134037084771109
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -694,185 +963,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TheFriend/Friend_Pt3_L2
+  m_Name: event:/Jock/JockPt3_L2
   m_EditorClassIdentifier: 
-  Path: event:/TheFriend/Friend_Pt3_L2
+  Path: event:/Jock/JockPt3_L2
   Guid:
-    Data1: -210678564
-    Data2: 1274215033
-    Data3: 1363311269
-    Data4: -785151617
+    Data1: -343253091
+    Data2: 1166162651
+    Data3: -661199741
+    Data4: 1561890957
   Banks:
-  - {fileID: -2208334670114207535}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 17105
---- !u!114 &879991679879864479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ArmyGuy/ArmyGuyPt3_L2
-  m_EditorClassIdentifier: 
-  Path: event:/ArmyGuy/ArmyGuyPt3_L2
-  Guid:
-    Data1: -1761685286
-    Data2: 1087889890
-    Data3: -640499044
-    Data4: -677605097
-  Banks:
-  - {fileID: -1035053109039301513}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 31269
---- !u!114 &985066437293647127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ArmyGuy/ArmyGuyPt2_L1
-  m_EditorClassIdentifier: 
-  Path: event:/ArmyGuy/ArmyGuyPt2_L1
-  Guid:
-    Data1: -1160004536
-    Data2: 1268401918
-    Data3: 1706688921
-    Data4: -102044121
-  Banks:
-  - {fileID: -1035053109039301513}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 15774
---- !u!114 &988703178972405623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Jock.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Jock.bank
-  Name: Jock
-  StudioPath: bank:/Jock
-  lastModified: 638803102467946915
-  FileSizes:
-  - Name: Desktop
-    Value: 126560
-  Exists: 1
---- !u!114 &1308211390193404285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX_Extra.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/SFX_Extra.bank
-  Name: SFX_Extra
-  StudioPath: bank:/SFX_Extra
-  lastModified: 638803102468002266
-  FileSizes:
-  - Name: Desktop
-    Value: 90592
-  Exists: 1
---- !u!114 &1429879539782514588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638803102467956771
-  FileSizes:
-  - Name: Desktop
-    Value: 1036
-  Exists: 1
---- !u!114 &1533342751071212199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/TooMuchMan.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TooMuchMan.bank
-  Name: TooMuchMan
-  StudioPath: bank:/TooMuchMan
-  lastModified: 638803102468076534
-  FileSizes:
-  - Name: Desktop
-    Value: 45504
-  Exists: 1
---- !u!114 &1706147093140493027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ArmyGuy/Army_intro
-  m_EditorClassIdentifier: 
-  Path: event:/ArmyGuy/Army_intro
-  Guid:
-    Data1: -430565963
-    Data2: 1298795394
-    Data3: 54598317
-    Data4: -597949818
-  Banks:
-  - {fileID: -1035053109039301513}
+  - {fileID: 55231785402852096}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2783
---- !u!114 &1764740571389203070
+  Length: 1759
+--- !u!114 &988822041249225294
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -882,24 +990,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TheFriend/Friend_Pt3_L1
+  m_Name: event:/SFX/Barf_2
   m_EditorClassIdentifier: 
-  Path: event:/TheFriend/Friend_Pt3_L1
+  Path: event:/SFX/Barf_2
   Guid:
-    Data1: 850811539
-    Data2: 1321502865
-    Data3: 1423560865
-    Data4: 439132910
+    Data1: -380774153
+    Data2: 1153516301
+    Data3: -1124248669
+    Data4: -1370186477
   Banks:
-  - {fileID: -2208334670114207535}
-  IsStream: 1
+  - {fileID: 5041709745371296097}
+  IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 14028
---- !u!114 &2081699834712284810
+  Length: 3379
+--- !u!114 &1165371428450758004
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -918,7 +1026,7 @@ MonoBehaviour:
     Data3: 1000395444
     Data4: 1061995485
   Banks:
-  - {fileID: 3717059640818858399}
+  - {fileID: -4619320454037380192}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -926,7 +1034,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1485
---- !u!114 &2226409311460656724
+--- !u!114 &1513744134270509744
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -936,44 +1044,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Jock/JockPt3_L1
+  m_Name: event:/Bartender/Bartender_Pt2_L1
   m_EditorClassIdentifier: 
-  Path: event:/Jock/JockPt3_L1
+  Path: event:/Bartender/Bartender_Pt2_L1
   Guid:
-    Data1: 1451589628
-    Data2: 1274413550
-    Data3: -1693786692
-    Data4: -519321718
+    Data1: 1482248751
+    Data2: 1216495574
+    Data3: -1497108844
+    Data4: 1011672761
   Banks:
-  - {fileID: 988703178972405623}
+  - {fileID: 7813742911453735810}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1706
---- !u!114 &2568958638229134029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Bartender.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bartender.bank
-  Name: Bartender
-  StudioPath: bank:/Bartender
-  lastModified: 638803102467906635
-  FileSizes:
-  - Name: Desktop
-    Value: 129600
-  Exists: 1
---- !u!114 &2826731677337576156
+  Length: 1576
+--- !u!114 &1984685813285406733
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -983,24 +1071,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Nerds/Nerd_Pt1_L2
+  m_Name: event:/Nerds/Nerd_Pt1_L4
   m_EditorClassIdentifier: 
-  Path: event:/Nerds/Nerd_Pt1_L2
+  Path: event:/Nerds/Nerd_Pt1_L4
   Guid:
-    Data1: -1315186218
-    Data2: 1278470360
-    Data3: -1217895008
-    Data4: 1213054420
+    Data1: -992819096
+    Data2: 1160135298
+    Data3: -2116556914
+    Data4: 2136961391
   Banks:
-  - {fileID: 3234802517750366495}
+  - {fileID: 6752599038516570579}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 5480
---- !u!114 &2983900466714851509
+  Length: 2745
+--- !u!114 &2135942455831514440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1010,23 +1098,104 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Hotperson/HotPerson_Intro
+  m_Name: event:/Hotperson/HotPerson_Pt1_L1
   m_EditorClassIdentifier: 
-  Path: event:/Hotperson/HotPerson_Intro
+  Path: event:/Hotperson/HotPerson_Pt1_L1
   Guid:
-    Data1: -123478310
-    Data2: 1296213247
-    Data3: -75290204
-    Data4: 702129688
+    Data1: 824562476
+    Data2: 1095494242
+    Data3: -1760229237
+    Data4: 2101474836
   Banks:
-  - {fileID: 3717059640818858399}
+  - {fileID: -4619320454037380192}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1437
+  Length: 2076
+--- !u!114 &2452776611088112094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArmyGuy/ArmyGuyPt1_L2
+  m_EditorClassIdentifier: 
+  Path: event:/ArmyGuy/ArmyGuyPt1_L2
+  Guid:
+    Data1: 87351032
+    Data2: 1120617448
+    Data3: 1322876086
+    Data4: 1860379365
+  Banks:
+  - {fileID: -755857554315962823}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6134
+--- !u!114 &2546346466504425177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jock/JockPt2_L1
+  m_EditorClassIdentifier: 
+  Path: event:/Jock/JockPt2_L1
+  Guid:
+    Data1: 842067284
+    Data2: 1293524182
+    Data3: 202976399
+    Data4: 2022049064
+  Banks:
+  - {fileID: 55231785402852096}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2076
+--- !u!114 &3160393874421092773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArmyGuy/ArmyGuyPt1_L1
+  m_EditorClassIdentifier: 
+  Path: event:/ArmyGuy/ArmyGuyPt1_L1
+  Guid:
+    Data1: 1198580137
+    Data2: 1118923145
+    Data3: 1303523459
+    Data4: -1173538795
+  Banks:
+  - {fileID: -755857554315962823}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20096
 --- !u!114 &3202991370639433103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1047,80 +1216,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1036
   Exists: 1
---- !u!114 &3234802517750366495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Nerds.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Nerds.bank
-  Name: Nerds
-  StudioPath: bank:/Nerds
-  lastModified: 638803102467992251
-  FileSizes:
-  - Name: Desktop
-    Value: 232448
-  Exists: 1
---- !u!114 &3495714008582410491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ArmyGuy/ArmyGuyPt1_L2
-  m_EditorClassIdentifier: 
-  Path: event:/ArmyGuy/ArmyGuyPt1_L2
-  Guid:
-    Data1: 87351032
-    Data2: 1120617448
-    Data3: 1322876086
-    Data4: 1860379365
-  Banks:
-  - {fileID: -1035053109039301513}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 6134
---- !u!114 &3598011195126145091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Barf_2
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Barf_2
-  Guid:
-    Data1: -380774153
-    Data2: 1153516301
-    Data3: -1124248669
-    Data4: -1370186477
-  Banks:
-  - {fileID: 1308211390193404285}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3379
 --- !u!114 &3714402554188259137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1148,7 +1243,115 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 11964
---- !u!114 &3717059640818858399
+--- !u!114 &3908050165583485246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bouncer/BouncerPt1_L1
+  m_EditorClassIdentifier: 
+  Path: event:/Bouncer/BouncerPt1_L1
+  Guid:
+    Data1: 308488888
+    Data2: 1256430023
+    Data3: -182456905
+    Data4: -1227483444
+  Banks:
+  - {fileID: -6843496423080314184}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2336
+--- !u!114 &4499999877812439045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArmyGuy/Army_intro
+  m_EditorClassIdentifier: 
+  Path: event:/ArmyGuy/Army_intro
+  Guid:
+    Data1: -430565963
+    Data2: 1298795394
+    Data3: 54598317
+    Data4: -597949818
+  Banks:
+  - {fileID: -755857554315962823}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2783
+--- !u!114 &4729670060068873292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TooMuchMan/TooMuch_Pt1_L1
+  m_EditorClassIdentifier: 
+  Path: event:/TooMuchMan/TooMuch_Pt1_L1
+  Guid:
+    Data1: -1164759002
+    Data2: 1108335731
+    Data3: 1863734718
+    Data4: -463083765
+  Banks:
+  - {fileID: 7469851583041060947}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4057
+--- !u!114 &4822559434553250887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bartender/Bartender_Pt3_L1
+  m_EditorClassIdentifier: 
+  Path: event:/Bartender/Bartender_Pt3_L1
+  Guid:
+    Data1: 818676464
+    Data2: 1124063209
+    Data3: 1860710033
+    Data4: 1154407293
+  Banks:
+  - {fileID: 7813742911453735810}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4783
+--- !u!114 &5041709745371296097
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1158,17 +1361,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/HotPerson.bank
+  m_Name: bank:/SFX_Extra.bank
   m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/HotPerson.bank
-  Name: HotPerson
-  StudioPath: bank:/HotPerson
-  lastModified: 638803102467936747
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/SFX_Extra.bank
+  Name: SFX_Extra
+  StudioPath: bank:/SFX_Extra
+  lastModified: 638803210774132595
   FileSizes:
   - Name: Desktop
-    Value: 59552
+    Value: 90592
   Exists: 1
---- !u!114 &3825900184638491908
+--- !u!114 &5178365699632111669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1178,24 +1381,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Jock/JockPt2_L1
+  m_Name: event:/Bouncer/BouncerPt1_L2
   m_EditorClassIdentifier: 
-  Path: event:/Jock/JockPt2_L1
+  Path: event:/Bouncer/BouncerPt1_L2
   Guid:
-    Data1: 842067284
-    Data2: 1293524182
-    Data3: 202976399
-    Data4: 2022049064
+    Data1: 328421361
+    Data2: 1177366455
+    Data3: -894798456
+    Data4: 2074524849
   Banks:
-  - {fileID: 988703178972405623}
+  - {fileID: -6843496423080314184}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2076
---- !u!114 &3887347190371520138
+  Length: 2581
+--- !u!114 &6752599038516570579
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1204,159 +1407,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Jock/JockPt1_L1
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Nerds.bank
   m_EditorClassIdentifier: 
-  Path: event:/Jock/JockPt1_L1
-  Guid:
-    Data1: -853106466
-    Data2: 1269216948
-    Data3: 854858638
-    Data4: -1437475756
-  Banks:
-  - {fileID: 988703178972405623}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1817
---- !u!114 &4402948068885052945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TheFriend/Friend_Pt2_L2
-  m_EditorClassIdentifier: 
-  Path: event:/TheFriend/Friend_Pt2_L2
-  Guid:
-    Data1: -1721564881
-    Data2: 1281432782
-    Data3: 1616598952
-    Data4: -2092235666
-  Banks:
-  - {fileID: -2208334670114207535}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 15278
---- !u!114 &5074636433768069779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ArmyGuy/ArmyGuyPt1_L1
-  m_EditorClassIdentifier: 
-  Path: event:/ArmyGuy/ArmyGuyPt1_L1
-  Guid:
-    Data1: 1198580137
-    Data2: 1118923145
-    Data3: 1303523459
-    Data4: -1173538795
-  Banks:
-  - {fileID: -1035053109039301513}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 20096
---- !u!114 &5837797280350012228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TheFriend/Friend_Pt1_L3
-  m_EditorClassIdentifier: 
-  Path: event:/TheFriend/Friend_Pt1_L3
-  Guid:
-    Data1: 1126744504
-    Data2: 1338873023
-    Data3: 385231276
-    Data4: 1224219994
-  Banks:
-  - {fileID: -2208334670114207535}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 6360
---- !u!114 &6023423024962427848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Bartender/Bartender_Pt2_L1
-  m_EditorClassIdentifier: 
-  Path: event:/Bartender/Bartender_Pt2_L1
-  Guid:
-    Data1: 1482248751
-    Data2: 1216495574
-    Data3: -1497108844
-    Data4: 1011672761
-  Banks:
-  - {fileID: 2568958638229134029}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1576
---- !u!114 &6184618896045303833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Nerds/Intro
-  m_EditorClassIdentifier: 
-  Path: event:/Nerds/Intro
-  Guid:
-    Data1: -1890132797
-    Data2: 1140769501
-    Data3: 2082174395
-    Data4: 1693972983
-  Banks:
-  - {fileID: 3234802517750366495}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1711
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Nerds.bank
+  Name: Nerds
+  StudioPath: bank:/Nerds
+  lastModified: 638803210774122584
+  FileSizes:
+  - Name: Desktop
+    Value: 232448
+  Exists: 1
 --- !u!114 &6780100710060848927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1369,7 +1430,7 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6820602765336412051
+--- !u!114 &6863826834229787940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1379,77 +1440,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TheFriend/Friend_Pt1_L2
+  m_Name: event:/TheFriend/Friend_Pt3_L1
   m_EditorClassIdentifier: 
-  Path: event:/TheFriend/Friend_Pt1_L2
+  Path: event:/TheFriend/Friend_Pt3_L1
   Guid:
-    Data1: 1737155625
-    Data2: 1217977324
-    Data3: 1564304017
-    Data4: -96748016
+    Data1: 850811539
+    Data2: 1321502865
+    Data3: 1423560865
+    Data4: 439132910
   Banks:
-  - {fileID: -2208334670114207535}
-  IsStream: 0
+  - {fileID: -7765304419128336331}
+  IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 3745
---- !u!114 &6872853732411993007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Nerds/Nerd_Pt1_L4
-  m_EditorClassIdentifier: 
-  Path: event:/Nerds/Nerd_Pt1_L4
-  Guid:
-    Data1: -992819096
-    Data2: 1160135298
-    Data3: -2116556914
-    Data4: 2136961391
-  Banks:
-  - {fileID: 3234802517750366495}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2745
---- !u!114 &6939580170706949806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Bartender/Bartender_Pt2_L2
-  m_EditorClassIdentifier: 
-  Path: event:/Bartender/Bartender_Pt2_L2
-  Guid:
-    Data1: 934287626
-    Data2: 1177995120
-    Data3: -239708536
-    Data4: -109750540
-  Banks:
-  - {fileID: 2568958638229134029}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3110
+  Length: 14028
 --- !u!114 &7096257006631777263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1470,7 +1477,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 47712
   Exists: 1
---- !u!114 &7455043414630939902
+--- !u!114 &7448589838436550651
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1480,24 +1487,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Sadguy/SadGuy_Pt3_L1
+  m_Name: event:/TheFriend/Friend_End
   m_EditorClassIdentifier: 
-  Path: event:/Sadguy/SadGuy_Pt3_L1
+  Path: event:/TheFriend/Friend_End
   Guid:
-    Data1: -1549275216
-    Data2: 1119982634
-    Data3: -969094524
-    Data4: 1588772509
+    Data1: 1173760313
+    Data2: 1150164274
+    Data3: 1784827044
+    Data4: -2041420952
   Banks:
-  - {fileID: -3429496324498733384}
+  - {fileID: -7765304419128336331}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 9283
---- !u!114 &7612238201045527603
+  Length: 2427
+--- !u!114 &7469851583041060947
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1507,17 +1514,37 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Bouncer.bank
+  m_Name: bank:/TooMuchMan.bank
   m_EditorClassIdentifier: 
-  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bouncer.bank
-  Name: Bouncer
-  StudioPath: bank:/Bouncer
-  lastModified: 638803102467926744
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TooMuchMan.bank
+  Name: TooMuchMan
+  StudioPath: bank:/TooMuchMan
+  lastModified: 638803210774197822
   FileSizes:
   - Name: Desktop
-    Value: 56192
+    Value: 45504
   Exists: 1
---- !u!114 &7640869201509982424
+--- !u!114 &7813742911453735810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bartender.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bartender.bank
+  Name: Bartender
+  StudioPath: bank:/Bartender
+  lastModified: 638803210774067772
+  FileSizes:
+  - Name: Desktop
+    Value: 129600
+  Exists: 1
+--- !u!114 &8171978893815144265
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1527,24 +1554,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Nerds/Nerd_Pt1_L1
+  m_Name: event:/Hotperson/HotPerson_Intro
   m_EditorClassIdentifier: 
-  Path: event:/Nerds/Nerd_Pt1_L1
+  Path: event:/Hotperson/HotPerson_Intro
   Guid:
-    Data1: 55984160
-    Data2: 1073926834
-    Data3: 1812674450
-    Data4: 1103086672
+    Data1: -123478310
+    Data2: 1296213247
+    Data3: -75290204
+    Data4: 702129688
   Banks:
-  - {fileID: 3234802517750366495}
+  - {fileID: -4619320454037380192}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 6475
---- !u!114 &8070277872598278678
+  Length: 1437
+--- !u!114 &8904837713018905710
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1554,24 +1581,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Sadguy/SadGuy_Pt1_L1
+  m_Name: event:/Jock/JockPt3_L1
   m_EditorClassIdentifier: 
-  Path: event:/Sadguy/SadGuy_Pt1_L1
+  Path: event:/Jock/JockPt3_L1
   Guid:
-    Data1: 1371412488
-    Data2: 1142548277
-    Data3: 1179737228
-    Data4: 2111558927
+    Data1: 1451589628
+    Data2: 1274413550
+    Data3: -1693786692
+    Data4: -519321718
   Banks:
-  - {fileID: -3429496324498733384}
+  - {fileID: 55231785402852096}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 3754
---- !u!114 &8282190863711041038
+  Length: 1706
+--- !u!114 &8990901334085773792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1581,47 +1608,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Jock/JockPt2_L2
+  m_Name: event:/Sadguy/SadGuy_Pt1_L2
   m_EditorClassIdentifier: 
-  Path: event:/Jock/JockPt2_L2
+  Path: event:/Sadguy/SadGuy_Pt1_L2
   Guid:
-    Data1: -31698513
-    Data2: 1155801996
-    Data3: 1492989356
-    Data4: -774841477
+    Data1: 208125777
+    Data2: 1141377051
+    Data3: -1166617665
+    Data4: -904628401
   Banks:
-  - {fileID: 988703178972405623}
+  - {fileID: -6191308138889621325}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 3855
---- !u!114 &8488200907737165754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Sadguy/SadGuy_Pt2_L2
-  m_EditorClassIdentifier: 
-  Path: event:/Sadguy/SadGuy_Pt2_L2
-  Guid:
-    Data1: 1601183724
-    Data2: 1155045057
-    Data3: -975367495
-    Data4: -493026696
-  Banks:
-  - {fileID: -3429496324498733384}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 7870
+  Length: 5879
