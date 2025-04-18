@@ -3367,7 +3367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_3.Path
-      value: event:/Sadguy/SadGuy_Pt1_L1
+      value: event:/Sadguy/SadGuy_Pt1_L2
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_4.Path
@@ -3411,19 +3411,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_3.Guid.Data1
-      value: 1371412488
+      value: 208125777
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_3.Guid.Data2
-      value: 1142548277
+      value: 1141377051
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_3.Guid.Data3
-      value: 1179737228
+      value: -1166617665
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_3.Guid.Data4
-      value: 2111558927
+      value: -904628401
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_4.Guid.Data1
