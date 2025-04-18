@@ -112,7 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 3
   m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
+  m_AdditionalLightsShadowResolutionTier: 0
   m_LightLayerMask: 1
   m_RenderingLayers: 1
   m_CustomShadowLayers: 0
@@ -130,16 +130,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a0b92d2278b4d6d4b9bec369d99ada48, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.197157
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0b92d2278b4d6d4b9bec369d99ada48, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.197157
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0b92d2278b4d6d4b9bec369d99ada48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.154
+      value: -3.5099998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0b92d2278b4d6d4b9bec369d99ada48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.41
+      value: 1.325
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0b92d2278b4d6d4b9bec369d99ada48, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.847
+      value: 4.58
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0b92d2278b4d6d4b9bec369d99ada48, type: 3}
       propertyPath: m_LocalRotation.w
