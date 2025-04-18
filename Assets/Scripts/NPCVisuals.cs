@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class NPCVisuals : MonoBehaviour
 {
-    [SerializeField] private Animator npcAnimator;
+    private Animator npcAnimator;
     private InkDialogue inkDialogue;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         inkDialogue = GetComponent<InkDialogue>();
+        npcAnimator = GetComponent<Animator>();
         inkDialogue.OnStartWritingText += StartTalking;
         inkDialogue.OnEndWritingText += StopTalking;
         inkDialogue.OnStartStory.AddListener(StartConversation);
