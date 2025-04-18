@@ -2664,6 +2664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5102648315739822436}
   - component: {fileID: 7944750290012182018}
+  - component: {fileID: 3337766700496252240}
   - component: {fileID: 9059603680355419365}
   - component: {fileID: 8102513225510106534}
   - component: {fileID: 1131856917468627939}
@@ -2717,6 +2718,18 @@ MonoBehaviour:
   buttonParent: {fileID: 0}
   textSpeed: 0.05
   dialogueCanvas: {fileID: 0}
+--- !u!114 &3337766700496252240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8974197745433190209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60e968d7986ec24b8f17a961b50ec0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &9059603680355419365
 Animator:
   serializedVersion: 7
