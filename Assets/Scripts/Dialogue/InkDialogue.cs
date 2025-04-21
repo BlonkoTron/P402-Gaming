@@ -69,7 +69,7 @@ public class InkDialogue : MonoBehaviour
 			// This removes any white space from the text.
 			text = text.Trim();
 			// Display the text on screen
-			OnStartWritingText.Invoke();
+			//OnStartWritingText.Invoke();
 			StartCoroutine(WriteText(dialogueTextField, text));
 
 		}
@@ -136,6 +136,6 @@ public class InkDialogue : MonoBehaviour
 			yield return new WaitForSeconds(textSpeed); // delay
 			i++;
 		}
-		OnEndWritingText.Invoke();
+		//OnEndWritingText.Invoke();
 	}
 }
