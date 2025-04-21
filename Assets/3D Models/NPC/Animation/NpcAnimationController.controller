@@ -40,7 +40,7 @@ AnimatorStateMachine:
     m_Position: {x: 230, y: 170, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7269311176508532906}
-    m_Position: {x: 230, y: 220, z: 0}
+    m_Position: {x: 230, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1116523288288248744}
     m_Position: {x: 275, y: 305, z: 0}
@@ -55,7 +55,7 @@ AnimatorStateMachine:
     m_Position: {x: 380, y: 500, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3912620021273671252}
-    m_Position: {x: 440, y: 170, z: 0}
+    m_Position: {x: 440, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7334142748508480819}
     m_Position: {x: 490, y: 300, z: 0}
@@ -208,12 +208,6 @@ AnimatorController:
   m_Name: NpcAnimationController
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Blend
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
   - m_Name: Talking
     m_Type: 4
     m_DefaultFloat: 0
