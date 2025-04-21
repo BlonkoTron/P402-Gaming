@@ -13,8 +13,6 @@ public class InkDialogue : MonoBehaviour
 
 	public UnityEvent OnStartStory;
 	public UnityEvent OnEndStory;
-	public UnityAction OnStartWritingText;
-	public UnityAction OnEndWritingText;
 	NPC_Soundmanager Soundmanager;
 
 	[SerializeField]
@@ -69,7 +67,6 @@ public class InkDialogue : MonoBehaviour
 			// This removes any white space from the text.
 			text = text.Trim();
 			// Display the text on screen
-			//OnStartWritingText.Invoke();
 			StartCoroutine(WriteText(dialogueTextField, text));
 
 		}
@@ -136,6 +133,5 @@ public class InkDialogue : MonoBehaviour
 			yield return new WaitForSeconds(textSpeed); // delay
 			i++;
 		}
-		//OnEndWritingText.Invoke();
 	}
 }
