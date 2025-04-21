@@ -7,6 +7,7 @@ public class InkTransitionDialogue: InkDialogue
 {
     private void Awake()
     {
+        Cursor.lockState = CursorLockMode.Confined;
         StartStory();
     }
     protected override void EndStory()
