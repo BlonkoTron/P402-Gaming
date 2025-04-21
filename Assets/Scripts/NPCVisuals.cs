@@ -9,16 +9,12 @@ public class NPCVisuals : MonoBehaviour
     {
         inkDialogue = GetComponent<InkDialogue>();
         npcAnimator = GetComponent<Animator>();
-        inkDialogue.OnStartWritingText += StartTalking;
-        inkDialogue.OnEndWritingText += StopTalking;
         inkDialogue.OnStartStory.AddListener(StartConversation);
         inkDialogue.OnEndStory.AddListener(EndConversation);
 
     }
-    private void OnDestroy()
+    private void OnDisable()
     {
-        inkDialogue.OnStartWritingText -= StartTalking;
-        inkDialogue.OnEndWritingText -= StopTalking;
         inkDialogue.OnStartStory.RemoveListener(StartConversation);
         inkDialogue.OnEndStory.RemoveListener(EndConversation);
     }
