@@ -753,7 +753,7 @@ PrefabInstance:
     - target: {fileID: 4318978710024077431, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: cameraTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1253719659}
     - target: {fileID: 4357811438774928565, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: FollowOffset.y
       value: 1.3
