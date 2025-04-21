@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/In build/Intro_transition.unity
     guid: 7689edeee517ec147971875625ae9989
   - enabled: 1
+    path: Assets/Scenes/In build/Cutscene 18-20.unity
+    guid: f7506e17bf9bfbf4caf2b4b1120555a7
+  - enabled: 1
     path: Assets/Scenes/In build/Scene1.unity
     guid: 22115f6ec5c113d4e993283a7d969b0e
   - enabled: 1
