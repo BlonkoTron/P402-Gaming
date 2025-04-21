@@ -9,10 +9,10 @@ public class DrinkingController : MonoBehaviour
     public UnityAction OnDrink;
 
     [HideInInspector] public CinemachineCamera drinkingCam;
-    private Animator drinkingCamAnimator;
+    //private Animator drinkingCamAnimator;
     public static float bloodAlcoholContent=0;
-    [SerializeField] private ParticleSystem pukeParticle;
-    [SerializeField] private float[] BACThresholdLevels = new float[3];
+    //[SerializeField] private ParticleSystem pukeParticle;
+    public static float[] BACThresholdLevels = new float[] { 0.3f, 0.6f, 0.9f };
     private static int currentThresholdIndex=0;
 
     private void Awake()
@@ -26,7 +26,7 @@ public class DrinkingController : MonoBehaviour
             Instance = this;
         }
         drinkingCam = GetComponent<CinemachineCamera>();
-        drinkingCamAnimator = GetComponent<Animator>();
+        //drinkingCamAnimator = GetComponent<Animator>();
     }
     private void Update()
     {
@@ -39,8 +39,8 @@ public class DrinkingController : MonoBehaviour
 
     public void Drink(float amount)
     {
-        CameraController.Instance.SetToCam(drinkingCam);
-        drinkingCamAnimator.SetTrigger("drink");
+        //CameraController.Instance.SetToCam(drinkingCam);
+        //drinkingCamAnimator.SetTrigger("drink");
         bloodAlcoholContent += amount;
         OnDrink.Invoke();
         DrunkVisionController.Instance.UpdateDrunkVision(bloodAlcoholContent);
@@ -59,10 +59,10 @@ public class DrinkingController : MonoBehaviour
     public void Puke()
     {
         CameraController.Instance.SetToCam(drinkingCam);
-        drinkingCamAnimator.SetTrigger("puke");
+        //drinkingCamAnimator.SetTrigger("puke");
     }
     public void PukeParticlePlay()
     {
-        pukeParticle.Play();
+        //pukeParticle.Play();
     }
 }

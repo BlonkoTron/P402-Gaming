@@ -86,7 +86,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 3
   m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
+  m_AdditionalLightsShadowResolutionTier: 0
   m_LightLayerMask: 1
   m_RenderingLayers: 1
   m_CustomShadowLayers: 0
@@ -241,15 +241,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 39122ec3a2bb6e0469211f66aec75590, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.6135945
+      value: 2.41
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 39122ec3a2bb6e0469211f66aec75590, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.493
+      value: 6.063
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 39122ec3a2bb6e0469211f66aec75590, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.8592176
+      value: 11.459217
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 39122ec3a2bb6e0469211f66aec75590, type: 3}
       propertyPath: m_LocalRotation.w
@@ -261,7 +261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 39122ec3a2bb6e0469211f66aec75590, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 39122ec3a2bb6e0469211f66aec75590, type: 3}
       propertyPath: m_LocalRotation.z

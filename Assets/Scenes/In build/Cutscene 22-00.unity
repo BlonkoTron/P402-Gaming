@@ -413,6 +413,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 4.194
       objectReference: {fileID: 0}
+    - target: {fileID: 2446962959028472688, guid: c183d4939b8149a469d49548e71c5676, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3323605515785970068, guid: c183d4939b8149a469d49548e71c5676, type: 3}
       propertyPath: m_Name
       value: Friend Variant
@@ -456,6 +460,18 @@ PrefabInstance:
     - target: {fileID: 3682797800472364909, guid: c183d4939b8149a469d49548e71c5676, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -18.856
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726369944876286468, guid: c183d4939b8149a469d49548e71c5676, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726369944876286468, guid: c183d4939b8149a469d49548e71c5676, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726369944876286468, guid: c183d4939b8149a469d49548e71c5676, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3400003700447754800, guid: c183d4939b8149a469d49548e71c5676, type: 3}
