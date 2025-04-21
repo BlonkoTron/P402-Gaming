@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class NPCVisuals : MonoBehaviour
 {
-    private Animator npcAnimator;
-    private InkDialogue inkDialogue;
+    protected Animator npcAnimator;
+    protected InkDialogue inkDialogue;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected void Start()
     {
         inkDialogue = GetComponent<InkDialogue>();
         npcAnimator = GetComponent<Animator>();
@@ -13,26 +13,17 @@ public class NPCVisuals : MonoBehaviour
         inkDialogue.OnEndStory.AddListener(EndConversation);
 
     }
-    private void OnDisable()
+    protected void OnDisable()
     {
         inkDialogue.OnStartStory.RemoveListener(StartConversation);
         inkDialogue.OnEndStory.RemoveListener(EndConversation);
     }
-    private void StartConversation()
+    protected virtual void StartConversation()
     {
         npcAnimator.SetBool("Talking",true);
     }
-    private void EndConversation()
+    protected virtual void EndConversation()
     {
         npcAnimator.SetBool("Talking", false);
-    }
-
-    private void StartTalking()
-    {
-        //npcAnimator.SetTrigger("talk");
-    }
-    private void StopTalking()
-    {
-        //npcAnimator.SetTrigger("idle");
     }
 }
