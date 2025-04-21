@@ -20,11 +20,11 @@ public class NPCVisuals : MonoBehaviour
     }
     private void StartConversation()
     {
-
+        npcAnimator.SetBool("Talking",true);
     }
     private void EndConversation()
     {
-        //npcAnimator.SetTrigger("idle");
+        npcAnimator.SetBool("Talking", false);
     }
 
     private void StartTalking()
