@@ -7,6 +7,7 @@ using Unity.Cinemachine;
 public class InkNPCDialogue: InkDialogue
 {
     [SerializeField] private GameObject dialogueCanvas;
+    private float playerActiveDelay=1;
 
     void Awake()
     {
@@ -21,10 +22,15 @@ public class InkNPCDialogue: InkDialogue
     protected override void EndStory()
     {
         dialogueCanvas.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
-        PlayerInteract.isInteracting = false;
+        StartCoroutine(SetPlayerActiveDelay());
         RemovePreviousChoices();
         CameraController.Instance.SetToMainCam();
         base.EndStory();
+    }
+    private IEnumerator SetPlayerActiveDelay()
+    {
+        yield return new WaitForSeconds(playerActiveDelay);
+        Cursor.lockState = CursorLockMode.Locked;
+        PlayerInteract.isInteracting = false;
     }
 }
