@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using Unity.Cinemachine;
+using UnityEngine.InputSystem;
 
 public class DrinkingController : MonoBehaviour
 {
@@ -48,8 +49,18 @@ public class DrinkingController : MonoBehaviour
         if (bloodAlcoholContent>=BACThresholdLevels[currentThresholdIndex])
         {
             currentThresholdIndex++;
+            DisableInputs();
             SceneTransititoner.Instance.NextSceneTransition();
         }
+    }
+    private void DisableInputs()
+    {
+        var inputhandler = GameObject.FindGameObjectWithTag("InputHandler");
+        if (inputhandler != null)
+        {
+            inputhandler.GetComponent<PlayerInput>().enabled = false;
+        }
+        this.gameObject.GetComponent<PlayerInput>().enabled = false;
     }
 
     public void EndDrinkAnim()
