@@ -28,6 +28,7 @@ public class DrinkingController : MonoBehaviour
         }
         drinkingCam = GetComponent<CinemachineCamera>();
         //drinkingCamAnimator = GetComponent<Animator>();
+        DrunkVisionController.Instance.UpdateDrunkVision(bloodAlcoholContent);
     }
     private void Update()
     {
