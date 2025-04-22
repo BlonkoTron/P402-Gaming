@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 04f2f9ade53635746ad7616bf84c665b, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1790,6 +1790,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4499758376699052279, guid: e15b170d8721c024d965ae84956013ce, type: 3}
   m_PrefabInstance: {fileID: 326901291}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &372626107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2266843713156316845, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.502
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266843713156316845, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266843713156316845, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.044
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266843713156316845, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266843713156316845, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266843713156316845, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266843713156316845, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266843713156316845, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266843713156316845, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266843713156316845, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8624582843110294343, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
+      propertyPath: m_Name
+      value: Wall of people
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6f709d41ba36b7543a98c5298227c88d, type: 3}
 --- !u!1 &391929087
 GameObject:
   m_ObjectHideFlags: 0
@@ -3156,6 +3213,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8709597680533482115, guid: ef14561d68ba01d429507ca019ec2330, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: deecf30e073b3ed4ab361389d1d023d2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4420,7 +4481,7 @@ Camera:
   m_GameObject: {fileID: 1072899348}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -6056,7 +6117,7 @@ MonoBehaviour:
     FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 0.01
-    FarClipPlane: 1000
+    FarClipPlane: 50
     Dutch: 0
     ModeOverride: 0
     PhysicalProperties:
@@ -7877,6 +7938,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 325142928}
     m_Modifications:
+    - target: {fileID: 2646482055390556755, guid: ce1d249402fbf344f9e8659058461e23, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3526381385358900023, guid: ce1d249402fbf344f9e8659058461e23, type: 3}
       propertyPath: m_Name
       value: Lighting
@@ -8120,12 +8185,13 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1894451713}
-  - {fileID: 585087985}
-  - {fileID: 1669579936}
   - {fileID: 1072899351}
   - {fileID: 1665281250}
+  - {fileID: 585087985}
+  - {fileID: 1669579936}
   - {fileID: 1698634707}
   - {fileID: 1405658620}
   - {fileID: 1142053873}
   - {fileID: 50789522}
   - {fileID: 325142928}
+  - {fileID: 372626107}
