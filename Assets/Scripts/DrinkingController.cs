@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using Unity.Cinemachine;
+using UnityEngine.InputSystem;
 
 public class DrinkingController : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class DrinkingController : MonoBehaviour
     //private Animator drinkingCamAnimator;
     public static float bloodAlcoholContent=0;
     //[SerializeField] private ParticleSystem pukeParticle;
-    public static float[] BACThresholdLevels = new float[] { 0.2f, 0.4f, 0.6f };
+    public static float[] BACThresholdLevels = new float[] { 0.3f, 0.7f, 1f };
     private static int currentThresholdIndex=0;
 
     private void Awake()
@@ -48,8 +49,18 @@ public class DrinkingController : MonoBehaviour
         if (bloodAlcoholContent>=BACThresholdLevels[currentThresholdIndex])
         {
             currentThresholdIndex++;
+            DisableInputs();
             SceneTransititoner.Instance.NextSceneTransition();
         }
+    }
+    private void DisableInputs()
+    {
+        var inputhandler = GameObject.FindGameObjectWithTag("InputHandler");
+        if (inputhandler != null)
+        {
+            inputhandler.GetComponent<PlayerInput>().enabled = false;
+        }
+        this.gameObject.GetComponent<PlayerInput>().enabled = false;
     }
 
     public void EndDrinkAnim()
