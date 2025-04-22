@@ -61,10 +61,10 @@ public class DrunkVisionController : MonoBehaviour
                 mBlur.intensity.value = 0.3f;
                 bloom.intensity.value = 0.5f;
                 lensD.intensity.value = -0.4f;
-                chromA.intensity.value = 2;
+                chromA.intensity.value = 5;
                 break;
 
-            case float n when (n > 0.4 && n <= 0.6f):
+            case float n when (n > 0.4f && n <= 0.6f):
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
                 mBlur.intensity.value = 0.45f;
                 bloom.intensity.value = 0.75f;
