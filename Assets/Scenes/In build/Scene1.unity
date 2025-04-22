@@ -6113,7 +6113,7 @@ MonoBehaviour:
     FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 0.01
-    FarClipPlane: 1000
+    FarClipPlane: 50
     Dutch: 0
     ModeOverride: 0
     PhysicalProperties:
@@ -8177,10 +8177,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1894451713}
-  - {fileID: 585087985}
-  - {fileID: 1669579936}
   - {fileID: 1072899351}
   - {fileID: 1665281250}
+  - {fileID: 585087985}
+  - {fileID: 1669579936}
   - {fileID: 1698634707}
   - {fileID: 1405658620}
   - {fileID: 1142053873}
