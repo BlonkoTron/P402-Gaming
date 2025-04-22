@@ -13,7 +13,7 @@ public class DrinkingController : MonoBehaviour
     //private Animator drinkingCamAnimator;
     public static float bloodAlcoholContent=0;
     //[SerializeField] private ParticleSystem pukeParticle;
-    public static float[] BACThresholdLevels = new float[] { 0.2f, 0.4f, 0.6f };
+    public static float[] BACThresholdLevels = new float[] { 0.3f, 0.7f, 1f };
     private static int currentThresholdIndex=0;
 
     private void Awake()
