@@ -5916,7 +5916,7 @@ GameObject:
   - component: {fileID: 1698634705}
   m_Layer: 0
   m_Name: InputHandler
-  m_TagString: Untagged
+  m_TagString: InputHandler
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
