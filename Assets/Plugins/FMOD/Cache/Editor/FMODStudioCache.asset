@@ -143,7 +143,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ToiletSounds.bank
   Name: ToiletSounds
   StudioPath: bank:/ToiletSounds
-  lastModified: 638809234922664310
+  lastModified: 638810007121296587
   FileSizes:
   - Name: Desktop
     Value: 949376
@@ -365,11 +365,38 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Sadguy.bank
   Name: Sadguy
   StudioPath: bank:/Sadguy
-  lastModified: 638809163700566177
+  lastModified: 638810007120244525
   FileSizes:
   - Name: Desktop
-    Value: 332928
+    Value: 401504
   Exists: 1
+--- !u!114 &-7798794992272813905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sadguy/SadGuy_Intro_2
+  m_EditorClassIdentifier: 
+  Path: event:/Sadguy/SadGuy_Intro_2
+  Guid:
+    Data1: 1362917773
+    Data2: 1324658482
+    Data3: 1852281491
+    Data4: 973395806
+  Banks:
+  - {fileID: -7821267785569200961}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2701
 --- !u!114 &-7749595594822488252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,7 +460,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638809234922563714
+  lastModified: 638810007118330029
   FileSizes:
   - Name: Desktop
     Value: 2520896
@@ -731,6 +758,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 948160
   Exists: 1
+--- !u!114 &-6494847659653605917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sadguy/SadGuy_Intro_1
+  m_EditorClassIdentifier: 
+  Path: event:/Sadguy/SadGuy_Intro_1
+  Guid:
+    Data1: -1795948483
+    Data2: 1163776476
+    Data3: 52532876
+    Data4: -104483117
+  Banks:
+  - {fileID: -7821267785569200961}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
 --- !u!114 &-6463285334896681601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,6 +1048,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 11774
+--- !u!114 &-5437975872030986213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArmyGuy/Army_intro 2
+  m_EditorClassIdentifier: 
+  Path: event:/ArmyGuy/Army_intro 2
+  Guid:
+    Data1: -386569116
+    Data2: 1126461221
+    Data3: -485471059
+    Data4: 1422455013
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2918
 --- !u!114 &-5417158667400816232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1114,7 +1195,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/BarAmbience.bank
   Name: BarAmbience
   StudioPath: bank:/BarAmbience
-  lastModified: 638809234922328218
+  lastModified: 638810007103043350
   FileSizes:
   - Name: Desktop
     Value: 4851776
@@ -1161,10 +1242,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638809163675453528
+  lastModified: 638810007101854029
   FileSizes:
   - Name: Desktop
-    Value: 1223936
+    Value: 1291808
   Exists: 1
 --- !u!114 &-4554322022808854039
 MonoBehaviour:
@@ -1883,10 +1964,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TooMuchMan.bank
   Name: TooMuchMan
   StudioPath: bank:/TooMuchMan
-  lastModified: 638809163704493427
+  lastModified: 638810007122316951
   FileSizes:
   - Name: Desktop
-    Value: 45504
+    Value: 65024
   Exists: 1
 --- !u!114 &-776920269610221136
 MonoBehaviour:
@@ -2102,12 +2183,17 @@ MonoBehaviour:
   - {fileID: -7256227578052112073}
   - {fileID: -1489614708857352338}
   - {fileID: -445996257069905664}
+  - {fileID: -5437975872030986213}
+  - {fileID: 5141342977929251876}
+  - {fileID: -6494847659653605917}
+  - {fileID: -7798794992272813905}
+  - {fileID: 8803288899985228793}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638809234922664310
+  cacheTime: 638810007122316951
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -2814,7 +2900,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638809163681840940
+  lastModified: 638810007103683608
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -3135,10 +3221,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638809163681870934
+  lastModified: 638810007103714130
   FileSizes:
   - Name: Desktop
-    Value: 3968
+    Value: 4198
   Exists: 1
 --- !u!114 &3714402554188259137
 MonoBehaviour:
@@ -3329,6 +3415,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6134
+--- !u!114 &5141342977929251876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArmyGuy/Army_intro 3
+  m_EditorClassIdentifier: 
+  Path: event:/ArmyGuy/Army_intro 3
+  Guid:
+    Data1: -445661964
+    Data2: 1217646514
+    Data3: -1861077631
+    Data4: -1243587318
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3230
 --- !u!114 &5146701002938154444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3868,6 +3981,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 15278
+--- !u!114 &8803288899985228793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TooMuchMan/TooMuch_intro
+  m_EditorClassIdentifier: 
+  Path: event:/TooMuchMan/TooMuch_intro
+  Guid:
+    Data1: -291728143
+    Data2: 1120122231
+    Data3: 458834103
+    Data4: -1091474030
+  Banks:
+  - {fileID: -799479461923960173}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1449
 --- !u!114 &8902952136442488005
 MonoBehaviour:
   m_ObjectHideFlags: 0

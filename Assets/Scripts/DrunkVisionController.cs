@@ -40,6 +40,8 @@ public class DrunkVisionController : MonoBehaviour
         
     }
 
+
+
     public void UpdateDrunkVision(float bac)
     {
         switch (bac)
@@ -64,7 +66,7 @@ public class DrunkVisionController : MonoBehaviour
                 chromA.intensity.value = 5;
                 break;
 
-            case float n when (n > 0.4f && n <= 0.6f):
+            case float n when (n > 0.4f && n <= 0.8f):
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
                 mBlur.intensity.value = 0.45f;
                 bloom.intensity.value = 0.75f;
