@@ -615,9 +615,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4318978710024077431, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
+      propertyPath: rotationSpeed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318978710024077431, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: cameraTransform
       value: 
-      objectReference: {fileID: 859609928}
+      objectReference: {fileID: 1168404708}
     - target: {fileID: 4357811438774928565, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: FollowOffset.y
       value: 1.3
@@ -693,7 +697,7 @@ PrefabInstance:
     - target: {fileID: 6404150323671649700, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 859609926}
+      objectReference: {fileID: 1168404707}
     - target: {fileID: 6494634606336382365, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -2509,7 +2513,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1152405672}
   - {fileID: 1705495588}
   m_Father: {fileID: 391929088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3567,16 +3570,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0f2fa28191af2ee47b65380e6047d20d, type: 3}
   m_PrefabInstance: {fileID: 855952209}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &859609926 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 8937882422453457293, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
-  m_PrefabInstance: {fileID: 1166453839}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &859609928 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3600169506482906855, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
-  m_PrefabInstance: {fileID: 1166453839}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &912637222
 PrefabInstance:
@@ -4765,11 +4758,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd1da78cd9d0f9f41ba4f12e64081055, type: 3}
---- !u!4 &1152405672 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1ed2c306d11baaf4fb3a35100b653e7c, type: 3}
-  m_PrefabInstance: {fileID: 1168404706}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1168404706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4839,10 +4827,20 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
---- !u!114 &1166453840 stripped
+--- !u!20 &1168404707 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 8937882422453457293, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
+  m_PrefabInstance: {fileID: 1168404706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1168404708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3600169506482906855, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
+  m_PrefabInstance: {fileID: 1168404706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1168404709 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8539148602129315614, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
-  m_PrefabInstance: {fileID: 1166453839}
+  m_PrefabInstance: {fileID: 1168404706}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -6520,7 +6518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 694070608}
-  playInt: {fileID: 1166453840}
+  playInt: {fileID: 1168404709}
 --- !u!114 &1698634706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8335,4 +8333,4 @@ SceneRoots:
   - {fileID: 50789522}
   - {fileID: 325142928}
   - {fileID: 372626107}
-  - {fileID: 1166453839}
+  - {fileID: 1168404706}

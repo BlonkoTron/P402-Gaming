@@ -506,6 +506,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4318978710024077431, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
+      propertyPath: rotationSpeed
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318978710024077431, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 914050960}
@@ -3425,6 +3429,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3600169506482906855, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
   m_PrefabInstance: {fileID: 914050958}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &914050961 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8539148602129315614, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
+  m_PrefabInstance: {fileID: 914050958}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f529f1ff422064bbb6c0c41d505b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &918452620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6316,7 +6331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 694070608}
-  playInt: {fileID: 0}
+  playInt: {fileID: 914050961}
 --- !u!114 &1698634706
 MonoBehaviour:
   m_ObjectHideFlags: 0
