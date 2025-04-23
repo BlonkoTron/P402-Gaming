@@ -14,9 +14,13 @@ public class PlayerAnimationController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         FP = GetComponent<FPController>();
+        DrinkingController.Instance.OnDrink += Drink;
+    }
+    private void OnDisable()
+    {
+        DrinkingController.Instance.OnDrink -= Drink;
 
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -43,5 +47,9 @@ public class PlayerAnimationController : MonoBehaviour
 
 
         animator.SetFloat("movement", movementValue);
+    }
+    private void Drink()
+    {
+        animator.SetTrigger("Drink");
     }
 }
