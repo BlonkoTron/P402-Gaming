@@ -554,16 +554,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -2028339331
-      Data2: 1330266285
-      Data3: -1674808932
-      Data4: 918760267
-    Path: event:/Barambience/Cough
+      Data1: 1706065759
+      Data2: 1217965674
+      Data3: -230959226
+      Data4: 1101613137
+    Path: event:/Barambience/BeerPour
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 16
   MaxDistance: 15
+  playDuration: 6
+  pauseDuration: 10
 --- !u!1 &1399332538
 GameObject:
   m_ObjectHideFlags: 0
