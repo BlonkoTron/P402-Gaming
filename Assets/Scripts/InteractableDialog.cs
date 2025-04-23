@@ -4,9 +4,11 @@ public class InteractableDialog : Interactable
 {
     private InkDialogue inkDia;
 
+
     private void Awake()
     {
         inkDia = GetComponent<InkDialogue>();
+        
     }
 
     public override void Interacted()
@@ -17,6 +19,12 @@ public class InteractableDialog : Interactable
         {
             var player = GameObject.FindGameObjectWithTag("Player");
             //transform.LookAt(player.transform, Vector3.up);
+
+            if (GetComponent<TurnNpcToFacePlayer>() != null)
+            {
+                GetComponent<TurnNpcToFacePlayer>().FacePlayer();
+            }
+
             inkDia.StartStory();
             PlayerInteract.isInteracting = true;
             Cursor.lockState = CursorLockMode.Confined;

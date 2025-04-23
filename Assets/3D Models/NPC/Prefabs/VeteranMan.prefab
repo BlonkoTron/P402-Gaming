@@ -1601,7 +1601,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 200}
-  m_SizeDelta: {x: 666.6667, y: 266.66666}
+  m_SizeDelta: {x: 1000, y: 266.66666}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &8104049488165351066
 CanvasRenderer:
@@ -1676,7 +1676,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -40, y: -40}
+  m_SizeDelta: {x: -80, y: -80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &455460075760094340
 CanvasRenderer:
@@ -1733,12 +1733,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
+  m_fontSize: 18
   m_fontSizeBase: 40
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 40
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2671,6 +2671,7 @@ GameObject:
   - component: {fileID: 8102513225510106534}
   - component: {fileID: 1131856917468627939}
   - component: {fileID: 775820106633496997}
+  - component: {fileID: 8610231947436049352}
   m_Layer: 3
   m_Name: VeteranMan
   m_TagString: NPC
@@ -2742,7 +2743,7 @@ Animator:
   m_GameObject: {fileID: 8974197745433190209}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 5c44bf4a1b0615f48b3a1a3c1f16c060, type: 3}
-  m_Controller: {fileID: 9100000, guid: 843ae4d6e010fc249bb32a858969fbe1, type: 2}
+  m_Controller: {fileID: 9100000, guid: ace08316b98d9a64bb26ca6b41a7d8fc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2841,6 +2842,20 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0.8, z: 0}
+--- !u!114 &8610231947436049352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8974197745433190209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1ea0445262859f4f8c3697449955b25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpd: 150
+  target: {fileID: 0}
 --- !u!1 &9113323588126459201
 GameObject:
   m_ObjectHideFlags: 0

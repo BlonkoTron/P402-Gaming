@@ -49,22 +49,22 @@ public class DrunkVisionController : MonoBehaviour
 
                 break;
 
-            case float n when (n > 0 && n <= 0.5f):
+            case float n when (n > 0 && n <= 0.2f):
                 Debug.Log("a little drunk - Bac = " + bac);
                 mBlur.intensity.value = 0.10f;
                 bloom.intensity.value = 0.2f;
                 lensD.intensity.value = -0.05f;
                 break;
 
-            case float n when (n > 0.5f && n <= 1):
+            case float n when (n > 0.2f && n <= 0.4f):
                 Debug.Log("you are drunk - Bac = " + bac);
                 mBlur.intensity.value = 0.3f;
                 bloom.intensity.value = 0.5f;
                 lensD.intensity.value = -0.4f;
-                chromA.intensity.value = 2;
+                chromA.intensity.value = 5;
                 break;
 
-            case float n when (n > 1 && n <= 1.5f):
+            case float n when (n > 0.4f && n <= 0.6f):
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
                 mBlur.intensity.value = 0.45f;
                 bloom.intensity.value = 0.75f;
@@ -72,7 +72,7 @@ public class DrunkVisionController : MonoBehaviour
                 chromA.intensity.value = 15;
                 break;
 
-            case float n when (n > 1.5f):
+            case float n when (n > 0.8):
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
                 mBlur.intensity.value = 0.6f;
                 bloom.intensity.value = 1;

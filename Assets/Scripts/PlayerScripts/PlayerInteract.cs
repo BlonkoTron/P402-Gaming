@@ -1,3 +1,4 @@
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.HID;
@@ -11,6 +12,7 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField] private float raylength;
 
     [SerializeField] private GameObject holdPos;
+    [SerializeField] private GameObject InteractIcon;
 
     private int layerMask;
 
@@ -36,6 +38,23 @@ public class PlayerInteract : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
+    private void Update()
+    {
+        if (InteractIcon != null)
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.forward, out hit, raylength, layerMask))
+            {
+                InteractIcon.SetActive(true);
+            }
+            else
+            {
+                InteractIcon.SetActive(false);
+            }
+        }
+
+    }
+
     public void OnInteract()
     {
 
@@ -54,6 +73,8 @@ public class PlayerInteract : MonoBehaviour
             }
 
         }
+
+
         if (grabbing)
         {
             if (firstPress > 0)
