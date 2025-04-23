@@ -26,6 +26,10 @@ public class InkNPCDialogue: InkDialogue
         RemovePreviousChoices();
         CameraController.Instance.SetToMainCam();
         base.EndStory();
+        if (DrinkingController.Instance!=null)
+        {
+            DrinkingController.Instance.CheckBACForTransition();
+        }
     }
     private IEnumerator SetPlayerActiveDelay()
     {
