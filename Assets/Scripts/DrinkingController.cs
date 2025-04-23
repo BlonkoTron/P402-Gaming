@@ -33,13 +33,6 @@ public class DrinkingController : MonoBehaviour
         bloodAlcoholContent += amount;
         OnDrink.Invoke();
         DrunkVisionController.Instance.UpdateDrunkVision(bloodAlcoholContent);
-        // check if transition to next scene
-        if (bloodAlcoholContent>=BACThresholdLevels[currentThresholdIndex])
-        {
-            currentThresholdIndex++;
-            DisableInputs();
-            SceneTransititoner.Instance.NextSceneTransition();
-        }
     }
     private void DisableInputs()
     {
@@ -54,5 +47,14 @@ public class DrinkingController : MonoBehaviour
     public void EndDrinkAnim()
     {
         CameraController.Instance.SetToMainCam();
+    }
+    public void CheckBACForTransition()
+    {
+        if (bloodAlcoholContent >= BACThresholdLevels[currentThresholdIndex])
+        {
+            currentThresholdIndex++;
+            DisableInputs();
+            SceneTransititoner.Instance.NextSceneTransition();
+        }
     }
 }
