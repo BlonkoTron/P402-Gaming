@@ -59,4 +59,13 @@ public class NPC_Soundmanager : MonoBehaviour
             Audiomanager.instance.StopSound(VoiceLine_4);
         });
     }
+
+    public void Endstorys()
+    {
+        Audiomanager.instance.StopSound(VoiceLine_1);
+        Audiomanager.instance.StopSound(VoiceLine_2);
+        Audiomanager.instance.StopSound(VoiceLine_3);
+        Audiomanager.instance.StopSound(VoiceLine_4);
+        Audiomanager.instance.StopSound(VoiceLine_5);
+    }
 }
