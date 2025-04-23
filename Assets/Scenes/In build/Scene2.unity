@@ -335,7 +335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 144098635964900309, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 161244457534038641, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: m_Layer
@@ -599,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6546706240518026729, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6570155266116162397, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
       propertyPath: m_Layer
@@ -1679,15 +1679,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_1.Path
-      value: event:/ArmyGuy/ArmyGuyPt2_L2
+      value: event:/ArmyGuy/Army_intro 2
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Path
-      value: event:/ArmyGuy/ArmyGuyPt2_L1
+      value: event:/ArmyGuy/ArmyGuyPt2_L2
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_3.Path
-      value: event:/Silence/Silence
+      value: event:/ArmyGuy/ArmyGuyPt2_L1
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_4.Path
@@ -1699,51 +1699,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_1.Guid.Data1
-      value: 542473245
+      value: -386569116
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_1.Guid.Data2
-      value: 1097696231
+      value: 1126461221
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_1.Guid.Data3
-      value: -1283455086
+      value: -485471059
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_1.Guid.Data4
-      value: 1872710748
+      value: 1422455013
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data1
-      value: -1160004536
+      value: 542473245
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data2
-      value: 1268401918
+      value: 1097696231
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data3
-      value: 1706688921
+      value: -1283455086
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data4
-      value: -102044121
+      value: 1872710748
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_3.Guid.Data1
-      value: -21981516
+      value: -1160004536
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_3.Guid.Data2
-      value: 1339048043
+      value: 1268401918
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_3.Guid.Data3
-      value: 1364795578
+      value: 1706688921
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_3.Guid.Data4
-      value: 1173012356
+      value: -102044121
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_4.Guid.Data1
@@ -2068,6 +2068,10 @@ PrefabInstance:
     - target: {fileID: 2330628713483636224, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: m_fontSize
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210751563554125008, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3296086581687644020, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: m_Name
@@ -3414,6 +3418,10 @@ PrefabInstance:
       propertyPath: MainCam
       value: 
       objectReference: {fileID: 1665281249}
+    - target: {fileID: 8937882422453457293, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8937882422453457293, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
       propertyPath: far clip plane
       value: 50
@@ -7424,15 +7432,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_1.Path
-      value: event:/Sadguy/SadGuy_Pt2_L1
+      value: event:/Sadguy/SadGuy_Intro_2
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_2.Path
-      value: event:/Sadguy/SadGuy_Pt2_L2
+      value: event:/Sadguy/SadGuy_Pt2_L1
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_3.Path
-      value: event:/Silence/Silence
+      value: event:/Sadguy/SadGuy_Pt2_L2
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_4.Path
@@ -7444,51 +7452,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_1.Guid.Data1
-      value: 2008898891
+      value: 1362917773
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_1.Guid.Data2
-      value: 1272614642
+      value: 1324658482
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_1.Guid.Data3
-      value: 1360435115
+      value: 1852281491
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_1.Guid.Data4
-      value: 944279335
+      value: 973395806
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_2.Guid.Data1
-      value: 1601183724
+      value: 2008898891
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_2.Guid.Data2
-      value: 1155045057
+      value: 1272614642
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_2.Guid.Data3
-      value: -975367495
+      value: 1360435115
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_2.Guid.Data4
-      value: -493026696
+      value: 944279335
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_3.Guid.Data1
-      value: -21981516
+      value: 1601183724
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_3.Guid.Data2
-      value: 1339048043
+      value: 1155045057
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_3.Guid.Data3
-      value: 1364795578
+      value: -975367495
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_3.Guid.Data4
-      value: 1173012356
+      value: -493026696
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_4.Guid.Data1
