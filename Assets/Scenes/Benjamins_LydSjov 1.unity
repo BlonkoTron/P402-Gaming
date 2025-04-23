@@ -564,8 +564,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 16
   MaxDistance: 15
+  ChanceToPlay: 2
   playDuration: 6
-  pauseDuration: 10
+  pauseDuration: 6
 --- !u!1 &1399332538
 GameObject:
   m_ObjectHideFlags: 0
