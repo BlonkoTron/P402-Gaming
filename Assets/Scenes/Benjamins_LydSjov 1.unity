@@ -443,7 +443,6 @@ GameObject:
   - component: {fileID: 1160398189}
   - component: {fileID: 1160398188}
   - component: {fileID: 1160398187}
-  - component: {fileID: 1160398191}
   - component: {fileID: 1160398192}
   m_Layer: 0
   m_Name: Sphere
@@ -541,32 +540,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1160398191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160398186}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70046e27d427fdc48874e92561bebe6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sound1:
-    Guid:
-      Data1: 1652818858
-      Data2: 1228236015
-      Data3: 1663387522
-      Data4: 1712658570
-    Path: event:/SFX/Barf_1
-  Sound2:
-    Guid:
-      Data1: -380774153
-      Data2: 1153516301
-      Data3: -1124248669
-      Data4: -1370186477
-    Path: event:/SFX/Barf_2
 --- !u!114 &1160398192
 MonoBehaviour:
   m_ObjectHideFlags: 0
