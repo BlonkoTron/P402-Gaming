@@ -88,7 +88,7 @@ public class InkDialogue : MonoBehaviour
 		else
 		{
 			EndStory();
-		}
+        }
 	}
 	GameObject CreateChoiceView(string text)
 	{
@@ -104,7 +104,8 @@ public class InkDialogue : MonoBehaviour
 	} protected virtual void EndStory()
     {
 		OnEndStory.Invoke();
-	}
+        Soundmanager.Endstorys();
+    }
 
 	// When we click the choice button, tell the story to choose that choice!
 	void OnClickChoiceButton(Choice choice)
