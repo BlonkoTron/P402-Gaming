@@ -2,6 +2,9 @@ using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
 using FMOD;
+using System.Collections;
+using FMODUnityResonance;
+using UnityEngine.Rendering;
 
 public class Occlusion : MonoBehaviour
 {
@@ -26,8 +29,19 @@ public class Occlusion : MonoBehaviour
     private float DistanceToListener = 0f;
     private float linecastHitCount;
     private Color rayColor; 
-
+    [SerializeField]
+    [Range(0, 10)]
+    private int ChanceToPlay;
     
+    [SerializeField]
+    [Range(0f, 60f)]
+    private float playDuration = 5f;
+
+    [SerializeField]
+    [Range(0f, 60f)]
+    float pauseDuration = 3f; // Set the duration the sound should remain paused
+    private int randomNumber;
+
     private void Start()
     {
         Sound = RuntimeManager.CreateInstance(ChooseAudio);
@@ -40,6 +54,34 @@ public class Occlusion : MonoBehaviour
         
         Listener = FindFirstObjectByType<StudioListener>();
         
+        StartCoroutine(PauseAndResumeSound()); // Start the coroutine
+    }
+
+    private IEnumerator PauseAndResumeSound()
+    {
+        while (true)
+        {
+            // Let the sound play for a set amount of time
+            if (PBS == PLAYBACK_STATE.PLAYING)
+            {
+                
+
+                
+                randomNumber = Random.Range(1, 10); // Random.Range with integers is inclusive for both min and max
+                UnityEngine.Debug.Log(randomNumber); // Log the random number for debugging
+                if (ChanceToPlay <= randomNumber)
+                {
+                    // Pause the audio if the random number is 
+                    Sound.setVolume(1f);
+                    yield return new WaitForSeconds(playDuration); // Pause for the set duration
+                }
+                else
+                {
+                    Sound.setVolume(0f);
+                    yield return new WaitForSeconds(pauseDuration); // Play for the set duration
+                }
+            }
+        }   
     }
 
     private void FixedUpdate()
@@ -147,7 +189,7 @@ public class Occlusion : MonoBehaviour
     {
        Sound.setParameterByName("Occlusion", linecastHitCount/9, true);
     }
-
+    
 }
 
 
