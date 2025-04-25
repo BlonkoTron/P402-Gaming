@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/In build/Scene3.unity
     guid: 151036880b30da348abd5ead80228c35
   - enabled: 1
+    path: Assets/Scenes/In build/Cutscene Ude og skide.unity
+    guid: 6defa9588a6919349bbbff80c6ff9a07
+  - enabled: 0
     path: Assets/Scenes/In build/EndScene.unity
     guid: 898b264709a8cca42a5de1d5a0fbe26a
   m_configObjects:
