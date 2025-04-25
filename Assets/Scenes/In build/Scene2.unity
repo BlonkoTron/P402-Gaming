@@ -5839,6 +5839,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 352064286938005532, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.402
+      objectReference: {fileID: 0}
     - target: {fileID: 840835703669047568, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.97
@@ -5881,7 +5885,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2605377018760903988, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: MaxDistance
-      value: 10
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605377018760903988, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: SoundOcclusionWidth
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 2621777192976712341, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: m_Name

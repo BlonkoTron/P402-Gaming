@@ -3794,6 +3794,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 306613348517578151, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: MaxDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 306613348517578151, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: ChanceToPlay
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 840835703669047568, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.97
@@ -3834,6 +3842,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2287078135583087974, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2621777192976712341, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: m_Name
       value: Ambience
@@ -3841,6 +3853,18 @@ PrefabInstance:
     - target: {fileID: 2621777192976712341, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101220638079174143, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5593805459125971009, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: MaxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5593805459125971009, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: ChanceToPlay
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6744515218372147744, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3854,6 +3878,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 12.61
       objectReference: {fileID: 0}
+    - target: {fileID: 6919891624635092042, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7024775524928182498, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3864,7 +3892,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8123345070519405841, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9176249877739118748, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: MaxDistance
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9176249877739118748, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: ChanceToPlay
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3923,7 +3959,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5981500209615381317, guid: fd1da78cd9d0f9f41ba4f12e64081055, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
