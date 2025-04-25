@@ -1029,25 +1029,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AudioLine_1:
     Guid:
+      Data1: -1762129074
+      Data2: 1332613914
+      Data3: 1156404875
+      Data4: -228780609
+    Path: event:/TheFriend/ringtone
+  AudioLine_2:
+    Guid:
       Data1: -1416536640
       Data2: 1332152113
       Data3: -1735466869
       Data4: 1171501618
     Path: event:/TheFriend/Friend_Pt1_L1
-  AudioLine_2:
+  AudioLine_3:
     Guid:
       Data1: 1737155625
       Data2: 1217977324
       Data3: 1564304017
       Data4: -96748016
     Path: event:/TheFriend/Friend_Pt1_L2
-  AudioLine_3:
-    Guid:
-      Data1: -21981516
-      Data2: 1339048043
-      Data3: 1364795578
-      Data4: 1173012356
-    Path: event:/Silence/Silence
   AudioLine_4:
     Guid:
       Data1: -21981516

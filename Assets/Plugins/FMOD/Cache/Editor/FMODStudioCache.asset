@@ -839,6 +839,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3379
+--- !u!114 &-5975779071106238874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheFriend/ringtone
+  m_EditorClassIdentifier: 
+  Path: event:/TheFriend/ringtone
+  Guid:
+    Data1: -1762129074
+    Data2: 1332613914
+    Data3: 1156404875
+    Data4: -228780609
+  Banks:
+  - {fileID: -5960714084790736457}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12068
 --- !u!114 &-5960714084790736457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -854,10 +881,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TheFriend.bank
   Name: TheFriend
   StudioPath: bank:/TheFriend
-  lastModified: 638811693983345602
+  lastModified: 638811700814132769
   FileSizes:
   - Name: Desktop
-    Value: 824000
+    Value: 925856
   Exists: 1
 --- !u!114 &-5921874663592696344
 MonoBehaviour:
@@ -2188,12 +2215,13 @@ MonoBehaviour:
   - {fileID: -7798794992272813905}
   - {fileID: 8803288899985228793}
   - {fileID: 6582895145082792815}
+  - {fileID: -5975779071106238874}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638811693983345602
+  cacheTime: 638811700814132769
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -2900,7 +2928,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638811691190217614
+  lastModified: 638811700810232697
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -3221,10 +3249,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638811693983254899
+  lastModified: 638811700810262548
   FileSizes:
   - Name: Desktop
-    Value: 4202
+    Value: 4254
   Exists: 1
 --- !u!114 &3714402554188259137
 MonoBehaviour:
