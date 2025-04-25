@@ -222,8 +222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7d3cd3e403c6d2478fe2e860791292b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeTime: 2
-  transitionTimer: 3
+  fadeOutTime: 1
+  transitionTimer: 2
   transitionPanel: {fileID: 1405577533140335851}
   fadeOutCurve:
     serializedVersion: 2
