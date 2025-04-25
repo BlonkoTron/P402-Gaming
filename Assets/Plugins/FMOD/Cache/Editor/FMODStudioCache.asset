@@ -365,7 +365,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Sadguy.bank
   Name: Sadguy
   StudioPath: bank:/Sadguy
-  lastModified: 638810015318763265
+  lastModified: 638811691192439377
   FileSizes:
   - Name: Desktop
     Value: 401504
@@ -854,10 +854,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TheFriend.bank
   Name: TheFriend
   StudioPath: bank:/TheFriend
-  lastModified: 638809163703072530
+  lastModified: 638811691195030863
   FileSizes:
   - Name: Desktop
-    Value: 871840
+    Value: 824000
   Exists: 1
 --- !u!114 &-5921874663592696344
 MonoBehaviour:
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638810015318693485
+  lastModified: 638811691189511399
   FileSizes:
   - Name: Desktop
     Value: 1291808
@@ -1964,7 +1964,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TooMuchMan.bank
   Name: TooMuchMan
   StudioPath: bank:/TooMuchMan
-  lastModified: 638810015318773470
+  lastModified: 638811691196442198
   FileSizes:
   - Name: Desktop
     Value: 65024
@@ -2164,7 +2164,6 @@ MonoBehaviour:
   - {fileID: 2435076048444258425}
   - {fileID: -3462426877734263660}
   - {fileID: 2738406634304519479}
-  - {fileID: 5677496485902503755}
   - {fileID: 6419944126101214565}
   - {fileID: 1314701064619205656}
   - {fileID: 1652112947308366921}
@@ -2188,12 +2187,13 @@ MonoBehaviour:
   - {fileID: -6494847659653605917}
   - {fileID: -7798794992272813905}
   - {fileID: 8803288899985228793}
+  - {fileID: 6582895145082792815}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638810015318773470
+  cacheTime: 638811691196442198
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -2900,7 +2900,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638810007103683608
+  lastModified: 638811691190217614
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -3221,10 +3221,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638810015318713264
+  lastModified: 638811691190257478
   FileSizes:
   - Name: Desktop
-    Value: 4198
+    Value: 4202
   Exists: 1
 --- !u!114 &3714402554188259137
 MonoBehaviour:
@@ -3516,33 +3516,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 11774
---- !u!114 &5677496485902503755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TheFriend/Friend_Pt1_L4
-  m_EditorClassIdentifier: 
-  Path: event:/TheFriend/Friend_Pt1_L4
-  Guid:
-    Data1: 2038873939
-    Data2: 1294416280
-    Data3: 1435569332
-    Data4: 1120201786
-  Banks:
-  - {fileID: -5960714084790736457}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10740
 --- !u!114 &5859350246299753766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3702,6 +3675,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1437
+--- !u!114 &6582895145082792815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheFriend/Friend_kebab
+  m_EditorClassIdentifier: 
+  Path: event:/TheFriend/Friend_kebab
+  Guid:
+    Data1: 2038873939
+    Data2: 1294416280
+    Data3: 1435569332
+    Data4: 1120201786
+  Banks:
+  - {fileID: -5960714084790736457}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5443
 --- !u!114 &6663888290585769809
 MonoBehaviour:
   m_ObjectHideFlags: 0
