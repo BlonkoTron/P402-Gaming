@@ -854,7 +854,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TheFriend.bank
   Name: TheFriend
   StudioPath: bank:/TheFriend
-  lastModified: 638811691195030863
+  lastModified: 638811693983345602
   FileSizes:
   - Name: Desktop
     Value: 824000
@@ -2193,7 +2193,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638811691196442198
+  cacheTime: 638811693983345602
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -3221,7 +3221,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638811691190257478
+  lastModified: 638811693983254899
   FileSizes:
   - Name: Desktop
     Value: 4202
