@@ -817,6 +817,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 943e5d45761121e46a3e19385a8d6e7b, type: 2}
     - target: {fileID: 7944750290012182018, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
+      propertyPath: textSpeed
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944750290012182018, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: buttonParent
       value: 
       objectReference: {fileID: 617994735737757558}

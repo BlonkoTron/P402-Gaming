@@ -1733,7 +1733,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 40
   m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2719,7 +2719,7 @@ MonoBehaviour:
   dialogueTextField: {fileID: 0}
   buttonPrefab: {fileID: 0}
   buttonParent: {fileID: 0}
-  textSpeed: 0.05
+  textSpeed: 0.06
   dialogueCanvas: {fileID: 0}
 --- !u!114 &3337766700496252240
 MonoBehaviour:
@@ -2819,6 +2819,9 @@ MonoBehaviour:
   NPC_Dialog3: 
   NPC_Dialog4: 
   NPC_Dialog5: 
+  nerdCamShift: 0
+  nerd1: {fileID: 0}
+  nerd2: {fileID: 0}
 --- !u!136 &775820106633496997
 CapsuleCollider:
   m_ObjectHideFlags: 0
