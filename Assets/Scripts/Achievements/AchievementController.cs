@@ -11,6 +11,8 @@ public class AchievementController: MonoBehaviour
 
     public List<Achievement> Achievements;
 
+    private Achievement achievementReadyToShow;
+
     public List<Achievement> unlockedAchievements = new List<Achievement>();
 
     private void Awake()
@@ -32,7 +34,7 @@ public class AchievementController: MonoBehaviour
         if (!unlockedAchievements.Contains(newAchievement))
         {
             unlockedAchievements.Add(newAchievement);
-            OnAchievementUnlocked.Invoke(newAchievement);
+            achievementReadyToShow = newAchievement;
         }
     }
     private Achievement GetAchievement(string achievementName)
@@ -45,6 +47,16 @@ public class AchievementController: MonoBehaviour
             }
         }
         return null;
+    }
+    public bool CheckIfNewAchievementUnlocked()
+    {
+        if (achievementReadyToShow!=null)
+        {
+            OnAchievementUnlocked.Invoke(achievementReadyToShow);
+            achievementReadyToShow = null;
+            return true;
+        } else { return false; }
+
     }
     public void ResetAchievements()
     {

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{7986bf53-3998-4d27-b40c-91553aecc442}">
 		<property name="name">
-			<value>Friend_Pt1_L4</value>
+			<value>Friend_kebab</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{f59fa64a-7698-4cb3-9ed0-11df5b26e481}" />
 	<object class="GroupTrack" id="{9edce1d9-ec81-4e72-be6a-ed1077f385d6}">
 		<relationship name="modules">
-			<destination>{515ac5bf-fddb-4ae4-a29d-f1045c4f0eab}</destination>
+			<destination>{1bbfb2d9-8224-44e4-a5f8-3a44af525642}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{8859b255-4f04-4438-8397-29fe9854133a}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{2c954a4d-1ef9-4c40-8d2b-4b1e70cb01a8}">
 		<relationship name="modules">
-			<destination>{515ac5bf-fddb-4ae4-a29d-f1045c4f0eab}</destination>
+			<destination>{1bbfb2d9-8224-44e4-a5f8-3a44af525642}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7dc6ed7b-826e-45f6-9308-5ac23ec0b8bf}">
@@ -88,12 +88,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a5fc6aef-1ba6-4721-bd61-576ed40c87f1}" />
-	<object class="SingleSound" id="{515ac5bf-fddb-4ae4-a29d-f1045c4f0eab}">
+	<object class="SingleSound" id="{1bbfb2d9-8224-44e4-a5f8-3a44af525642}">
 		<property name="length">
-			<value>10.740375</value>
+			<value>5.4434314295977009</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.070985237068965507</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{f9d62b6b-1a8a-4e28-83cb-24325cfa5e82}</destination>
+			<destination>{cd163156-7c10-47db-9794-683e8a44585b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8859b255-4f04-4438-8397-29fe9854133a}">

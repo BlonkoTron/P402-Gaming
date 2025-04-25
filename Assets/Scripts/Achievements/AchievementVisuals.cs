@@ -10,7 +10,7 @@ public class AchievementVisuals : MonoBehaviour
     [SerializeField] private GameObject _achievementBox;
     private Animator _achievementAnimator;
 
-    private float _achievementAnimationTime=4f;
+    private float _achievementAnimationTime=6f;
 
 
     void Start()

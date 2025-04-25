@@ -105,6 +105,10 @@ public class InkDialogue : MonoBehaviour
     {
 		OnEndStory.Invoke();
         Soundmanager.Endstorys();
+		if (AchievementController.Instance!=null)
+        {
+			AchievementController.Instance.CheckIfNewAchievementUnlocked();
+        }
     }
 
 	// When we click the choice button, tell the story to choose that choice!
