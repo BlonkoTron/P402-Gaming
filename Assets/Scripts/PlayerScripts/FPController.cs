@@ -28,6 +28,7 @@ public class FPController : MonoBehaviour
     private void Awake()
     {
         cc = GetComponent<CharacterController>();
+        
     }
 
     private void FixedUpdate()
