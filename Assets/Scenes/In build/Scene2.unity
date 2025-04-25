@@ -4873,7 +4873,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5981500209615381317, guid: fd1da78cd9d0f9f41ba4f12e64081055, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5834,6 +5835,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 86368358803051285, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: MaxDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 840835703669047568, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.97
@@ -5874,6 +5879,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2605377018760903988, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: MaxDistance
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2621777192976712341, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: m_Name
       value: Ambience
@@ -5899,8 +5908,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9176249877739118748, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
+      propertyPath: MaxDistance
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9176249877739118748, guid: 05885435f86ac8e479fdc679b9dd77ee, type: 3}
       propertyPath: ChanceToPlay
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8236,11 +8249,19 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3360501965859344797, guid: ccf6bb16f7ca8e448b5cbb272b2d83e7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4220915326722161122, guid: ccf6bb16f7ca8e448b5cbb272b2d83e7, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5916671307172703439, guid: ccf6bb16f7ca8e448b5cbb272b2d83e7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6212692070821782317, guid: ccf6bb16f7ca8e448b5cbb272b2d83e7, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
