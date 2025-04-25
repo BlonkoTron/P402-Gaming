@@ -616,7 +616,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/BarAmbience.bank
   Name: BarAmbience
   StudioPath: bank:/BarAmbience
-  lastModified: 638811723019596194
+  lastModified: 638811750307964356
   FileSizes:
   - Name: Desktop
     Value: 6232384
@@ -1281,7 +1281,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638811723023264935
+  cacheTime: 638811750307964356
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -1617,7 +1617,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638811723019682275
+  lastModified: 638811748766752307
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638811723019692226
+  lastModified: 638811748766767709
   FileSizes:
   - Name: Desktop
     Value: 4324

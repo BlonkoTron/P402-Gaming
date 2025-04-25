@@ -6294,8 +6294,8 @@ MonoBehaviour:
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 64
-  MaxDistance: 30
-  ChanceToPlay: 4
+  MaxDistance: 20.5
+  ChanceToPlay: 6
   playDuration: 7
   pauseDuration: 6
 --- !u!135 &1543133304
@@ -7200,7 +7200,7 @@ MonoBehaviour:
       Data3: -1291951213
       Data4: -117988748
     Path: event:/Barambience/PeopleTalking
-  SoundOcclusionWidth: 1
+  SoundOcclusionWidth: 0.69
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 64
@@ -7291,7 +7291,7 @@ Transform:
   m_GameObject: {fileID: 1680501740}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2549999, y: -0.020999968, z: 4.4230003}
+  m_LocalPosition: {x: 1.507, y: 0.36, z: 4.4230003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
