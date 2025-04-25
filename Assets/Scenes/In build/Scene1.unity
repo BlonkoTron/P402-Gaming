@@ -5743,7 +5743,7 @@ MonoBehaviour:
       Data3: -190723698
       Data4: -433730785
     Path: event:/Barambience/Paopleoutside
-  SoundOcclusionWidth: 1
+  SoundOcclusionWidth: 0.59
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 64
