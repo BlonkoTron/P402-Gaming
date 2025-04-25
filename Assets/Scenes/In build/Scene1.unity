@@ -352,6 +352,7 @@ Transform:
   - {fileID: 1634137390}
   - {fileID: 610180650}
   - {fileID: 2003331254}
+  - {fileID: 1824984391}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &23376884
@@ -4960,7 +4961,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5981500209615381317, guid: fd1da78cd9d0f9f41ba4f12e64081055, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5981500209615381317, guid: fd1da78cd9d0f9f41ba4f12e64081055, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5746,7 +5752,7 @@ MonoBehaviour:
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 64
-  MaxDistance: 30
+  MaxDistance: 20
   ChanceToPlay: 1
   playDuration: 60
   pauseDuration: 60
@@ -5833,7 +5839,7 @@ Transform:
   m_GameObject: {fileID: 1400663702}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.639999, y: 0.14999998, z: 0.03000021}
+  m_LocalPosition: {x: -13.5, y: 0.14999998, z: -0.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6294,8 +6300,8 @@ MonoBehaviour:
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 64
-  MaxDistance: 20.5
-  ChanceToPlay: 6
+  MaxDistance: 10
+  ChanceToPlay: 7
   playDuration: 7
   pauseDuration: 6
 --- !u!135 &1543133304
@@ -6521,7 +6527,7 @@ Transform:
   m_GameObject: {fileID: 1634137389}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.278, y: 0.13900006, z: 10.936001}
+  m_LocalPosition: {x: 4.278, y: 0.495, z: 10.936001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7815,7 +7821,7 @@ MonoBehaviour:
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 0
-  MaxDistance: 15
+  MaxDistance: 13
   ChanceToPlay: 1
   playDuration: 60
   pauseDuration: 60
@@ -7901,12 +7907,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824984386}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.33, y: 1.91, z: -3.42}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.360001, y: 1.03, z: 3.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 16580161}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1829313216
 PrefabInstance:
@@ -9721,4 +9727,3 @@ SceneRoots:
   - {fileID: 1168404706}
   - {fileID: 1918998894}
   - {fileID: 16580161}
-  - {fileID: 1824984391}
