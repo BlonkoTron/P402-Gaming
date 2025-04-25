@@ -265,7 +265,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638811857358452723
+  lastModified: 638811858492932566
   FileSizes:
   - Name: Desktop
     Value: 1143584
@@ -1281,7 +1281,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638811857358452723
+  cacheTime: 638811858492932566
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
