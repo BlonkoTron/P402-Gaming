@@ -38,6 +38,11 @@ public class PlayerInteract : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
+    private void Start()
+    {
+        isInteracting = false;
+    }
+
     private void Update()
     {
         if (InteractIcon != null)

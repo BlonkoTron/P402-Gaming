@@ -27,7 +27,7 @@ public class DrinkingController : MonoBehaviour
         drinkingCam = GetComponent<CinemachineCamera>();
         DrunkVisionController.Instance.UpdateDrunkVision(bloodAlcoholContent);
     }
-
+    
     public void Drink(float amount)
     {
         bloodAlcoholContent += amount;
