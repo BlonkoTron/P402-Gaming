@@ -19,8 +19,6 @@ public class FPController : MonoBehaviour
     private Vector3 DrunkDirection;
     private float ySpeed = 15;
 
-
-
     private float lerpT = 0;
     private float lerpMinimum = -1f;
     private float lerpMaximum = 1f;

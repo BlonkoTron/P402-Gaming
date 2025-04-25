@@ -27,6 +27,10 @@ public class NPC_Soundmanager : MonoBehaviour
     public string NPC_Dialog4;
     public string NPC_Dialog5;
 
+    [SerializeField] private bool nerdCamShift;
+    [SerializeField] private Transform nerd1;
+    [SerializeField] private Transform nerd2;
+
     public void storys()
     {
         inkDialogues = GetComponent<InkDialogue>();
@@ -45,18 +49,31 @@ public class NPC_Soundmanager : MonoBehaviour
         {
             VoiceLine_3 = Audiomanager.instance.PlaySound(AudioLine_3, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_2);
+
+            if (nerdCamShift)
+            {
+                CameraController.Instance.SetToNpcCam(nerd2);
+            }
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog4, (string NPC_Dialog4) =>
         {
             VoiceLine_4 = Audiomanager.instance.PlaySound(AudioLine_4, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_3);
+
+            if (nerdCamShift)
+            {
+                CameraController.Instance.SetToNpcCam(nerd1);
+            }
+
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog5, (string NPC_Dialog5) =>
         {
             VoiceLine_5 = Audiomanager.instance.PlaySound(AudioLine_5, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_4);
+
+ 
         });
     }
 
