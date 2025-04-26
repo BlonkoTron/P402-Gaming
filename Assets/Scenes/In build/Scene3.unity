@@ -5626,6 +5626,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7944750290012182018, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
+      propertyPath: textSpeed
+      value: 0.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944750290012182018, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: buttonParent
       value: 
       objectReference: {fileID: 1534890399}
@@ -6206,6 +6210,10 @@ PrefabInstance:
     - target: {fileID: 269832971884899087, guid: f9dc86bf682e63944a05b59bec3215fd, type: 3}
       propertyPath: m_Name
       value: Bartender Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257927813220049484, guid: f9dc86bf682e63944a05b59bec3215fd, type: 3}
+      propertyPath: textSpeed
+      value: 0.055
       objectReference: {fileID: 0}
     - target: {fileID: 1257927813220049484, guid: f9dc86bf682e63944a05b59bec3215fd, type: 3}
       propertyPath: buttonParent
