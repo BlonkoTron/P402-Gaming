@@ -4077,6 +4077,14 @@ PrefabInstance:
       propertyPath: AudioLine_5.Guid.Data4
       value: 1173012356
       objectReference: {fileID: 0}
+    - target: {fileID: 4654069614804646672, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654069614804646672, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4993638889834403059, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: m_Name
       value: Sadman Variant
