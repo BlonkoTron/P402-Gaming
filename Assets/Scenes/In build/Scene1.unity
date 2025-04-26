@@ -807,7 +807,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 58296326966638705, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 694070613}
   m_SourcePrefab: {fileID: 100100000, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
 --- !u!1001 &66784396
 PrefabInstance:
@@ -1675,6 +1678,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24e4b733657ac894d865ed104af3564e, type: 3}
+--- !u!1 &288576062 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 58296326966638705, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
+  m_PrefabInstance: {fileID: 50789522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &297502409 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4546548814956695728, guid: 24e4b733657ac894d865ed104af3564e, type: 3}
@@ -2957,7 +2965,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4318978710024077431, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
   m_PrefabInstance: {fileID: 50789522}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 288576062}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0be4f31090cead040b246cc3e785f69a, type: 3}
@@ -2968,6 +2976,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4221529702081019476, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
   m_PrefabInstance: {fileID: 50789522}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &694070613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288576062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8d83abd8d733a4d93e10f266e5f897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Effect1:
+    Guid:
+      Data1: -830342294
+      Data2: 1305754391
+      Data3: 2046502281
+      Data4: 735775967
+    Path: event:/drunkeffect/effectdrunk
+  FilterAmount: 0
+  FilterParameterName: Drunken
 --- !u!114 &694105438 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5376391440547565909, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}

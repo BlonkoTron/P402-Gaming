@@ -1056,6 +1056,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3720
+--- !u!114 &-1396859074291338051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Drunkeffect.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Drunkeffect.bank
+  Name: Drunkeffect
+  StudioPath: bank:/Drunkeffect
+  lastModified: 638812860071827330
+  FileSizes:
+  - Name: Desktop
+    Value: 2700512
+  Exists: 1
 --- !u!114 &-1053378758327552707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1214,6 +1234,7 @@ MonoBehaviour:
   - {fileID: -4901935654522833350}
   - {fileID: -7539909144204382073}
   - {fileID: -8374405932133980678}
+  - {fileID: -1396859074291338051}
   EditorEvents:
   - {fileID: 9795492088328789}
   - {fileID: 5354496031834825039}
@@ -1277,12 +1298,13 @@ MonoBehaviour:
   - {fileID: 6750087622941740378}
   - {fileID: -3310057318172519012}
   - {fileID: -1899944011356481535}
+  - {fileID: 8184588560012184450}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638812722209713149
+  cacheTime: 638812860071827330
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -1522,6 +1544,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3475
+--- !u!114 &1681992513726169500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/effectdrunk/Drunken
+  m_EditorClassIdentifier: 
+  Name: Drunken
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1210518902
+    data2: 162049403
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1983620931867795249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1618,7 +1664,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638812626633960168
+  lastModified: 638812857998209122
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1764,10 +1810,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638812626633980174
+  lastModified: 638812857998229161
   FileSizes:
   - Name: Desktop
-    Value: 4324
+    Value: 4468
   Exists: 1
 --- !u!114 &4319273926485492422
 MonoBehaviour:
@@ -2213,6 +2259,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6200
+--- !u!114 &8184588560012184450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/drunkeffect/effectdrunk
+  m_EditorClassIdentifier: 
+  Path: event:/drunkeffect/effectdrunk
+  Guid:
+    Data1: -830342294
+    Data2: 1305754391
+    Data3: 2046502281
+    Data4: 735775967
+  Banks:
+  - {fileID: -1396859074291338051}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1681992513726169500}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 199627
 --- !u!114 &8577660545578399834
 MonoBehaviour:
   m_ObjectHideFlags: 0
