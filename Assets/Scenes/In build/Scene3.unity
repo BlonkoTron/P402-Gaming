@@ -8055,6 +8055,10 @@ PrefabInstance:
       value: Muscleman Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6174832830650169698, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
+      propertyPath: textSpeed
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174832830650169698, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: buttonParent
       value: 
       objectReference: {fileID: 1951599541}
