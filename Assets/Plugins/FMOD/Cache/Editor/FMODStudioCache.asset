@@ -244,7 +244,7 @@ MonoBehaviour:
   - {fileID: -4901935654522833350}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: 1650737437517952188}
   MinDistance: 1
@@ -545,7 +545,7 @@ MonoBehaviour:
   - {fileID: -4901935654522833350}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: 8636841853909789513}
   MinDistance: 1
@@ -597,7 +597,7 @@ MonoBehaviour:
   - {fileID: -4901935654522833350}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -617,10 +617,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/BarAmbience.bank
   Name: BarAmbience
   StudioPath: bank:/BarAmbience
-  lastModified: 638812630968860292
+  lastModified: 638812722209713149
   FileSizes:
   - Name: Desktop
-    Value: 6232960
+    Value: 6233344
   Exists: 1
 --- !u!114 &-4856362278820411282
 MonoBehaviour:
@@ -1282,7 +1282,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638812630968860292
+  cacheTime: 638812722209713149
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:

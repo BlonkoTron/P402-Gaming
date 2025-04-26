@@ -2709,7 +2709,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 15
-  ChanceToPlay: 1
+  ChanceToPlay: 5
   playDuration: 60
   pauseDuration: 60
 --- !u!135 &517796769
@@ -5861,7 +5861,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 15
-  ChanceToPlay: 1
+  ChanceToPlay: 5
   playDuration: 60
   pauseDuration: 60
 --- !u!135 &1231832335
@@ -8689,7 +8689,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 30
-  ChanceToPlay: 1
+  ChanceToPlay: 5
   playDuration: 21
   pauseDuration: 21
 --- !u!135 &2109147437
