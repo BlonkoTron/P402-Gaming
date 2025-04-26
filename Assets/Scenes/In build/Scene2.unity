@@ -5861,7 +5861,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 15
-  ChanceToPlay: 5
+  ChanceToPlay: 8
   playDuration: 60
   pauseDuration: 60
 --- !u!135 &1231832335

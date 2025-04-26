@@ -1605,7 +1605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &526336517
 Transform:
   m_ObjectHideFlags: 0
@@ -1645,7 +1645,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 30
-  ChanceToPlay: 7
+  ChanceToPlay: 10
   playDuration: 1.38
   pauseDuration: 1.38
 --- !u!135 &526336519
@@ -4773,7 +4773,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1411909524
 Transform:
   m_ObjectHideFlags: 0
@@ -5471,7 +5471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1527046894
 Transform:
   m_ObjectHideFlags: 0
@@ -6893,7 +6893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1703761364
 Transform:
   m_ObjectHideFlags: 0
@@ -7103,7 +7103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1738716253
 Transform:
   m_ObjectHideFlags: 0
@@ -7143,7 +7143,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 30
-  ChanceToPlay: 7
+  ChanceToPlay: 10
   playDuration: 1
   pauseDuration: 1
 --- !u!135 &1738716255
@@ -7239,7 +7239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1809512470
 Transform:
   m_ObjectHideFlags: 0
@@ -7471,19 +7471,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3600169506482906855, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5278985
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3600169506482906855, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.4704497
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3600169506482906855, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5278988
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3600169506482906855, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.47044995
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3600169506482906855, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7511,11 +7511,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8937882422453457293, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
       propertyPath: far clip plane
-      value: 1000
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8937882422453457293, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
       propertyPath: near clip plane
-      value: 0.1
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
