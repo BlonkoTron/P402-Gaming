@@ -2,47 +2,65 @@ using FMODUnity;
 using FMOD.Studio;
 using UnityEngine;
 
-public class VoiceLineController : MonoBehaviour
+public class Drunkeffect : MonoBehaviour
 {
-    private EventInstance VoiceLine_1;
+    private EventInstance RingEar_Event;
+    public GameObject playerpos;
 
-    [SerializeField] private EventReference Effect1;
-
+    [SerializeField] private EventReference RingingEar;
+    [SerializeField] private EventReference Blurr;
+    [SerializeField] private EventReference Slowspeach;
+    [SerializeField] private EventReference Wobble;
+    
     // Add a public float/int to control the filter (0-100 typically)
     [Range(0, 100)]
-    public int FilterAmount = 0;
+    public int RingEarAmount = 0;
+    public int BlurrAmount = 0;
+    public int SlowspeachAmount = 0;
+    public int WobbleAmount = 0;
 
-    // Name of the parameter in FMOD (must match exactly the parameter in the FMOD event)
-    [SerializeField] private string FilterParameterName = "FilterAmount";
+    // Name of the parameter in FMOD (must match exactly the parameter in the FMOD event) TBN = To be named
+    [SerializeField] private string EarringParameterName = "RingEar";
+    [SerializeField] private string BlurrParameterName = "TBN";
+    [SerializeField] private string SlowspeachParameterName = "TBN";
+    [SerializeField] private string WobbleParameterName = "TBN";
 
     public void Start()
     {
-        VoiceLine_1 = Audiomanager.instance.PlaySound(Effect1, transform.position);
+        RingEar_Event = Audiomanager.instance.PlaySound(RingingEar,transform.position);
 
         // Set initial filter amount
-        SetFilter(FilterAmount);
+        SetFilter(RingEarAmount);
+        SetFilter(BlurrAmount);
+        SetFilter(SlowspeachAmount);
+        SetFilter(WobbleAmount);
     }
 
     private void Update()
     {
-        // Optional: If you want it to update live when FilterAmount changes
-        SetFilter(FilterAmount);
+        SetFilter(RingEarAmount);
+
+        if (RingEar_Event.isValid())
+        {
+            // Update the position to follow the player
+            RingEar_Event.set3DAttributes(RuntimeUtils.To3DAttributes(playerpos.transform.position));
+        }
     }
 
     public void SetFilter(float amount)
     {
-        if (VoiceLine_1.isValid())
+        if (RingEar_Event.isValid())
         {
-            VoiceLine_1.setParameterByName(FilterParameterName, amount);
+            RingEar_Event.setParameterByName(EarringParameterName, amount);
         }
     }
 
     private void OnDestroy()
     {
-        if (VoiceLine_1.isValid())
+        if (RingEar_Event.isValid())
         {
-            VoiceLine_1.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-            VoiceLine_1.release();
+            RingEar_Event.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            RingEar_Event.release();
         }
     }
 }

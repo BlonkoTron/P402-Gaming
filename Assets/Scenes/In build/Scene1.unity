@@ -2988,15 +2988,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b8d83abd8d733a4d93e10f266e5f897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Effect1:
+  playerpos: {fileID: 288576062}
+  RingingEar:
     Guid:
-      Data1: -830342294
-      Data2: 1305754391
-      Data3: 2046502281
-      Data4: 735775967
-    Path: event:/drunkeffect/effectdrunk
-  FilterAmount: 0
-  FilterParameterName: Drunken
+      Data1: -795369201
+      Data2: 1157424015
+      Data3: 698373275
+      Data4: 421146475
+    Path: event:/drunkeffect/Earring
+  Blurr:
+    Guid:
+      Data1: -21981516
+      Data2: 1339048043
+      Data3: 1364795578
+      Data4: 1173012356
+    Path: event:/Silence/Silence
+  Slowspeach:
+    Guid:
+      Data1: -21981516
+      Data2: 1339048043
+      Data3: 1364795578
+      Data4: 1173012356
+    Path: event:/Silence/Silence
+  Wobble:
+    Guid:
+      Data1: -21981516
+      Data2: 1339048043
+      Data3: 1364795578
+      Data4: 1173012356
+    Path: event:/Silence/Silence
+  RingEarAmount: 0
+  BlurrAmount: 0
+  SlowspeachAmount: 0
+  WobbleAmount: 0
+  EarringParameterName: RingEar
+  BlurrParameterName: TBN
+  SlowspeachParameterName: TBN
+  WobbleParameterName: TBN
 --- !u!114 &694105438 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5376391440547565909, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}

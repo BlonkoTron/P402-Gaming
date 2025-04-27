@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{bd6e597d-1ffe-4ee1-92a1-d4644e15e781}">
+		<property name="name">
+			<value>RingEar</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cde69a51-f5ea-47d8-a7cd-5f6c29016b4e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{252f7249-afce-4514-96bf-c607fd1ed654}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{252f7249-afce-4514-96bf-c607fd1ed654}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
