@@ -664,10 +664,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638812626560780577
+  lastModified: 638813771145578932
   FileSizes:
   - Name: Desktop
-    Value: 1291808
+    Value: 1293728
   Exists: 1
 --- !u!114 &-4554322022808854039
 MonoBehaviour:
@@ -907,6 +907,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4783
+--- !u!114 &-2296633849920040623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt3_L2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2124927686420482504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1332,7 +1356,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638813743426834925
+  cacheTime: 638813771145778977
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -1668,7 +1692,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638813734610495513
+  lastModified: 638813771145758969
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1814,10 +1838,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638813734610515518
+  lastModified: 638813771145778977
   FileSizes:
   - Name: Desktop
-    Value: 4454
+    Value: 4490
   Exists: 1
 --- !u!114 &4319273926485492422
 MonoBehaviour:
@@ -1833,16 +1857,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ArmyGuy/ArmyGuyPt3_L2
   Guid:
-    Data1: -1761685286
-    Data2: 1087889890
-    Data3: -640499044
-    Data4: -677605097
+    Data1: 1434644213
+    Data2: 1267468530
+    Data3: 1792722565
+    Data4: -1145475197
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -2296633849920040623}
   MinDistance: 1
   MaxDistance: 20
   Length: 31269
@@ -1977,7 +2002,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 6632623660244540917}
   MinDistance: 1
   MaxDistance: 20
   Length: 11774
@@ -2059,6 +2085,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1437
+--- !u!114 &6632623660244540917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt3_L1/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6663888290585769809
 MonoBehaviour:
   m_ObjectHideFlags: 0

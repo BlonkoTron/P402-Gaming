@@ -661,7 +661,10 @@ PrefabInstance:
     - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 58296326966638705, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 694070613}
   m_SourcePrefab: {fileID: 100100000, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
 --- !u!114 &50789523 stripped
 MonoBehaviour:
@@ -674,6 +677,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &50789524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 58296326966638705, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
+  m_PrefabInstance: {fileID: 50789522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &66784396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3125,7 +3133,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4318978710024077431, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
   m_PrefabInstance: {fileID: 50789522}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 50789524}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0be4f31090cead040b246cc3e785f69a, type: 3}
@@ -3136,6 +3144,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4221529702081019476, guid: 2454ee5a94ed1ad4795b9b390d6c0b98, type: 3}
   m_PrefabInstance: {fileID: 50789522}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &694070613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50789524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8d83abd8d733a4d93e10f266e5f897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerpos: {fileID: 50789524}
+  RingingEar:
+    Guid:
+      Data1: -795369201
+      Data2: 1157424015
+      Data3: 698373275
+      Data4: 421146475
+    Path: event:/drunkeffect/Earring
+  Blurr:
+    Guid:
+      Data1: -21981516
+      Data2: 1339048043
+      Data3: 1364795578
+      Data4: 1173012356
+    Path: event:/Silence/Silence
+  Slowspeach:
+    Guid:
+      Data1: -21981516
+      Data2: 1339048043
+      Data3: 1364795578
+      Data4: 1173012356
+    Path: event:/Silence/Silence
+  Wobble:
+    Guid:
+      Data1: -21981516
+      Data2: 1339048043
+      Data3: 1364795578
+      Data4: 1173012356
+    Path: event:/Silence/Silence
+  RingEarAmount: 100
+  BlurrAmount: 0
+  SlowspeachAmount: 0
+  WobbleAmount: 0
+  EarringParameterName: RingEar
+  BlurrParameterName: Blurr
+  SlowspeachParameterName: Slowspeach
+  WobbleParameterName: Wobble
 --- !u!1001 &715408091
 PrefabInstance:
   m_ObjectHideFlags: 0
