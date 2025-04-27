@@ -88,8 +88,7 @@ public class Drunkeffect : MonoBehaviour
             instance.release();
         }
     }
-
-    // 🆕 Add this getter for wobble amount
+    //getwobble 
     public int GetWobbleAmount()
     {
         return WobbleAmount;
