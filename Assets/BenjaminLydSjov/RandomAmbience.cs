@@ -2,8 +2,12 @@ using FMODUnity;
 using FMOD.Studio;
 using UnityEngine;
 using FMOD;
+
+#if UNITY_EDITOR
 using UnityEditor.SceneManagement;
 using FMODUnityResonance;
+#endif
+
 public class RandomAmbience : MonoBehaviour
 {
     private EventInstance soundInstance;

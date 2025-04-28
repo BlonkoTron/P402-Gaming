@@ -1,7 +1,12 @@
 using System.Collections;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
+
+
+#if UNITY_EDITOR
+        // Only editor-only code here
+        using UnityEditor.Experimental.GraphView;
+#endif
 
 public class FPController : MonoBehaviour
 {
