@@ -1470,10 +1470,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 404096898
-      Data2: 1113780266
-      Data3: -190723698
-      Data4: -433730785
+      Data1: -1818036672
+      Data2: 1077057258
+      Data3: 1059685254
+      Data4: 1597420931
     Path: event:/Barambience/Paopleoutside
   SoundOcclusionWidth: 0.59
   OcclusionLayerMask:
@@ -2707,10 +2707,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -1552010077
-      Data2: 1224474100
-      Data3: 322049467
-      Data4: 1544039700
+      Data1: 1109336962
+      Data2: 1303412013
+      Data3: 697090992
+      Data4: 889193613
     Path: event:/Barambience/GlassDink
   SoundOcclusionWidth: 0.69
   OcclusionLayerMask:
@@ -6009,10 +6009,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -2028339331
-      Data2: 1330266285
-      Data3: -1674808932
-      Data4: 918760267
+      Data1: 1453226991
+      Data2: 1135512608
+      Data3: 831911296
+      Data4: 1942403252
     Path: event:/Barambience/Cough
   SoundOcclusionWidth: 0.69
   OcclusionLayerMask:
@@ -8837,10 +8837,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 443970862
-      Data2: 1113422106
-      Data3: 862987694
-      Data4: -1994513804
+      Data1: 119451499
+      Data2: 1121665227
+      Data3: 680199072
+      Data4: -148382631
     Path: event:/Barambience/Carpassing
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
