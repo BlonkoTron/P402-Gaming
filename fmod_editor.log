@@ -7,16 +7,13 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000012E1F4F0068 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000029F6EB84BD8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
@@ -33,47 +30,52 @@
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] SystemI::createSound                     : filename = Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Drunkeffect.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000012CEB8217C8, queue head = 0000012E1ED3B258, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000012CEB8217C8
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000029ECB4A5CE8, queue head = 0000029FB9C6E1E8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000029ECB4A5CE8
 [LOG] SystemI::createSoundInternal             :     Create name='Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Drunkeffect.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 35776
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 2528
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000012DB9AB77D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000029F6C342D40
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ear-ring-104945', format=5, channels=1, frequency=48000, lengthbytes=35584, lengthpcm=494208, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.355896.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000012CEB8217C8
-[LOG] SoundI::release                          : ear-ring-104945 (0000012DCA53D338)
-[LOG] SoundI::release                          :     ear-ring-104945 (0000012CF9179BA8)
-[LOG] SoundI::release                          :     ear-ring-104945 (0000012CEB666878)
-[LOG] SoundI::release                          : car-passing-by-272055 (0000012E41CEB2E8)
-[LOG] SoundI::release                          :     car-passing-by-272055 (0000012CE8E48268)
-[LOG] SoundI::release                          :     car-passing-by-272055 (0000012CEC92AB68)
-[LOG] SoundI::release                          : bar-chatter-5979 (0000012DCA53CE28)
-[LOG] SoundI::release                          :     bar-chatter-5979 (0000012C378FAAB8)
-[LOG] SoundI::release                          :     bar-chatter-5979 (0000012CEB666D88)
-[LOG] SoundI::release                          : FEST1 (0000012DCA53D698)
-[LOG] SoundI::release                          :     FEST1 (0000012CE8E48DC8)
-[LOG] SoundI::release                          :     FEST1 (0000012CEB666BD8)
-[LOG] SoundI::release                          : people-walking-on-small-stones-27943 (0000012DCA53D848)
-[LOG] SoundI::release                          :     people-walking-on-small-stones-27943 (0000012CF9179EE8)
-[LOG] SoundI::release                          :     people-walking-on-small-stones-27943 (0000012CEB666A28)
-[LOG] SoundI::release                          : ear-ring-104945 (0000012CEB8217C8)
-[LOG] SoundI::release                          :     ear-ring-104945 (0000012C38FC6998)
-[LOG] SoundI::release                          :     ear-ring-104945 (0000012AC75182C8)
-[LOG] SoundI::release                          :  (0000012DCAD2D548)
-[LOG] SoundI::release                          :     beerpour-91033 (0000012D9240B448)
-[LOG] SoundI::release                          :  (0000012DCAD28A88)
-[LOG] SoundI::release                          :     cough-82181 (0000012CF8EB0A58)
-[LOG] SoundI::release                          :  (0000012DCAD2D268)
-[LOG] SoundI::release                          :     a-celebratory-toast-99672 (0000012D9240B2A8)
-[LOG] SoundI::release                          :  (0000012DCAD28078)
-[LOG] SoundI::release                          :     Silence (0000012D9240BC68)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000029ECB4A5CE8
+[LOG] SoundI::release                          : ear-ring-104945 (0000029C05B95298)
+[LOG] SoundI::release                          :     ear-ring-104945 (0000029F9392A6A8)
+[LOG] SoundI::release                          :     ear-ring-104945 (0000029FB9C4BA88)
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000029F0FDEA598, queue head = 0000029FB9C6E1E8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000029F0FDEA598
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000029F0FDEA598
+[LOG] SoundI::release                          : ear-ring-104945 (0000029ECB4A5CE8)
+[LOG] SoundI::release                          :     ear-ring-104945 (0000029F939304E8)
+[LOG] SoundI::release                          :     ear-ring-104945 (0000029F0FDEA598)
+[LOG] SoundI::release                          : car-passing-by-272055 (0000029E54F25158)
+[LOG] SoundI::release                          :     car-passing-by-272055 (0000029F93930B68)
+[LOG] SoundI::release                          :     car-passing-by-272055 (0000029FB9C4BC38)
+[LOG] SoundI::release                          : bar-chatter-5979 (0000029C05B95448)
+[LOG] SoundI::release                          :     bar-chatter-5979 (0000029F9392D288)
+[LOG] SoundI::release                          :     bar-chatter-5979 (0000029FB9C4B8D8)
+[LOG] SoundI::release                          : FEST1 (0000029E54F259C8)
+[LOG] SoundI::release                          :     FEST1 (0000029F93931528)
+[LOG] SoundI::release                          :     FEST1 (0000029FB9C4B578)
+[LOG] SoundI::release                          : people-walking-on-small-stones-27943 (0000029C05B94BD8)
+[LOG] SoundI::release                          :     people-walking-on-small-stones-27943 (0000029F9392BD68)
+[LOG] SoundI::release                          :     people-walking-on-small-stones-27943 (0000029FB9C4B3C8)
+[LOG] SoundI::release                          :  (0000029FBAB3F848)
+[LOG] SoundI::release                          :     beerpour-91033 (0000029F93928B08)
+[LOG] SoundI::release                          :  (0000029FBAB3F6D8)
+[LOG] SoundI::release                          :     cough-82181 (0000029F93929668)
+[LOG] SoundI::release                          :  (0000029FBAB3F568)
+[LOG] SoundI::release                          :     a-celebratory-toast-99672 (0000029F93928968)
+[LOG] SoundI::release                          :  (0000029FBAB40258)
+[LOG] SoundI::release                          :     Silence (0000029F9392AEC8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -84,12 +86,3 @@
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
