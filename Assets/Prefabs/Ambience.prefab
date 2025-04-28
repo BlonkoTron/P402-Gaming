@@ -123,10 +123,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 1706065759
-      Data2: 1217965674
-      Data3: -230959226
-      Data4: 1101613137
+      Data1: 876394779
+      Data2: 1272536773
+      Data3: -606216059
+      Data4: -1838497510
     Path: event:/Barambience/BeerPour
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
@@ -296,10 +296,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -676012628
-      Data2: 1206490918
-      Data3: -1291951213
-      Data4: -117988748
+      Data1: 1592543883
+      Data2: 1173583018
+      Data3: 1229794984
+      Data4: 760244193
     Path: event:/Barambience/PeopleTalking
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
