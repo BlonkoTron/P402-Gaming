@@ -136,8 +136,6 @@ public class Occlusion : MonoBehaviour
        CastLine(sound, listener);
        CastLine(sound, ListenRight); 
 
-       
-
         if(SoundOcclusionWidth == 0)
         {
             Color rayColor = Color.blue;
