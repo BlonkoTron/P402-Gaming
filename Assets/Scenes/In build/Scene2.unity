@@ -2717,7 +2717,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 15
-  ChanceToPlay: 8
+  ChanceToPlay: 9
   playDuration: 1
   pauseDuration: 4
 --- !u!135 &517796769
@@ -2853,7 +2853,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 15
-  ChanceToPlay: 7
+  ChanceToPlay: 9
   playDuration: 7
   pauseDuration: 6
 --- !u!135 &572390157
@@ -5883,7 +5883,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 15
-  ChanceToPlay: 1
+  ChanceToPlay: 8
   playDuration: 60
   pauseDuration: 60
 --- !u!135 &1230563339
@@ -6020,7 +6020,7 @@ MonoBehaviour:
     m_Bits: 64
   MaxDistance: 15
   ChanceToPlay: 9
-  playDuration: 2
+  playDuration: 1.39
   pauseDuration: 4
 --- !u!135 &1231832335
 SphereCollider:
@@ -8847,7 +8847,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 30
-  ChanceToPlay: 5
+  ChanceToPlay: 1
   playDuration: 21
   pauseDuration: 21
 --- !u!135 &2109147437
