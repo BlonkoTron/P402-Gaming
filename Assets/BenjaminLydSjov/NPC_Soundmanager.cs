@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class NPC_Soundmanager : MonoBehaviour
 {
-
     private EventInstance VoiceLine_1;
     private EventInstance VoiceLine_2;
     private EventInstance VoiceLine_3;
@@ -20,6 +19,8 @@ public class NPC_Soundmanager : MonoBehaviour
 
     public static NPC_Soundmanager Instance_sound;
 
+    private Drunkeffect drunkEffect;
+
     InkDialogue inkDialogues;
     public string NPC_Dialog1;
     public string NPC_Dialog2;
@@ -31,24 +32,33 @@ public class NPC_Soundmanager : MonoBehaviour
     [SerializeField] private Transform nerd1;
     [SerializeField] private Transform nerd2;
 
+    private void Start()
+    {
+        drunkEffect = FindObjectOfType<Drunkeffect>();
+    }
+
     public void storys()
     {
         inkDialogues = GetComponent<InkDialogue>();
+
         inkDialogues.story.BindExternalFunction(NPC_Dialog1, (string NPC_Dialog1) =>
         {
             VoiceLine_1 = Audiomanager.instance.PlaySound(AudioLine_1, transform.position);
+            SetWobble(VoiceLine_1);
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog2, (string NPC_Dialog2) =>
         {
             VoiceLine_2 = Audiomanager.instance.PlaySound(AudioLine_2, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_1);
+            SetWobble(VoiceLine_2);
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog3, (string NPC_Dialog3) =>
         {
             VoiceLine_3 = Audiomanager.instance.PlaySound(AudioLine_3, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_2);
+            SetWobble(VoiceLine_3);
 
             if (nerdCamShift)
             {
@@ -60,21 +70,28 @@ public class NPC_Soundmanager : MonoBehaviour
         {
             VoiceLine_4 = Audiomanager.instance.PlaySound(AudioLine_4, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_3);
+            SetWobble(VoiceLine_4);
 
             if (nerdCamShift)
             {
                 CameraController.Instance.SetToNpcCam(nerd1);
             }
-
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog5, (string NPC_Dialog5) =>
         {
             VoiceLine_5 = Audiomanager.instance.PlaySound(AudioLine_5, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_4);
-
- 
+            SetWobble(VoiceLine_5);
         });
+    }
+
+    private void SetWobble(EventInstance instance)
+    {
+        if (instance.isValid() && drunkEffect != null)
+        {
+            instance.setParameterByName("Wobble", drunkEffect.GetWobbleAmount());
+        }
     }
 
     public void Endstorys()
