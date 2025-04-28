@@ -1623,7 +1623,7 @@ Transform:
   m_GameObject: {fileID: 526336516}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7709999, y: 0.12399995, z: 5.4680004}
+  m_LocalPosition: {x: 6.04, y: 0.12399995, z: 11.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1653,9 +1653,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 30
-  ChanceToPlay: 1
+  ChanceToPlay: 9
   playDuration: 1.38
-  pauseDuration: 1.38
+  pauseDuration: 2.76
 --- !u!135 &526336519
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2368,6 +2368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sadman Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5673278822672926842, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6307103373528423856, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: buttonParent
       value: 
@@ -2677,7 +2681,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 15
-  ChanceToPlay: 8
+  ChanceToPlay: 9
   playDuration: 7
   pauseDuration: 6
 --- !u!135 &830611571
@@ -4228,6 +4232,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5879574645690705322, guid: fd1da78cd9d0f9f41ba4f12e64081055, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 513.7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5981500209615381317, guid: fd1da78cd9d0f9f41ba4f12e64081055, type: 3}
     m_RemovedGameObjects: []
@@ -4830,7 +4838,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1411909524
 Transform:
   m_ObjectHideFlags: 0
@@ -6994,7 +7002,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 30
-  ChanceToPlay: 1
+  ChanceToPlay: 6
   playDuration: 21
   pauseDuration: 21
 --- !u!135 &1703761366
@@ -7204,9 +7212,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 30
-  ChanceToPlay: 1
+  ChanceToPlay: 9
   playDuration: 1
-  pauseDuration: 1
+  pauseDuration: 2
 --- !u!135 &1738716255
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8160,7 +8168,7 @@ PrefabInstance:
     - target: {fileID: 6174832830650169698, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: inkJSONAsset
       value: 
-      objectReference: {fileID: 4900000, guid: cb7a6b420fe335d4e923d0f440e4211a, type: 3}
+      objectReference: {fileID: 4900000, guid: bcd90e56d4644104d9e8f96003ca42c3, type: 3}
     - target: {fileID: 6174832830650169698, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: dialogueCanvas
       value: 

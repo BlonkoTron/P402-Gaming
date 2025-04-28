@@ -15,7 +15,10 @@ Mener du virkelig at det er dig igen?????
 ~Voice2("Starting")
 DET DER GIDER JEG KRAFT EMMENDE IK!
 ~Achievement(4)
-->Ends
+->My_Choices2
+
+== My_Choices2 ==
+  * [→] -> Ends
 
 == Ends ==
 ->END
