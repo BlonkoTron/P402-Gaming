@@ -688,7 +688,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638814342672219052
+  lastModified: 638814356414818908
   FileSizes:
   - Name: Desktop
     Value: 1296000
@@ -1147,7 +1147,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Drunkeffect.bank
   Name: Drunkeffect
   StudioPath: bank:/Drunkeffect
-  lastModified: 638814336379303855
+  lastModified: 638814356414837938
   FileSizes:
   - Name: Desktop
     Value: 38304
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638814342672668867
+  cacheTime: 638814356414848731
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -1934,7 +1934,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638814342672668867
+  lastModified: 638814356414848731
   FileSizes:
   - Name: Desktop
     Value: 4568
