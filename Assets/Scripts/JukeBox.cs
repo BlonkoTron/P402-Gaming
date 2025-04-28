@@ -48,4 +48,10 @@ public class JukeBox : Interactable
         }
 
     }
+        private void OnDestroy()
+    {
+        Audiomanager.instance.StopSound(Juke1_song);
+        Audiomanager.instance.StopSound(Juke2_song);
+        Audiomanager.instance.StopSound(Juke3_song);
+    }
 }
