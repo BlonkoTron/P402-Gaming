@@ -93,4 +93,14 @@ public class Drunkeffect : MonoBehaviour
     {
         return WobbleAmount;
     }
+
+    public int GetBlurrAmount()
+    {
+        return BlurrAmount;
+    }
+
+    public int GetSlowspeachAmount()
+    {
+        return SlowspeachAmount;
+    }
 }

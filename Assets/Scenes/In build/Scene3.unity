@@ -1941,10 +1941,10 @@ MonoBehaviour:
       Data3: 1364795578
       Data4: 1173012356
     Path: event:/Silence/Silence
-  RingEarAmount: 100
+  RingEarAmount: 0
   BlurrAmount: 0
   SlowspeachAmount: 0
-  WobbleAmount: 100
+  WobbleAmount: 0
   EarringParameterName: RingEar
   BlurrParameterName: Blurr
   SlowspeachParameterName: Slowspeach
@@ -5719,35 +5719,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data1
-      value: 1434644213
+      value: 2109056947
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data2
-      value: 1267468530
+      value: 1168495791
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data3
-      value: 1792722565
+      value: -665945190
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data4
-      value: -1145475197
+      value: 802893282
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_3.Guid.Data1
-      value: -2146302688
+      value: 883074312
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_3.Guid.Data2
-      value: 1185760839
+      value: 1189760515
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_3.Guid.Data3
-      value: 584850862
+      value: 1504541119
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_3.Guid.Data4
-      value: 1579813613
+      value: 514500293
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_4.Guid.Data1
