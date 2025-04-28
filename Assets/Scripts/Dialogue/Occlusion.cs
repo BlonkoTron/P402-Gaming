@@ -188,6 +188,11 @@ public class Occlusion : MonoBehaviour
     {
        Sound.setParameterByName("Occlusion", linecastHitCount/9, true);
     }
+
+    private void OnDestroy()
+    {
+        Audiomanager.instance.StopSound(Sound);
+    }
     
 }
 
