@@ -1643,10 +1643,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -2028339331
-      Data2: 1330266285
-      Data3: -1674808932
-      Data4: 918760267
+      Data1: 1453226991
+      Data2: 1135512608
+      Data3: 831911296
+      Data4: 1942403252
     Path: event:/Barambience/Cough
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
@@ -2286,19 +2286,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_1.Guid.Data1
-      value: -1549275216
+      value: 771816158
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_1.Guid.Data2
-      value: 1119982634
+      value: 1088194307
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_1.Guid.Data3
-      value: -969094524
+      value: 1202450578
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_1.Guid.Data4
-      value: 1588772509
+      value: 1296798004
       objectReference: {fileID: 0}
     - target: {fileID: 3923497907336415313, guid: b41bb27ac46361f408469ef5487189fa, type: 3}
       propertyPath: AudioLine_2.Guid.Data1
@@ -2667,17 +2667,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 1706065759
-      Data2: 1217965674
-      Data3: -230959226
-      Data4: 1101613137
+      Data1: 876394779
+      Data2: 1272536773
+      Data3: -606216059
+      Data4: -1838497510
     Path: event:/Barambience/BeerPour
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 64
   MaxDistance: 15
-  ChanceToPlay: 7
+  ChanceToPlay: 8
   playDuration: 7
   pauseDuration: 6
 --- !u!135 &830611571
@@ -4860,10 +4860,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -676012628
-      Data2: 1206490918
-      Data3: -1291951213
-      Data4: -117988748
+      Data1: 1592543883
+      Data2: 1173583018
+      Data3: 1229794984
+      Data4: 760244193
     Path: event:/Barambience/PeopleTalking
   SoundOcclusionWidth: 0.69
   OcclusionLayerMask:
@@ -5528,7 +5528,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1527046894
 Transform:
   m_ObjectHideFlags: 0
@@ -5558,10 +5558,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 404096898
-      Data2: 1113780266
-      Data3: -190723698
-      Data4: -433730785
+      Data1: -1818036672
+      Data2: 1077057258
+      Data3: 1059685254
+      Data4: 1597420931
     Path: event:/Barambience/Paopleoutside
   SoundOcclusionWidth: 0.59
   OcclusionLayerMask:
@@ -6617,19 +6617,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8106843522142992301, guid: f9dc86bf682e63944a05b59bec3215fd, type: 3}
       propertyPath: AudioLine_1.Guid.Data1
-      value: 818676464
+      value: -1027445434
       objectReference: {fileID: 0}
     - target: {fileID: 8106843522142992301, guid: f9dc86bf682e63944a05b59bec3215fd, type: 3}
       propertyPath: AudioLine_1.Guid.Data2
-      value: 1124063209
+      value: 1272292929
       objectReference: {fileID: 0}
     - target: {fileID: 8106843522142992301, guid: f9dc86bf682e63944a05b59bec3215fd, type: 3}
       propertyPath: AudioLine_1.Guid.Data3
-      value: 1860710033
+      value: -353834624
       objectReference: {fileID: 0}
     - target: {fileID: 8106843522142992301, guid: f9dc86bf682e63944a05b59bec3215fd, type: 3}
       propertyPath: AudioLine_1.Guid.Data4
-      value: 1154407293
+      value: -86922097
       objectReference: {fileID: 0}
     - target: {fileID: 8106843522142992301, guid: f9dc86bf682e63944a05b59bec3215fd, type: 3}
       propertyPath: AudioLine_2.Guid.Data1
@@ -6984,10 +6984,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 443970862
-      Data2: 1113422106
-      Data3: 862987694
-      Data4: -1994513804
+      Data1: 119451499
+      Data2: 1121665227
+      Data3: 680199072
+      Data4: -148382631
     Path: event:/Barambience/Carpassing
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
@@ -7194,10 +7194,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -1552010077
-      Data2: 1224474100
-      Data3: 322049467
-      Data4: 1544039700
+      Data1: 1109336962
+      Data2: 1303412013
+      Data3: 697090992
+      Data4: 889193613
     Path: event:/Barambience/GlassDink
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
@@ -7300,7 +7300,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1809512470
 Transform:
   m_ObjectHideFlags: 0
@@ -7581,7 +7581,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 654101084106526324, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1837539958}
   m_SourcePrefab: {fileID: 100100000, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
 --- !u!20 &1837539954 stripped
 Camera:
@@ -7598,12 +7601,31 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8539148602129315614, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
   m_PrefabInstance: {fileID: 1837539953}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1837539957}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44f529f1ff422064bbb6c0c41d505b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1837539957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 654101084106526324, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
+  m_PrefabInstance: {fileID: 1837539953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1837539958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837539957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1001 &1863693863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8041,35 +8063,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3766465227722353795, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: AudioLine_1.Guid.Data1
-      value: 1451589628
+      value: 1241905675
       objectReference: {fileID: 0}
     - target: {fileID: 3766465227722353795, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: AudioLine_1.Guid.Data2
-      value: 1274413550
+      value: 1129119797
       objectReference: {fileID: 0}
     - target: {fileID: 3766465227722353795, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: AudioLine_1.Guid.Data3
-      value: -1693786692
+      value: 1795614364
       objectReference: {fileID: 0}
     - target: {fileID: 3766465227722353795, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: AudioLine_1.Guid.Data4
-      value: -519321718
+      value: 183471355
       objectReference: {fileID: 0}
     - target: {fileID: 3766465227722353795, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: AudioLine_2.Guid.Data1
-      value: -343253091
+      value: 1360905802
       objectReference: {fileID: 0}
     - target: {fileID: 3766465227722353795, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: AudioLine_2.Guid.Data2
-      value: 1166162651
+      value: 1274793256
       objectReference: {fileID: 0}
     - target: {fileID: 3766465227722353795, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: AudioLine_2.Guid.Data3
-      value: -661199741
+      value: -1107935840
       objectReference: {fileID: 0}
     - target: {fileID: 3766465227722353795, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: AudioLine_2.Guid.Data4
-      value: 1561890957
+      value: 2129306308
       objectReference: {fileID: 0}
     - target: {fileID: 3766465227722353795, guid: 88c27c9cd57dfcf478203f390880e6ce, type: 3}
       propertyPath: AudioLine_3.Guid.Data1

@@ -46,6 +46,8 @@ public class Occlusion : MonoBehaviour
     {
         Sound = RuntimeManager.CreateInstance(ChooseAudio);
         RuntimeManager.AttachInstanceToGameObject(Sound, transform, GetComponent<Rigidbody>());
+        
+        StartCoroutine(PauseAndResumeSound()); // Start the coroutine
         Sound.start();
         Sound.release();
 
@@ -54,7 +56,7 @@ public class Occlusion : MonoBehaviour
         
         Listener = FindFirstObjectByType<StudioListener>();
         
-        StartCoroutine(PauseAndResumeSound()); // Start the coroutine
+        
     }
 
     private IEnumerator PauseAndResumeSound()
@@ -66,10 +68,9 @@ public class Occlusion : MonoBehaviour
             {
                 
 
-                
                 randomNumber = Random.Range(1, 10); // Random.Range with integers is inclusive for both min and max
                 UnityEngine.Debug.Log(randomNumber); // Log the random number for debugging
-                if (ChanceToPlay >= randomNumber)
+                if (ChanceToPlay <= randomNumber)
                 {
                     // Pause the audio if the random number is 
                     Sound.setVolume(1f);
@@ -135,8 +136,6 @@ public class Occlusion : MonoBehaviour
        CastLine(sound, ListenLeft);
        CastLine(sound, listener);
        CastLine(sound, ListenRight); 
-
-       
 
         if(SoundOcclusionWidth == 0)
         {
