@@ -1944,7 +1944,7 @@ MonoBehaviour:
   RingEarAmount: 100
   BlurrAmount: 0
   SlowspeachAmount: 0
-  WobbleAmount: 0
+  WobbleAmount: 100
   EarringParameterName: RingEar
   BlurrParameterName: Blurr
   SlowspeachParameterName: Slowspeach
