@@ -45,6 +45,8 @@ public class NPC_Soundmanager : MonoBehaviour
         {
             VoiceLine_1 = Audiomanager.instance.PlaySound(AudioLine_1, transform.position);
             SetWobble(VoiceLine_1);
+            SetBlurr(VoiceLine_1);
+            Setslowspeech(VoiceLine_1);
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog2, (string NPC_Dialog2) =>
@@ -52,6 +54,8 @@ public class NPC_Soundmanager : MonoBehaviour
             VoiceLine_2 = Audiomanager.instance.PlaySound(AudioLine_2, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_1);
             SetWobble(VoiceLine_2);
+            SetBlurr(VoiceLine_2);
+            Setslowspeech(VoiceLine_2);
         });
 
         inkDialogues.story.BindExternalFunction(NPC_Dialog3, (string NPC_Dialog3) =>
@@ -59,6 +63,8 @@ public class NPC_Soundmanager : MonoBehaviour
             VoiceLine_3 = Audiomanager.instance.PlaySound(AudioLine_3, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_2);
             SetWobble(VoiceLine_3);
+            SetBlurr(VoiceLine_3);
+            Setslowspeech(VoiceLine_3);
 
             if (nerdCamShift)
             {
@@ -71,6 +77,8 @@ public class NPC_Soundmanager : MonoBehaviour
             VoiceLine_4 = Audiomanager.instance.PlaySound(AudioLine_4, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_3);
             SetWobble(VoiceLine_4);
+            SetBlurr(VoiceLine_4);
+            Setslowspeech(VoiceLine_4);
 
             if (nerdCamShift)
             {
@@ -83,6 +91,8 @@ public class NPC_Soundmanager : MonoBehaviour
             VoiceLine_5 = Audiomanager.instance.PlaySound(AudioLine_5, transform.position);
             Audiomanager.instance.StopSound(VoiceLine_4);
             SetWobble(VoiceLine_5);
+            SetBlurr(VoiceLine_5);
+            Setslowspeech(VoiceLine_5);
         });
     }
 
@@ -91,6 +101,22 @@ public class NPC_Soundmanager : MonoBehaviour
         if (instance.isValid() && drunkEffect != null)
         {
             instance.setParameterByName("Wobble", drunkEffect.GetWobbleAmount());
+        }
+    }
+
+    private void SetBlurr(EventInstance instance2)
+    {
+        if (instance2.isValid() && drunkEffect != null)
+        {
+            instance2.setParameterByName("Blurr", drunkEffect.GetBlurrAmount());
+        }
+    }
+
+    private void Setslowspeech(EventInstance instance3)
+    {
+        if (instance3.isValid() && drunkEffect != null)
+        {
+            instance3.setParameterByName("Slowspeach", drunkEffect.GetSlowspeachAmount());
         }
     }
 
