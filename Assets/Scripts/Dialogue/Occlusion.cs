@@ -69,7 +69,7 @@ public class Occlusion : MonoBehaviour
                 
                 randomNumber = Random.Range(1, 10); // Random.Range with integers is inclusive for both min and max
                 UnityEngine.Debug.Log(randomNumber); // Log the random number for debugging
-                if (ChanceToPlay <= randomNumber)
+                if (ChanceToPlay >= randomNumber)
                 {
                     // Pause the audio if the random number is 
                     Sound.setVolume(1f);
