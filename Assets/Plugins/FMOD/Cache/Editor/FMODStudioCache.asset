@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bartender.bank
   Name: Bartender
   StudioPath: bank:/Bartender
-  lastModified: 638812626630749450
+  lastModified: 638803210774067772
   FileSizes:
   - Name: Desktop
     Value: 129600
@@ -89,7 +89,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ToiletSounds.bank
   Name: ToiletSounds
   StudioPath: bank:/ToiletSounds
-  lastModified: 638814295400039977
+  lastModified: 638814312575222523
   FileSizes:
   - Name: Desktop
     Value: 950208
@@ -190,7 +190,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Sadguy.bank
   Name: Sadguy
   StudioPath: bank:/Sadguy
-  lastModified: 638812626647213166
+  lastModified: 638810017245533319
   FileSizes:
   - Name: Desktop
     Value: 401504
@@ -265,7 +265,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638812626643092237
+  lastModified: 638811860979220001
   FileSizes:
   - Name: Desktop
     Value: 1143584
@@ -417,7 +417,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/HotPerson.bank
   Name: HotPerson
   StudioPath: bank:/HotPerson
-  lastModified: 638812626632569849
+  lastModified: 638803210774077816
   FileSizes:
   - Name: Desktop
     Value: 59552
@@ -464,7 +464,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TheFriend.bank
   Name: TheFriend
   StudioPath: bank:/TheFriend
-  lastModified: 638814295399969960
+  lastModified: 638814312575111872
   FileSizes:
   - Name: Desktop
     Value: 925856
@@ -617,7 +617,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/BarAmbience.bank
   Name: BarAmbience
   StudioPath: bank:/BarAmbience
-  lastModified: 638814295399879936
+  lastModified: 638814312575019520
   FileSizes:
   - Name: Desktop
     Value: 6233344
@@ -664,7 +664,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638814295399469844
+  lastModified: 638814312574682457
   FileSizes:
   - Name: Desktop
     Value: 1293728
@@ -875,7 +875,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/SFX_Extra.bank
   Name: SFX_Extra
   StudioPath: bank:/SFX_Extra
-  lastModified: 638812626648529438
+  lastModified: 638805829753607376
   FileSizes:
   - Name: Desktop
     Value: 91712
@@ -946,7 +946,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Jock.bank
   Name: Jock
   StudioPath: bank:/Jock
-  lastModified: 638812626633830140
+  lastModified: 638803210774092534
   FileSizes:
   - Name: Desktop
     Value: 126560
@@ -1047,7 +1047,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bouncer.bank
   Name: Bouncer
   StudioPath: bank:/Bouncer
-  lastModified: 638812626631649646
+  lastModified: 638803210774067772
   FileSizes:
   - Name: Desktop
     Value: 56192
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Drunkeffect.bank
   Name: Drunkeffect
   StudioPath: bank:/Drunkeffect
-  lastModified: 638814295399889944
+  lastModified: 638814312575039791
   FileSizes:
   - Name: Desktop
     Value: 38304
@@ -1197,7 +1197,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TooMuchMan.bank
   Name: TooMuchMan
   StudioPath: bank:/TooMuchMan
-  lastModified: 638812626666620000
+  lastModified: 638810017245773426
   FileSizes:
   - Name: Desktop
     Value: 65024
@@ -1356,7 +1356,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638814295400039977
+  cacheTime: 638814312575222523
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -1692,7 +1692,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638813771145758969
+  lastModified: 638803210774092534
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1794,7 +1794,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Nerds.bank
   Name: Nerds
   StudioPath: bank:/Nerds
-  lastModified: 638812626644932651
+  lastModified: 638803210774122584
   FileSizes:
   - Name: Desktop
     Value: 232448
@@ -1838,7 +1838,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638814295399899944
+  lastModified: 638814312575053434
   FileSizes:
   - Name: Desktop
     Value: 4490
@@ -2277,7 +2277,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Silence.bank
   Name: Silence
   StudioPath: bank:/Silence
-  lastModified: 638812626649119570
+  lastModified: 638803210774167630
   FileSizes:
   - Name: Desktop
     Value: 2240
