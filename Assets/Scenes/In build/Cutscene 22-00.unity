@@ -3017,7 +3017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1492304417512922048, guid: ae0214426b8d50546a5a2cd488ea118b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2396411530204900719, guid: ae0214426b8d50546a5a2cd488ea118b, type: 3}
       propertyPath: m_IsActive
@@ -3038,6 +3038,10 @@ PrefabInstance:
     - target: {fileID: 3076329305860831802, guid: ae0214426b8d50546a5a2cd488ea118b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3491451676071952037, guid: ae0214426b8d50546a5a2cd488ea118b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3544957428878855345, guid: ae0214426b8d50546a5a2cd488ea118b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6001,6 +6005,9 @@ MonoBehaviour:
   NPC_Dialog3: Voice3
   NPC_Dialog4: Voice4
   NPC_Dialog5: Voice5
+  nerdCamShift: 0
+  nerd1: {fileID: 0}
+  nerd2: {fileID: 0}
 --- !u!1001 &2108421518
 PrefabInstance:
   m_ObjectHideFlags: 0
