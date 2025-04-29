@@ -340,10 +340,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Sadguy.bank
   Name: Sadguy
   StudioPath: bank:/Sadguy
-  lastModified: 638815211226322801
+  lastModified: 638815348327285445
   FileSizes:
   - Name: Desktop
-    Value: 173472
+    Value: 143776
   Exists: 1
 --- !u!114 &-7798794992272813905
 MonoBehaviour:
@@ -359,16 +359,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Sadguy/SadGuy_Intro_2
   Guid:
-    Data1: 1362917773
-    Data2: 1324658482
-    Data3: 1852281491
-    Data4: 973395806
+    Data1: -99689040
+    Data2: 1126715680
+    Data3: -1129318525
+    Data4: 1077684778
   Banks:
-  - {fileID: -7821267785569200961}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 1035777018068184629}
+  - {fileID: 6272960281316005468}
+  - {fileID: 3948060291108829077}
   MinDistance: 1
   MaxDistance: 20
   Length: 2701
@@ -674,6 +677,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-6307538835669094026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TooMuch_Pt1_L1/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6303616443222870558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -950,6 +977,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-5150816974594985418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TooMuch_Pt1_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5077589965869318621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1016,10 +1067,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638815319564267967
+  lastModified: 638815348325987384
   FileSizes:
   - Name: Desktop
-    Value: 6523168
+    Value: 6622400
   Exists: 1
 --- !u!114 &-4640225461365352387
 MonoBehaviour:
@@ -1253,6 +1304,30 @@ MonoBehaviour:
   ID:
     data1: 3483649128
     data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3848839426788730284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TooMuch_intro/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -2047,6 +2122,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1711
+--- !u!114 &-877233531169013950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TooMuch_intro/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-853475196818490320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2092,10 +2191,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TooMuchMan.bank
   Name: TooMuchMan
   StudioPath: bank:/TooMuchMan
-  lastModified: 638815211230236312
+  lastModified: 638815348327575293
   FileSizes:
   - Name: Desktop
-    Value: 65024
+    Value: 494
   Exists: 1
 --- !u!114 &-717833299885769372
 MonoBehaviour:
@@ -2227,6 +2326,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-196444408748582582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TooMuch_Pt1_L1/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2324,7 +2447,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638815319565306366
+  cacheTime: 638815348327575293
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -2636,6 +2759,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &1035777018068184629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Intro_2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1108920267532305951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2902,16 +3049,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/TooMuchMan/TooMuch_Pt1_L1
   Guid:
-    Data1: -1164759002
-    Data2: 1108335731
-    Data3: 1863734718
-    Data4: -463083765
+    Data1: 2143705531
+    Data2: 1080805589
+    Data3: -1188281702
+    Data4: 13136855
   Banks:
-  - {fileID: -799479461923960173}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -196444408748582582}
+  - {fileID: -6307538835669094026}
+  - {fileID: -5150816974594985418}
   MinDistance: 1
   MaxDistance: 20
   Length: 4057
@@ -3011,7 +3161,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638815319564829307
+  lastModified: 638815348326659083
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -3205,7 +3355,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638815319564878655
+  lastModified: 638815348326705439
   FileSizes:
   - Name: Desktop
     Value: 4492
@@ -3221,6 +3371,30 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Bartender_Pt3_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &3948060291108829077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Intro_2/Slowspeach
   m_EditorClassIdentifier: 
   Name: Slowspeach
   StudioPath: 
@@ -3456,6 +3630,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6047083258269613136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TooMuch_intro/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6254788408783007962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3476,6 +3674,30 @@ MonoBehaviour:
   ID:
     data1: 3888398319
     data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6272960281316005468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Intro_2/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -4148,16 +4370,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/TooMuchMan/TooMuch_intro
   Guid:
-    Data1: -291728143
-    Data2: 1120122231
-    Data3: 458834103
-    Data4: -1091474030
+    Data1: 1837230900
+    Data2: 1286577686
+    Data3: -84266052
+    Data4: -1816328426
   Banks:
-  - {fileID: -799479461923960173}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -3848839426788730284}
+  - {fileID: -877233531169013950}
+  - {fileID: 6047083258269613136}
   MinDistance: 1
   MaxDistance: 20
   Length: 1449
