@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000255F886DD38 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000256CE2BC5F8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -32,29 +32,3 @@
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] SoundI::release                          : FEST1 (00000253E88BE068)
-[LOG] SoundI::release                          :     FEST1 (00000255E926CA48)
-[LOG] SoundI::release                          :     FEST1 (00000256CE5018B8)
-[LOG] SoundI::release                          : bar-chatter-5979 (00000256EE939D08)
-[LOG] SoundI::release                          :     bar-chatter-5979 (00000255E926CF28)
-[LOG] SoundI::release                          :     bar-chatter-5979 (00000256CE5022D8)
-[LOG] SoundI::release                          : people-walking-on-small-stones-27943 (00000256EE939498)
-[LOG] SoundI::release                          :     people-walking-on-small-stones-27943 (00000255E926C568)
-[LOG] SoundI::release                          :     people-walking-on-small-stones-27943 (00000256CE501F78)
-[LOG] SoundI::release                          : ear-ring-104945 (00000256EE939B58)
-[LOG] SoundI::release                          :     ear-ring-104945 (00000255C445B958)
-[LOG] SoundI::release                          :     ear-ring-104945 (00000256CE502128)
-[LOG] SoundI::release                          :  (00000256CCEA50D8)
-[LOG] SoundI::release                          :     beerpour-91033 (00000255E926CD88)
-[LOG] SoundI::release                          :  (00000256CCEA1308)
-[LOG] SoundI::release                          :     Silence (00000255C44593F8)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
