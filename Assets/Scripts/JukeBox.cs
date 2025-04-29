@@ -6,13 +6,9 @@ public class JukeBox : Interactable
 {
 
     private EventInstance Juke1_song;
-    private EventInstance Juke2_song;
-    private EventInstance Juke3_song;
 
     EventInstance musicInstance;
     [SerializeField] private EventReference Jukebox1;
-    [SerializeField] private EventReference Jukebox2;
-    [SerializeField] private EventReference Jukebox3;
 
     public int SwitchCount = 1;
 
@@ -28,30 +24,17 @@ public class JukeBox : Interactable
 
         if (SwitchCount == 1)
         {
-            Juke1_song = Audiomanager.instance.PlaySound(Jukebox1, transform.position);
-            Audiomanager.instance.StopSound(Juke2_song);
-            Audiomanager.instance.StopSound(Juke3_song);
-        }
-        else if (SwitchCount == 2)
-        {
-            Juke2_song = Audiomanager.instance.PlaySound(Jukebox2, transform.position);
-            Audiomanager.instance.StopSound(Juke1_song);
-            Audiomanager.instance.StopSound(Juke3_song);
-        }
-        else if (SwitchCount == 3)
-        {
-            Juke3_song = Audiomanager.instance.PlaySound(Jukebox3, transform.position);
-            Audiomanager.instance.StopSound(Juke1_song);
-            Audiomanager.instance.StopSound(Juke2_song);
+            Audiomanager.instance.PauseSound(Juke1_song, false);
 
-            SwitchCount = 0; 
         }
-
+        if (SwitchCount == 2 )
+        {
+            Audiomanager.instance.PauseSound(Juke1_song,true);
+            SwitchCount = 0;
+        }
     }
         private void OnDestroy()
     {
         Audiomanager.instance.StopSound(Juke1_song);
-        Audiomanager.instance.StopSound(Juke2_song);
-        Audiomanager.instance.StopSound(Juke3_song);
     }
 }

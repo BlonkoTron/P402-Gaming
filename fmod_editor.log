@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000025DF36B4078 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000025D94B3E2B8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -32,40 +32,82 @@
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 53152
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 3040
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000CEB1DFF258
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA45275B90
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA45275B50
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA45275C70
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA45275D30
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025DF5550198
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='BouncerPt1_L1', format=5, channels=2, frequency=48000, lengthbytes=25344, lengthpcm=112154, pcmblocksize=0, loopstart=0, loopend=111691, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.125191.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 53152
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 3040
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000CEB1DFF258
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA45275B90
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA45275B50
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA45275C70
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA45275D30
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025DF554E6C8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='BouncerPt1_L2', format=5, channels=2, frequency=48000, lengthbytes=27584, lengthpcm=123923, pcmblocksize=0, loopstart=0, loopend=123230, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.298491.
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025DF651A678, queue head = 0000025DF4BF2F18, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025DF651A678
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025DF651A678
 [LOG] SystemI::createSound                     : filename = Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Drunkeffect.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025DF6535D38, queue head = 0000025DF4BF7888, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025DF6535D38
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025DF652E8C8, queue head = 0000025DF4BF2F18, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025DF652E8C8
 [LOG] SystemI::createSoundInternal             :     Create name='Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Drunkeffect.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 35776
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 2528
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025DBC6CA2F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025CC6F51D70
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ear-ring-104945', format=5, channels=1, frequency=48000, lengthbytes=35584, lengthpcm=494208, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.355896.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025DF6535D38
-[LOG] SoundI::release                          : ear-ring-104945 (0000025DF652C048)
-[LOG] SoundI::release                          :     ear-ring-104945 (0000025CF72F4FE8)
-[LOG] SoundI::release                          :     ear-ring-104945 (0000025DF652ADB8)
-[LOG] SoundI::release                          : car-passing-by-272055 (0000025DF652B628)
-[LOG] SoundI::release                          :     car-passing-by-272055 (0000025CF72F3AC8)
-[LOG] SoundI::release                          :     car-passing-by-272055 (0000025DF6528538)
-[LOG] SoundI::release                          : ear-ring-104945 (0000025DF6535D38)
-[LOG] SoundI::release                          :     ear-ring-104945 (0000025CC6FCBED8)
-[LOG] SoundI::release                          :     ear-ring-104945 (0000025DF652CA68)
-[LOG] SoundI::release                          :  (0000025DF3619BB8)
-[LOG] SoundI::release                          :     beerpour-91033 (0000025CF72F2F68)
-[LOG] SoundI::release                          :  (0000025DF361C848)
-[LOG] SoundI::release                          :     a-celebratory-toast-99672 (0000025CF72F6D28)
-[LOG] SoundI::release                          :  (0000025DF3619A48)
-[LOG] SoundI::release                          :     cough-82181 (0000025CF72F5CE8)
-[LOG] SoundI::release                          :  (0000025DF3618798)
-[LOG] SoundI::release                          :     Barf_1 (0000025CF72F3108)
-[LOG] SoundI::release                          :  (0000025DF361BCC8)
-[LOG] SoundI::release                          :     Silence (0000025CF72F1568)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025DF652E8C8
+[LOG] SoundI::release                          : ear-ring-104945 (0000025DF651D768)
+[LOG] SoundI::release                          :     ear-ring-104945 (0000025CEB76C598)
+[LOG] SoundI::release                          :     ear-ring-104945 (0000025DF651D258)
+[LOG] SoundI::release                          : people-walking-on-small-stones-27943 (0000025DF651F778)
+[LOG] SoundI::release                          :     people-walking-on-small-stones-27943 (0000025CC70ECF08)
+[LOG] SoundI::release                          :     people-walking-on-small-stones-27943 (0000025DF6519FB8)
+[LOG] SoundI::release                          : FEST1 (0000025DF651DAC8)
+[LOG] SoundI::release                          :     FEST1 (0000025C3645E438)
+[LOG] SoundI::release                          :     FEST1 (0000025DF651B908)
+[LOG] SoundI::release                          : gobller_disco (0000025DF651C688)
+[LOG] SoundI::release                          :     gobller_disco (0000025CEB76C0B8)
+[LOG] SoundI::release                          :     gobller_disco (0000025DF651A678)
+[LOG] SoundI::release                          : bar-chatter-5979 (0000025DF651B758)
+[LOG] SoundI::release                          :     bar-chatter-5979 (0000025CC70ECBC8)
+[LOG] SoundI::release                          :     bar-chatter-5979 (0000025DF65198F8)
+[LOG] SoundI::release                          : ear-ring-104945 (0000025DF652E8C8)
+[LOG] SoundI::release                          :     ear-ring-104945 (0000025CEBCD3638)
+[LOG] SoundI::release                          :     ear-ring-104945 (0000025DF6530578)
+[LOG] SoundI::release                          :  (0000025DF361CF78)
+[LOG] SoundI::release                          :     beerpour-91033 (0000025CEBCD3978)
+[LOG] SoundI::release                          :  (0000025DB702DE08)
+[LOG] SoundI::release                          :     BouncerPt1_L1 (0000025CEAA0EBC8)
+[LOG] SoundI::release                          :  (0000025DB702D9B8)
+[LOG] SoundI::release                          :     BouncerPt1_L2 (0000025DB7613718)
+[LOG] SoundI::release                          :  (0000025DF361CE08)
+[LOG] SoundI::release                          :     Silence (0000025CEB0AB588)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
