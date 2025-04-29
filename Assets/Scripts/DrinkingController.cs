@@ -33,6 +33,7 @@ public class DrinkingController : MonoBehaviour
         bloodAlcoholContent += amount;
         OnDrink.Invoke();
         DrunkVisionController.Instance.UpdateDrunkVision(bloodAlcoholContent);
+        Drunkeffect.Instance.UpdateDrunkAudio(bloodAlcoholContent);
     }
     private void DisableInputs()
     {

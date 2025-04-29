@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Drunkeffect : MonoBehaviour
 {
+    public static Drunkeffect Instance;
+
     private EventInstance RingEar_Event;
     private EventInstance Blurr_Event;
     private EventInstance Slowspeach_Event;
     private EventInstance Wobble_Event;
 
     public GameObject playerpos;
+    public float Drinkamounts; 
 
     [SerializeField] private EventReference RingingEar;
     [SerializeField] private EventReference Blurr;
@@ -40,6 +43,36 @@ public class Drunkeffect : MonoBehaviour
         SetFilter(Wobble_Event, WobbleParameterName, WobbleAmount);
     }
 
+    public void UpdateDrunkAudio(float bac)
+    {
+        switch (bac)
+        {
+            case 0:
+                Debug.Log("no alcohol - Bac = " + bac);
+
+                break;
+
+            case float n when (n > 0 && n <= 0.2f):
+                Debug.Log("a little drunk - Bac = " + bac);
+                RingEarAmount = 20;
+                break;
+
+            case float n when (n > 0.2f && n <= 0.4f):
+                Debug.Log("you are drunk - Bac = " + bac);
+
+                break;
+
+            case float n when (n > 0.4f && n <= 0.8f):
+                Debug.Log("pretty fuckin drunk - Bac = " + bac);
+
+                break;
+
+            case float n when (n > 0.8):
+                Debug.Log("pretty fuckin drunk - Bac = " + bac);
+
+                break;
+        }
+    }
     private void Update()
     {
         if (RingEar_Event.isValid())
