@@ -140,7 +140,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ToiletSounds.bank
   Name: ToiletSounds
   StudioPath: bank:/ToiletSounds
-  lastModified: 638815133358792049
+  lastModified: 638815153034406670
   FileSizes:
   - Name: Desktop
     Value: 950208
@@ -692,7 +692,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TheFriend.bank
   Name: TheFriend
   StudioPath: bank:/TheFriend
-  lastModified: 638815133358473275
+  lastModified: 638815153034316661
   FileSizes:
   - Name: Desktop
     Value: 925856
@@ -947,7 +947,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638815133357772709
+  lastModified: 638815153034166665
   FileSizes:
   - Name: Desktop
     Value: 6639808
@@ -1778,7 +1778,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Drunkeffect.bank
   Name: Drunkeffect
   StudioPath: bank:/Drunkeffect
-  lastModified: 638815133358274487
+  lastModified: 638815153034196760
   FileSizes:
   - Name: Desktop
     Value: 38304
@@ -2110,7 +2110,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638815133358792049
+  cacheTime: 638815153034406670
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
