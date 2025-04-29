@@ -2432,35 +2432,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_1.Guid.Data1
-      value: -1563276212
+      value: -12090068
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_1.Guid.Data2
-      value: 1215276157
+      value: 1222729859
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_1.Guid.Data3
-      value: 1101478332
+      value: -251319629
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_1.Guid.Data4
-      value: 211153540
+      value: -367676464
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data1
-      value: -1160004536
+      value: 691245049
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data2
-      value: 1268401918
+      value: 1113193550
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data3
-      value: 1706688921
+      value: -1052953928
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_2.Guid.Data4
-      value: -102044121
+      value: 493798477
       objectReference: {fileID: 0}
     - target: {fileID: 1131856917468627939, guid: 240d802a4c703ec45ba48ac259095537, type: 3}
       propertyPath: AudioLine_3.Guid.Data1
@@ -3129,35 +3129,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6809976842947998678, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: AudioLine_1.Guid.Data1
-      value: -123478310
+      value: 1790925619
       objectReference: {fileID: 0}
     - target: {fileID: 6809976842947998678, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: AudioLine_1.Guid.Data2
-      value: 1296213247
+      value: 1191006733
       objectReference: {fileID: 0}
     - target: {fileID: 6809976842947998678, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: AudioLine_1.Guid.Data3
-      value: -75290204
+      value: -1491418441
       objectReference: {fileID: 0}
     - target: {fileID: 6809976842947998678, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: AudioLine_1.Guid.Data4
-      value: 702129688
+      value: -867204678
       objectReference: {fileID: 0}
     - target: {fileID: 6809976842947998678, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: AudioLine_2.Guid.Data1
-      value: 824562476
+      value: -376472680
       objectReference: {fileID: 0}
     - target: {fileID: 6809976842947998678, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: AudioLine_2.Guid.Data2
-      value: 1095494242
+      value: 1235827403
       objectReference: {fileID: 0}
     - target: {fileID: 6809976842947998678, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: AudioLine_2.Guid.Data3
-      value: -1760229237
+      value: 1751765893
       objectReference: {fileID: 0}
     - target: {fileID: 6809976842947998678, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: AudioLine_2.Guid.Data4
-      value: 2101474836
+      value: 1493600807
       objectReference: {fileID: 0}
     - target: {fileID: 6809976842947998678, guid: 493e302d13fe0e44ca8ef7b92a5d960b, type: 3}
       propertyPath: AudioLine_3.Guid.Data1
@@ -6737,20 +6737,6 @@ MonoBehaviour:
       Data3: -1019497068
       Data4: -704507386
     Path: event:/Music/Jukebox_1
-  Jukebox2:
-    Guid:
-      Data1: 593378472
-      Data2: 1309385893
-      Data3: -1588856695
-      Data4: 1189816463
-    Path: event:/Music/Jukebox_2
-  Jukebox3:
-    Guid:
-      Data1: -1142225214
-      Data2: 1109581244
-      Data3: 911183256
-      Data4: 886223380
-    Path: event:/Music/Jukebox_3
   SwitchCount: 1
 --- !u!65 &1046092562
 BoxCollider:

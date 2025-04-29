@@ -250,6 +250,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8127916289736489708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HotPerson_Intro/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7853370507342467430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,6 +301,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2336
+--- !u!114 &-7831449533211319298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HotPerson_Intro/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7821267785569200961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,38 +442,11 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638815211224800136
+  lastModified: 638815319565306366
   FileSizes:
   - Name: Desktop
-    Value: 1143584
+    Value: 542400
   Exists: 1
---- !u!114 &-7256227578052112073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Jukebox_3
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Jukebox_3
-  Guid:
-    Data1: -1142225214
-    Data2: 1109581244
-    Data3: 911183256
-    Data4: 886223380
-  Banks:
-  - {fileID: -7539909144204382073}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 52000
 --- !u!114 &-7231431840089595906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,6 +525,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3855
+--- !u!114 &-6804729732109118673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HotPerson_Pt1_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6697319154095062736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,10 +618,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/HotPerson.bank
   Name: HotPerson
   StudioPath: bank:/HotPerson
-  lastModified: 638815211223226083
+  lastModified: 638815319564657782
   FileSizes:
   - Name: Desktop
-    Value: 41376
+    Value: 494
   Exists: 1
 --- !u!114 &-6494847659653605917
 MonoBehaviour:
@@ -677,6 +722,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-6137687088678970754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HotPerson_Pt1_L1/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5960714084790736457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -724,6 +793,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 17105
+--- !u!114 &-5891484970898447484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HotPerson_Pt1_L1/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5748608161048472886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,16 +879,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ArmyGuy/Army_intro 2
   Guid:
-    Data1: -386569116
-    Data2: 1126461221
-    Data3: -485471059
-    Data4: 1422455013
+    Data1: 75364315
+    Data2: 1200195370
+    Data3: -1772479568
+    Data4: -22554913
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -1605640849855275260}
+  - {fileID: -2935733441242039086}
+  - {fileID: 6637753148376115416}
   MinDistance: 1
   MaxDistance: 20
   Length: 2918
@@ -905,33 +1001,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1379680
   Exists: 1
---- !u!114 &-4856362278820411282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Jukebox_2
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Jukebox_2
-  Guid:
-    Data1: 593378472
-    Data2: 1309385893
-    Data3: -1588856695
-    Data4: 1189816463
-  Banks:
-  - {fileID: -7539909144204382073}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 48860
 --- !u!114 &-4670157873257684678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -947,10 +1016,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638815211219774285
+  lastModified: 638815319564267967
   FileSizes:
   - Name: Desktop
-    Value: 6639744
+    Value: 6523168
   Exists: 1
 --- !u!114 &-4640225461365352387
 MonoBehaviour:
@@ -1059,6 +1128,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-4133824650647642068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Army_intro 3/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-4115386130038179380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1140,6 +1233,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1706
+--- !u!114 &-3887262955053265365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt2_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3462426877734263660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1367,6 +1484,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4783
+--- !u!114 &-2935733441242039086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Army_intro 2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2904888916559129935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1585,6 +1726,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 114000
+--- !u!114 &-1801323991587768176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Army_intro 3/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1664006167678697677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1639,6 +1804,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7870
+--- !u!114 &-1605640849855275260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Army_intro 2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1580268441041351658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1807,6 +1996,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-1056930816532690511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Army_intro 3/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1053378758327552707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1848,19 +2061,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ArmyGuy/ArmyGuyPt2_L1
   Guid:
-    Data1: -1160004536
-    Data2: 1268401918
-    Data3: 1706688921
-    Data4: -102044121
+    Data1: 691245049
+    Data2: 1113193550
+    Data3: -1052953928
+    Data4: 493798477
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 6254788408783007962}
+  - {fileID: 1370303399522640607}
+  - {fileID: -3887262955053265365}
   MinDistance: 1
   MaxDistance: 20
-  Length: 15774
+  Length: 20096
 --- !u!114 &-799479461923960173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2092,8 +2308,6 @@ MonoBehaviour:
   - {fileID: -5077589965869318621}
   - {fileID: 300316767390048818}
   - {fileID: 4403187438115035744}
-  - {fileID: -4856362278820411282}
-  - {fileID: -7256227578052112073}
   - {fileID: -1489614708857352338}
   - {fileID: -445996257069905664}
   - {fileID: -5437975872030986213}
@@ -2110,7 +2324,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638815290704886815
+  cacheTime: 638815319565306366
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -2126,10 +2340,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ArmyGuy/ArmyGuyPt2_L2
   Guid:
-    Data1: -1563276212
-    Data2: 1215276157
-    Data3: 1101478332
-    Data4: 211153540
+    Data1: -12090068
+    Data2: 1222729859
+    Data3: -251319629
+    Data4: -367676464
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 1
@@ -2326,6 +2540,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &813464700701935251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HotPerson_Intro/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &832255468600183414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2497,6 +2735,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6360
+--- !u!114 &1370303399522640607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt2_L1/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1394990430469958477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2749,7 +3011,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638815211223957537
+  lastModified: 638815319564829307
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -2943,10 +3205,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638815211223998121
+  lastModified: 638815319564878655
   FileSizes:
   - Name: Desktop
-    Value: 4568
+    Value: 4492
   Exists: 1
 --- !u!114 &3889498084837782532
 MonoBehaviour:
@@ -3100,16 +3362,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ArmyGuy/Army_intro 3
   Guid:
-    Data1: -445661964
-    Data2: 1217646514
-    Data3: -1861077631
-    Data4: -1243587318
+    Data1: -362968621
+    Data2: 1307325889
+    Data3: 2017591455
+    Data4: 1900685579
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -1801323991587768176}
+  - {fileID: -4133824650647642068}
+  - {fileID: -1056930816532690511}
   MinDistance: 1
   MaxDistance: 20
   Length: 3230
@@ -3191,6 +3456,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6254788408783007962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt2_L1/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6419944126101214565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3256,16 +3545,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Hotperson/HotPerson_Intro
   Guid:
-    Data1: -123478310
-    Data2: 1296213247
-    Data3: -75290204
-    Data4: 702129688
+    Data1: 1790925619
+    Data2: 1191006733
+    Data3: -1491418441
+    Data4: -867204678
   Banks:
-  - {fileID: -6580134712518575774}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 813464700701935251}
+  - {fileID: -7831449533211319298}
+  - {fileID: -8127916289736489708}
   MinDistance: 1
   MaxDistance: 20
   Length: 1437
@@ -3313,6 +3605,30 @@ MonoBehaviour:
   ID:
     data1: 3888398319
     data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6637753148376115416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Army_intro 2/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -3430,16 +3746,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Hotperson/HotPerson_Pt1_L1
   Guid:
-    Data1: 824562476
-    Data2: 1095494242
-    Data3: -1760229237
-    Data4: 2101474836
+    Data1: -376472680
+    Data2: 1235827403
+    Data3: 1751765893
+    Data4: 1493600807
   Banks:
-  - {fileID: -6580134712518575774}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -6137687088678970754}
+  - {fileID: -6804729732109118673}
+  - {fileID: -5891484970898447484}
   MinDistance: 1
   MaxDistance: 20
   Length: 2076
