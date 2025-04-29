@@ -1034,7 +1034,7 @@ MonoBehaviour:
   - {fileID: 7590763956921511639}
   MinDistance: 1
   MaxDistance: 20
-  Length: 10296
+  Length: 10032
 --- !u!114 &-4307908048521814426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1778,10 +1778,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Drunkeffect.bank
   Name: Drunkeffect
   StudioPath: bank:/Drunkeffect
-  lastModified: 638815211222600450
+  lastModified: 638815290704886815
   FileSizes:
   - Name: Desktop
-    Value: 38304
+    Value: 23104
   Exists: 1
 --- !u!114 &-1366549316891961273
 MonoBehaviour:
@@ -2110,7 +2110,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638815212009721969
+  cacheTime: 638815290704886815
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:

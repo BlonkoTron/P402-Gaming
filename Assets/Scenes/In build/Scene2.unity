@@ -3232,6 +3232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerpos: {fileID: 50789524}
+  Drinkamounts: 0
   RingingEar:
     Guid:
       Data1: -795369201
@@ -3260,10 +3261,10 @@ MonoBehaviour:
       Data3: 1364795578
       Data4: 1173012356
     Path: event:/Silence/Silence
-  RingEarAmount: 0
-  BlurrAmount: 0
-  SlowspeachAmount: 0
-  WobbleAmount: 0
+  RingEarAmount: 7
+  BlurrAmount: 10
+  SlowspeachAmount: 20
+  WobbleAmount: 20
   EarringParameterName: RingEar
   BlurrParameterName: Blurr
   SlowspeachParameterName: Slowspeach

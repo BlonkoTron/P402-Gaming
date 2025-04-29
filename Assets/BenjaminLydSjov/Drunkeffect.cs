@@ -29,7 +29,19 @@ public class Drunkeffect : MonoBehaviour
     [SerializeField] private string SlowspeachParameterName = "Slowspeach";
     [SerializeField] private string WobbleParameterName = "Wobble";
 
-    public void Start()
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+
+        }
+    }
+        public void Start()
     {
         RingEar_Event = Audiomanager.instance.PlaySound(RingingEar, transform.position);
         Blurr_Event = Audiomanager.instance.PlaySound(Blurr, transform.position);
@@ -52,24 +64,36 @@ public class Drunkeffect : MonoBehaviour
 
                 break;
 
-            case float n when (n > 0 && n <= 0.2f):
+            case float p when (p > 0 && p <= 0.2f):
                 Debug.Log("a little drunk - Bac = " + bac);
-                RingEarAmount = 20;
+                RingEarAmount = 0;
+                BlurrAmount = 0;
+                SlowspeachAmount = 0;
+                WobbleAmount = 0;
                 break;
 
-            case float n when (n > 0.2f && n <= 0.4f):
+            case float p when (p > 0.2f && p <= 0.4f):
                 Debug.Log("you are drunk - Bac = " + bac);
-
+                RingEarAmount = 7;
+                BlurrAmount = 10;
+                SlowspeachAmount = 20;
+                WobbleAmount = 20;
                 break;
 
-            case float n when (n > 0.4f && n <= 0.8f):
+            case float p when (p > 0.4f && p <= 0.8f):
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
-
+                RingEarAmount = 12;
+                BlurrAmount = 20;
+                SlowspeachAmount = 50;
+                WobbleAmount = 60;
                 break;
 
-            case float n when (n > 0.8):
+            case float p when (p > 0.8):
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
-
+                RingEarAmount = 15;
+                BlurrAmount = 30;
+                SlowspeachAmount = 70;
+                WobbleAmount = 90;
                 break;
         }
     }
