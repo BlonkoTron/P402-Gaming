@@ -9,6 +9,7 @@ public class EndScreen : MonoBehaviour
     }
     public void BackToMenu()
     {
+        DrinkingController.bloodAlcoholContent = 0;
         SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 }
