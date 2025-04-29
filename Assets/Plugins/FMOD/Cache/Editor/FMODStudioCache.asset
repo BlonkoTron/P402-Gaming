@@ -15,10 +15,58 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bartender.bank
   Name: Bartender
   StudioPath: bank:/Bartender
-  lastModified: 638811850979542136
+  lastModified: 638815133358263973
   FileSizes:
   - Name: Desktop
-    Value: 129600
+    Value: 21856
+  Exists: 1
+--- !u!114 &-9141273056341476441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Pt2_L2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8918801787562956525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Pt2_L1/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-8603777156231060181
 MonoBehaviour:
@@ -61,16 +109,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Bartender/Bartender_Pt2_L1
   Guid:
-    Data1: 1482248751
-    Data2: 1216495574
-    Data3: -1497108844
-    Data4: 1011672761
+    Data1: -1204283706
+    Data2: 1213535371
+    Data3: 1036787355
+    Data4: 1104205796
   Banks:
-  - {fileID: -9173904130393833320}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 5836028430130483476}
+  - {fileID: -7609906591189902285}
+  - {fileID: 3660952196403791556}
   MinDistance: 1
   MaxDistance: 20
   Length: 1576
@@ -89,7 +140,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ToiletSounds.bank
   Name: ToiletSounds
   StudioPath: bank:/ToiletSounds
-  lastModified: 638814305702676723
+  lastModified: 638815152229659848
   FileSizes:
   - Name: Desktop
     Value: 950208
@@ -135,19 +186,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Bartender/Bartender_Pt2_L2
   Guid:
-    Data1: 934287626
-    Data2: 1177995120
-    Data3: -239708536
-    Data4: -109750540
+    Data1: -812303700
+    Data2: 1262175007
+    Data3: -1886823757
+    Data4: -782273256
   Banks:
-  - {fileID: -9173904130393833320}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 832255468600183414}
+  - {fileID: -6404135499501896743}
+  - {fileID: -2904888916559129935}
   MinDistance: 1
   MaxDistance: 20
   Length: 3110
+--- !u!114 &-8224999146049162749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carpassing/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8182519742101060206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlassDink/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7853370507342467430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,10 +292,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Sadguy.bank
   Name: Sadguy
   StudioPath: bank:/Sadguy
-  lastModified: 638811850984115794
+  lastModified: 638815133358335443
   FileSizes:
   - Name: Desktop
-    Value: 401504
+    Value: 173472
   Exists: 1
 --- !u!114 &-7798794992272813905
 MonoBehaviour:
@@ -236,20 +338,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/Cough
   Guid:
-    Data1: -2028339331
-    Data2: 1330266285
-    Data3: -1674808932
-    Data4: 918760267
+    Data1: 1453226991
+    Data2: 1135512608
+    Data3: 831911296
+    Data4: 1942403252
   Banks:
-  - {fileID: -4901935654522833350}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: 1650737437517952188}
+  - {fileID: 851755362163737281}
+  - {fileID: 650449131880650099}
+  - {fileID: -575751409963309352}
   MinDistance: 1
   MaxDistance: 20
   Length: 1385
+--- !u!114 &-7609906591189902285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bartender_Pt2_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7539909144204382073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +394,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638811860307280449
+  lastModified: 638814329013989481
   FileSizes:
   - Name: Desktop
     Value: 1143584
@@ -321,6 +450,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-6894780834829194477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BeerPour/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6846878685034352755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,16 +488,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Jock/JockPt2_L2
   Guid:
-    Data1: -31698513
-    Data2: 1155801996
-    Data3: 1492989356
-    Data4: -774841477
+    Data1: 1342214130
+    Data2: 1215661722
+    Data3: -1535205464
+    Data4: 66665880
   Banks:
-  - {fileID: -2124927686420482504}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -3074414245905597400}
+  - {fileID: -3063830658362696269}
+  - {fileID: 9184959372482395439}
   MinDistance: 1
   MaxDistance: 20
   Length: 3855
@@ -417,10 +573,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/HotPerson.bank
   Name: HotPerson
   StudioPath: bank:/HotPerson
-  lastModified: 638811850980816631
+  lastModified: 638815133358293922
   FileSizes:
   - Name: Desktop
-    Value: 59552
+    Value: 41376
   Exists: 1
 --- !u!114 &-6494847659653605917
 MonoBehaviour:
@@ -449,6 +605,78 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3692
+--- !u!114 &-6404135499501896743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bartender_Pt2_L2/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6303616443222870558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt2_L1/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6272374424464170505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt3_L2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5960714084790736457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,7 +692,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TheFriend.bank
   Name: TheFriend
   StudioPath: bank:/TheFriend
-  lastModified: 638814305702506309
+  lastModified: 638815152229447688
   FileSizes:
   - Name: Desktop
     Value: 925856
@@ -496,6 +724,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 17105
+--- !u!114 &-5748608161048472886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt2_L2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5587144118831356464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt3_L1/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5437975872030986213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,17 +813,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/Carpassing
   Guid:
-    Data1: 443970862
-    Data2: 1113422106
-    Data3: 862987694
-    Data4: -1994513804
+    Data1: 119451499
+    Data2: 1121665227
+    Data3: 680199072
+    Data4: -148382631
   Banks:
-  - {fileID: -4901935654522833350}
+  - {fileID: -4670157873257684678}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: 8636841853909789513}
+  - {fileID: -4111657325509914036}
+  - {fileID: 7917772778076989741}
+  - {fileID: -8224999146049162749}
   MinDistance: 1
   MaxDistance: 20
   Length: 20462
@@ -589,16 +868,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/GlassDink
   Guid:
-    Data1: -1552010077
-    Data2: 1224474100
-    Data3: 322049467
-    Data4: 1544039700
+    Data1: 1109336962
+    Data2: 1303412013
+    Data3: 697090992
+    Data4: 889193613
   Banks:
-  - {fileID: -4901935654522833350}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -2437154025001929261}
+  - {fileID: 8951688129711514694}
+  - {fileID: -556650816203848284}
+  - {fileID: -8182519742101060206}
   MinDistance: 1
   MaxDistance: 20
   Length: 1004
@@ -617,10 +900,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/BarAmbience.bank
   Name: BarAmbience
   StudioPath: bank:/BarAmbience
-  lastModified: 638814305702506309
+  lastModified: 638815133358253968
   FileSizes:
   - Name: Desktop
-    Value: 6233344
+    Value: 1379680
   Exists: 1
 --- !u!114 &-4856362278820411282
 MonoBehaviour:
@@ -664,10 +947,34 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638814305702177037
+  lastModified: 638815152229199811
   FileSizes:
   - Name: Desktop
-    Value: 1293728
+    Value: 6639744
+  Exists: 1
+--- !u!114 &-4640225461365352387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt2_L1/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-4554322022808854039
 MonoBehaviour:
@@ -683,17 +990,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/Paopleoutside
   Guid:
-    Data1: 404096898
-    Data2: 1113780266
-    Data3: -190723698
-    Data4: -433730785
+    Data1: -1818036672
+    Data2: 1077057258
+    Data3: 1059685254
+    Data4: 1597420931
   Banks:
-  - {fileID: -4901935654522833350}
+  - {fileID: -4670157873257684678}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: 6723647975104050886}
+  - {fileID: 7220719953223791961}
+  - {fileID: 6458150895195815670}
+  - {fileID: 6591898027810476735}
   MinDistance: 1
   MaxDistance: 20
   Length: 28176
@@ -725,6 +1035,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10296
+--- !u!114 &-4307908048521814426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt2_L2/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-4115386130038179380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,6 +1086,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2783
+--- !u!114 &-4111657325509914036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carpassing/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3975753924599262361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,16 +1124,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Jock/JockPt3_L1
   Guid:
-    Data1: 1451589628
-    Data2: 1274413550
-    Data3: -1693786692
-    Data4: -519321718
+    Data1: 1241905675
+    Data2: 1129119797
+    Data3: 1795614364
+    Data4: 183471355
   Banks:
-  - {fileID: -2124927686420482504}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -1366549316891961273}
+  - {fileID: -1522970449730029969}
+  - {fileID: -5587144118831356464}
   MinDistance: 1
   MaxDistance: 20
   Length: 1706
@@ -833,6 +1194,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5443
+--- !u!114 &-3215502487046035204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bartender_Pt3_L1/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3210789979131681974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,6 +1245,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1850
+--- !u!114 &-3169240023830943828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Pt2_L2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3122524713186173796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,10 +1284,58 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/SFX_Extra.bank
   Name: SFX_Extra
   StudioPath: bank:/SFX_Extra
-  lastModified: 638811850984776772
+  lastModified: 638814329016301567
   FileSizes:
   - Name: Desktop
     Value: 91712
+  Exists: 1
+--- !u!114 &-3074414245905597400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt2_L2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3063830658362696269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt2_L2/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-2938670379082728998
 MonoBehaviour:
@@ -894,19 +1351,118 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Bartender/Bartender_Pt3_L1
   Guid:
-    Data1: 818676464
-    Data2: 1124063209
-    Data3: 1860710033
-    Data4: 1154407293
+    Data1: -1027445434
+    Data2: 1272292929
+    Data3: -353834624
+    Data4: -86922097
   Banks:
-  - {fileID: -9173904130393833320}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 3889498084837782532}
+  - {fileID: -2228358154278378446}
+  - {fileID: -3215502487046035204}
   MinDistance: 1
   MaxDistance: 20
   Length: 4783
+--- !u!114 &-2904888916559129935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bartender_Pt2_L2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2720600091722785036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Pt3_L1/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2439200675309826706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HotPerson_Pt1_L2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2437154025001929261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlassDink/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2296633849920040623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -931,6 +1487,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-2228358154278378446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bartender_Pt3_L1/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2124927686420482504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,10 +1526,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Jock.bank
   Name: Jock
   StudioPath: bank:/Jock
-  lastModified: 638811850981620203
+  lastModified: 638815133358305073
   FileSizes:
   - Name: Desktop
-    Value: 126560
+    Value: 20192
   Exists: 1
 --- !u!114 &-1974695869919709497
 MonoBehaviour:
@@ -1005,6 +1585,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 114000
+--- !u!114 &-1664006167678697677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PeopleTalking/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1640696983994690241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1019,19 +1623,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Sadguy/SadGuy_Pt2_L2
   Guid:
-    Data1: 1601183724
-    Data2: 1155045057
-    Data3: -975367495
-    Data4: -493026696
+    Data1: 64987189
+    Data2: 1139250887
+    Data3: -1375731831
+    Data4: -167917371
   Banks:
-  - {fileID: -7821267785569200961}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 8202420007585354209}
+  - {fileID: -3169240023830943828}
+  - {fileID: -9141273056341476441}
   MinDistance: 1
   MaxDistance: 20
   Length: 7870
+--- !u!114 &-1580268441041351658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt3_L2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1522970449730029969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt3_L1/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1515710161201894008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1047,7 +1702,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Bouncer.bank
   Name: Bouncer
   StudioPath: bank:/Bouncer
-  lastModified: 638811850980164524
+  lastModified: 638814329008586634
   FileSizes:
   - Name: Desktop
     Value: 56192
@@ -1123,10 +1778,34 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Drunkeffect.bank
   Name: Drunkeffect
   StudioPath: bank:/Drunkeffect
-  lastModified: 638814305702506309
+  lastModified: 638815152229219814
   FileSizes:
   - Name: Desktop
     Value: 38304
+  Exists: 1
+--- !u!114 &-1366549316891961273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt3_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-1053378758327552707
 MonoBehaviour:
@@ -1197,7 +1876,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/TooMuchMan.bank
   Name: TooMuchMan
   StudioPath: bank:/TooMuchMan
-  lastModified: 638811850990437394
+  lastModified: 638814329019323829
   FileSizes:
   - Name: Desktop
     Value: 65024
@@ -1216,19 +1895,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Hotperson/HotPerson_Pt1_L2
   Guid:
-    Data1: -523903803
-    Data2: 1210006798
-    Data3: 1000395444
-    Data4: 1061995485
+    Data1: 477271938
+    Data2: 1207634186
+    Data3: 1887085733
+    Data4: 2121641621
   Banks:
-  - {fileID: -6580134712518575774}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -2439200675309826706}
+  - {fileID: 2446911972516684031}
+  - {fileID: 1200503993907727585}
   MinDistance: 1
   MaxDistance: 20
   Length: 1485
+--- !u!114 &-575751409963309352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cough/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-556650816203848284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlassDink/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-445996257069905664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1257,6 +1987,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10000
+--- !u!114 &-279181555752341702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt3_L2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1356,7 +2110,7 @@ MonoBehaviour:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638814305702676723
+  cacheTime: 638815152229659848
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -1372,16 +2126,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ArmyGuy/ArmyGuyPt2_L2
   Guid:
-    Data1: 542473245
-    Data2: 1097696231
-    Data3: -1283455086
-    Data4: 1872710748
+    Data1: -1563276212
+    Data2: 1215276157
+    Data3: 1101478332
+    Data4: 211153540
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 8673699825256533814}
+  - {fileID: -4307908048521814426}
+  - {fileID: -5748608161048472886}
   MinDistance: 1
   MaxDistance: 20
   Length: 28826
@@ -1412,6 +2169,78 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 20096
+--- !u!114 &65106286172131133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt3_L1/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &88977851107713422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt3_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &122319220337644479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BeerPour/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &300316767390048818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1426,17 +2255,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/PeopleTalking
   Guid:
-    Data1: -676012628
-    Data2: 1206490918
-    Data3: -1291951213
-    Data4: -117988748
+    Data1: 1592543883
+    Data2: 1173583018
+    Data3: 1229794984
+    Data4: 760244193
   Banks:
-  - {fileID: -4901935654522833350}
+  - {fileID: -4670157873257684678}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: -7231431840089595906}
+  - {fileID: -1664006167678697677}
+  - {fileID: 1394990430469958477}
+  - {fileID: 7063569883242859525}
   MinDistance: 1
   MaxDistance: 20
   Length: 370552
@@ -1454,19 +2286,166 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Jock/JockPt3_L2
   Guid:
-    Data1: -343253091
-    Data2: 1166162651
-    Data3: -661199741
-    Data4: 1561890957
+    Data1: 1360905802
+    Data2: 1274793256
+    Data3: -1107935840
+    Data4: 2129306308
   Banks:
-  - {fileID: -2124927686420482504}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -279181555752341702}
+  - {fileID: 7934147795278483321}
+  - {fileID: -1580268441041351658}
   MinDistance: 1
   MaxDistance: 20
   Length: 1759
+--- !u!114 &650449131880650099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cough/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &832255468600183414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bartender_Pt2_L2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &851755362163737281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cough/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1009139619039528883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt3_L2/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1108920267532305951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Pt2_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1200503993907727585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HotPerson_Pt1_L2/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1301521866135552086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1518,6 +2497,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6360
+--- !u!114 &1394990430469958477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PeopleTalking/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1399170241107656370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1532,19 +2535,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Sadguy/SadGuy_Pt2_L1
   Guid:
-    Data1: 2008898891
-    Data2: 1272614642
-    Data3: 1360435115
-    Data4: 944279335
+    Data1: 1944957517
+    Data2: 1092057698
+    Data3: 484305060
+    Data4: 2031837783
   Banks:
-  - {fileID: -7821267785569200961}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 1108920267532305951}
+  - {fileID: 8048400094641502997}
+  - {fileID: -8918801787562956525}
   MinDistance: 1
   MaxDistance: 20
   Length: 4663
+--- !u!114 &1450055354914968250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Pt3_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1650737437517952188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1637,16 +2667,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Sadguy/SadGuy_Pt3_L1
   Guid:
-    Data1: -1549275216
-    Data2: 1119982634
-    Data3: -969094524
-    Data4: 1588772509
+    Data1: 771816158
+    Data2: 1088194307
+    Data3: 1202450578
+    Data4: 1296798004
   Banks:
-  - {fileID: -7821267785569200961}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 8350740921391581818}
+  - {fileID: 1450055354914968250}
+  - {fileID: -2720600091722785036}
   MinDistance: 1
   MaxDistance: 20
   Length: 9283
@@ -1677,6 +2710,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3745
+--- !u!114 &2446911972516684031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HotPerson_Pt1_L2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2563479487162537568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1692,7 +2749,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638811850981835774
+  lastModified: 638814342672629139
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -1779,6 +2836,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3379
+--- !u!114 &3088085720027177305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BeerPour/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3228926874358256921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1794,7 +2875,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Nerds.bank
   Name: Nerds
   StudioPath: bank:/Nerds
-  lastModified: 638811850983221615
+  lastModified: 638814329014769046
   FileSizes:
   - Name: Desktop
     Value: 232448
@@ -1823,6 +2904,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &3660952196403791556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bartender_Pt2_L1/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3713597276194020830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1838,10 +2943,34 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638814305702506309
+  lastModified: 638815133358305073
   FileSizes:
   - Name: Desktop
-    Value: 4490
+    Value: 4568
+  Exists: 1
+--- !u!114 &3889498084837782532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bartender_Pt3_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &4319273926485492422
 MonoBehaviour:
@@ -1857,10 +2986,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ArmyGuy/ArmyGuyPt3_L2
   Guid:
-    Data1: 1434644213
-    Data2: 1267468530
-    Data3: 1792722565
-    Data4: -1145475197
+    Data1: 2109056947
+    Data2: 1168495791
+    Data3: -665945190
+    Data4: 802893282
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 1
@@ -1868,6 +2997,8 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: -2296633849920040623}
+  - {fileID: 1009139619039528883}
+  - {fileID: -6272374424464170505}
   MinDistance: 1
   MaxDistance: 20
   Length: 31269
@@ -1912,16 +3043,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Jock/JockPt2_L1
   Guid:
-    Data1: 842067284
-    Data2: 1293524182
-    Data3: 202976399
-    Data4: 2022049064
+    Data1: 1716820379
+    Data2: 1115671803
+    Data3: 2116082353
+    Data4: 816124819
   Banks:
-  - {fileID: -2124927686420482504}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -4640225461365352387}
+  - {fileID: 8054652835823991519}
+  - {fileID: -6303616443222870558}
   MinDistance: 1
   MaxDistance: 20
   Length: 2076
@@ -1993,10 +3127,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ArmyGuy/ArmyGuyPt3_L1
   Guid:
-    Data1: -2146302688
-    Data2: 1185760839
-    Data3: 584850862
-    Data4: 1579813613
+    Data1: 883074312
+    Data2: 1189760515
+    Data3: 1504541119
+    Data4: 514500293
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 1
@@ -2004,9 +3138,35 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 6632623660244540917}
+  - {fileID: 88977851107713422}
+  - {fileID: 65106286172131133}
   MinDistance: 1
   MaxDistance: 20
   Length: 11774
+--- !u!114 &5836028430130483476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bartender_Pt2_L1/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &5974612717025493508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2058,6 +3218,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 14028
+--- !u!114 &6458150895195815670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Paopleoutside/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6514255571176178412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2085,6 +3269,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1437
+--- !u!114 &6591898027810476735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Paopleoutside/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6632623660244540917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2184,6 +3392,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12068
+--- !u!114 &7063569883242859525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PeopleTalking/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &7066397948217100139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2211,6 +3443,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2076
+--- !u!114 &7220719953223791961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Paopleoutside/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &7560815290420230613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2277,7 +3533,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Silence.bank
   Name: Silence
   StudioPath: bank:/Silence
-  lastModified: 638811850985305424
+  lastModified: 638814329016811523
   FileSizes:
   - Name: Desktop
     Value: 2240
@@ -2309,6 +3565,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1817
+--- !u!114 &7917772778076989741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carpassing/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7934147795278483321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt3_L2/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &7999310502831100445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2323,20 +3627,119 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/BeerPour
   Guid:
-    Data1: 1706065759
-    Data2: 1217965674
-    Data3: -230959226
-    Data4: 1101613137
+    Data1: 876394779
+    Data2: 1272536773
+    Data3: -606216059
+    Data4: -1838497510
   Banks:
-  - {fileID: -4901935654522833350}
+  - {fileID: -4670157873257684678}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: 6663888290585769809}
+  - {fileID: -6894780834829194477}
+  - {fileID: 3088085720027177305}
+  - {fileID: 122319220337644479}
   MinDistance: 1
   MaxDistance: 20
   Length: 6200
+--- !u!114 &8048400094641502997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Pt2_L1/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8054652835823991519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt2_L1/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8202420007585354209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Pt2_L2/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8350740921391581818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SadGuy_Pt3_L1/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &8577660545578399834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2388,6 +3791,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &8673699825256533814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ArmyGuyPt2_L2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &8803288899985228793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2415,6 +3842,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1449
+--- !u!114 &8951688129711514694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlassDink/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &9139850662740435563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2442,3 +3893,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6475
+--- !u!114 &9184959372482395439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/JockPt2_L2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1

@@ -2034,6 +2034,11 @@ Transform:
   - {fileID: 585124769}
   m_Father: {fileID: 325142928}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &403541568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 654101084106526324, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
+  m_PrefabInstance: {fileID: 1168404706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &411429362 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f88be1963a90c7f4cbdf04acc209484c, type: 3}
@@ -2745,10 +2750,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -2028339331
-      Data2: 1330266285
-      Data3: -1674808932
-      Data4: 918760267
+      Data1: 1453226991
+      Data2: 1135512608
+      Data3: 831911296
+      Data4: 1942403252
     Path: event:/Barambience/Cough
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
@@ -3017,7 +3022,7 @@ MonoBehaviour:
       Data3: 1364795578
       Data4: 1173012356
     Path: event:/Silence/Silence
-  RingEarAmount: 100
+  RingEarAmount: 0
   BlurrAmount: 0
   SlowspeachAmount: 0
   WobbleAmount: 0
@@ -4889,7 +4894,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5981500209615381317, guid: fd1da78cd9d0f9f41ba4f12e64081055, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4977,7 +4983,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 654101084106526324, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1168404715}
   m_SourcePrefab: {fileID: 100100000, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
 --- !u!20 &1168404707 stripped
 Camera:
@@ -4994,12 +5003,26 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8539148602129315614, guid: e1103399c90325747961a8cb6c74dec5, type: 3}
   m_PrefabInstance: {fileID: 1168404706}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 403541568}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44f529f1ff422064bbb6c0c41d505b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1168404715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403541568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1001 &1183016292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5667,19 +5690,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 404096898
-      Data2: 1113780266
-      Data3: -190723698
-      Data4: -433730785
+      Data1: -1818036672
+      Data2: 1077057258
+      Data3: 1059685254
+      Data4: 1597420931
     Path: event:/Barambience/Paopleoutside
   SoundOcclusionWidth: 0.59
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 64
-  MaxDistance: 20
+  MaxDistance: 13
   ChanceToPlay: 1
   playDuration: 60
-  pauseDuration: 60
+  pauseDuration: 0
 --- !u!135 &1400663704
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6215,10 +6238,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 1706065759
-      Data2: 1217965674
-      Data3: -230959226
-      Data4: 1101613137
+      Data1: 876394779
+      Data2: 1272536773
+      Data3: -606216059
+      Data4: -1838497510
     Path: event:/Barambience/BeerPour
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
@@ -6532,10 +6555,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -1552010077
-      Data2: 1224474100
-      Data3: 322049467
-      Data4: 1544039700
+      Data1: 1109336962
+      Data2: 1303412013
+      Data3: 697090992
+      Data4: 889193613
     Path: event:/Barambience/GlassDink
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
@@ -7186,12 +7209,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -676012628
-      Data2: 1206490918
-      Data3: -1291951213
-      Data4: -117988748
+      Data1: 1592543883
+      Data2: 1173583018
+      Data3: 1229794984
+      Data4: 760244193
     Path: event:/Barambience/PeopleTalking
-  SoundOcclusionWidth: 0.69
+  SoundOcclusionWidth: 0.5
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 64
@@ -7282,7 +7305,7 @@ Transform:
   m_GameObject: {fileID: 1680501740}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.693, y: 0.36, z: 4.319}
+  m_LocalPosition: {x: 0.947, y: 0.36, z: 4.319}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7806,10 +7829,10 @@ MonoBehaviour:
   OcclusionLayerMask:
     serializedVersion: 2
     m_Bits: 0
-  MaxDistance: 15
+  MaxDistance: 11
   ChanceToPlay: 1
   playDuration: 60
-  pauseDuration: 60
+  pauseDuration: 0
 --- !u!135 &1824984388
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8690,10 +8713,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 443970862
-      Data2: 1113422106
-      Data3: 862987694
-      Data4: -1994513804
+      Data1: 119451499
+      Data2: 1121665227
+      Data3: 680199072
+      Data4: -148382631
     Path: event:/Barambience/Carpassing
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
