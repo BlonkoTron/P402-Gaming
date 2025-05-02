@@ -1988,10 +1988,10 @@ MonoBehaviour:
       Data3: 1364795578
       Data4: 1173012356
     Path: event:/Silence/Silence
-  RingEarAmount: 6
-  BlurrAmount: 20
-  SlowspeachAmount: 20
-  WobbleAmount: 60
+  RingEarAmount: 3
+  BlurrAmount: 25
+  SlowspeachAmount: 25
+  WobbleAmount: 50
   EarringParameterName: RingEar
   BlurrParameterName: Blurr
   SlowspeachParameterName: Slowspeach

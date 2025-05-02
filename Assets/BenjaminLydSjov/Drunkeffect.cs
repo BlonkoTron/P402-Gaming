@@ -82,26 +82,26 @@ public class Drunkeffect : MonoBehaviour
 
             case float p when (p > 0.2f && p <= 0.4f):
                 Debug.Log("you are drunk - Bac = " + bac);
-                RingEarAmount = 3;
-                BlurrAmount = 10;
-                SlowspeachAmount = 10;
-                WobbleAmount = 20;
+                RingEarAmount = 2;
+                BlurrAmount = 15;
+                SlowspeachAmount = 15;
+                WobbleAmount = 25;
                 break;
 
             case float p when (p > 0.4f && p <= 0.8f):
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
-                RingEarAmount = 6;
-                BlurrAmount = 20;
-                SlowspeachAmount = 20;
-                WobbleAmount = 60;
+                RingEarAmount = 3;
+                BlurrAmount = 25;
+                SlowspeachAmount = 25;
+                WobbleAmount = 50;
                 break;
 
             case float p when (p > 0.8):
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
-                RingEarAmount = 9;
-                BlurrAmount = 30;
-                SlowspeachAmount = 30;
-                WobbleAmount = 90;
+                RingEarAmount = 5;
+                BlurrAmount = 37;
+                SlowspeachAmount = 37;
+                WobbleAmount = 70;
                 break;
         }
     }
