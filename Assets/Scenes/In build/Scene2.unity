@@ -1470,11 +1470,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: -1818036672
-      Data2: 1077057258
-      Data3: 1059685254
-      Data4: 1597420931
-    Path: event:/Barambience/Paopleoutside
+      Data1: 1040809695
+      Data2: 1276174327
+      Data3: -2095055982
+      Data4: 808401915
+    Path: event:/Barambience/Paopleoutside 2
   SoundOcclusionWidth: 0.59
   OcclusionLayerMask:
     serializedVersion: 2
@@ -2709,11 +2709,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 1109336962
-      Data2: 1303412013
-      Data3: 697090992
-      Data4: 889193613
-    Path: event:/Barambience/GlassDink
+      Data1: -1092035514
+      Data2: 1313219496
+      Data3: 492076968
+      Data4: -154638208
+    Path: event:/Barambience/GlassDink 2
   SoundOcclusionWidth: 0.69
   OcclusionLayerMask:
     serializedVersion: 2
@@ -2845,11 +2845,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 876394779
-      Data2: 1272536773
-      Data3: -606216059
-      Data4: -1838497510
-    Path: event:/Barambience/BeerPour
+      Data1: -1823540071
+      Data2: 1327103414
+      Data3: -762586470
+      Data4: -2070400500
+    Path: event:/Barambience/BeerPour 2
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
     serializedVersion: 2
@@ -3261,7 +3261,7 @@ MonoBehaviour:
       Data3: 1364795578
       Data4: 1173012356
     Path: event:/Silence/Silence
-  RingEarAmount: 7
+  RingEarAmount: 3
   BlurrAmount: 10
   SlowspeachAmount: 20
   WobbleAmount: 20
@@ -5072,11 +5072,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Jukebox1:
     Guid:
-      Data1: -1893082015
-      Data2: 1248844890
-      Data3: -1019497068
-      Data4: -704507386
-    Path: event:/Music/Jukebox_1
+      Data1: 1464106323
+      Data2: 1218603401
+      Data3: -2008684393
+      Data4: -1627221777
+    Path: event:/Music/Jukebox_2
   SwitchCount: 1
 --- !u!65 &1046092562
 BoxCollider:
@@ -5866,11 +5866,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 1592543883
-      Data2: 1173583018
-      Data3: 1229794984
-      Data4: 760244193
-    Path: event:/Barambience/PeopleTalking
+      Data1: 1396099458
+      Data2: 1279595846
+      Data3: -2123279983
+      Data4: -2128013792
+    Path: event:/Barambience/PeopleTalking 2
   SoundOcclusionWidth: 0.69
   OcclusionLayerMask:
     serializedVersion: 2
@@ -6002,11 +6002,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 1453226991
-      Data2: 1135512608
-      Data3: 831911296
-      Data4: 1942403252
-    Path: event:/Barambience/Cough
+      Data1: 844284290
+      Data2: 1103053221
+      Data3: -1764964989
+      Data4: 1737902152
+    Path: event:/Barambience/Cough 2
   SoundOcclusionWidth: 0.69
   OcclusionLayerMask:
     serializedVersion: 2
@@ -9116,11 +9116,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChooseAudio:
     Guid:
-      Data1: 119451499
-      Data2: 1121665227
-      Data3: 680199072
-      Data4: -148382631
-    Path: event:/Barambience/Carpassing
+      Data1: -1550242820
+      Data2: 1176170432
+      Data3: 529272246
+      Data4: 138772654
+    Path: event:/Barambience/Carpassing 2
   SoundOcclusionWidth: 1
   OcclusionLayerMask:
     serializedVersion: 2

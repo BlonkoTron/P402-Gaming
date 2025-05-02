@@ -44,6 +44,36 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8975410869306445682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/Paopleoutside 2
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/Paopleoutside 2
+  Guid:
+    Data1: 1040809695
+    Data2: 1276174327
+    Data3: -2095055982
+    Data4: 808401915
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3585960484740710604}
+  - {fileID: -2781791403781228732}
+  - {fileID: -3290524331539642678}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28176
 --- !u!114 &-8918801787562956525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,6 +155,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1576
+--- !u!114 &-8454646236550062197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PeopleTalking 3/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-8374405932133980678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,6 +198,30 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 950208
+  Exists: 1
+--- !u!114 &-8363094612107265471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-8327432457789696890
 MonoBehaviour:
@@ -202,6 +280,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3110
+--- !u!114 &-8263176953438713868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_3/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-8224999146049162749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,7 +328,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-8182519742101060206
+--- !u!114 &-8200728780888724130
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,16 +338,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/GlassDink/Blurr
+  m_Name: parameter:/PeopleTalking 2/Slowspeach
   m_EditorClassIdentifier: 
-  Name: Blurr
+  Name: Slowspeach
   StudioPath: 
   Min: 0
   Max: 100
   Default: 0
   ID:
-    data1: 2787995255
-    data2: 2773625685
+    data1: 3483649128
+    data2: 3313725631
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -274,6 +376,36 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-7993835272875090496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/GlassDink 3
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/GlassDink 3
+  Guid:
+    Data1: -1631237538
+    Data2: 1288897534
+    Data3: 114604468
+    Data4: 1045981380
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 248207670790543158}
+  - {fileID: 7109933397303906605}
+  - {fileID: 6963866565743245568}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1004
 --- !u!114 &-7853370507342467430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,6 +507,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2701
+--- !u!114 &-7616658100218379321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Paopleoutside 3/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7612639569846809234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,10 +545,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/Cough
   Guid:
-    Data1: 1453226991
-    Data2: 1135512608
-    Data3: 831911296
-    Data4: 1942403252
+    Data1: -376540930
+    Data2: 1200009837
+    Data3: 1819896456
+    Data4: -2102014428
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 0
@@ -401,7 +557,6 @@ MonoBehaviour:
   Parameters:
   - {fileID: 1650737437517952188}
   - {fileID: 851755362163737281}
-  - {fileID: 650449131880650099}
   - {fileID: -575751409963309352}
   MinDistance: 1
   MaxDistance: 20
@@ -445,10 +600,58 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638816034771429125
+  lastModified: 638817777246712664
   FileSizes:
   - Name: Desktop
-    Value: 544672
+    Value: 551712
+  Exists: 1
+--- !u!114 &-7471970967532791975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_3/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-7407868764894499769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_2/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-7231431840089595906
 MonoBehaviour:
@@ -528,6 +731,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3855
+--- !u!114 &-6826433392270072708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BeerPour 3/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6804729732109118673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -548,6 +775,30 @@ MonoBehaviour:
   ID:
     data1: 3483649128
     data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6772305901628408277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlassDink 2/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -725,6 +976,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-6281654233023212923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cough 2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6272374424464170505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -793,6 +1068,36 @@ MonoBehaviour:
   - Name: Desktop
     Value: 925856
   Exists: 1
+--- !u!114 &-5950356916348264052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Jukebox_3
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Jukebox_3
+  Guid:
+    Data1: 191698913
+    Data2: 1297713523
+    Data3: -1286038345
+    Data4: -432046045
+  Banks:
+  - {fileID: -7539909144204382073}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8263176953438713868}
+  - {fileID: 320626843777092648}
+  - {fileID: -7471970967532791975}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 52000
 --- !u!114 &-5921874663592696344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -936,10 +1241,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/Carpassing
   Guid:
-    Data1: 119451499
-    Data2: 1121665227
-    Data3: 680199072
-    Data4: -148382631
+    Data1: 199590349
+    Data2: 1174894749
+    Data3: -1493667403
+    Data4: -875877309
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 1
@@ -947,7 +1252,6 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: 8636841853909789513}
-  - {fileID: -4111657325509914036}
   - {fileID: 7917772778076989741}
   - {fileID: -8224999146049162749}
   MinDistance: 1
@@ -1039,10 +1343,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/GlassDink
   Guid:
-    Data1: 1109336962
-    Data2: 1303412013
-    Data3: 697090992
-    Data4: 889193613
+    Data1: 2019883128
+    Data2: 1251967139
+    Data3: 938784393
+    Data4: 1376830428
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 0
@@ -1052,10 +1356,33 @@ MonoBehaviour:
   - {fileID: -2437154025001929261}
   - {fileID: 8951688129711514694}
   - {fileID: -556650816203848284}
-  - {fileID: -8182519742101060206}
   MinDistance: 1
   MaxDistance: 20
   Length: 1004
+--- !u!114 &-5047850480714337443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cough 3/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-4901935654522833350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1091,10 +1418,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/ArmyGuy.bank
   Name: ArmyGuy
   StudioPath: bank:/ArmyGuy
-  lastModified: 638816034765806192
+  lastModified: 638817774020556534
   FileSizes:
   - Name: Desktop
-    Value: 6622400
+    Value: 6658528
   Exists: 1
 --- !u!114 &-4640225461365352387
 MonoBehaviour:
@@ -1134,10 +1461,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/Paopleoutside
   Guid:
-    Data1: -1818036672
-    Data2: 1077057258
-    Data3: 1059685254
-    Data4: 1597420931
+    Data1: 1289762044
+    Data2: 1329330681
+    Data3: 504345532
+    Data4: -2072620482
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 1
@@ -1146,7 +1473,6 @@ MonoBehaviour:
   Parameters:
   - {fileID: 6723647975104050886}
   - {fileID: 7220719953223791961}
-  - {fileID: 6458150895195815670}
   - {fileID: 6591898027810476735}
   MinDistance: 1
   MaxDistance: 20
@@ -1179,6 +1505,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10032
+--- !u!114 &-4383838735195464509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BeerPour 2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-4307908048521814426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,6 +1553,36 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-4212151303745194643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/Carpassing 2
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/Carpassing 2
+  Guid:
+    Data1: -1550242820
+    Data2: 1176170432
+    Data3: 529272246
+    Data4: 138772654
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1473825004269075886}
+  - {fileID: -1095454912191916473}
+  - {fileID: 3062006375254149612}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20462
 --- !u!114 &-4133824650647642068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1254,30 +1634,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2783
---- !u!114 &-4111657325509914036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Carpassing/Blurr
-  m_EditorClassIdentifier: 
-  Name: Blurr
-  StudioPath: 
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 2787995255
-    data2: 2773625685
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-3975753924599262361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1308,6 +1664,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1706
+--- !u!114 &-3958655579532482373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Paopleoutside 3/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3887262955053265365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1380,6 +1760,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-3477135239893563227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BeerPour 2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3462426877734263660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1434,6 +1838,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5443
+--- !u!114 &-3290524331539642678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Paopleoutside 2/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3215502487046035204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1524,10 +1952,10 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/SFX_Extra.bank
   Name: SFX_Extra
   StudioPath: bank:/SFX_Extra
-  lastModified: 638816034772762662
+  lastModified: 638817776153441650
   FileSizes:
   - Name: Desktop
-    Value: 93216
+    Value: 93312
   Exists: 1
 --- !u!114 &-3074414245905597400
 MonoBehaviour:
@@ -1642,6 +2070,30 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Bartender_Pt2_L2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2781791403781228732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Paopleoutside 2/Slowspeach
   m_EditorClassIdentifier: 
   Name: Slowspeach
   StudioPath: 
@@ -1799,6 +2251,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-2146876630331499670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BeerPour 2/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2124927686420482504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1900,6 +2376,36 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-1768463124307946962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/BeerPour 2
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/BeerPour 2
+  Guid:
+    Data1: -1823540071
+    Data2: 1327103414
+    Data3: -762586470
+    Data4: -2070400500
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3477135239893563227}
+  - {fileID: -2146876630331499670}
+  - {fileID: -4383838735195464509}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6200
 --- !u!114 &-1664006167678697677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1954,6 +2460,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7870
+--- !u!114 &-1631418366848148487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cough 3/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1605640849855275260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2148,6 +2678,102 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-1148540267666865676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PeopleTalking 3/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1110226131972532209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlassDink 2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1095454912191916473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carpassing 2/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1085379877096873529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BeerPour 3/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1056930816532690511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2199,6 +2825,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1711
+--- !u!114 &-1004657235385334196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlassDink 2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-877233531169013950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2253,6 +2903,36 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 20096
+--- !u!114 &-838925772018258579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/GlassDink 2
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/GlassDink 2
+  Guid:
+    Data1: -1092035514
+    Data2: 1313219496
+    Data3: 492076968
+    Data4: -154638208
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1110226131972532209}
+  - {fileID: -6772305901628408277}
+  - {fileID: -1004657235385334196}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1004
 --- !u!114 &-799479461923960173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2303,6 +2983,36 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1485
+--- !u!114 &-703477512129179804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/Cough 2
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/Cough 2
+  Guid:
+    Data1: 844284290
+    Data2: 1103053221
+    Data3: -1764964989
+    Data4: 1737902152
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6281654233023212923}
+  - {fileID: 3845421130649914855}
+  - {fileID: 618953750206451262}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1385
 --- !u!114 &-575751409963309352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2519,12 +3229,26 @@ MonoBehaviour:
   - {fileID: -3310057318172519012}
   - {fileID: -1899944011356481535}
   - {fileID: -4487329024007981420}
+  - {fileID: 3325194440406763773}
+  - {fileID: 7463732855668806688}
+  - {fileID: -838925772018258579}
+  - {fileID: 4396625444921186604}
+  - {fileID: -7993835272875090496}
+  - {fileID: -703477512129179804}
+  - {fileID: 5228963547078240560}
+  - {fileID: -1768463124307946962}
+  - {fileID: 6624990051876681391}
+  - {fileID: -8975410869306445682}
+  - {fileID: 800328866945993692}
+  - {fileID: -4212151303745194643}
+  - {fileID: 2258540975317582239}
+  - {fileID: -5950356916348264052}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2563479487162537568}
   StringsBanks:
   - {fileID: 3713597276194020830}
-  cacheTime: 638816034773460664
+  cacheTime: 638817777246712664
   cacheVersion: 131623
 --- !u!114 &9795492088328789
 MonoBehaviour:
@@ -2655,6 +3379,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &248207670790543158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlassDink 3/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &300316767390048818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2669,10 +3417,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Barambience/PeopleTalking
   Guid:
-    Data1: 1592543883
-    Data2: 1173583018
-    Data3: 1229794984
-    Data4: 760244193
+    Data1: 22737298
+    Data2: 1139942129
+    Data3: -478335043
+    Data4: 1787230322
   Banks:
   - {fileID: -4670157873257684678}
   IsStream: 1
@@ -2682,10 +3430,57 @@ MonoBehaviour:
   - {fileID: -7231431840089595906}
   - {fileID: -1664006167678697677}
   - {fileID: 1394990430469958477}
-  - {fileID: 7063569883242859525}
   MinDistance: 1
   MaxDistance: 20
   Length: 370552
+--- !u!114 &320626843777092648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_3/Blurr
+  m_EditorClassIdentifier: 
+  Name: Blurr
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2787995255
+    data2: 2773625685
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &367427630732439968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carpassing 3/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &581004523763761467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2740,7 +3535,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &650449131880650099
+--- !u!114 &618953750206451262
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2750,20 +3545,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Cough/Blurr
+  m_Name: parameter:/Cough 2/Slowspeach
   m_EditorClassIdentifier: 
-  Name: Blurr
+  Name: Slowspeach
   StudioPath: 
   Min: 0
   Max: 100
   Default: 0
   ID:
-    data1: 2787995255
-    data2: 2773625685
+    data1: 3483649128
+    data2: 3313725631
   Type: 0
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &800328866945993692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/Paopleoutside 3
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/Paopleoutside 3
+  Guid:
+    Data1: 1737917671
+    Data2: 1279609816
+    Data3: 773479832
+    Data4: 315036278
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3958655579532482373}
+  - {fileID: 3517774397242257734}
+  - {fileID: -7616658100218379321}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28176
 --- !u!114 &813464700701935251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2832,6 +3657,30 @@ MonoBehaviour:
   ID:
     data1: 3888398319
     data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &924206755266965331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cough 3/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -3085,6 +3934,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &1473825004269075886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carpassing 2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1538511949594451514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3220,6 +4093,36 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9283
+--- !u!114 &2258540975317582239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Jukebox_2
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Jukebox_2
+  Guid:
+    Data1: 1464106323
+    Data2: 1218603401
+    Data3: -2008684393
+    Data4: -1627221777
+  Banks:
+  - {fileID: -7539909144204382073}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7515559378926196277}
+  - {fileID: -7407868764894499769}
+  - {fileID: -8363094612107265471}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 52000
 --- !u!114 &2435076048444258425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3286,7 +4189,7 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638816034770715882
+  lastModified: 638817777246074193
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -3373,7 +4276,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3379
---- !u!114 &3088085720027177305
+--- !u!114 &3062006375254149612
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3383,16 +4286,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/BeerPour/Blurr
+  m_Name: parameter:/Carpassing 2/Occlusion
   m_EditorClassIdentifier: 
-  Name: Blurr
+  Name: Occlusion
   StudioPath: 
   Min: 0
-  Max: 100
+  Max: 1
   Default: 0
   ID:
-    data1: 2787995255
-    data2: 2773625685
+    data1: 1011840510
+    data2: 2267876238
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -3417,6 +4320,36 @@ MonoBehaviour:
   - Name: Desktop
     Value: 232448
   Exists: 1
+--- !u!114 &3325194440406763773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/PeopleTalking 3
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/PeopleTalking 3
+  Guid:
+    Data1: -661672448
+    Data2: 1218000096
+    Data3: 651801780
+    Data4: 895658051
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1148540267666865676}
+  - {fileID: 6546781049604714650}
+  - {fileID: -8454646236550062197}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 370552
 --- !u!114 &3391292315726681544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3437,6 +4370,54 @@ MonoBehaviour:
   ID:
     data1: 1011840510
     data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &3517774397242257734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Paopleoutside 3/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &3585960484740710604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Paopleoutside 2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -3480,10 +4461,34 @@ MonoBehaviour:
   Path: Assets/BenjaminLydSjov/Fmod_SoundLibrary/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638816034770751841
+  lastModified: 638817777246105040
   FileSizes:
   - Name: Desktop
-    Value: 4492
+    Value: 5096
+  Exists: 1
+--- !u!114 &3845421130649914855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cough 2/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &3889498084837782532
 MonoBehaviour:
@@ -3587,6 +4592,36 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 31269
+--- !u!114 &4396625444921186604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/Cough 3
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/Cough 3
+  Guid:
+    Data1: 121301318
+    Data2: 1203282850
+    Data3: -63433080
+    Data4: 1739671055
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5047850480714337443}
+  - {fileID: 924206755266965331}
+  - {fileID: -1631418366848148487}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1385
 --- !u!114 &4403187438115035744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3704,6 +4739,36 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3230
+--- !u!114 &5228963547078240560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/PeopleTalking 2
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/PeopleTalking 2
+  Guid:
+    Data1: 1396099458
+    Data2: 1279595846
+    Data3: -2123279983
+    Data4: -2128013792
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6407759889630333724}
+  - {fileID: 6855533757370079345}
+  - {fileID: -8200728780888724130}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 370552
 --- !u!114 &5354496031834825039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3878,6 +4943,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6407759889630333724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PeopleTalking 2/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6419944126101214565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3905,30 +4994,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 14028
---- !u!114 &6458150895195815670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Paopleoutside/Blurr
-  m_EditorClassIdentifier: 
-  Name: Blurr
-  StudioPath: 
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 2787995255
-    data2: 2773625685
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &6514255571176178412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3959,6 +5024,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1437
+--- !u!114 &6546781049604714650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PeopleTalking 3/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6591898027810476735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3983,6 +5072,36 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6624990051876681391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/BeerPour 3
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/BeerPour 3
+  Guid:
+    Data1: -758506581
+    Data2: 1324118725
+    Data3: 1303172993
+    Data4: 573422037
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6826433392270072708}
+  - {fileID: 7595746989990948303}
+  - {fileID: -1085379877096873529}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6200
 --- !u!114 &6632623660244540917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4106,7 +5225,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12068
---- !u!114 &7063569883242859525
+--- !u!114 &6855533757370079345
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4116,16 +5235,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/PeopleTalking/Blurr
+  m_Name: parameter:/PeopleTalking 2/Occlusion
   m_EditorClassIdentifier: 
-  Name: Blurr
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6963866565743245568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlassDink 3/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
   StudioPath: 
   Min: 0
   Max: 100
   Default: 0
   ID:
-    data1: 2787995255
-    data2: 2773625685
+    data1: 3888398319
+    data2: 300697643
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -4160,6 +5303,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2076
+--- !u!114 &7109933397303906605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GlassDink 3/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &7220719953223791961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4171,6 +5338,84 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Paopleoutside/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7257575040793075893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carpassing 3/Wobble
+  m_EditorClassIdentifier: 
+  Name: Wobble
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3888398319
+    data2: 300697643
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7463732855668806688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barambience/Carpassing 3
+  m_EditorClassIdentifier: 
+  Path: event:/Barambience/Carpassing 3
+  Guid:
+    Data1: 1531992112
+    Data2: 1146714984
+    Data3: -1226145134
+    Data4: -573644024
+  Banks:
+  - {fileID: -4670157873257684678}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 367427630732439968}
+  - {fileID: 7666807184851577437}
+  - {fileID: 7257575040793075893}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20462
+--- !u!114 &7515559378926196277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jukebox_2/Slowspeach
   m_EditorClassIdentifier: 
   Name: Slowspeach
   StudioPath: 
@@ -4235,6 +5480,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &7595746989990948303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BeerPour 3/Occlusion
+  m_EditorClassIdentifier: 
+  Name: Occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011840510
+    data2: 2267876238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &7618853792335108793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4282,6 +5551,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1817
+--- !u!114 &7666807184851577437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carpassing 3/Slowspeach
+  m_EditorClassIdentifier: 
+  Name: Slowspeach
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3483649128
+    data2: 3313725631
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &7917772778076989741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4356,7 +5649,6 @@ MonoBehaviour:
   Parameters:
   - {fileID: 6663888290585769809}
   - {fileID: -6894780834829194477}
-  - {fileID: 3088085720027177305}
   - {fileID: 122319220337644479}
   MinDistance: 1
   MaxDistance: 20
