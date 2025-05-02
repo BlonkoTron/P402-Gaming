@@ -32,3 +32,32 @@
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] SoundI::release                          : gobller_disco (000001F3ECE669C8)
+[LOG] SoundI::release                          :     gobller_disco (000001F2CE625DB8)
+[LOG] SoundI::release                          :     gobller_disco (000001F3ECE66668)
+[LOG] SoundI::release                          : car-passing-by-272055 (000001F2C58C4A88)
+[LOG] SoundI::release                          :     car-passing-by-272055 (000001F23D5CD348)
+[LOG] SoundI::release                          :     car-passing-by-272055 (000001F3ECE653D8)
+[LOG] SoundI::release                          : tinnitus-7048 (000001F3BECF9DA8)
+[LOG] SoundI::release                          :     tinnitus-7048 (000001F2C58C1BD8)
+[LOG] SoundI::release                          :     tinnitus-7048 (000001F3ECE66D28)
+[LOG] SoundI::release                          :  (000001F417D45198)
+[LOG] SoundI::release                          :     a-celebratory-toast-99672 (000001F2C58C2738)
+[LOG] SoundI::release                          :  (000001F417D46898)
+[LOG] SoundI::release                          :     beerpour-91033 (000001F2C58C30F8)
+[LOG] SoundI::release                          :  (000001F417D44BD8)
+[LOG] SoundI::release                          :     cough-82181 (000001F2CE624078)
+[LOG] SoundI::release                          :  (000001F417D47588)
+[LOG] SoundI::release                          :     Barf_1 (000001F2C58C1A38)
+[LOG] SoundI::release                          :  (000001F417D46FC8)
+[LOG] SoundI::release                          :     Silence (000001F2C58C2598)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
