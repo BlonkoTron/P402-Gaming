@@ -7,17 +7,17 @@ public class Drunkeffect : MonoBehaviour
     //instance of script
     public static Drunkeffect Instance;
 
-    // Eventinstance for 
+    // General Eventinstance for the sounds
     private EventInstance RingEar_Event;
     private EventInstance Blurr_Event;
     private EventInstance Slowspeach_Event;
     private EventInstance Wobble_Event;
 
-    //Player pos so the ringing ear sfx follows the player. Drinkamount to figure out how drunk the player is. 
+    //Playerpos so the ringing ear sfx follows the player. Drinkamount to figure out how drunk the player is. 
     public GameObject playerpos;
     public float Drinkamounts; 
 
-    // Eventrefrence which play the Ringingear sound. The others are just fillers. 
+    // Eventrefrence which play the Ringingear sound. The others are 3 are just fillers. 
     [SerializeField] private EventReference RingingEar;
     [SerializeField] private EventReference Blurr;
     [SerializeField] private EventReference Slowspeach;
@@ -29,13 +29,13 @@ public class Drunkeffect : MonoBehaviour
     [Range(0, 100)] public int SlowspeachAmount = 0;
     [Range(0, 100)] public int WobbleAmount = 0;
 
-    //Private strings which gets the name of the filters from FMOD. Then unity can contol them within this script
+    //Private strings which gets the name of the filters from FMOD. Then this script can contol them in Unity.
     [SerializeField] private string EarringParameterName = "RingEar";
     [SerializeField] private string BlurrParameterName = "Blurr";
     [SerializeField] private string SlowspeachParameterName = "Slowspeach";
     [SerializeField] private string WobbleParameterName = "Wobble";
 
-    //creates an instance. 
+    //creates an instance of the script. 
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -157,7 +157,7 @@ public class Drunkeffect : MonoBehaviour
             instance.release();
         }
     }
-    //These int returns the amount of the different filters to the script. 
+    //These int are used to get the values of the amounts of the filters to other scripts. 
     public int GetWobbleAmount()
     {
         return WobbleAmount;
