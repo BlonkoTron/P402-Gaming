@@ -75,7 +75,7 @@ public class Drunkeffect : MonoBehaviour
                 Debug.Log("you are drunk - Bac = " + bac);
                 RingEarAmount = 3;
                 BlurrAmount = 10;
-                SlowspeachAmount = 20;
+                SlowspeachAmount = 10;
                 WobbleAmount = 20;
                 break;
 
@@ -83,7 +83,7 @@ public class Drunkeffect : MonoBehaviour
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
                 RingEarAmount = 6;
                 BlurrAmount = 20;
-                SlowspeachAmount = 50;
+                SlowspeachAmount = 20;
                 WobbleAmount = 60;
                 break;
 
@@ -91,7 +91,7 @@ public class Drunkeffect : MonoBehaviour
                 Debug.Log("pretty fuckin drunk - Bac = " + bac);
                 RingEarAmount = 9;
                 BlurrAmount = 30;
-                SlowspeachAmount = 70;
+                SlowspeachAmount = 30;
                 WobbleAmount = 90;
                 break;
         }

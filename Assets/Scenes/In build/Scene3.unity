@@ -1990,7 +1990,7 @@ MonoBehaviour:
     Path: event:/Silence/Silence
   RingEarAmount: 6
   BlurrAmount: 20
-  SlowspeachAmount: 50
+  SlowspeachAmount: 20
   WobbleAmount: 60
   EarringParameterName: RingEar
   BlurrParameterName: Blurr

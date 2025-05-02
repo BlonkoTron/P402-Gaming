@@ -3263,7 +3263,7 @@ MonoBehaviour:
     Path: event:/Silence/Silence
   RingEarAmount: 3
   BlurrAmount: 10
-  SlowspeachAmount: 20
+  SlowspeachAmount: 10
   WobbleAmount: 20
   EarringParameterName: RingEar
   BlurrParameterName: Blurr
